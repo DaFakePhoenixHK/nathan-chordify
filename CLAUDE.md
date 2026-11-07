@@ -328,5 +328,5 @@ paste a YouTube link (or upload audio) -> detect chords -> show them synced to p
    mode (M4 exit gate; needed for real tuning) and to copy Chordify's chords for 回家 (B4 baseline);
    (d) M6 desktop window + phone PWA (Tailscale must coexist with Surfshark — never pause it);
    (e) M7 Premium parity (pitch-shift playback, MIDI/MusicXML/ChordPro/iReal/PDF, setlists, offline, lyrics).
-   No git commits yet: ask Nathan before committing.
+   GitHub: https://github.com/DaFakePhoenixHK/nathan-chordify (PUBLIC, user's choice; first push 2026-11-08, commit 14ee9fb; remote `origin`). Commit + push only when the user asks; never commit cache/, data/ (except charts + songs_candidates), models weights, lyrics (see .gitignore).
 8. The user's own chords for 回家 are still welcome (format: `| B . . B+7 | Emaj7 . A7 Em6 |` + section names).
