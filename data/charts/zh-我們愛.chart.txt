@@ -1,0 +1,21 @@
+# title: 我們愛（讓世界不一樣）
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2008
+# source: CantonHymn https://cantonhymn.net/song/%e6%88%91%e5%80%91%e6%84%9b%e8%ae%93%e4%b8%96%e7%95%8c%e4%b8%8d%e4%b8%80%e6%a8%a3
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| D . A/C# . | Bm | G . D/F# . | Em |
+| A . Bm . | Bm . Bm/A# . | D/A | E |
+| G | A | D | G/A |
+[Chorus]
+| D . A/C# . | Bm | D/A | G |
+| G | D/F# | Em | A |
+| D . A/C# . | Bm | D/A | G |
+| G | D/F# | Em | D/F# |
+| G | A . D . |

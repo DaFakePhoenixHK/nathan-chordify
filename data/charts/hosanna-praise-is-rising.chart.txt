@@ -1,0 +1,29 @@
+# title: Hosanna (Praise Is Rising)
+# artist: Paul Baloche
+# language: english
+# key: G (page says G; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 102.3 BPM
+# year: 2006
+# source: WorshipTogether https://www.worshiptogether.com/songs/hosanna-praise-is-rising/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| G | G | G | C |
+| G | C | G |
+[Pre-Chorus]
+| D | C | G | D |
+| C | G | D |
+[Chorus 1]
+| G | Em7 . C . | G | D |
+| Em7 | C |
+[Verse 2]
+| G | G | G | C |
+| G | G | G | G |
+| C | G |
+[Chorus 2]
+| G | Em7 . C . | G | D |
+| Em7 | C | G | Em7 . C . |
+| G | D | Em7 | C |

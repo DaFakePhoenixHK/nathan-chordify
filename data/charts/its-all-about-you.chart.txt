@@ -1,0 +1,20 @@
+# title: Jesus, Lover of My Soul (It's All About You)
+# artist: Paul Oakley
+# language: english
+# key: G (estimated from the chords (the page gives none))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1995
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/hillsong-united/jesus-lover-of-my-soul-chords-778583
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+| C | D | Em | C |
+| C | D | Em | C |
+| G . D . | Dsus4 . D . | Em | C |
+| C | D | G | D |
+| Dsus4 | D | D | D |
+| D | D | G . D . | Dsus4 . D . |
+| Em | Em | C | D |
+| G . D . | Dsus4 . D . | Em | C |
+| C | D |

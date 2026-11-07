@@ -1,0 +1,20 @@
+# title: 我要全心讚美
+# artist: 讚美之泉
+# language: mandarin
+# key: F (page says F; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2010
+# source: CantonHymn https://cantonhymn.net/song/%e6%88%91%e8%a6%81%e5%85%a8%e5%bf%83%e8%ae%9a%e7%be%8e
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| F | F/A | Bbmaj7 | Bbmaj7 |
+| Gm | Gm/F | Bb/C | C7 |
+| F | F/A | Bbmaj7 | Bbmaj7 |
+| Gm | Gm/F | Bb/C | C7 |
+[Chorus]
+| F | C/E . Dm . | Bb | Gm |
+| Bb/C | C | F | F |
+| C/E | Dm | F |

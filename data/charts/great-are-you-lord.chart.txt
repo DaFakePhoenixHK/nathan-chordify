@@ -1,0 +1,38 @@
+# title: Great Are You Lord
+# artist: All Sons & Daughters
+# language: english
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2013
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/all-sons-daughters/great-are-you-lord-chords-1401417
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| D | F#m | E |
+[Verse]
+| D . F#m . | E | D . F#m . | E |
+| D . F#m . | E |
+[Chorus]
+| D . F#m . | E | E | D . F#m . |
+| E |
+[Verse]
+| D . F#m . | E | D . F#m . | E |
+| D . F#m . | E |
+[Chorus]
+| D . F#m . | E | E | D . F#m . |
+| E | D . F#m . | E | E |
+| D . F#m . | E |
+[Interlude]
+| A | Asus4 | D | A |
+[Bridge]
+| A | Asus4 | D . A . | A |
+| Asus4 | D . A . | A | Asus4 |
+| D . A . |
+[Chorus]
+| D . F#m . | E | E | D . F#m . |
+| E | D . F#m . | E | E |
+| D . F#m . | E |
+[Outro]
+| D | F#m | E |

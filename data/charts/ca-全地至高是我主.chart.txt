@@ -1,0 +1,22 @@
+# title: 全地至高是我主
+# artist: 角聲使團 The Heralders; 曲 黎雅詩 (詞 甄燕鳴)
+# language: cantonese
+# key: C (from the chords; page says D♭ / C♯ (the chart is written in another key))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2002
+# source: CantonHymn https://cantonhymn.net/song/%e5%85%a8%e5%9c%b0%e8%87%b3%e9%ab%98%e6%98%af%e6%88%91%e4%b8%bb
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| C | G7 |
+[Verse]
+| C | G/B | Am | C/G |
+| F | C/E | F | G7 |
+| C | G/B . E7 . | Am | Em/G |
+| F | C/E | F | G7 |
+[Chorus]
+| C | C/E | F | G7 |
+| C | C/E | F | G7 |
+| Am . Em . | F . C . | Dm . Gsus2 . | C |

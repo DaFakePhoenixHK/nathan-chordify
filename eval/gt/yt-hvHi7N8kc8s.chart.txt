@@ -1,0 +1,37 @@
+# DRAFT ground truth (eval/build_gt.py) 2026-10-31T18:49:53Z — NOT human-reviewed.
+# Here I Bow — Brian & Jenn Johnson (Bethel Music) — yt-hvHi7N8kc8s
+# Key D major; sheet/chart: WorshipTogether free chord chart (worshiptogether.com/songs/here-i-bow/)
+# Meter 4/4; one token = one beat (quarter note, ~69 BPM).
+# Sections are in the order the RECORDING plays them; '@t' = start time (s) found by aligning
+# the chart to the engine's evidence (eval/build_gt.py). (H)/(M)/(L) = confidence of the line.
+# 'N?' = a stretch the published chart does not cover: X (unknown, not scored) in the .lab.
+# Source file with notes: data/sheets/yt-hvHi7N8kc8s/gt_source.txt
+[Intro @0.54]
+| N? | N? | N? | N? |   (L)
+[Verse 1 @14.42]
+| G | D/F# | G | D/F# |   (H)
+| G | D/F# | Em | A |   (M)
+[Chorus 1 @42.25]
+| G . A . | Bm | G . A . | Dsus4 . D . |   (H)
+| G . A . | Bm | G . A . | D |   (H)
+[Turn @70.08]
+| D |   (M)
+[Verse 2 @73.56]
+| G | D/F# | G | D/F# |   (H)
+| G | D/F# | Em | A |   (H)
+[Chorus 2 @101.38]
+| G . A . | Bm | G . A . | Dsus4 . D . |   (H)
+| G . A . | Bm | G . A . | D |   (H)
+[Turn @129.22]
+| D |   (M)
+[Bridge 1 @132.69]
+| G . A . | Dsus4 | G . A . | Dsus4 . D . |   (M)
+| G . A . | Bm | G . A . | D |   (H)
+[Bridge 2 @160.51]
+| G . A . | Dsus4 | G . A . | Dsus4 . D . |   (M)
+| G . A . | Bm | G . A . | D |   (H)
+[Chorus 3 @188.34]
+| G . A . | Bm | G . A . | Dsus4 . D . |   (H)
+| G . A . | Bm | G . A . | D |   (H)
+[Outro @216.17]
+| N? | N? | N? | N? | N? | N? | N? | N? | N? |   (L)

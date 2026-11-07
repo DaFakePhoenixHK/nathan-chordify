@@ -1,0 +1,31 @@
+# title: You Never Let Go
+# artist: Matt Redman
+# language: english
+# key: A (from the chords; page says B (the chart is written in another key))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 79 BPM
+# year: 2005
+# source: WorshipTogether https://www.worshiptogether.com/songs/you-never-let-go-passion/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A | A | A | A |
+| Dadd9/F# | Dadd9/F# | A | A |
+| A | A | Dadd9/F# | Dadd9/F# |
+[Pre-Chorus]
+| F#m7 . E . | A | F#m7 . E . | A |
+| F#m7 . E . | A | E | Dsus2 |
+[Chorus]
+| A | A | A | A |
+| F#m7 | F#m7 | F#m7 | F#m7 |
+| Esus4 | Esus4 | Dsus2 | A |
+[Verse 2]
+| A | A | Dadd9/F# | Dadd9/F# |
+| A | A | A | A |
+| Dadd9/F# | Dadd9/F# | Dadd9/F# | Dadd9/F# |
+[Bridge]
+| A | A | F#m7 | F#m7 |
+| F#m7 | F#m7 | Esus4 | Dsus2 |
+| A | A | A |

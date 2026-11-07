@@ -1,0 +1,21 @@
+# title: 禱告
+# artist: 讚美之泉
+# language: mandarin
+# key: E (page says E; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2005
+# source: CantonHymn https://cantonhymn.net/song/%e7%a6%b1%e5%91%8a
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| E | B/D# | C#m . G#m . | G#m . A . |
+| E/G# | F#m . B7 . | E | B/D# |
+| C#m . G#m . | G#m . A . | E/G# . F#m . | F#m . B . |
+[Chorus]
+| A/B | E . G#m . | A | E/G# |
+| F#m | E/G# | A | B |
+| E | G#m | A | E/G# |
+| F#m | E/G# | A | E/G# |
+| F#m | B . E . |

@@ -1,0 +1,28 @@
+# title: 寶貴十架
+# artist: 讚美之泉
+# language: mandarin
+# key: A (page says A; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 72 BPM
+# year: 2006
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E5%AF%B6%E8%B2%B4%E5%8D%81%E6%9E%B6/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: A4 -> Asus4; E4 -> Esus4
+[Intro]
+| Asus4 | C# | F#m | Em7 |
+| D | B/D# | E |
+[Verse 1]
+| A . C#/G# . | F#m . A/E . | D . E . | A . A/C# . |
+| D . E . | E . A . | E/G# . F#m . | Bm . B/D# . |
+| B/D# . E . |
+[Verse 2]
+| A . C#/G# . | F#m . A/E . | D . E . | A . A/C# . |
+| D . E . | E . A . | E/G# . F#m . | Bm . B/D# . |
+| Esus4 . E7 . |
+[Chorus]
+| A . A/C# . | D | Bm7 . B/D# . | E |
+| A | A/C# | D | B/D# |
+| A/E | E | A | A |

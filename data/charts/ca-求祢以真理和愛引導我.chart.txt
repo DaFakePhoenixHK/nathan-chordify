@@ -1,0 +1,24 @@
+# title: 求祢以真理和愛引導我
+# artist: 同心圓 / TWS 敬拜者使團; 曲 霍志鵬
+# language: cantonese
+# key: Eb (page says E♭ / D♯; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2009
+# source: CantonHymn https://cantonhymn.net/song/%e6%b1%82%e7%a5%a2%e4%bb%a5%e7%9c%9f%e7%90%86%e5%92%8c%e6%84%9b%e5%bc%95%e5%b0%8e%e6%88%91
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: Abm2 -> Abm(add9) (x4)
+[Verse 1]
+| Eb . Cm . | Fm . Bbsus2 . | Eb . Cm . | Fm . Bb7 . |
+| Ab . Abm(add9) . | Gm . Cm . | Fm . Ab . | Bbsus4 . Bb7 . |
+[Verse 2]
+| Eb . Cm . | Fm . Bbsus2 . | Eb . Cm . | Fm . Bb7 . |
+| Ab . Abm(add9) . | Gm . Cm . | Fm . Ab . | Bbsus4 . Bb7 . |
+[Chorus]
+| Eb | Gm | Bbm7 . Eb7 . | Ab |
+| Abm | Abm(add9) | Gm | Cm |
+| Fm . Ab . | Bbsus4 . Bb . | Eb | Gm |
+| Bbm7 . Eb7 . | Ab | Abm | Abm(add9) |
+| Gm | Cm | Fm . Bb . | Eb |

@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "nathan-chordify",
+      "runtimeExecutable": "C:\\Users\\User\\Desktop\\Nathan_chordify\\.venv\\Scripts\\python.exe",
+      "runtimeArgs": ["-m", "nathan_chordify.server", "--port", "8765"],
+      "port": 8765
+    },
+    {
+      "name": "nathan-chordify-8768",
+      "runtimeExecutable": "C:\\Users\\User\\Desktop\\Nathan_chordify\\.venv\\Scripts\\python.exe",
+      "runtimeArgs": ["-m", "nathan_chordify.server", "--port", "8768"],
+      "port": 8768
+    },
+    {
+      "name": "nathan-chordify-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "C:/Users/User/Desktop/Nathan_chordify/web", "--", "--port", "5173", "--strictPort"],
+      "port": 5173
+    }
+  ]
+}

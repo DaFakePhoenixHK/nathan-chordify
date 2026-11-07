@@ -1,0 +1,23 @@
+# title: 無悔一生
+# artist: 以琳之泉使團 / 共享詩歌協會; 曲 伍偉基
+# language: cantonese
+# key: A (page says A; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 92 BPM
+# year: 2000
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E7%84%A1%E6%82%94%E4%B8%80%E7%94%9F/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A . F#m . | D . E . | A . F#m . | D . E . |
+| F#m . C#m . | D . A/C# . | D | E . A . |
+[Pre-Chorus]
+| C#m | F#m | D . E . | A |
+| D . E . | E . A . | E/G# . F#m . | D . B/D# . |
+| E |
+[Chorus]
+| A . E/G# . | F#m . C#m . | D . A/C# . | Bm7 . E . |
+| A . E/G# . | F#m . C#m . | D | A/C# |
+| Bm7 | E | A | A |

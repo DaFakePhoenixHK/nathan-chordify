@@ -1,0 +1,32 @@
+# title: Beautiful One
+# artist: Tim Hughes
+# language: english
+# key: D (from the chords; page says C (the chart is written in another key))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 119 BPM
+# year: 2002
+# source: WorshipTogether https://www.worshiptogether.com/songs/beautiful-one-tim-hughes/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| G | A | D/F# | D/F# |
+| G | A | A | Bm7 |
+| G | A | D/F# | D/F# |
+| G | A | A | D |
+[Chorus]
+| G | A | G | A |
+| G . A . | D |
+[Verse 2]
+| G | A | D/F# | D/F# |
+| G | A | A | Bm7 |
+| G | A | D/F# | D/F# |
+| G | A | D | D |
+[Bridge]
+| G | G | A | A |
+| G | A | G | G |
+| A | D |
+[Outro]
+| D | A | Bm | A |
+| G | A | D |

@@ -1,0 +1,267 @@
+{
+ "note": "pool kept in RAM (C: below the 20 GB floor); items are deterministic by seed",
+ "train": {
+  "items": 6000,
+  "hours": 39.3,
+  "frames": 6224578,
+  "N_frame_share": 0.0983,
+  "rests": 2610,
+  "chords": 74201,
+  "plain_share": 0.7962,
+  "slash_share": 0.1327,
+  "quality_share": {
+   "maj": 0.582,
+   "min": 0.2142,
+   "m7": 0.0577,
+   "7": 0.0321,
+   "sus4": 0.0305,
+   "sus2": 0.0215,
+   "maj7": 0.0174,
+   "add9": 0.0101,
+   "dim7": 0.0066,
+   "dim": 0.0054,
+   "7sus4": 0.0053,
+   "madd9": 0.0047,
+   "m9": 0.0044,
+   "maj9": 0.0044,
+   "9": 0.0036
+  },
+  "outside_allowed": [],
+  "register": {
+   "bass_min": [
+    43,
+    43,
+    45,
+    50,
+    56
+   ],
+   "bass_max": [
+    45,
+    52,
+    57,
+    61,
+    67
+   ],
+   "lh_max": [
+    43,
+    52,
+    57,
+    61,
+    67
+   ],
+   "rh_min": [
+    52,
+    53,
+    55,
+    59,
+    65
+   ],
+   "rh_max": [
+    60,
+    67,
+    74,
+    80,
+    81
+   ],
+   "rh_mean": [
+    57,
+    60,
+    64,
+    67,
+    72
+   ],
+   "synth_bass_min": [
+    40,
+    40,
+    41,
+    46,
+    51
+   ],
+   "synth_bass_max": [
+    40,
+    48,
+    53,
+    55,
+    55
+   ]
+  },
+  "source": {
+   "chart": 3512,
+   "diatonic": 2093,
+   "idiom": 220,
+   "random": 175
+  },
+  "meter": {
+   "4/4": 3541,
+   "3/4": 1346,
+   "12/8": 1113
+  },
+  "arrangement": {
+   "solo": 2723,
+   "soft": 1792,
+   "band": 1485
+  },
+  "layout": {
+   "lh_rh": 3652,
+   "one_hand": 1197,
+   "two_hand": 1151
+  },
+  "slash": {
+   "bass +4 (chord_tone)": 5795,
+   "bass +7 (chord_tone)": 1179,
+   "bass +2 (non_chord)": 960,
+   "bass +10 (non_chord)": 883,
+   "bass +3 (chord_tone)": 579,
+   "bass +5 (non_chord)": 211,
+   "bass +10 (chord_tone)": 121,
+   "bass +2 (chord_tone)": 43,
+   "bass +6 (chord_tone)": 26,
+   "bass +11 (chord_tone)": 18,
+   "bass +5 (chord_tone)": 17,
+   "bass +9 (chord_tone)": 14
+  },
+  "style": {
+   "block": 2539,
+   "arpeggio": 2080,
+   "bass_chord": 1258,
+   "pulse": 1250,
+   "rolled": 1206
+  }
+ },
+ "val": {
+  "items": 700,
+  "hours": 4.6,
+  "frames": 728280,
+  "N_frame_share": 0.0986,
+  "rests": 316,
+  "chords": 8644,
+  "plain_share": 0.7839,
+  "slash_share": 0.1048,
+  "quality_share": {
+   "maj": 0.6,
+   "min": 0.1839,
+   "m7": 0.0555,
+   "sus4": 0.0421,
+   "7": 0.0367,
+   "sus2": 0.0271,
+   "maj7": 0.0112,
+   "add9": 0.0099,
+   "maj9": 0.0098,
+   "7sus4": 0.0058,
+   "dim7": 0.0049,
+   "m9": 0.0043,
+   "dim": 0.0036,
+   "madd9": 0.0027,
+   "9": 0.0025
+  },
+  "outside_allowed": [],
+  "register": {
+   "bass_min": [
+    43,
+    43,
+    44,
+    49,
+    56
+   ],
+   "bass_max": [
+    46,
+    52,
+    57,
+    61,
+    63
+   ],
+   "lh_max": [
+    46,
+    52,
+    57,
+    60,
+    65
+   ],
+   "rh_min": [
+    52,
+    53,
+    55,
+    59,
+    63
+   ],
+   "rh_max": [
+    63,
+    67,
+    74,
+    80,
+    81
+   ],
+   "rh_mean": [
+    57,
+    60,
+    64,
+    67,
+    71
+   ],
+   "synth_bass_min": [
+    40,
+    40,
+    42,
+    46,
+    49
+   ],
+   "synth_bass_max": [
+    47,
+    48,
+    53,
+    55,
+    55
+   ]
+  },
+  "source": {
+   "chart": 418,
+   "diatonic": 235,
+   "idiom": 27,
+   "random": 20
+  },
+  "meter": {
+   "4/4": 417,
+   "3/4": 158,
+   "12/8": 125
+  },
+  "arrangement": {
+   "solo": 292,
+   "soft": 225,
+   "band": 183
+  },
+  "layout": {
+   "lh_rh": 435,
+   "two_hand": 143,
+   "one_hand": 122
+  },
+  "slash": {
+   "bass +4 (chord_tone)": 565,
+   "bass +7 (chord_tone)": 132,
+   "bass +2 (non_chord)": 87,
+   "bass +3 (chord_tone)": 45,
+   "bass +10 (non_chord)": 42,
+   "bass +10 (chord_tone)": 13,
+   "bass +6 (chord_tone)": 6,
+   "bass +5 (non_chord)": 4,
+   "bass +2 (chord_tone)": 4,
+   "bass +5 (chord_tone)": 4,
+   "bass +9 (chord_tone)": 3,
+   "bass +11 (chord_tone)": 1
+  },
+  "style": {
+   "block": 328,
+   "arpeggio": 225,
+   "pulse": 160,
+   "rolled": 139,
+   "bass_chord": 121
+  }
+ },
+ "ram_bytes": {
+  "train": 1830025932,
+  "val": 214114320
+ },
+ "render_minutes": {
+  "train": 33.7,
+  "val": 5.2
+ }
+}

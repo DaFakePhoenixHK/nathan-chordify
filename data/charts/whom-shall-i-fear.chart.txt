@@ -1,0 +1,41 @@
+# title: Whom Shall I Fear (God of Angel Armies)
+# artist: Chris Tomlin
+# language: english
+# key: C (page says C; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 74 BPM
+# year: 2012
+# source: WorshipTogether https://www.worshiptogether.com/songs/whom-shall-i-fear-chris-tomlin/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| C | C | Fsus2 | Fsus2 |
+[Verse 1]
+| C | C | C | C |
+| Fsus2 | Fsus2 | Fsus2 | Fsus2 |
+| Am7 | Fsus2 | C | C |
+| C | C | Fsus2 | Fsus2 |
+| Fsus2 | Fsus2 | Am7 | Fsus2 |
+[Chorus 1]
+| Am7 . G . | C | Am7 . G . | C |
+| Am7 | Fsus2 | Fsus2 . G . | C |
+| Am7 . G . | C | Am7 . G . | C |
+| Am7 | Fsus2 | Fsus2 . G . | C |
+[Verse 2]
+| C | C | C | C |
+| Fsus2 | Fsus2 | Fsus2 | Fsus2 |
+| Am7 | Fsus2 | Am7 . Fsus2 . | Gsus4 |
+[Bridge]
+| Fsus2 | C . G . | C | Fsus2 |
+| Fsus2 . C . | Am7 . G . | Fsus2 | G |
+| Fsus2 | C . G . | C | Fsus2 |
+| Fsus2 . C . | Am7 . G . | Fsus2 | G |
+| Am7 | G/B |
+[Chorus 2]
+| C | C | G/B | G/B |
+| Am7 | Am7 | F | F |
+| C | C | G/B | G/B |
+| Am7 | Am7 | F | F |
+| Am7 | F | C |

@@ -1,0 +1,45 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Large local assets (re-creatable by scripts/fetch_models.py and the install steps).
+# Only the small record files are kept: MANIFEST, calibrations, fine-tune configs/results, attribution.
+tools/
+models/*
+!models/MANIFEST.json
+!models/calibration/
+!models/ace_ft/
+models/ace_ft/**
+!models/ace_ft/**/
+!models/ace_ft/**/*.json
+!models/piano/
+models/piano/**
+!models/piano/**/
+!models/piano/**/ATTRIBUTION.txt
+third_party/*/
+!third_party/VERSIONS.txt
+
+# Runtime data (the user's songs, stems, lyrics, training pools, variants, library DB) stays local.
+# Kept: the harvested chord charts (no lyrics) and the song candidate list.
+cache/
+data/*
+!data/charts/
+!data/songs_candidates.yaml
+logs/
+certs/
+eval/reports/*
+!eval/reports/*.md
+eval/data/
+
+# Frontend
+web/node_modules/
+web/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,27 @@
+# title: 站於天地之間
+# artist: 沙田浸信會 / 清泉音樂; 曲 朱浩權
+# language: cantonese
+# key: A (page says A; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 80 BPM
+# year: 2003
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E7%AB%99%E6%96%BC%E5%A4%A9%E5%9C%B0%E4%B9%8B%E9%96%93/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: E4 -> Esus4 (x2)
+[Verse 1]
+| A | D | E | C#m |
+| F#m | Bm | E | A |
+| A | D | E | C#m |
+| F#m | Bm | E | A |
+[Chorus]
+| A | E/G# | F#m | C#m |
+| D . E/D . | C#m . F#m . | Bm | Bm |
+| Esus4 | Esus4 | A | E/G# |
+| F#m | C#m | D | E/D |
+| C# | F#m | Bm . E . | A |
+[Bridge]
+| D | E | C#m | F# |
+| Bm | Bm/A | Esus4 | E |

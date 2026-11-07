@@ -1,0 +1,769 @@
+{
+  "htdemucs_ft": [
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\models\\hf\\hub\\models--adefossez--HTDemucs-ft\\snapshots\\d74ac89c3a1e874fc78f152555cf4d8533f06cd4\\04573f0d.safetensors",
+      "bytes": 84025440,
+      "sha256": "68854b0d7c2b3274723b5761f6fd9f5aec5f1bcd3f0de7c1669546fdb7871b7c"
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\models\\hf\\hub\\models--adefossez--HTDemucs-ft\\snapshots\\d74ac89c3a1e874fc78f152555cf4d8533f06cd4\\92cfc3b6.safetensors",
+      "bytes": 84025440,
+      "sha256": "a241863551f30d01c42bd7b97da40839922ead3acb0f1fcab25682f55b4eeb59"
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\models\\hf\\hub\\models--adefossez--HTDemucs-ft\\snapshots\\d74ac89c3a1e874fc78f152555cf4d8533f06cd4\\d12395a8.safetensors",
+      "bytes": 84025440,
+      "sha256": "5b01a97567ae9a3178a6236fb520251045c03eb8834bc8c24a4eec11d6c8fb56"
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\models\\hf\\hub\\models--adefossez--HTDemucs-ft\\snapshots\\d74ac89c3a1e874fc78f152555cf4d8533f06cd4\\f7e0c4bc.safetensors",
+      "bytes": 84025440,
+      "sha256": "2c85ab3c62dd6edd8e0b965e38b16fd1cdde357cc25de6b6bc9ce7c83f60925f"
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\models\\hf\\hub\\models--adefossez--HTDemucs-ft\\snapshots\\d74ac89c3a1e874fc78f152555cf4d8533f06cd4\\htdemucs_ft.yaml",
+      "bytes": 149,
+      "sha256": "69470b8c1bbd674437b51bc9fb491327a10ab0396b702c93389b9cf750016346"
+    }
+  ],
+  "beat_this_final0": [
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\models\\torch\\hub\\checkpoints\\beat_this-final0.ckpt",
+      "bytes": 81058141,
+      "sha256": "8c328b45f59d8dd3dff219253ff6a8d6482be57d0133a29140e2febbf8eb8331"
+    }
+  ],
+  "lv_chordia": [
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\.venv\\share\\lv-chordia\\cache_data\\joint_chord_net_ismir_naive_v1.0_reweight(0.0,10.0)_s0.best.sdict",
+      "bytes": 5746183,
+      "sha256": "921b42d5d1cf9ce1c0c0e45a74d409b8066e0acec46058ef74e24ee0fb540761"
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\.venv\\share\\lv-chordia\\cache_data\\joint_chord_net_ismir_naive_v1.0_reweight(0.0,10.0)_s1.best.sdict",
+      "bytes": 5746175,
+      "sha256": "bcb75859e0efa256696cf5da396b320093317b9b1d9560c304f46c25fe1f8b17"
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\.venv\\share\\lv-chordia\\cache_data\\joint_chord_net_ismir_naive_v1.0_reweight(0.0,10.0)_s2.best.sdict",
+      "bytes": 5746179,
+      "sha256": "acddf85c3fff29954c4877021177d72e2cba9f729ce80c1010f054c477bf3f61"
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\.venv\\share\\lv-chordia\\cache_data\\joint_chord_net_ismir_naive_v1.0_reweight(0.0,10.0)_s3.best.sdict",
+      "bytes": 5746175,
+      "sha256": "65d81a3ab73435aaaade586981b4cabdf57b8953d76052703e6968c32ef8421c"
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\.venv\\share\\lv-chordia\\cache_data\\joint_chord_net_ismir_naive_v1.0_reweight(0.0,10.0)_s4.best.sdict",
+      "bytes": 5746227,
+      "sha256": "5ff6b0ec85640e17a09a9b3de68c93fdd45adc24488e8fa9be5715c28d561122"
+    }
+  ],
+  "piano_transcription": [
+    {
+      "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\models\\piano_transcription\\CRNN_note_F1=0.9677_pedal_F1=0.9186.pth",
+      "bytes": 171966578,
+      "sha256": "c3fa9730725bf4a762f1c14bc80cd5986eacda01b026f5a4a2525cd607876141"
+    }
+  ],
+  "salamander": {
+    "name": "Salamander Grand Piano (Yamaha C5), SFZ + FLAC",
+    "author": "Alexander Holm",
+    "version": "V3+20200602 (FreePats SFZ+FLAC build by roberto@zenvoid.org)",
+    "licence": "CC-BY-3.0",
+    "licence_url": "http://creativecommons.org/licenses/by/3.0/",
+    "licence_checked": [
+      "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+      "https://archive.org/details/SalamanderGrandPianoV3",
+      "readme.txt in the archive"
+    ],
+    "source_url": "https://freepats.zenvoid.org/Piano/SalamanderGrandPiano/SalamanderGrandPiano-SFZ+FLAC-V3+20200602.tar.gz",
+    "source_page": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+    "archive": "SalamanderGrandPiano-SFZ+FLAC-V3+20200602.tar.gz",
+    "archive_bytes": 741757374,
+    "archive_sha256": "b7760e168494cf095344e217b0af013fc449ad033abbbdf1c65211cf11dc038b",
+    "archive_deleted_after_extract": true,
+    "format": "48 kHz / 24-bit stereo FLAC, 16 velocity layers, sampled every minor third; release + pedal samples",
+    "extracted_to": "C:\\Users\\User\\Desktop\\Nathan_chordify\\models\\piano\\salamander\\SalamanderGrandPiano-SFZ+FLAC-V3+20200602",
+    "extracted_files": 644,
+    "extracted_bytes": 746912846,
+    "sfz": [
+      {
+        "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\models\\piano\\salamander\\SalamanderGrandPiano-SFZ+FLAC-V3+20200602\\SalamanderGrandPiano-V3+20200602.sfz",
+        "bytes": 55443,
+        "sha256": "91a273d53390c84a855437b4f37a734afac5cb0e4063b3ef59ccf0e63d909506"
+      },
+      {
+        "path": "C:\\Users\\User\\Desktop\\Nathan_chordify\\models\\piano\\salamander\\SalamanderGrandPiano-SFZ+FLAC-V3+20200602\\SalamanderGrandPianoRetuned-V3+20200602.sfz",
+        "bytes": 58478,
+        "sha256": "2f8883be56c266c59a61ced408de1308e5d173f65e4ce22bfd371129a736a8a9"
+      }
+    ],
+    "default_sfz": "SalamanderGrandPianoRetuned-V3+20200602.sfz",
+    "used_by": "train/piano.py",
+    "downloaded": "2026-11-01"
+  },
+  "ace_ft": [
+    {
+      "run_id": "ft1-a",
+      "files": [
+        {
+          "path": "models\\ace_ft\\ft1-a\\best.pt",
+          "bytes": 21119567,
+          "sha256": "ac082ddecd6e6289118fa23a8514945f049c9e20f858f959b4a10a37304bc570"
+        },
+        {
+          "path": "models\\ace_ft\\ft1-a\\last.pt",
+          "bytes": 21119183,
+          "sha256": "5e880dc1aae796f572abfbfa9d734caa02f13fbc64814eb245f35f0c8c740e03"
+        }
+      ],
+      "config": {
+        "run_id": "ft1-a",
+        "lr": 7e-05,
+        "warmup": 300,
+        "max_steps": 9000,
+        "batch": 8,
+        "freeze_layers": 2,
+        "l2sp": 0.01,
+        "weight_decay": 0.0,
+        "eval_every": 500,
+        "patience": 6,
+        "min_delta": 0.001,
+        "max_shift": 2,
+        "grad_clip": 1.0,
+        "seed": 0,
+        "device": "cuda",
+        "max_minutes": 150.0,
+        "trainable_params": 3029926,
+        "all_params": 4540118,
+        "base_checkpoint": "C:\\Users\\User\\Desktop\\Nathan_chordify\\third_party\\consonance-ACE\\ACE\\checkpoints\\conformer_decomposed_smooth.ckpt",
+        "base_sha256": "6ab1a314366fefb3d09e351ae7cb7f826a9e0718e94e7ff164df844ba7bcd954",
+        "data": {
+          "train_items": 12000,
+          "train_hours": 78.25,
+          "val_items": 700,
+          "val_hours": 4.57
+        },
+        "started": "2026-11-01 07:28:32",
+        "finished": "2026-11-01 08:22:43"
+      },
+      "summary": {
+        "best_step": 4000,
+        "best_val_loss": 2.96661,
+        "stopped": "early stop (no val improvement for 6 evaluations)",
+        "steps": 7000,
+        "gpu_minutes": 53.9,
+        "original_val": {
+          "loss": 3.53518,
+          "loss_root": 1.5746,
+          "loss_bass": 1.50753,
+          "loss_notes": 0.22653,
+          "root_acc": 0.82013,
+          "bass_acc": 0.87288,
+          "root_acc_chord": 0.81413,
+          "bass_acc_chord": 0.86853,
+          "n_recall": 0.95938,
+          "notes_exact": 0.53622,
+          "notes_f1": 0.84577,
+          "all_heads_ok": 0.51265,
+          "root_nll": 0.87006,
+          "frames": 603400
+        }
+      },
+      "data": {
+        "train": {
+          "items": 12000,
+          "hours": 78.25,
+          "frames": 12396622,
+          "chords": 173142,
+          "passing": 25739,
+          "chart_files": 159,
+          "bytes": 3698910616,
+          "source": {
+            "chart": 4638,
+            "diatonic": 4053,
+            "idiom": 2090,
+            "random": 1219
+          },
+          "meter": {
+            "4/4": 7132,
+            "3/4": 2688,
+            "12/8": 2180
+          }
+        },
+        "val": {
+          "items": 700,
+          "hours": 4.57,
+          "frames": 723824,
+          "chords": 9643,
+          "passing": 1377,
+          "chart_files": 55,
+          "bytes": 215912136,
+          "source": {
+            "chart": 297,
+            "diatonic": 207,
+            "idiom": 119,
+            "random": 77
+          },
+          "meter": {
+            "4/4": 419,
+            "3/4": 159,
+            "12/8": 122
+          }
+        },
+        "total_bytes": 3914822752,
+        "pool_dir": "data/train/pool"
+      },
+      "calibration": {
+        "fine_tuned": {
+          "T": 0.4807,
+          "nll_T1": 2.2865,
+          "nll_T0.5801": 1.873,
+          "nll_fit": 1.8418,
+          "beats": 11302.1,
+          "items": 350
+        },
+        "original": {
+          "T": 0.728,
+          "nll_T1": 2.7804,
+          "nll_T0.5801": 2.7287,
+          "nll_fit": 2.6648,
+          "beats": 11302.1,
+          "items": 350
+        }
+      },
+      "gate": {
+        "delta": {
+          "root": 0.0073,
+          "majmin_inv": -0.0079,
+          "sevenths_inv": -0.018,
+          "short_P": -0.0006,
+          "short_R": -0.0357,
+          "short_F1": -0.0066,
+          "flicker_per_min": 0.0,
+          "bass_acc": 0.019
+        },
+        "pass": false
+      },
+      "temp_ace": 0.4807,
+      "default": false,
+      "note": "FAILED the FT1 D1 gate (majmin_inv -0.008, sevenths_inv -0.018): not used",
+      "report": "eval/reports/FT1.md"
+    },
+    {
+      "run_id": "ft1-b",
+      "files": [
+        {
+          "path": "models\\ace_ft\\ft1-b\\best.pt",
+          "bytes": 21119567,
+          "sha256": "ffaa2beff3bb62a00a55ac57328380d843a0eac2844745d8306b1ca49adcbe7a"
+        },
+        {
+          "path": "models\\ace_ft\\ft1-b\\last.pt",
+          "bytes": 21119183,
+          "sha256": "e755548f623c378d154267afb5ec9e97966cb69dbb58923323f9f1289f06ead8"
+        }
+      ],
+      "config": {
+        "run_id": "ft1-b",
+        "lr": 0.0001,
+        "warmup": 300,
+        "max_steps": 6000,
+        "batch": 8,
+        "freeze_layers": 6,
+        "freeze_notes": true,
+        "bn_eval": true,
+        "l2sp": 0.01,
+        "weight_decay": 0.0,
+        "eval_every": 500,
+        "patience": 4,
+        "min_delta": 0.001,
+        "max_shift": 2,
+        "grad_clip": 1.0,
+        "seed": 0,
+        "device": "cuda",
+        "max_minutes": 150.0,
+        "trainable_params": 49562,
+        "all_params": 4540118,
+        "base_checkpoint": "C:\\Users\\User\\Desktop\\Nathan_chordify\\third_party\\consonance-ACE\\ACE\\checkpoints\\conformer_decomposed_smooth.ckpt",
+        "base_sha256": "6ab1a314366fefb3d09e351ae7cb7f826a9e0718e94e7ff164df844ba7bcd954",
+        "data": {
+          "train_items": 12000,
+          "train_hours": 78.25,
+          "val_items": 700,
+          "val_hours": 4.57
+        },
+        "started": "2026-11-01 08:42:58",
+        "finished": "2026-11-01 09:06:41"
+      },
+      "summary": {
+        "best_step": 4500,
+        "best_val_loss": 3.28383,
+        "stopped": "max_steps",
+        "steps": 6000,
+        "gpu_minutes": 23.4,
+        "original_val": {
+          "loss": 3.53518,
+          "loss_root": 1.5746,
+          "loss_bass": 1.50753,
+          "loss_notes": 0.22653,
+          "root_acc": 0.82013,
+          "bass_acc": 0.87288,
+          "root_acc_chord": 0.81413,
+          "bass_acc_chord": 0.86853,
+          "n_recall": 0.95938,
+          "notes_exact": 0.53622,
+          "notes_f1": 0.84577,
+          "all_heads_ok": 0.51265,
+          "root_nll": 0.87006,
+          "frames": 603400
+        }
+      },
+      "data": {
+        "train": {
+          "items": 12000,
+          "hours": 78.25,
+          "frames": 12396622,
+          "chords": 173142,
+          "passing": 25739,
+          "chart_files": 159,
+          "bytes": 3698910616,
+          "source": {
+            "chart": 4638,
+            "diatonic": 4053,
+            "idiom": 2090,
+            "random": 1219
+          },
+          "meter": {
+            "4/4": 7132,
+            "3/4": 2688,
+            "12/8": 2180
+          }
+        },
+        "val": {
+          "items": 700,
+          "hours": 4.57,
+          "frames": 723824,
+          "chords": 9643,
+          "passing": 1377,
+          "chart_files": 55,
+          "bytes": 215912136,
+          "source": {
+            "chart": 297,
+            "diatonic": 207,
+            "idiom": 119,
+            "random": 77
+          },
+          "meter": {
+            "4/4": 419,
+            "3/4": 159,
+            "12/8": 122
+          }
+        },
+        "total_bytes": 3914822752,
+        "pool_dir": "data/train/pool"
+      },
+      "calibration": {
+        "fine_tuned": {
+          "T": 0.6267,
+          "nll_T1": 2.5672,
+          "nll_T0.5801": 2.3411,
+          "nll_fit": 2.3343,
+          "beats": 11302.1,
+          "items": 350
+        },
+        "original": {
+          "T": 0.728,
+          "nll_T1": 2.7804,
+          "nll_T0.5801": 2.7287,
+          "nll_fit": 2.6648,
+          "beats": 11302.1,
+          "items": 350
+        }
+      },
+      "gate": {
+        "delta": {
+          "root": 0.0045,
+          "majmin_inv": 0.003,
+          "sevenths_inv": 0.0014,
+          "short_P": 0.0057,
+          "short_R": 0.0,
+          "short_F1": 0.0058,
+          "flicker_per_min": 0.043,
+          "bass_acc": 0.0072
+        },
+        "pass": true
+      },
+      "temp_ace": 0.6267,
+      "default": false,
+      "note": "heads only (root/bass branches), BatchNorm statistics frozen; PASSED the FT1 D1 gate narrowly (majmin_inv +0.003, sevenths_inv +0.0014, root +0.0045, short P +0.006) but mini-D2 -0.008 majmin_inv; NOT the default (opt-in ACE_WEIGHTS=ft1-b, temp ace 0.6267); eval/reports/FT1.md",
+      "report": "eval/reports/FT1.md"
+    },
+    {
+      "run_id": "ft2-a",
+      "files": [
+        {
+          "path": "models\\ace_ft\\ft2-a\\best.pt",
+          "bytes": 21119567,
+          "sha256": "6d2986f62bae00a80df6b7c84c02e569b3c2e54f2af3c5a0d176857f7d55a983"
+        },
+        {
+          "path": "models\\ace_ft\\ft2-a\\last.pt",
+          "bytes": 21119183,
+          "sha256": "0c810d1bf51bf3b22441dbdbfa2b8e01d7a52a5c282b75fe6a916a1e31e24c5a"
+        }
+      ],
+      "config": {
+        "run_id": "ft2-a",
+        "lr": 7e-05,
+        "warmup": 300,
+        "max_steps": 9000,
+        "batch": 8,
+        "freeze_layers": 2,
+        "freeze_notes": false,
+        "bn_eval": true,
+        "l2sp": 0.01,
+        "weight_decay": 0.0,
+        "eval_every": 500,
+        "patience": 6,
+        "min_delta": 0.001,
+        "max_shift": 2,
+        "grad_clip": 1.0,
+        "seed": 0,
+        "device": "cuda",
+        "max_minutes": 150.0,
+        "trainable_params": 3029926,
+        "all_params": 4540118,
+        "base_checkpoint": "C:\\Users\\User\\Desktop\\Nathan_chordify\\third_party\\consonance-ACE\\ACE\\checkpoints\\conformer_decomposed_smooth.ckpt",
+        "base_sha256": "6ab1a314366fefb3d09e351ae7cb7f826a9e0718e94e7ff164df844ba7bcd954",
+        "data": {
+          "train_items": 6000,
+          "train_hours": 39.3,
+          "val_items": 700,
+          "val_hours": 4.6
+        },
+        "started": "2026-11-01 15:31:13",
+        "finished": "2026-11-01 15:52:44"
+      },
+      "summary": {
+        "best_step": 7000,
+        "best_val_loss": 2.70129,
+        "stopped": "max_steps",
+        "steps": 9000,
+        "gpu_minutes": 21.4,
+        "original_val": {
+          "loss": 4.33291,
+          "loss_root": 1.84445,
+          "loss_bass": 1.94446,
+          "loss_notes": 0.272,
+          "root_acc": 0.70137,
+          "bass_acc": 0.66664,
+          "root_acc_chord": 0.67522,
+          "bass_acc_chord": 0.63536,
+          "n_recall": 0.95506,
+          "notes_exact": 0.54457,
+          "notes_f1": 0.77597,
+          "all_heads_ok": 0.50415,
+          "root_nll": 1.22077,
+          "frames": 603400
+        }
+      },
+      "recipe": "ft2",
+      "data": {
+        "train": {
+          "items": 6000,
+          "hours": 39.3,
+          "frames": 6224578,
+          "chords": 74201,
+          "plain_share": 0.7962,
+          "slash_share": 0.1327,
+          "N_frame_share": 0.0983,
+          "arrangement": {
+            "solo": 2723,
+            "soft": 1792,
+            "band": 1485
+          },
+          "meter": {
+            "4/4": 3541,
+            "3/4": 1346,
+            "12/8": 1113
+          },
+          "source": {
+            "chart": 3512,
+            "diatonic": 2093,
+            "idiom": 220,
+            "random": 175
+          }
+        },
+        "val": {
+          "items": 700,
+          "hours": 4.6,
+          "frames": 728280,
+          "chords": 8644,
+          "plain_share": 0.7839,
+          "slash_share": 0.1048,
+          "N_frame_share": 0.0986,
+          "arrangement": {
+            "solo": 292,
+            "soft": 225,
+            "band": 183
+          },
+          "meter": {
+            "4/4": 417,
+            "3/4": 158,
+            "12/8": 125
+          },
+          "source": {
+            "chart": 418,
+            "diatonic": 235,
+            "idiom": 27,
+            "random": 20
+          }
+        },
+        "pool": "in RAM (train/song_mix_v2.py render_items, deterministic by seed; not on disk)"
+      },
+      "calibration": {
+        "fine_tuned": {
+          "T": 0.4518,
+          "nll_T1": 1.8817,
+          "nll_T0.5801": 1.4692,
+          "nll_fit": 1.4251,
+          "beats": 11029.7,
+          "items": 350
+        },
+        "original": {
+          "T": 1.048,
+          "nll_T1": 3.3355,
+          "nll_T0.5801": 3.9005,
+          "nll_fit": 3.3322,
+          "beats": 11029.7,
+          "items": 350
+        },
+        "val_set": "FT2"
+      },
+      "temp_ace": 0.4518,
+      "gate": {
+        "vs_original": {
+          "delta": {
+            "root": 0.0066,
+            "majmin_inv": -0.0013,
+            "sevenths_inv": -0.0022,
+            "short_P": 0.0257,
+            "short_R": 0.0,
+            "short_F1": 0.0255,
+            "flicker_per_min": 0.0859,
+            "bass_acc": 0.0119
+          },
+          "pass": false
+        },
+        "vs_ft1-b": {
+          "delta": {
+            "root": 0.0021,
+            "majmin_inv": -0.0043,
+            "sevenths_inv": -0.0036,
+            "short_P": 0.02,
+            "short_R": 0.0,
+            "short_F1": 0.0197,
+            "flicker_per_min": 0.043,
+            "bass_acc": 0.0047
+          },
+          "pass": false
+        },
+        "simple_vs_original": {
+          "root": 0.0059,
+          "majmin_inv": -0.0018,
+          "sevenths_inv": -0.0044,
+          "short_P": -0.0032,
+          "bass_acc": 0.0116
+        }
+      },
+      "default": false,
+      "note": "FT2 (plain chords, near middle C, simple mixes); retrain most (2 layers frozen, BatchNorm kept); FAILED the D1 gate narrowly (majmin_inv -0.0013, sevenths_inv -0.0022); not the default",
+      "report": "eval/reports/FT2.md"
+    },
+    {
+      "run_id": "ft2-b",
+      "files": [
+        {
+          "path": "models\\ace_ft\\ft2-b\\best.pt",
+          "bytes": 21119567,
+          "sha256": "561d2ce9c690e609e8ae141dbc7978ab5988e74d369b5e684d7d421ffbb6fdac"
+        },
+        {
+          "path": "models\\ace_ft\\ft2-b\\last.pt",
+          "bytes": 21119183,
+          "sha256": "7141160b10e71ecee8a17cc2d59bb3bbdf0f4005e4b74ced4f141c268c4b194b"
+        }
+      ],
+      "config": {
+        "run_id": "ft2-b",
+        "lr": 0.0001,
+        "warmup": 300,
+        "max_steps": 6000,
+        "batch": 8,
+        "freeze_layers": 6,
+        "freeze_notes": true,
+        "bn_eval": true,
+        "l2sp": 0.01,
+        "weight_decay": 0.0,
+        "eval_every": 500,
+        "patience": 4,
+        "min_delta": 0.001,
+        "max_shift": 2,
+        "grad_clip": 1.0,
+        "seed": 0,
+        "device": "cuda",
+        "max_minutes": 150.0,
+        "trainable_params": 49562,
+        "all_params": 4540118,
+        "base_checkpoint": "C:\\Users\\User\\Desktop\\Nathan_chordify\\third_party\\consonance-ACE\\ACE\\checkpoints\\conformer_decomposed_smooth.ckpt",
+        "base_sha256": "6ab1a314366fefb3d09e351ae7cb7f826a9e0718e94e7ff164df844ba7bcd954",
+        "data": {
+          "train_items": 6000,
+          "train_hours": 39.3,
+          "val_items": 700,
+          "val_hours": 4.6
+        },
+        "started": "2026-11-01 15:52:50",
+        "finished": "2026-11-01 15:59:45"
+      },
+      "summary": {
+        "best_step": 5500,
+        "best_val_loss": 3.45544,
+        "stopped": "max_steps",
+        "steps": 6000,
+        "gpu_minutes": 6.8,
+        "original_val": {
+          "loss": 4.33291,
+          "loss_root": 1.84445,
+          "loss_bass": 1.94446,
+          "loss_notes": 0.272,
+          "root_acc": 0.70137,
+          "bass_acc": 0.66664,
+          "root_acc_chord": 0.67522,
+          "bass_acc_chord": 0.63536,
+          "n_recall": 0.95506,
+          "notes_exact": 0.54457,
+          "notes_f1": 0.77597,
+          "all_heads_ok": 0.50415,
+          "root_nll": 1.22077,
+          "frames": 603400
+        }
+      },
+      "recipe": "ft2",
+      "data": {
+        "train": {
+          "items": 6000,
+          "hours": 39.3,
+          "frames": 6224578,
+          "chords": 74201,
+          "plain_share": 0.7962,
+          "slash_share": 0.1327,
+          "N_frame_share": 0.0983,
+          "arrangement": {
+            "solo": 2723,
+            "soft": 1792,
+            "band": 1485
+          },
+          "meter": {
+            "4/4": 3541,
+            "3/4": 1346,
+            "12/8": 1113
+          },
+          "source": {
+            "chart": 3512,
+            "diatonic": 2093,
+            "idiom": 220,
+            "random": 175
+          }
+        },
+        "val": {
+          "items": 700,
+          "hours": 4.6,
+          "frames": 728280,
+          "chords": 8644,
+          "plain_share": 0.7839,
+          "slash_share": 0.1048,
+          "N_frame_share": 0.0986,
+          "arrangement": {
+            "solo": 292,
+            "soft": 225,
+            "band": 183
+          },
+          "meter": {
+            "4/4": 417,
+            "3/4": 158,
+            "12/8": 125
+          },
+          "source": {
+            "chart": 418,
+            "diatonic": 235,
+            "idiom": 27,
+            "random": 20
+          }
+        },
+        "pool": "in RAM (train/song_mix_v2.py render_items, deterministic by seed; not on disk)"
+      },
+      "calibration": {
+        "fine_tuned": {
+          "T": 0.602,
+          "nll_T1": 2.5063,
+          "nll_T0.5801": 2.223,
+          "nll_fit": 2.2214,
+          "beats": 11029.7,
+          "items": 350
+        },
+        "original": {
+          "T": 1.048,
+          "nll_T1": 3.3355,
+          "nll_T0.5801": 3.9005,
+          "nll_fit": 3.3322,
+          "beats": 11029.7,
+          "items": 350
+        },
+        "val_set": "FT2"
+      },
+      "temp_ace": 0.602,
+      "gate": {
+        "vs_original": {
+          "delta": {
+            "root": 0.0039,
+            "majmin_inv": 0.0047,
+            "sevenths_inv": 0.0027,
+            "short_P": -0.0079,
+            "short_R": 0.0,
+            "short_F1": -0.0083,
+            "flicker_per_min": 0.043,
+            "bass_acc": 0.0097
+          },
+          "pass": false
+        },
+        "vs_ft1-b": {
+          "delta": {
+            "root": -0.0006,
+            "majmin_inv": 0.0017,
+            "sevenths_inv": 0.0013,
+            "short_P": -0.0137,
+            "short_R": 0.0,
+            "short_F1": -0.0141,
+            "flicker_per_min": 0.0,
+            "bass_acc": 0.0025
+          },
+          "pass": false
+        },
+        "simple_vs_original": {
+          "root": 0.0035,
+          "majmin_inv": 0.0046,
+          "sevenths_inv": 0.004,
+          "short_P": -0.0185,
+          "bass_acc": 0.0103
+        }
+      },
+      "default": false,
+      "note": "FT2 recipe; root + bass branches only; FAILED the D1 gate (short-chord precision -0.008); not the default",
+      "report": "eval/reports/FT2.md"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+# DRAFT ground truth (eval/build_gt.py) 2026-10-31T18:49:53Z — NOT human-reviewed.
+# 活出愛 Live Out Love — 盛曉玫 Amy Sand (泥土音樂 Clay Music) — yt-lfP-3JLVvaw
+# Key C major → D major (last verse + choruses); sheet/chart: Clay Music official lead sheet PDF 06-11.pdf (text layer + page images)
+# Meter 12/8 (4 dotted-quarter beats per bar); one token = one beat (dotted quarter, ≈ 63 per minute).
+# Sections are in the order the RECORDING plays them; '@t' = start time (s) found by aligning
+# the chart to the engine's evidence (eval/build_gt.py). (H)/(M)/(L) = confidence of the line.
+# 'N?' = a stretch the published chart does not cover: X (unknown, not scored) in the .lab.
+# Source file with notes: data/sheets/yt-lfP-3JLVvaw/gt_source.txt
+[Intro @1.14]
+| C . G . | F . C . | F . C/E . | Dm . G . |   (L)
+| C . G . | F . C . | F . G . | C |   (L)
+[Verse 1 @31.64]
+| C . G . | F . C . | F . C/E . | Dm . G . |   (H)
+| C . G . | F . C . | F . G . | C |   (H)
+[Chorus 1 @62.08]
+| F . G . | Em . Am . | F . G . | C |   (H)
+| F . G . | Em . Am . | Dm . G . | C |   (H)
+[Turnaround @92.56]
+| N? |   (L)
+[Verse 2 @96.37]
+| C . G . | F . C . | F . C/E . | Dm . G . |   (H)
+| C . G . | F . C . | F . G . | C |   (H)
+[Chorus 2 @126.87]
+| F . G . | Em . Am . | F . G . | C |   (H)
+| F . G . | Em . Am . | Dm . G . | C . Ab . |   (H)
+[Modulation @157.34]
+| C# . G#/B# . | F#/A# . F#m/A . |   (H)
+[Verse 3 (D) @164.96]
+| G . A . |   (H)
+| D . A . | G . D . | G . D/F# . | Em . A . |   (H)
+| D . A . | G . D . | G . A . | D |   (H)
+[Chorus 3 (D) @199.53]
+| G . A . | F#m . Bm . | G . A . | D |   (H)
+| G . A . | F#m . Bm . | Em . Asus4 A | D |   (H)
+[Chorus 4 (D) @230.02]
+| G . A . | F#m . Bm . | G . A . | D |   (H)
+| G . A . | F#m . Bm . | Em . Asus4 A | D . N? . |   (M)
+[Tag @260.50]
+| N? | N? | N? | N? | N? |   (L)

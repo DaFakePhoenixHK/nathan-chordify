@@ -1,0 +1,25 @@
+Salamander Grand Piano V3 — attribution (CC BY 3.0)
+====================================================
+
+Piano samples: "Salamander Grand Piano" V3 by Alexander Holm
+(axeldenstore [at] gmail [dot] com), recorded from a Yamaha C5 grand piano.
+Licence: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+         http://creativecommons.org/licenses/by/3.0/
+
+This copy: the FreePats "SFZ+FLAC" build, version V3+20200602, assembled by
+roberto@zenvoid.org for the FreePats project (samples converted to FLAC; the
+"Retuned" SFZ carries tuning corrections by Markus Fiedler).
+Downloaded 2026-11-01 from
+  https://freepats.zenvoid.org/Piano/SalamanderGrandPiano/SalamanderGrandPiano-SFZ+FLAC-V3+20200602.tar.gz
+(page: https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html; original item:
+https://archive.org/details/SalamanderGrandPianoV3).
+Archive sha256: b7760e168494cf095344e217b0af013fc449ad033abbbdf1c65211cf11dc038b
+
+Changes made by Nathan_chordify: none to the samples. train/piano.py plays them with
+its own sampler (resampling for pitch, velocity layers, envelopes, optional reverb)
+and adds -56 cents to the C8 samples (keys 107-108), which measure about +56 cents
+sharp even in the Retuned SFZ.
+
+Suggested credit line for anything made with these sounds (audio, datasets, models):
+  "Piano sound: Salamander Grand Piano V3 by Alexander Holm, CC BY 3.0
+   (http://creativecommons.org/licenses/by/3.0/)."

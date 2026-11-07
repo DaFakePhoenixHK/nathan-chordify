@@ -1,0 +1,27 @@
+# title: 神是我這生供應者
+# artist: HKACM; 曲 何威廉
+# language: cantonese
+# key: E (page says E; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2012
+# source: CantonHymn https://cantonhymn.net/song/%e7%a5%9e%e6%98%af%e6%88%91%e9%80%99%e7%94%9f%e4%be%9b%e6%87%89%e8%80%85
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| E | E/G# | A | E/G# |
+| F#m | F#m | A/B | B7 |
+| E | B/D# | Bm/D | C#7 |
+| F#m7 | E/G# | A | B |
+[Verse 2]
+| E | E/G# | A | E/G# |
+| F#m | F#m | A/B | B7 |
+| G#m7 | G#m7 | C#m | C#m |
+| F#m | A/B . B7 . | E . B . |
+[Chorus]
+| E | E . E/G# . | A | B7 . G#/B# . |
+| C#m . E/B . | F#m . B . | E | E . E/G# . |
+| A | B7 . G#/B# . | C#m . E/B . | A . E/G# . |
+[Outro]
+| F#m . E/G# . | A . B7 . | E |

@@ -1,0 +1,34 @@
+# title: Stronger
+# artist: Hillsong Worship
+# language: english
+# key: C (page says C; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 71 BPM
+# year: 2007
+# source: WorshipTogether https://www.worshiptogether.com/songs/stronger-hillsong-worship/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| Fsus2 | C/E | Fsus2 | C/E |
+[Verse 1]
+| F . G . | C | F . G . | C |
+| F . G . | Am | F | G |
+| F | F |
+[Verse 2]
+| F . G . | C | F . G . | C |
+| F . G . | Am | F . G . | C |
+[Chorus]
+| C | G | Am | F |
+| C | G | F | G |
+| F | F |
+[Verse 3]
+| F . G . | C | F . G . | C |
+| F . G . | Am | F | G |
+| C | C |
+[Interlude]
+| F | Am | C | G |
+[Bridge]
+| F | F | Am | Am |
+| C | G |

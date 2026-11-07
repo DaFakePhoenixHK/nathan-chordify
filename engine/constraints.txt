@@ -1,0 +1,5 @@
+# Locks the GPU build of torch so no dependency can swap in a CPU wheel.
+# Install torch itself first, from https://download.pytorch.org/whl/cu130 with --no-cache-dir.
+torch==2.14.1+cu130
+torchaudio==2.11.0+cu130
+numpy==2.5.4

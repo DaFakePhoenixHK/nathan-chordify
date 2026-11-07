@@ -1,0 +1,33 @@
+# title: Forever Reign
+# artist: Hillsong Worship
+# language: english
+# key: C (page says C; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 83 BPM
+# year: 2009
+# source: WorshipTogether https://www.worshiptogether.com/songs/forever-reign/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| C | C | C | C |
+| C/B | C/B | C/B | C/B |
+| C | C | C | C |
+| C/B | C | C |
+[Verse 2]
+| C | C | C | C |
+| C/B | C/B | C/B | C/B |
+| C | C | C | C |
+| C/B | C | C |
+[Chorus]
+| C | G/C | Am | Am |
+| G | F | Am . G . | F |
+| Am . G . | F |
+[Verse 3]
+| C | C | C | C |
+| C/B | C/B | C/B | C/B |
+| C | C | C | C |
+| C/B | C/B | C/B | C/B |
+[Bridge]
+| Am7 | Fsus2 | C | G |

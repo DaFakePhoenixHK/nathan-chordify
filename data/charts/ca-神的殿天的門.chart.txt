@@ -1,0 +1,25 @@
+# title: 神的殿天的門
+# artist: ?; 曲 朱浩權
+# language: cantonese
+# key: G (page says G; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2012
+# source: CantonHymn https://cantonhymn.net/song/%e7%a5%9e%e7%9a%84%e6%ae%bf%e5%a4%a9%e7%9a%84%e9%96%80
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| G | D/F# | C . Am . | D7 |
+| G | D/F# | C . Am . | D7 |
+[Pre-Chorus]
+| C . D7 . | G | C . D7 . | G |
+| C . D7 . | G | C . Am . | D7 |
+[Chorus]
+| G . D/F# . | Em . Bm . | C | G/B |
+| Em | D7 | G . D/F# . | Em . Bm . |
+| C | G/B | D7 | G |
+[Bridge]
+| D/F# | Em | Em | Bm |
+| C . D . | G | Em | Bm |
+| C . Am . | Am . D . | Am | D7 |

@@ -1,0 +1,9 @@
+{
+ "recipe": "ft2 (train/song_mix_v2.py)",
+ "pool": "in RAM (song_mix_v2.render_items)",
+ "train_items": 6000,
+ "train_hours": 39.3,
+ "val_items": 700,
+ "val_hours": 4.6,
+ "wall_minutes": 21.9
+}

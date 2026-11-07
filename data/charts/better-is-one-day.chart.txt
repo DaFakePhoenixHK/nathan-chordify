@@ -1,0 +1,27 @@
+# title: Better Is One Day
+# artist: Matt Redman / Passion
+# language: english
+# key: E (page says E; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 77 BPM
+# year: 1995
+# source: WorshipTogether https://www.worshiptogether.com/songs/better-is-one-day/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| E | E | Asus2 | Bsus4 |
+| E | Bsus4 | E | E |
+| Asus2 | Bsus4 | E | Bsus4 |
+[Chorus]
+| Asus2 | Asus2 | Bsus4 | Bsus4 |
+| Asus2 | Asus2 | Bsus4 |
+[Verse 2]
+| E | E | Asus2 | Bsus4 |
+| E | E | Bsus4 | Bsus4 |
+[Bridge]
+| C#m | B | Asus2 | B |
+| C#m . B . | B . Asus2 . | C#m | B |
+| Asus2 | B | C#m | B . Asus2 . |
+| F#m | B . A . |

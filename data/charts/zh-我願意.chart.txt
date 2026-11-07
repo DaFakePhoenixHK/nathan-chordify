@@ -1,0 +1,23 @@
+# title: 我願意
+# artist: 黃國倫
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# source: CantonHymn https://cantonhymn.net/song/%e6%88%91%e9%a1%98%e6%84%8f
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| D | Bm | G . A . | D |
+| Bm | G | F7 |
+[Pre-Chorus]
+| Bm | F#m | G | Bm |
+| F#m | G . Em . | A |
+[Chorus]
+| D | Bm | G | F#m |
+| G . D . | D/C# . Bm . | G | A |
+| D | Bm | G | F#m |
+| G . D . | D/C# . Bm . | G . Em . | Em . D . |
+[Outro]
+| G . Em . | Em . D . |

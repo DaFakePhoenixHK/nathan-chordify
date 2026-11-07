@@ -1,0 +1,24 @@
+# title: God of This City
+# artist: Bluetree / Chris Tomlin
+# language: english
+# key: C (from the chords; page says D (the chart is written in another key))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 78 BPM
+# year: 2008
+# source: WorshipTogether https://www.worshiptogether.com/songs/god-of-this-city-chris-tomlin/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| Am7 | C/G | Fsus2 | Dm9 |
+| Am7 | C | Dm9 | Fsus2 |
+[Pre-Chorus]
+| Am7 . G . | Fsus2 | Am7 . G . | Fsus2 |
+[Chorus]
+| Fsus2 | Fsus2 | G | G |
+| C | G/B . Fsus2 . | Fsus2 | Fsus2 |
+| G | G |
+[Verse 2]
+| Am7 | C/G | Fsus2 | Dm9 |
+| Am7 | C | Dm9 | Fsus2 |

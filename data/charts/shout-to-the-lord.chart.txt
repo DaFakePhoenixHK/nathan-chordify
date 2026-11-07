@@ -1,0 +1,50 @@
+# title: Shout to the Lord
+# artist: Darlene Zschech / Hillsong
+# language: english
+# key: D (from the chords; page says A (the chart is written in another key))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1994
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/hillsong-worship/shout-to-the-lord-chords-896923
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+| G | D | Em . D . | C |
+| C | G . C . | C . G . | Em |
+| F . C/E . | D | G | D |
+| Em | D | D | C |
+| C | C . G . | C . G . | Em |
+| F . C/E . | D |
+[Chorus]
+| G | Em | C | D |
+| G | Em | C | D |
+| Em | Em | C | D |
+| Em | D | G | Em |
+| C | D | G | Em |
+| C | D | Em | Em |
+| C | D | G | G |
+| G | D | Em . D . | C |
+| C | G . C . | C . G . | Em |
+| F . C/E . | D | G | D |
+| Em | D | D | C |
+| C | C . G . | C . G . | Em |
+| F . C/E . | D |
+[Chorus]
+| G | Em | C | D |
+| G | Em | C | D |
+| Em | Em | C | D |
+| Em | D | A | F#m |
+| D | E | A | F#m |
+| D | E | F#m | F#m |
+| F#m | D | E | A |
+| A | F#m | D | E |
+| A | F#m | D | E |
+| F#m | F#m | D | E |
+| F#m | E | A | F#m |
+| D | E | A | F#m |
+| D | E | F#m | F#m |
+| F#m | D | E | A |
+[Outro]
+| F#m | F#m | F#m | D |
+| E | A | F#m | F#m |
+| F#m | D | E | A |

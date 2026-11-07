@@ -1,0 +1,43 @@
+# title: Christ Is Enough
+# artist: Hillsong Worship
+# language: english
+# key: B (page says B; the chords agree)
+# meter: 4/4 (from the bar lines and slashes of its chord-only lines)
+# beats_per_bar: 4
+# tempo: 80 BPM
+# year: 2013
+# source: WorshipTogether https://www.worshiptogether.com/songs/christ-is-enough-hillsong-worship/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| G#m | E | B | F#sus4/A# |
+| G#m | E | B | F#sus4/A# |
+[Verse 1]
+| G#m | E | B . F#sus4/A# . | G#m |
+| E | B . F#sus4/A# . |
+[Pre-Chorus]
+| D#m | E | F# | G#m |
+| B/D# | E | G#m | F# |
+[Chorus]
+| B | B | G#m | F# . E . |
+| F# . G#m . | E | F# |
+[Verse 2]
+| G#m | E | B . F#sus4/A# . | G#m |
+| E | B . F#sus4/A# . |
+[Pre-Chorus]
+| D#m | E | F# | G#m |
+| B/D# | E | G#m | F# |
+[Interlude]
+| B | Bsus4 | B | Bsus4 |
+[Bridge 1]
+| Bsus2 . B . | E . G#m . | F# | B . Bsus4 . |
+| Bsus2 . B . | E . F# . | B | G#m . E . |
+| F# . G#m . | E . G#m . | F# | G#m . E . |
+| F# . G#m . | E | F# | B |
+| B |
+[Bridge 2]
+| G#m . E . | F# . G#m . | E . G#m . | F# |
+| G#m . E . | F# . G#m . | E . F# . | B |
+| B | B | E . G#m . | F# |
+| B | B | E . F# . | B |

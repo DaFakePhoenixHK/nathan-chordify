@@ -1,0 +1,20 @@
+# title: 叫我抬起頭的神
+# artist: 讚美之泉
+# language: mandarin
+# key: E (page says E; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2011
+# source: CantonHymn https://cantonhymn.net/song/%e5%8f%ab%e6%88%91%e6%8a%ac%e8%b5%b7%e9%a0%ad%e7%9a%84%e7%a5%9e
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| E | B/D# | C#m7 | E/B |
+| A | E/G# | F#m7 | B |
+| E | B/D# | C#m7 | E/B |
+| A | E/G# | F#m7 . B . | E . A/B . |
+[Chorus]
+| E | B/D# | C#m7 | E/B |
+| A | B . E . | C#m7 | C#m7 |
+| G#m7 | G#m7 | A . B . | E |

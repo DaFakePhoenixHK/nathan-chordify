@@ -1,0 +1,27 @@
+# title: 愛是不保留
+# artist: Music 2000; 曲 盧永亨
+# language: cantonese
+# key: F (page says F; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 75 BPM
+# year: 2000
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E6%84%9B%E6%98%AF%E4%B8%8D%E4%BF%9D%E7%95%99/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: C4 -> Csus4
+[Verse 1]
+| F | Am7 | Bb | C |
+| Bb . C/Bb . | Am7 . Dm7 . | Gm7 | C |
+[Verse 2]
+| F | Am7 | Bb | C |
+| Bb . C/Bb . | Am7 . Dm7 . | Gm7 | C |
+[Chorus]
+| F . C/E . | Dm7 . F/C . | Bb | F/A |
+| Gm | C | Bb | C |
+| Am7 | Dm7 | Gm7 | Csus4 |
+| F . C/E . | Dm7 . F/C . | Bb | F/A |
+| Gm | C | Bb | C |
+| Am7 | Dm7 | Gm7 | C |
+| F | F |

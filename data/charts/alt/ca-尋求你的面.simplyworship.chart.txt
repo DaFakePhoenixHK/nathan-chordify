@@ -1,0 +1,24 @@
+# title: 尋求你的面
+# artist: 復興團契; 曲 吳志揚
+# language: cantonese
+# key: F (page says F; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 64 BPM
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E5%B0%8B%E6%B1%82%E4%BD%A0%E7%9A%84%E9%9D%A2/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: C4 -> Csus4 (x2)
+[Verse 1]
+| Dm | Dm | Gm7 | Csus4 |
+| F | Bb | Gm7 . C . | C . F . |
+[Verse 2]
+| Dm | Dm | Gm7 | Csus4 |
+| F | Bb | Gm7 . A . | A . Dm . |
+[Chorus]
+| D | Bb | Bb | C/Bb |
+| Am7 | Bb | Gm7 . C . | C . F . |
+| D | Bb | Bb | C/Bb |
+| F | Bb | Gm7 | C |
+| F | F |

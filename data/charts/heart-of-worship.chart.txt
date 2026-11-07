@@ -1,0 +1,29 @@
+# title: The Heart of Worship
+# artist: Matt Redman
+# language: english
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 72 BPM
+# year: 1999
+# source: WorshipTogether https://www.worshiptogether.com/songs/the-heart-of-worship-passion/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| D | A | A | Em |
+| A | D | A | Em |
+| A |
+[Pre-Chorus]
+| Em . D/F# . | A | Em | Em |
+| D/F# | A | Em | D/F# |
+| A | A | Em . D/F# . | A |
+[Chorus]
+| D | D | A/C# | A/C# |
+| Em | G . A . | D | D |
+| D | A/C# | A/C# | Em |
+| G . A . | D |
+[Verse 2]
+| D | A | Em | A |
+| D | A | Em | A |
+| A |

@@ -1,0 +1,43 @@
+# title: Open the Eyes of My Heart
+# artist: Paul Baloche
+# language: english
+# key: G (estimated from the chords (the page gives none))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1997
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/sonicflood/open-the-eyes-of-my-heart-chords-376940
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| G | G | D | D |
+| C | G | G | G |
+| D | D | C | G |
+[Chorus]
+| D . Em . | C | D | Em |
+| C | D |
+[Verse]
+| G | G | D | D |
+| C | G | G | G |
+| D | D | C | G |
+[Chorus]
+| D . Em . | C | D | Em |
+| C | D | D . Em . | C |
+| D | Em | C | D |
+[Bridge]
+| G | G | D | D |
+| C | D | G | G |
+| G | D | D | C |
+| D | G |
+[Verse]
+| G | G | D | D |
+| C | G |
+[Chorus]
+| D . Em . | C | D | Em |
+| C | D | D . Em . | C |
+| D | Em | C | D |
+[Bridge]
+| G | G | D | D |
+| C | D | G | G |
+| G | D | D | C |
+| D | G |

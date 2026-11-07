@@ -1,0 +1,38 @@
+# title: Trading My Sorrows
+# artist: Darrell Evans
+# language: english
+# key: G (estimated from the chords (the page gives none))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1998
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/darrell-evans/trading-my-sorrows-chords-359384
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| G | Csus2 | Em | D |
+| G . Csus2 . | Em . D . | G . Csus2 . | Em |
+| D | G . Csus2 . | Em . D . | G |
+| Csus2 | Em | D | G . Csus2 . |
+| Em . D . | G . Csus2 . | Em | D |
+| G . Csus2 . | Em . D . |
+[Chorus]
+| G . Csus2 . | Em . D . | G . Csus2 . | Em . D . |
+| G . Csus2 . | Em . D . | G . Csus2 . | Em . D . |
+[Bridge]
+| G | Csus2 | Em | D |
+| G . Csus2 . | Em . D . | G | Csus2 |
+| Em | D | G . Csus2 . | Em . D . |
+| D | D | D | D |
+| F | C |
+[Verse]
+| G | Csus2 | Em | D |
+| G . Csus2 . | Em . D . | G . Csus2 . | Em |
+| D | G . Csus2 . | Em . D . | G |
+| Csus2 | Em | D | G . Csus2 . |
+| Em . D . | G . Csus2 . | Em | D |
+| G . Csus2 . | Em . D . |
+[Outro]
+| G | Csus2 | Em | D |
+| G | Csus2 | Em | D |
+| G |

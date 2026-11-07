@@ -1,0 +1,34 @@
+{
+ "song": "yt-Y7boUFbM76k",
+ "title": "回家 (Eternity Girls)",
+ "status": "draft",
+ "source": "DESIGN §13.1 table (from docs/RESEARCH.md §5.5); times in this video; not re-timed against tapped beats yet",
+ "rules": {
+  "detail": 0.8,
+  "point_tol_s": 0.3,
+  "match": "a chord SHOWN at Detailed overlapping the window with the same root, the same triad family (maj, min, dim, aug, sus2, sus4, 5) and the same bass pitch class, or a member of the expected chord's equivalence class (§5.8), scores 1; 'accept' labels must match root, quality and bass exactly and score their value",
+  "parts": "an occurrence with several 'expect' chords scores the mean over its parts (each part: the best shown chord in the window)",
+  "bass_walk": "item 8 scores the fraction of its chords whose span (middle half) shows the expected bass pitch class most of the time",
+  "fp_gate": "passing chords shown at Detailed that match no GT chord overlapping them, inside H-confidence bars of the draft chart, per minute of H bars (target <= 3)"
+ },
+ "items": [
+  {"n": 1, "name": "B+7", "conf": "M-H", "expect": ["B+7"], "accept": {"B7": 0.5}, "at": [61.4, 135.5]},
+  {"n": 2, "name": "A7 -> Em6/Em7/Em", "conf": "M-H", "ranges": [[63.7, 65.5, ["A7", "Em6"]], [71.0, 72.4, ["A7", "Em7"]], [130.9, 131.8, ["A7", "Em"]]]},
+  {"n": 3, "name": "Em/A", "conf": "M", "accept": {"A9sus4": 1.0, "A7sus4": 1.0}, "ranges": [[37.7, 39.4, ["Em/A"]]]},
+  {"n": 4, "name": "C#m7 -> D#m7 rising", "conf": "M-H", "expect": ["C#m7", "D#m7"], "window": [-0.3, 2.3], "at": [47.1, 72.8, 139.7]},
+  {"n": 5, "name": "D#7/A# -> G#m (F#/A# at 195.9)", "conf": "M-H", "expect": ["D#7/A#"], "accept": {"D#7": 0.5}, "at": [103.8, 170.0, 210.6]},
+  {"n": 5, "name": "F#/A# -> G#m7 (chorus 3 variant)", "conf": "M-H", "expect": ["F#/A#"], "at": [195.9]},
+  {"n": 6, "name": "F#/A#, F#7/A#", "conf": "M", "expect": ["F#/A#"], "accept": {"F#7/A#": 1.0}, "at": [96.9, 98.2]},
+  {"n": 7, "name": "G#m7 -> A#m7 walk-up", "conf": "M", "expect": ["G#m7", "A#m7"], "window": [-1.5, 1.5], "at": [163.6, 189.4]},
+  {"n": 8, "name": "Interlude walk-down (bass)", "conf": "H", "bass_walk": [
+    [109.70, 111.54, "Emaj9"], [111.54, 113.37, "B/D#"], [113.37, 115.21, "C#m7"], [115.21, 117.04, "B"],
+    [117.04, 118.88, "Emaj7"], [118.88, 120.71, "B/D#"], [120.71, 121.63, "C#m7"], [121.63, 122.55, "G#m"],
+    [122.55, 123.46, "F#"], [123.46, 124.38, "F#/C#"]]},
+  {"n": 9, "name": "B/D# pickup", "conf": "M-H", "expect": ["B/D#"], "at": [84.4]},
+  {"n": 9, "name": "B/F# before the final cadence", "conf": "M-H", "expect": ["B/F#"], "at": [218.5]},
+  {"n": 10, "name": "E/F# (F#11)", "conf": "M-H", "expect": ["E/F#"], "accept": {"F#9sus4": 1.0, "F#7sus4": 0.5, "F#sus4": 0.5}, "at": [55.0, 79.3, 236.2]},
+  {"n": 11, "name": "A9 (bVII) on the quiet tag bar", "conf": "H", "ranges": [[226.4, 229.7, ["A9"]]]},
+  {"n": 12, "name": "D#7sus4 -> D#7/G (intro)", "conf": "L", "scored": false, "expect": ["D#7sus4", "D#7/G"], "window": [-0.3, 1.5], "at": [4.7, 12.1]},
+  {"n": 13, "name": "Em/G", "conf": "L", "scored": false, "expect": ["Em/G"], "at": [52.6]}
+ ]
+}

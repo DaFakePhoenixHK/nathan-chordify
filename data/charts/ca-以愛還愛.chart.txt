@@ -1,0 +1,24 @@
+# title: 以愛還愛
+# artist: 撒種音樂事工; 曲 何維健
+# language: cantonese
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2007
+# source: CantonHymn https://cantonhymn.net/song/%e4%bb%a5%e6%84%9b%e9%82%84%e6%84%9b
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| A | A | D | E |
+| F#m | C#m | D | E |
+| A | A | D | E |
+| F#m | C#m | D | E |
+[Bridge]
+| F#m | C#m/E | D | E |
+| F#m | C#m/E | D | E |
+[Chorus]
+| A . E/G# . | E/G# . F#m . | A/E | D |
+| A/C# . B7 . | B7 . E . | A . E/G# . | F#m |
+| A/E | D | A/C# | Bm |
+| E | A |

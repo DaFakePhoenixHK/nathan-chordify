@@ -1,0 +1,19 @@
+# title: 雲上太陽
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 80 BPM
+# year: 2001
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E9%9B%B2%E4%B8%8A%E5%A4%AA%E9%99%BD/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| D | Bm7 | G . D/F# . | Em7 . A . |
+| D | Bm7 | G . A . | A . D . |
+[Chorus]
+| D | Bm7 | G . A . | D |
+| D | Bm7 . E/G# . | D/A | A |
+| D | D |

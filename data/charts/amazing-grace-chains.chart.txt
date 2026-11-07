@@ -1,0 +1,29 @@
+# title: Amazing Grace (My Chains Are Gone)
+# artist: Chris Tomlin
+# language: english
+# key: D (from the chords; page says G (the chart is written in another key))
+# meter: 3/4 (from data/songs_candidates.yaml)
+# beats_per_bar: 3
+# tempo: 63 BPM
+# year: 2006
+# source: WorshipTogether https://www.worshiptogether.com/songs/amazing-grace-my-chains-are-gone/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| D | D | G/D | D |
+| A/D | D . D/F# | G . D | A/D |
+| D |
+[Verse 2]
+| D | G/D . D | A/D | D . D/F# |
+| G . D | A/D | D |
+[Chorus]
+| D/F# . G | D/F# | G/B | D/A |
+| D/F# . G | D/F# | Em7 . A7 | D |
+[Verse 3]
+| D | G/D . D | A/D | A/D |
+| D . D/F# | G . D | A/D | D |
+[Verse 4]
+| G/D . D | G/D . D | A/D | D . D/F# |
+| G . D | A/D | D | A/D |
+| D | A/D | D |

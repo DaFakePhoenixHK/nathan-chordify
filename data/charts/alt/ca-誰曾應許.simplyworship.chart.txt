@@ -1,0 +1,27 @@
+# title: 誰曾應許
+# artist: Music 2000; 曲 盧永亨
+# language: cantonese
+# key: D (page says D; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 68 BPM
+# year: 2005
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E8%AA%B0%E6%9B%BE%E6%87%89%E8%A8%B1/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: A4 -> Asus4 (x7)
+[Verse 1]
+| D . F# . | Bm7 | G . E/G# . | Asus4 |
+| D . F# . | Bm7 . E/G# . | G . E/G# . | E/G# . Asus4 . |
+[Verse 2]
+| D . F# . | Bm7 | G . E/G# . | Asus4 |
+| D . F# . | Bm7 . E/G# . | G . E/G# . | E/G# . Asus4 . |
+[Chorus]
+| D | F#m | G | D/F# |
+| Em7 | D/F# | E/G# | Asus4 |
+| D | F#m | G | D/F# |
+| G | D/F# . Em7 . | Em7 . Asus4 . | D |
+[Tag]
+| G . F#m . | Bm7 | Em7 | Asus4 |
+| D | D |

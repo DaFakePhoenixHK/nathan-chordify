@@ -1,0 +1,24 @@
+# title: 禱告
+# artist: 讚美之泉
+# language: mandarin
+# key: E (page says E; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 74 BPM
+# year: 2005
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E7%A6%B1%E5%91%8A/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| E | B/D# | C#m . G#m . | G#m . A . |
+| E/G# . F#m . | F#m . B . |
+[Verse 2]
+| E | B/D# | C#m . G#m . | G#m . A . |
+| E/G# . F#m . | B . B . |
+[Chorus]
+| E | G#m | A | E |
+| F#m | E/G# | A | F#/A# . B . |
+| E | G#m | A | E/G# |
+| F#m | E/G# | A | E/G# |
+| F#m | B | E | E |

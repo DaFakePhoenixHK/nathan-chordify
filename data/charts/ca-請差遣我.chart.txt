@@ -1,0 +1,27 @@
+# title: 請差遣我
+# artist: 全心製作 / HKACM; 曲 吳秉堅
+# language: cantonese
+# key: Ab (page says A♭ / G♯; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2002
+# source: CantonHymn https://cantonhymn.net/song/%e8%ab%8b%e5%b7%ae%e9%81%a3%e6%88%91
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| Ab | Eb/G | Fm | Cm |
+| Db | Ab/C | Bbm | Eb7 |
+[Verse]
+| Ab | Cm . Fm . | Bbm | C7 |
+| Db | Ab/C | Bbm . Eb7 . | Ab . Ab7 . |
+[Chorus]
+| Db | Eb | Cm | Fm |
+| Fm | Bbm | Eb7 | Ab . Ab7 . |
+| Db | Eb | Cm | Fm |
+| Db | Eb7 | Eb7 | Ab |
+[Verse 2]
+| Ab | Eb/G | Fm | Cm |
+| Db | Ab/C | Bbm | Eb7 |
+| Ab | Cm7 . Fm . | Bbm | C |
+| Db | Ab/C | Bbm . Eb7 . | Ab . Ab7 . |

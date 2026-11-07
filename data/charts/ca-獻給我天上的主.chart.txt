@@ -1,0 +1,27 @@
+# title: 獻給我天上的主
+# artist: HKACM / 同心圓 / TWS 敬拜者使團; 曲 霍志鵬
+# language: cantonese
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2005
+# source: CantonHymn https://cantonhymn.net/song/%e7%8d%bb%e7%b5%a6%e6%88%91%e5%a4%a9%e4%b8%8a%e7%9a%84%e4%b8%bb
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A . D/A . | A . E/G# . | F#m/E . D . | A/C# |
+| Bm7 . E . | C#m . F#m . |
+[Verse]
+| Bm7 . Bm7/A . | G . D/E . |
+[Verse 2]
+| A . D/A . | A . E/G# . | F#m/E . D . | A/C# |
+| Bm7 . E . | A . E/G# . | F#m | Bm7 . E . |
+| A . E . | D/E . E . |
+[Chorus]
+| A | E/G# . C#7 . | F#m . A/E . | D . A/C# . |
+| Bm . E . | A | E/G# | C#7 |
+| F#m | D . E . | A |
+[Outro]
+| D . D/E . | F#m . E . | D . A/C# . | Bm7 . D/E . |
+| A |

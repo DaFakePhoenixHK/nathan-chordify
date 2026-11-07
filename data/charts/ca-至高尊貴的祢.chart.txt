@@ -1,0 +1,21 @@
+# title: 至高尊貴的祢
+# artist: 角聲使團 The Heralders; 曲 謝韻婷
+# language: cantonese
+# key: Ab (page says A♭ / G♯; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2015
+# source: CantonHymn https://cantonhymn.net/song/%e8%87%b3%e9%ab%98%e5%b0%8a%e8%b2%b4%e7%9a%84%e7%a5%a2
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| Ab | Ab . Db . | Eb/G | Ab . Eb/G . |
+| Fm | Cm | Db | Eb |
+| Ab | Db | Db . Eb/G . | Ab . Eb/G . |
+| Fm | Cm | Db | Bbm7 . Eb . |
+[Chorus]
+| Eb . Dbmaj7 . | Dbmaj7 . Eb . | Cm7 . Fm . | Bbm7 . Eb7 . |
+| Eb7 . Ab . | Ab7 | Dbmaj7 | Eb . Cm . |
+| Fm | Bbm7 | Bbm7 | Eb7b9 |
+| Ab |

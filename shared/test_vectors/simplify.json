@@ -1,0 +1,952 @@
+{
+ "vectors": [
+  {
+   "chord": "C:maj",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj",
+   "key": "C",
+   "level": "standard",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj",
+   "key": "C",
+   "level": "full",
+   "label": "C"
+  },
+  {
+   "chord": "C:min",
+   "key": "C",
+   "level": "simple",
+   "label": "Cm"
+  },
+  {
+   "chord": "C:min",
+   "key": "C",
+   "level": "standard",
+   "label": "Cm"
+  },
+  {
+   "chord": "C:min",
+   "key": "C",
+   "level": "full",
+   "label": "Cm"
+  },
+  {
+   "chord": "C:dim",
+   "key": "C",
+   "level": "simple",
+   "label": "C°"
+  },
+  {
+   "chord": "C:dim",
+   "key": "C",
+   "level": "standard",
+   "label": "C°"
+  },
+  {
+   "chord": "C:dim",
+   "key": "C",
+   "level": "full",
+   "label": "C°"
+  },
+  {
+   "chord": "C:aug",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:aug",
+   "key": "C",
+   "level": "standard",
+   "label": "C+"
+  },
+  {
+   "chord": "C:aug",
+   "key": "C",
+   "level": "full",
+   "label": "C+"
+  },
+  {
+   "chord": "C:sus2",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:sus2",
+   "key": "C",
+   "level": "standard",
+   "label": "Csus2"
+  },
+  {
+   "chord": "C:sus2",
+   "key": "C",
+   "level": "full",
+   "label": "Csus2"
+  },
+  {
+   "chord": "C:sus4",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:sus4",
+   "key": "C",
+   "level": "standard",
+   "label": "Csus4"
+  },
+  {
+   "chord": "C:sus4",
+   "key": "C",
+   "level": "full",
+   "label": "Csus4"
+  },
+  {
+   "chord": "C:5",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:5",
+   "key": "C",
+   "level": "standard",
+   "label": "C5"
+  },
+  {
+   "chord": "C:5",
+   "key": "C",
+   "level": "full",
+   "label": "C5"
+  },
+  {
+   "chord": "C:maj6",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj6",
+   "key": "C",
+   "level": "standard",
+   "label": "C6"
+  },
+  {
+   "chord": "C:maj6",
+   "key": "C",
+   "level": "full",
+   "label": "C6"
+  },
+  {
+   "chord": "C:min6",
+   "key": "C",
+   "level": "simple",
+   "label": "Cm"
+  },
+  {
+   "chord": "C:min6",
+   "key": "C",
+   "level": "standard",
+   "label": "Cm6"
+  },
+  {
+   "chord": "C:min6",
+   "key": "C",
+   "level": "full",
+   "label": "Cm6"
+  },
+  {
+   "chord": "C:7",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:7",
+   "key": "C",
+   "level": "standard",
+   "label": "C7"
+  },
+  {
+   "chord": "C:7",
+   "key": "C",
+   "level": "full",
+   "label": "C7"
+  },
+  {
+   "chord": "C:maj7",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj7",
+   "key": "C",
+   "level": "standard",
+   "label": "Cmaj7"
+  },
+  {
+   "chord": "C:maj7",
+   "key": "C",
+   "level": "full",
+   "label": "Cmaj7"
+  },
+  {
+   "chord": "C:min7",
+   "key": "C",
+   "level": "simple",
+   "label": "Cm"
+  },
+  {
+   "chord": "C:min7",
+   "key": "C",
+   "level": "standard",
+   "label": "Cm7"
+  },
+  {
+   "chord": "C:min7",
+   "key": "C",
+   "level": "full",
+   "label": "Cm7"
+  },
+  {
+   "chord": "C:hdim7",
+   "key": "C",
+   "level": "simple",
+   "label": "C°"
+  },
+  {
+   "chord": "C:hdim7",
+   "key": "C",
+   "level": "standard",
+   "label": "Cø7"
+  },
+  {
+   "chord": "C:hdim7",
+   "key": "C",
+   "level": "full",
+   "label": "Cø7"
+  },
+  {
+   "chord": "C:dim7",
+   "key": "C",
+   "level": "simple",
+   "label": "C°"
+  },
+  {
+   "chord": "C:dim7",
+   "key": "C",
+   "level": "standard",
+   "label": "C°7"
+  },
+  {
+   "chord": "C:dim7",
+   "key": "C",
+   "level": "full",
+   "label": "C°7"
+  },
+  {
+   "chord": "C:minmaj7",
+   "key": "C",
+   "level": "simple",
+   "label": "Cm"
+  },
+  {
+   "chord": "C:minmaj7",
+   "key": "C",
+   "level": "standard",
+   "label": "Cm(maj7)"
+  },
+  {
+   "chord": "C:minmaj7",
+   "key": "C",
+   "level": "full",
+   "label": "Cm(maj7)"
+  },
+  {
+   "chord": "C:aug(7)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:aug(7)",
+   "key": "C",
+   "level": "standard",
+   "label": "C+"
+  },
+  {
+   "chord": "C:aug(7)",
+   "key": "C",
+   "level": "full",
+   "label": "C+maj7"
+  },
+  {
+   "chord": "C:sus4(b7)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:sus4(b7)",
+   "key": "C",
+   "level": "standard",
+   "label": "C7sus4"
+  },
+  {
+   "chord": "C:sus4(b7)",
+   "key": "C",
+   "level": "full",
+   "label": "C7sus4"
+  },
+  {
+   "chord": "C:aug(b7)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:aug(b7)",
+   "key": "C",
+   "level": "standard",
+   "label": "C+"
+  },
+  {
+   "chord": "C:aug(b7)",
+   "key": "C",
+   "level": "full",
+   "label": "C+7"
+  },
+  {
+   "chord": "C:maj(9)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj(9)",
+   "key": "C",
+   "level": "standard",
+   "label": "Cadd9"
+  },
+  {
+   "chord": "C:maj(9)",
+   "key": "C",
+   "level": "full",
+   "label": "Cadd9"
+  },
+  {
+   "chord": "C:min(9)",
+   "key": "C",
+   "level": "simple",
+   "label": "Cm"
+  },
+  {
+   "chord": "C:min(9)",
+   "key": "C",
+   "level": "standard",
+   "label": "Cm(add9)"
+  },
+  {
+   "chord": "C:min(9)",
+   "key": "C",
+   "level": "full",
+   "label": "Cm(add9)"
+  },
+  {
+   "chord": "C:maj6(9)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj6(9)",
+   "key": "C",
+   "level": "standard",
+   "label": "C6"
+  },
+  {
+   "chord": "C:maj6(9)",
+   "key": "C",
+   "level": "full",
+   "label": "C6/9"
+  },
+  {
+   "chord": "C:9",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:9",
+   "key": "C",
+   "level": "standard",
+   "label": "C7"
+  },
+  {
+   "chord": "C:9",
+   "key": "C",
+   "level": "full",
+   "label": "C9"
+  },
+  {
+   "chord": "C:maj9",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj9",
+   "key": "C",
+   "level": "standard",
+   "label": "Cmaj7"
+  },
+  {
+   "chord": "C:maj9",
+   "key": "C",
+   "level": "full",
+   "label": "Cmaj9"
+  },
+  {
+   "chord": "C:min9",
+   "key": "C",
+   "level": "simple",
+   "label": "Cm"
+  },
+  {
+   "chord": "C:min9",
+   "key": "C",
+   "level": "standard",
+   "label": "Cm7"
+  },
+  {
+   "chord": "C:min9",
+   "key": "C",
+   "level": "full",
+   "label": "Cm9"
+  },
+  {
+   "chord": "C:min11",
+   "key": "C",
+   "level": "simple",
+   "label": "Cm"
+  },
+  {
+   "chord": "C:min11",
+   "key": "C",
+   "level": "standard",
+   "label": "Cm7"
+  },
+  {
+   "chord": "C:min11",
+   "key": "C",
+   "level": "full",
+   "label": "Cm11"
+  },
+  {
+   "chord": "C:sus4(b7,9)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:sus4(b7,9)",
+   "key": "C",
+   "level": "standard",
+   "label": "Bb/C"
+  },
+  {
+   "chord": "C:sus4(b7,9)",
+   "key": "C",
+   "level": "full",
+   "label": "Bb/C"
+  },
+  {
+   "chord": "C:sus4(b7,9,13)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:sus4(b7,9,13)",
+   "key": "C",
+   "level": "standard",
+   "label": "Bbmaj7/C"
+  },
+  {
+   "chord": "C:sus4(b7,9,13)",
+   "key": "C",
+   "level": "full",
+   "label": "Bbmaj7/C"
+  },
+  {
+   "chord": "C:13",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:13",
+   "key": "C",
+   "level": "standard",
+   "label": "C7"
+  },
+  {
+   "chord": "C:13",
+   "key": "C",
+   "level": "full",
+   "label": "C13"
+  },
+  {
+   "chord": "C:7(b9)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:7(b9)",
+   "key": "C",
+   "level": "standard",
+   "label": "C7"
+  },
+  {
+   "chord": "C:7(b9)",
+   "key": "C",
+   "level": "full",
+   "label": "C7b9"
+  },
+  {
+   "chord": "C:7(#9)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:7(#9)",
+   "key": "C",
+   "level": "standard",
+   "label": "C7"
+  },
+  {
+   "chord": "C:7(#9)",
+   "key": "C",
+   "level": "full",
+   "label": "C7#9"
+  },
+  {
+   "chord": "C:7(b13)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:7(b13)",
+   "key": "C",
+   "level": "standard",
+   "label": "C7"
+  },
+  {
+   "chord": "C:7(b13)",
+   "key": "C",
+   "level": "full",
+   "label": "C7b13"
+  },
+  {
+   "chord": "C:maj7(#11)",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj7(#11)",
+   "key": "C",
+   "level": "standard",
+   "label": "Cmaj7"
+  },
+  {
+   "chord": "C:maj7(#11)",
+   "key": "C",
+   "level": "full",
+   "label": "Cmaj7#11"
+  },
+  {
+   "chord": "C:maj/3",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj/3",
+   "key": "C",
+   "level": "standard",
+   "label": "C/E"
+  },
+  {
+   "chord": "C:maj/3",
+   "key": "C",
+   "level": "full",
+   "label": "C/E"
+  },
+  {
+   "chord": "C:maj/2",
+   "key": "C",
+   "level": "simple",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj/2",
+   "key": "C",
+   "level": "standard",
+   "label": "C"
+  },
+  {
+   "chord": "C:maj/2",
+   "key": "C",
+   "level": "full",
+   "label": "C/D"
+  },
+  {
+   "chord": "C:maj/2",
+   "key": "C",
+   "level": "standard",
+   "slash": true,
+   "label": "C/D"
+  },
+  {
+   "chord": "C:maj/2",
+   "key": "C",
+   "level": "simple",
+   "slash": true,
+   "label": "C/D"
+  },
+  {
+   "chord": "C:maj/2",
+   "key": "C",
+   "level": "full",
+   "slash": false,
+   "label": "C"
+  },
+  {
+   "chord": "C:maj/3",
+   "key": "C",
+   "level": "simple",
+   "slash": true,
+   "label": "C/E"
+  },
+  {
+   "chord": "C:maj/3",
+   "key": "C",
+   "level": "full",
+   "slash": false,
+   "label": "C"
+  },
+  {
+   "chord": "A:min/b7",
+   "key": "C",
+   "level": "simple",
+   "label": "Am"
+  },
+  {
+   "chord": "A:min/b7",
+   "key": "C",
+   "level": "standard",
+   "label": "Am"
+  },
+  {
+   "chord": "A:min/b7",
+   "key": "C",
+   "level": "full",
+   "label": "Am/G"
+  },
+  {
+   "chord": "E:min/4",
+   "key": "G",
+   "level": "simple",
+   "label": "Em"
+  },
+  {
+   "chord": "E:min/4",
+   "key": "G",
+   "level": "standard",
+   "label": "Em"
+  },
+  {
+   "chord": "E:min/4",
+   "key": "G",
+   "level": "full",
+   "label": "Em/A"
+  },
+  {
+   "chord": "C:maj7/7",
+   "key": "C",
+   "level": "simple",
+   "seventh_in_upper": false,
+   "label": "C"
+  },
+  {
+   "chord": "C:maj7/7",
+   "key": "C",
+   "level": "standard",
+   "seventh_in_upper": false,
+   "label": "C/B"
+  },
+  {
+   "chord": "C:maj7/7",
+   "key": "C",
+   "level": "full",
+   "seventh_in_upper": false,
+   "label": "C/B"
+  },
+  {
+   "chord": "C:maj7/7",
+   "key": "C",
+   "level": "full",
+   "label": "Cmaj7/B"
+  },
+  {
+   "chord": "A:minmaj7/7",
+   "key": "C",
+   "level": "full",
+   "seventh_in_upper": false,
+   "label": "Am/G#"
+  },
+  {
+   "chord": "G:7/b7",
+   "key": "C",
+   "level": "standard",
+   "seventh_in_upper": false,
+   "label": "G/F"
+  },
+  {
+   "chord": "C:9/b7",
+   "key": "C",
+   "level": "full",
+   "seventh_in_upper": false,
+   "label": "Cadd9/Bb"
+  },
+  {
+   "chord": "C:9/b7",
+   "key": "C",
+   "level": "standard",
+   "seventh_in_upper": false,
+   "label": "Cadd9/Bb"
+  },
+  {
+   "chord": "C:9/b7",
+   "key": "C",
+   "level": "standard",
+   "label": "C7/Bb"
+  },
+  {
+   "chord": "B:hdim7/b7",
+   "key": "C",
+   "level": "full",
+   "seventh_in_upper": false,
+   "label": "B°/A"
+  },
+  {
+   "chord": "G:sus4(b7,9)",
+   "key": "C",
+   "level": "simple",
+   "upper_structure": false,
+   "label": "G"
+  },
+  {
+   "chord": "G:sus4(b7,9)",
+   "key": "C",
+   "level": "standard",
+   "upper_structure": false,
+   "label": "G7sus4"
+  },
+  {
+   "chord": "G:sus4(b7,9)",
+   "key": "C",
+   "level": "full",
+   "upper_structure": false,
+   "label": "G9sus4"
+  },
+  {
+   "chord": "G:sus4(b7,9)",
+   "key": "C",
+   "level": "full",
+   "slash": false,
+   "label": "G9sus4"
+  },
+  {
+   "chord": "G:sus4(b7,9)/4",
+   "key": "C",
+   "level": "full",
+   "label": "G9sus4/C"
+  },
+  {
+   "chord": "G:sus4(b7,9)/4",
+   "key": "C",
+   "level": "standard",
+   "label": "G7sus4/C"
+  },
+  {
+   "chord": "F#:sus4(b7,9,13)",
+   "key": "B",
+   "level": "full",
+   "upper_structure": false,
+   "label": "F#13sus4"
+  },
+  {
+   "chord": "F#:sus4(b7,9,13)",
+   "key": "B",
+   "level": "simple",
+   "label": "F#"
+  },
+  {
+   "chord": "C:9/3",
+   "key": "C",
+   "level": "standard",
+   "label": "C7/E"
+  },
+  {
+   "chord": "C:maj(9)/2",
+   "key": "C",
+   "level": "standard",
+   "label": "Cadd9"
+  },
+  {
+   "chord": "C:maj(9)/2",
+   "key": "C",
+   "level": "full",
+   "label": "Cadd9/D"
+  },
+  {
+   "chord": "C:sus2/2",
+   "key": "C",
+   "level": "standard",
+   "label": "Csus2/D"
+  },
+  {
+   "chord": "C:aug(b7)/b7",
+   "key": "C",
+   "level": "standard",
+   "label": "C+/Bb"
+  },
+  {
+   "chord": "N",
+   "key": "C",
+   "level": "full",
+   "label": "N"
+  },
+  {
+   "chord": "C:maj7",
+   "key": "C",
+   "level": "full",
+   "notation": {
+    "maj7": "Δ7",
+    "symbols": true
+   },
+   "label": "CΔ7"
+  },
+  {
+   "chord": "C:maj7",
+   "key": "C",
+   "level": "full",
+   "notation": {
+    "maj7": "M7",
+    "symbols": true
+   },
+   "label": "CM7"
+  },
+  {
+   "chord": "C:minmaj7",
+   "key": "C",
+   "level": "full",
+   "notation": {
+    "maj7": "Δ7",
+    "symbols": true
+   },
+   "label": "Cm(Δ7)"
+  },
+  {
+   "chord": "C:maj9",
+   "key": "C",
+   "level": "full",
+   "notation": {
+    "maj7": "Δ7",
+    "symbols": true
+   },
+   "label": "CΔ9"
+  },
+  {
+   "chord": "C:maj7(#11)",
+   "key": "C",
+   "level": "full",
+   "notation": {
+    "maj7": "M7",
+    "symbols": true
+   },
+   "label": "CM7#11"
+  },
+  {
+   "chord": "C:aug(7)",
+   "key": "C",
+   "level": "full",
+   "notation": {
+    "maj7": "Δ7",
+    "symbols": true
+   },
+   "label": "C+Δ7"
+  },
+  {
+   "chord": "C:dim",
+   "key": "C",
+   "level": "full",
+   "notation": {
+    "maj7": "maj7",
+    "symbols": false
+   },
+   "label": "Cdim"
+  },
+  {
+   "chord": "C:dim7",
+   "key": "C",
+   "level": "full",
+   "notation": {
+    "maj7": "maj7",
+    "symbols": false
+   },
+   "label": "Cdim7"
+  },
+  {
+   "chord": "C:hdim7",
+   "key": "C",
+   "level": "full",
+   "notation": {
+    "maj7": "maj7",
+    "symbols": false
+   },
+   "label": "Cm7b5"
+  },
+  {
+   "chord": "B:aug(b7)",
+   "key": "B",
+   "level": "simple",
+   "label": "B"
+  },
+  {
+   "chord": "B:aug(b7)",
+   "key": "B",
+   "level": "standard",
+   "label": "B+"
+  },
+  {
+   "chord": "B:aug(b7)",
+   "key": "B",
+   "level": "full",
+   "label": "B+7"
+  }
+ ]
+}

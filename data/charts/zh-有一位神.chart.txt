@@ -1,0 +1,20 @@
+# title: 有一位神
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1995
+# source: CantonHymn https://cantonhymn.net/song/%e6%9c%89%e4%b8%80%e4%bd%8d%e7%a5%9e
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| D | F#m | G . Em7 . | A . A7 . |
+| D | F#m | G | A . A7 . |
+[Chorus]
+| D | F#m | G | A7 |
+| G | D | Em7 | A7 . D . |
+[Verse 2]
+| D | F#m | G . Em7 . | A . A7 . |
+| D | F#m | G | A . A7 . |

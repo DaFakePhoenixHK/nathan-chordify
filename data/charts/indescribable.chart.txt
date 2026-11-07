@@ -1,0 +1,37 @@
+# title: Indescribable
+# artist: Chris Tomlin
+# language: english
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 90 BPM
+# year: 2004
+# source: WorshipTogether https://www.worshiptogether.com/songs/indescribable-chris-tomlin/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: Dadd#4 -> D
+[Verse 1]
+| F#m7 | F#m7 | E/G# | A |
+| Bm7 | Bm7 | A | Gsus2 |
+| F#m7 | F#m7 | E/G# | A |
+| Bm7 | Bm7 | A | Gsus2 |
+| D | E |
+[Chorus 1]
+| A | A | E | E |
+| D | D | D | F#m7 |
+| A/C# . Dsus2 . | E | A | E |
+| D | D | D | F#m7 |
+| A/C# | Dsus2 |
+[Verse 2]
+| F#m7 | F#m7 | E/G# | A |
+| Bm7 | Bm7 | A | Gsus2 |
+| F#m7 | F#m7 | F#m7 | E/G# |
+| Bm7 | Bm7 | A | Gsus2 |
+| D | D |
+[Bridge]
+| D | D |
+[Outro]
+| F#m7 | A/C# | Dsus2 | A/C# |
+| Dsus2 | F#m7 | A/C# | Dsus2 |
+| F#m7 | A/C# . D . | A |

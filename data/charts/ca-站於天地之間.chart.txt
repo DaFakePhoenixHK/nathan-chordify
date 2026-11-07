@@ -1,0 +1,26 @@
+# title: 站於天地之間
+# artist: 沙田浸信會 / 清泉音樂; 曲 朱浩權
+# language: cantonese
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2003
+# source: CantonHymn https://cantonhymn.net/song/%e7%ab%99%e6%96%bc%e5%a4%a9%e5%9c%b0%e4%b9%8b%e9%96%93
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| A | D . E7 . | E7 . A . | E/G# |
+| F#m | Bm | E7 | Amaj7 |
+| A | D . E7 . | E7 . A . | E/G# |
+| F#m | Bm . D . | E . A . | Dsus2 . Esus2 . |
+[Chorus]
+| Asus2 | E/G# | F#m | C#m/E |
+| D . E/D . | C#m . F#m . | Bm | Bm |
+| D/E | E | Asus2 | E/G# |
+| F#m | C#m/E | D | E/D |
+| C# | F#m/E | Bm . D/E . | Esus4 |
+| A . A7 . |
+[Bridge]
+| Dsus2 | E | C#m . C# . | F# |
+| Bm | Bm | Bm/A | Esus4 |

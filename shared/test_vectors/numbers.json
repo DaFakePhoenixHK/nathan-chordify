@@ -1,0 +1,3215 @@
+{
+ "vectors": [
+  {
+   "chord": "C:maj7",
+   "key": "C",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "D:min7",
+   "key": "C",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "E:min7",
+   "key": "C",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "F:maj7",
+   "key": "C",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "G:7",
+   "key": "C",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "A:min7",
+   "key": "C",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "B:hdim7",
+   "key": "C",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "C:maj/3",
+   "key": "C",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "C:maj/5",
+   "key": "C",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "G:maj/3",
+   "key": "C",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "F:maj/3",
+   "key": "C",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "D:min/b3",
+   "key": "C",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "G:7/b7",
+   "key": "C",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "Bb:maj",
+   "key": "C",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "Bb:7",
+   "key": "C",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "Ab:maj",
+   "key": "C",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "Eb:maj",
+   "key": "C",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "F:min",
+   "key": "C",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "F:min6",
+   "key": "C",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "C#:dim7",
+   "key": "C",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "D#:dim7",
+   "key": "C",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "F#:dim7",
+   "key": "C",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "G#:dim7",
+   "key": "C",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "A:7/3",
+   "key": "C",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "D:7/3",
+   "key": "C",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "E:7/3",
+   "key": "C",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "B:7/3",
+   "key": "C",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "Db:maj7",
+   "key": "Db",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "Eb:min7",
+   "key": "Db",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "F:min7",
+   "key": "Db",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "Gb:maj7",
+   "key": "Db",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "Ab:7",
+   "key": "Db",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "Bb:min7",
+   "key": "Db",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "C:hdim7",
+   "key": "Db",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "Db:maj/3",
+   "key": "Db",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "Db:maj/5",
+   "key": "Db",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "Ab:maj/3",
+   "key": "Db",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "Gb:maj/3",
+   "key": "Db",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "Eb:min/b3",
+   "key": "Db",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "Ab:7/b7",
+   "key": "Db",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "Cb:maj",
+   "key": "Db",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "Cb:7",
+   "key": "Db",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "Bbb:maj",
+   "key": "Db",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "Fb:maj",
+   "key": "Db",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "Gb:min",
+   "key": "Db",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "Gb:min6",
+   "key": "Db",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "D:dim7",
+   "key": "Db",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "E:dim7",
+   "key": "Db",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "G:dim7",
+   "key": "Db",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "A:dim7",
+   "key": "Db",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "Bb:7/3",
+   "key": "Db",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "Eb:7/3",
+   "key": "Db",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "F:7/3",
+   "key": "Db",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "C:7/3",
+   "key": "Db",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "D:maj7",
+   "key": "D",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "E:min7",
+   "key": "D",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "F#:min7",
+   "key": "D",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "G:maj7",
+   "key": "D",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "A:7",
+   "key": "D",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "B:min7",
+   "key": "D",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "C#:hdim7",
+   "key": "D",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "D:maj/3",
+   "key": "D",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "D:maj/5",
+   "key": "D",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "A:maj/3",
+   "key": "D",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "G:maj/3",
+   "key": "D",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "E:min/b3",
+   "key": "D",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "A:7/b7",
+   "key": "D",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "C:maj",
+   "key": "D",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "C:7",
+   "key": "D",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "Bb:maj",
+   "key": "D",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "F:maj",
+   "key": "D",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "G:min",
+   "key": "D",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "G:min6",
+   "key": "D",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "D#:dim7",
+   "key": "D",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "E#:dim7",
+   "key": "D",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "G#:dim7",
+   "key": "D",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "A#:dim7",
+   "key": "D",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "B:7/3",
+   "key": "D",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "E:7/3",
+   "key": "D",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "F#:7/3",
+   "key": "D",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "C#:7/3",
+   "key": "D",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "Eb:maj7",
+   "key": "Eb",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "F:min7",
+   "key": "Eb",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "G:min7",
+   "key": "Eb",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "Ab:maj7",
+   "key": "Eb",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "Bb:7",
+   "key": "Eb",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "C:min7",
+   "key": "Eb",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "D:hdim7",
+   "key": "Eb",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "Eb:maj/3",
+   "key": "Eb",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "Eb:maj/5",
+   "key": "Eb",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "Bb:maj/3",
+   "key": "Eb",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "Ab:maj/3",
+   "key": "Eb",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "F:min/b3",
+   "key": "Eb",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "Bb:7/b7",
+   "key": "Eb",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "Db:maj",
+   "key": "Eb",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "Db:7",
+   "key": "Eb",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "Cb:maj",
+   "key": "Eb",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "Gb:maj",
+   "key": "Eb",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "Ab:min",
+   "key": "Eb",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "Ab:min6",
+   "key": "Eb",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "E:dim7",
+   "key": "Eb",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "F#:dim7",
+   "key": "Eb",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "A:dim7",
+   "key": "Eb",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "B:dim7",
+   "key": "Eb",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "C:7/3",
+   "key": "Eb",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "F:7/3",
+   "key": "Eb",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "G:7/3",
+   "key": "Eb",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "D:7/3",
+   "key": "Eb",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "E:maj7",
+   "key": "E",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "F#:min7",
+   "key": "E",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "G#:min7",
+   "key": "E",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "A:maj7",
+   "key": "E",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "B:7",
+   "key": "E",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "C#:min7",
+   "key": "E",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "D#:hdim7",
+   "key": "E",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "E:maj/3",
+   "key": "E",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "E:maj/5",
+   "key": "E",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "B:maj/3",
+   "key": "E",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "A:maj/3",
+   "key": "E",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "F#:min/b3",
+   "key": "E",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "B:7/b7",
+   "key": "E",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "D:maj",
+   "key": "E",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "D:7",
+   "key": "E",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "C:maj",
+   "key": "E",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "G:maj",
+   "key": "E",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "A:min",
+   "key": "E",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "A:min6",
+   "key": "E",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "E#:dim7",
+   "key": "E",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "F##:dim7",
+   "key": "E",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "A#:dim7",
+   "key": "E",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "B#:dim7",
+   "key": "E",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "C#:7/3",
+   "key": "E",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "F#:7/3",
+   "key": "E",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "G#:7/3",
+   "key": "E",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "D#:7/3",
+   "key": "E",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "F:maj7",
+   "key": "F",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "G:min7",
+   "key": "F",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "A:min7",
+   "key": "F",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "Bb:maj7",
+   "key": "F",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "C:7",
+   "key": "F",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "D:min7",
+   "key": "F",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "E:hdim7",
+   "key": "F",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "F:maj/3",
+   "key": "F",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "F:maj/5",
+   "key": "F",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "C:maj/3",
+   "key": "F",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "Bb:maj/3",
+   "key": "F",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "G:min/b3",
+   "key": "F",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "C:7/b7",
+   "key": "F",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "Eb:maj",
+   "key": "F",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "Eb:7",
+   "key": "F",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "Db:maj",
+   "key": "F",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "Ab:maj",
+   "key": "F",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "Bb:min",
+   "key": "F",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "Bb:min6",
+   "key": "F",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "F#:dim7",
+   "key": "F",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "G#:dim7",
+   "key": "F",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "B:dim7",
+   "key": "F",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "C#:dim7",
+   "key": "F",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "D:7/3",
+   "key": "F",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "G:7/3",
+   "key": "F",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "A:7/3",
+   "key": "F",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "E:7/3",
+   "key": "F",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "F#:maj7",
+   "key": "F#",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "G#:min7",
+   "key": "F#",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "A#:min7",
+   "key": "F#",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "B:maj7",
+   "key": "F#",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "C#:7",
+   "key": "F#",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "D#:min7",
+   "key": "F#",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "E#:hdim7",
+   "key": "F#",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "F#:maj/3",
+   "key": "F#",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "F#:maj/5",
+   "key": "F#",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "C#:maj/3",
+   "key": "F#",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "B:maj/3",
+   "key": "F#",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "G#:min/b3",
+   "key": "F#",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "C#:7/b7",
+   "key": "F#",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "E:maj",
+   "key": "F#",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "E:7",
+   "key": "F#",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "D:maj",
+   "key": "F#",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "A:maj",
+   "key": "F#",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "B:min",
+   "key": "F#",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "B:min6",
+   "key": "F#",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "F##:dim7",
+   "key": "F#",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "G##:dim7",
+   "key": "F#",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "B#:dim7",
+   "key": "F#",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "C##:dim7",
+   "key": "F#",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "D#:7/3",
+   "key": "F#",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "G#:7/3",
+   "key": "F#",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "A#:7/3",
+   "key": "F#",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "E#:7/3",
+   "key": "F#",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "G:maj7",
+   "key": "G",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "A:min7",
+   "key": "G",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "B:min7",
+   "key": "G",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "C:maj7",
+   "key": "G",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "D:7",
+   "key": "G",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "E:min7",
+   "key": "G",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "F#:hdim7",
+   "key": "G",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "G:maj/3",
+   "key": "G",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "G:maj/5",
+   "key": "G",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "D:maj/3",
+   "key": "G",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "C:maj/3",
+   "key": "G",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "A:min/b3",
+   "key": "G",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "D:7/b7",
+   "key": "G",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "F:maj",
+   "key": "G",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "F:7",
+   "key": "G",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "Eb:maj",
+   "key": "G",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "Bb:maj",
+   "key": "G",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "C:min",
+   "key": "G",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "C:min6",
+   "key": "G",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "G#:dim7",
+   "key": "G",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "A#:dim7",
+   "key": "G",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "C#:dim7",
+   "key": "G",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "D#:dim7",
+   "key": "G",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "E:7/3",
+   "key": "G",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "A:7/3",
+   "key": "G",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "B:7/3",
+   "key": "G",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "F#:7/3",
+   "key": "G",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "Ab:maj7",
+   "key": "Ab",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "Bb:min7",
+   "key": "Ab",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "C:min7",
+   "key": "Ab",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "Db:maj7",
+   "key": "Ab",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "Eb:7",
+   "key": "Ab",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "F:min7",
+   "key": "Ab",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "G:hdim7",
+   "key": "Ab",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "Ab:maj/3",
+   "key": "Ab",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "Ab:maj/5",
+   "key": "Ab",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "Eb:maj/3",
+   "key": "Ab",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "Db:maj/3",
+   "key": "Ab",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "Bb:min/b3",
+   "key": "Ab",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "Eb:7/b7",
+   "key": "Ab",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "Gb:maj",
+   "key": "Ab",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "Gb:7",
+   "key": "Ab",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "Fb:maj",
+   "key": "Ab",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "Cb:maj",
+   "key": "Ab",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "Db:min",
+   "key": "Ab",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "Db:min6",
+   "key": "Ab",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "A:dim7",
+   "key": "Ab",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "B:dim7",
+   "key": "Ab",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "D:dim7",
+   "key": "Ab",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "E:dim7",
+   "key": "Ab",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "F:7/3",
+   "key": "Ab",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "Bb:7/3",
+   "key": "Ab",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "C:7/3",
+   "key": "Ab",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "G:7/3",
+   "key": "Ab",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "A:maj7",
+   "key": "A",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "B:min7",
+   "key": "A",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "C#:min7",
+   "key": "A",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "D:maj7",
+   "key": "A",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "E:7",
+   "key": "A",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "F#:min7",
+   "key": "A",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "G#:hdim7",
+   "key": "A",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "A:maj/3",
+   "key": "A",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "A:maj/5",
+   "key": "A",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "E:maj/3",
+   "key": "A",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "D:maj/3",
+   "key": "A",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "B:min/b3",
+   "key": "A",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "E:7/b7",
+   "key": "A",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "G:maj",
+   "key": "A",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "G:7",
+   "key": "A",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "F:maj",
+   "key": "A",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "C:maj",
+   "key": "A",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "D:min",
+   "key": "A",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "D:min6",
+   "key": "A",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "A#:dim7",
+   "key": "A",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "B#:dim7",
+   "key": "A",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "D#:dim7",
+   "key": "A",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "E#:dim7",
+   "key": "A",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "F#:7/3",
+   "key": "A",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "B:7/3",
+   "key": "A",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "C#:7/3",
+   "key": "A",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "G#:7/3",
+   "key": "A",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "Bb:maj7",
+   "key": "Bb",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "C:min7",
+   "key": "Bb",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "D:min7",
+   "key": "Bb",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "Eb:maj7",
+   "key": "Bb",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "F:7",
+   "key": "Bb",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "G:min7",
+   "key": "Bb",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "A:hdim7",
+   "key": "Bb",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "Bb:maj/3",
+   "key": "Bb",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "Bb:maj/5",
+   "key": "Bb",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "F:maj/3",
+   "key": "Bb",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "Eb:maj/3",
+   "key": "Bb",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "C:min/b3",
+   "key": "Bb",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "F:7/b7",
+   "key": "Bb",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "Ab:maj",
+   "key": "Bb",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "Ab:7",
+   "key": "Bb",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "Gb:maj",
+   "key": "Bb",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "Db:maj",
+   "key": "Bb",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "Eb:min",
+   "key": "Bb",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "Eb:min6",
+   "key": "Bb",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "B:dim7",
+   "key": "Bb",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "C#:dim7",
+   "key": "Bb",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "E:dim7",
+   "key": "Bb",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "F#:dim7",
+   "key": "Bb",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "G:7/3",
+   "key": "Bb",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "C:7/3",
+   "key": "Bb",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "D:7/3",
+   "key": "Bb",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "A:7/3",
+   "key": "Bb",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "B:maj7",
+   "key": "B",
+   "nashville": "1maj7",
+   "roman": "Imaj7"
+  },
+  {
+   "chord": "C#:min7",
+   "key": "B",
+   "nashville": "2m7",
+   "roman": "ii7"
+  },
+  {
+   "chord": "D#:min7",
+   "key": "B",
+   "nashville": "3m7",
+   "roman": "iii7"
+  },
+  {
+   "chord": "E:maj7",
+   "key": "B",
+   "nashville": "4maj7",
+   "roman": "IVmaj7"
+  },
+  {
+   "chord": "F#:7",
+   "key": "B",
+   "nashville": "5(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "G#:min7",
+   "key": "B",
+   "nashville": "6m7",
+   "roman": "vi7"
+  },
+  {
+   "chord": "A#:hdim7",
+   "key": "B",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "B:maj/3",
+   "key": "B",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "B:maj/5",
+   "key": "B",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "F#:maj/3",
+   "key": "B",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "E:maj/3",
+   "key": "B",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "C#:min/b3",
+   "key": "B",
+   "nashville": "2m/4",
+   "roman": "ii6"
+  },
+  {
+   "chord": "F#:7/b7",
+   "key": "B",
+   "nashville": "5(7)/4",
+   "roman": "V4/2"
+  },
+  {
+   "chord": "A:maj",
+   "key": "B",
+   "nashville": "b7",
+   "roman": "bVII"
+  },
+  {
+   "chord": "A:7",
+   "key": "B",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "G:maj",
+   "key": "B",
+   "nashville": "b6",
+   "roman": "bVI"
+  },
+  {
+   "chord": "D:maj",
+   "key": "B",
+   "nashville": "b3",
+   "roman": "bIII"
+  },
+  {
+   "chord": "E:min",
+   "key": "B",
+   "nashville": "4m",
+   "roman": "iv"
+  },
+  {
+   "chord": "E:min6",
+   "key": "B",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "B#:dim7",
+   "key": "B",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "C##:dim7",
+   "key": "B",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "E#:dim7",
+   "key": "B",
+   "nashville": "#4°7",
+   "roman": "#iv°7"
+  },
+  {
+   "chord": "F##:dim7",
+   "key": "B",
+   "nashville": "#5°7",
+   "roman": "#v°7"
+  },
+  {
+   "chord": "G#:7/3",
+   "key": "B",
+   "nashville": "6(7)/#1",
+   "roman": "VI6/5"
+  },
+  {
+   "chord": "C#:7/3",
+   "key": "B",
+   "nashville": "2(7)/#4",
+   "roman": "II6/5"
+  },
+  {
+   "chord": "D#:7/3",
+   "key": "B",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "A#:7/3",
+   "key": "B",
+   "nashville": "7(7)/#2",
+   "roman": "VII6/5"
+  },
+  {
+   "chord": "C:min7",
+   "key": "Cm",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "D:hdim7",
+   "key": "Cm",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "Eb:maj7",
+   "key": "Cm",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "F:min7",
+   "key": "Cm",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "G:7",
+   "key": "Cm",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "Ab:maj7",
+   "key": "Cm",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "Bb:7",
+   "key": "Cm",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "B:dim7",
+   "key": "Cm",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "C:min",
+   "key": "Cm",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "G:maj",
+   "key": "Cm",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "G:maj/3",
+   "key": "Cm",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "C#:min7",
+   "key": "C#m",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "D#:hdim7",
+   "key": "C#m",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "E:maj7",
+   "key": "C#m",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "F#:min7",
+   "key": "C#m",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "G#:7",
+   "key": "C#m",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "A:maj7",
+   "key": "C#m",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "B:7",
+   "key": "C#m",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "B#:dim7",
+   "key": "C#m",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "C#:min",
+   "key": "C#m",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "G#:maj",
+   "key": "C#m",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "G#:maj/3",
+   "key": "C#m",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "D:min7",
+   "key": "Dm",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "E:hdim7",
+   "key": "Dm",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "F:maj7",
+   "key": "Dm",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "G:min7",
+   "key": "Dm",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "A:7",
+   "key": "Dm",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "Bb:maj7",
+   "key": "Dm",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "C:7",
+   "key": "Dm",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "C#:dim7",
+   "key": "Dm",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "D:min",
+   "key": "Dm",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "A:maj",
+   "key": "Dm",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "A:maj/3",
+   "key": "Dm",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "D#:min7",
+   "key": "D#m",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "E#:hdim7",
+   "key": "D#m",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "F#:maj7",
+   "key": "D#m",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "G#:min7",
+   "key": "D#m",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "A#:7",
+   "key": "D#m",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "B:maj7",
+   "key": "D#m",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "C#:7",
+   "key": "D#m",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "C##:dim7",
+   "key": "D#m",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "D#:min",
+   "key": "D#m",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "A#:maj",
+   "key": "D#m",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "A#:maj/3",
+   "key": "D#m",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "E:min7",
+   "key": "Em",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "F#:hdim7",
+   "key": "Em",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "G:maj7",
+   "key": "Em",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "A:min7",
+   "key": "Em",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "B:7",
+   "key": "Em",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "C:maj7",
+   "key": "Em",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "D:7",
+   "key": "Em",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "D#:dim7",
+   "key": "Em",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "E:min",
+   "key": "Em",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "B:maj",
+   "key": "Em",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "B:maj/3",
+   "key": "Em",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "F:min7",
+   "key": "Fm",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "G:hdim7",
+   "key": "Fm",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "Ab:maj7",
+   "key": "Fm",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "Bb:min7",
+   "key": "Fm",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "C:7",
+   "key": "Fm",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "Db:maj7",
+   "key": "Fm",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "Eb:7",
+   "key": "Fm",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "E:dim7",
+   "key": "Fm",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "F:min",
+   "key": "Fm",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "C:maj",
+   "key": "Fm",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "C:maj/3",
+   "key": "Fm",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "F#:min7",
+   "key": "F#m",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "G#:hdim7",
+   "key": "F#m",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "A:maj7",
+   "key": "F#m",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "B:min7",
+   "key": "F#m",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "C#:7",
+   "key": "F#m",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "D:maj7",
+   "key": "F#m",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "E:7",
+   "key": "F#m",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "E#:dim7",
+   "key": "F#m",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "F#:min",
+   "key": "F#m",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "C#:maj",
+   "key": "F#m",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "C#:maj/3",
+   "key": "F#m",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "G:min7",
+   "key": "Gm",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "A:hdim7",
+   "key": "Gm",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "Bb:maj7",
+   "key": "Gm",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "C:min7",
+   "key": "Gm",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "D:7",
+   "key": "Gm",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "Eb:maj7",
+   "key": "Gm",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "F:7",
+   "key": "Gm",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "F#:dim7",
+   "key": "Gm",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "G:min",
+   "key": "Gm",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "D:maj",
+   "key": "Gm",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "D:maj/3",
+   "key": "Gm",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "G#:min7",
+   "key": "G#m",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "A#:hdim7",
+   "key": "G#m",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "B:maj7",
+   "key": "G#m",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "C#:min7",
+   "key": "G#m",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "D#:7",
+   "key": "G#m",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "E:maj7",
+   "key": "G#m",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "F#:7",
+   "key": "G#m",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "F##:dim7",
+   "key": "G#m",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "G#:min",
+   "key": "G#m",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "D#:maj",
+   "key": "G#m",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "D#:maj/3",
+   "key": "G#m",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "A:min7",
+   "key": "Am",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "B:hdim7",
+   "key": "Am",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "C:maj7",
+   "key": "Am",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "D:min7",
+   "key": "Am",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "E:7",
+   "key": "Am",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "F:maj7",
+   "key": "Am",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "G:7",
+   "key": "Am",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "G#:dim7",
+   "key": "Am",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "A:min",
+   "key": "Am",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "E:maj",
+   "key": "Am",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "E:maj/3",
+   "key": "Am",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "Bb:min7",
+   "key": "Bbm",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "C:hdim7",
+   "key": "Bbm",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "Db:maj7",
+   "key": "Bbm",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "Eb:min7",
+   "key": "Bbm",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "F:7",
+   "key": "Bbm",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "Gb:maj7",
+   "key": "Bbm",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "Ab:7",
+   "key": "Bbm",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "A:dim7",
+   "key": "Bbm",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "Bb:min",
+   "key": "Bbm",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "F:maj",
+   "key": "Bbm",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "F:maj/3",
+   "key": "Bbm",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "B:min7",
+   "key": "Bm",
+   "nashville": "6m7",
+   "roman": "i7"
+  },
+  {
+   "chord": "C#:hdim7",
+   "key": "Bm",
+   "nashville": "7ø7",
+   "roman": "iiø7"
+  },
+  {
+   "chord": "D:maj7",
+   "key": "Bm",
+   "nashville": "1maj7",
+   "roman": "bIIImaj7"
+  },
+  {
+   "chord": "E:min7",
+   "key": "Bm",
+   "nashville": "2m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "F#:7",
+   "key": "Bm",
+   "nashville": "3(7)",
+   "roman": "V7"
+  },
+  {
+   "chord": "G:maj7",
+   "key": "Bm",
+   "nashville": "4maj7",
+   "roman": "bVImaj7"
+  },
+  {
+   "chord": "A:7",
+   "key": "Bm",
+   "nashville": "5(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "A#:dim7",
+   "key": "Bm",
+   "nashville": "#5°7",
+   "roman": "vii°7"
+  },
+  {
+   "chord": "B:min",
+   "key": "Bm",
+   "nashville": "6m",
+   "roman": "i"
+  },
+  {
+   "chord": "F#:maj",
+   "key": "Bm",
+   "nashville": "3",
+   "roman": "V"
+  },
+  {
+   "chord": "F#:maj/3",
+   "key": "Bm",
+   "nashville": "3/#5",
+   "roman": "V6"
+  },
+  {
+   "chord": "D#:7/5",
+   "key": "B",
+   "nashville": "3(7)/7",
+   "roman": "III4/3"
+  },
+  {
+   "chord": "F#:maj/3",
+   "key": "B",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "A:7",
+   "key": "B",
+   "nashville": "b7(7)",
+   "roman": "bVII7"
+  },
+  {
+   "chord": "B:aug(b7)",
+   "key": "B",
+   "nashville": "1+(7)",
+   "roman": "I+7"
+  },
+  {
+   "chord": "B#:dim7",
+   "key": "B",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "C:dim7",
+   "key": "B",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "C#:dim7",
+   "key": "C",
+   "nashville": "#1°7",
+   "roman": "#i°7"
+  },
+  {
+   "chord": "B:maj/3",
+   "key": "B",
+   "nashville": "1/3",
+   "roman": "I6"
+  },
+  {
+   "chord": "B:maj/5",
+   "key": "B",
+   "nashville": "1/5",
+   "roman": "I6/4"
+  },
+  {
+   "chord": "E:maj/2",
+   "key": "B",
+   "nashville": "4/5",
+   "roman": "IV/5̂"
+  },
+  {
+   "chord": "F#:sus4(b7,9)",
+   "key": "B",
+   "nashville": "4/5",
+   "roman": "IV/5̂"
+  },
+  {
+   "chord": "F#:sus4(b7,9,13)",
+   "key": "B",
+   "nashville": "4maj7/5",
+   "roman": "IVmaj7/5̂"
+  },
+  {
+   "chord": "E:min/4",
+   "key": "B",
+   "nashville": "4m/b7",
+   "roman": "iv/b7̂"
+  },
+  {
+   "chord": "E:min/b3",
+   "key": "B",
+   "nashville": "4m/b6",
+   "roman": "iv6"
+  },
+  {
+   "chord": "D#:7/3",
+   "key": "B",
+   "nashville": "3(7)/#5",
+   "roman": "III6/5"
+  },
+  {
+   "chord": "G#:min7/b7",
+   "key": "B",
+   "nashville": "6m7/5",
+   "roman": "vi4/2"
+  },
+  {
+   "chord": "C#:min7/b3",
+   "key": "B",
+   "nashville": "2m7/4",
+   "roman": "ii6/5"
+  },
+  {
+   "chord": "C#:min7/4",
+   "key": "B",
+   "nashville": "2m7/5",
+   "roman": "ii7/5̂"
+  },
+  {
+   "chord": "E:min6",
+   "key": "B",
+   "nashville": "4m6",
+   "roman": "ivadd6"
+  },
+  {
+   "chord": "E:min7",
+   "key": "B",
+   "nashville": "4m7",
+   "roman": "iv7"
+  },
+  {
+   "chord": "A:9",
+   "key": "B",
+   "nashville": "b7(9)",
+   "roman": "bVII9"
+  },
+  {
+   "chord": "B:7",
+   "key": "B",
+   "nashville": "1(7)",
+   "roman": "I7"
+  },
+  {
+   "chord": "B:sus4(b7)",
+   "key": "B",
+   "nashville": "1(7sus4)",
+   "roman": "I7sus4"
+  },
+  {
+   "chord": "D#:sus4(b7)",
+   "key": "B",
+   "nashville": "3(7sus4)",
+   "roman": "III7sus4"
+  },
+  {
+   "chord": "E:maj9",
+   "key": "B",
+   "nashville": "4maj9",
+   "roman": "IVmaj9"
+  },
+  {
+   "chord": "F#:maj(9)",
+   "key": "B",
+   "nashville": "5add9",
+   "roman": "Vadd9"
+  },
+  {
+   "chord": "F#:sus4",
+   "key": "B",
+   "nashville": "5sus4",
+   "roman": "Vsus4"
+  },
+  {
+   "chord": "G#:min/5",
+   "key": "B",
+   "nashville": "6m/3",
+   "roman": "vi6/4"
+  },
+  {
+   "chord": "G#:min7/b3",
+   "key": "B",
+   "nashville": "6m7/1",
+   "roman": "vi6/5"
+  },
+  {
+   "chord": "A#:min7",
+   "key": "B",
+   "nashville": "7m7",
+   "roman": "vii7"
+  },
+  {
+   "chord": "F#:7/3",
+   "key": "B",
+   "nashville": "5(7)/7",
+   "roman": "V6/5"
+  },
+  {
+   "chord": "F#:maj/5",
+   "key": "B",
+   "nashville": "5/2",
+   "roman": "V6/4"
+  },
+  {
+   "chord": "E:maj/3",
+   "key": "B",
+   "nashville": "4/6",
+   "roman": "IV6"
+  },
+  {
+   "chord": "E:maj/b7",
+   "key": "B",
+   "nashville": "4/b3",
+   "roman": "IV/b3̂"
+  },
+  {
+   "chord": "B:maj",
+   "key": "B",
+   "nashville": "1",
+   "roman": "I"
+  },
+  {
+   "chord": "N",
+   "key": "B",
+   "nashville": "N",
+   "roman": "N"
+  },
+  {
+   "chord": "C:aug",
+   "key": "C",
+   "nashville": "1+",
+   "roman": "I+"
+  },
+  {
+   "chord": "C:maj6",
+   "key": "C",
+   "nashville": "1(6)",
+   "roman": "Iadd6"
+  },
+  {
+   "chord": "C:minmaj7",
+   "key": "C",
+   "nashville": "1m(maj7)",
+   "roman": "i(maj7)"
+  },
+  {
+   "chord": "C:maj6(9)",
+   "key": "C",
+   "nashville": "1(6/9)",
+   "roman": "I6/9"
+  },
+  {
+   "chord": "C#:7",
+   "key": "C",
+   "nashville": "b2(7)",
+   "roman": "bII7"
+  },
+  {
+   "chord": "F#:hdim7",
+   "key": "C",
+   "nashville": "#4ø7",
+   "roman": "#ivø7"
+  },
+  {
+   "chord": "F#:7",
+   "key": "C",
+   "nashville": "#4(7)",
+   "roman": "#IV7"
+  },
+  {
+   "chord": "G:maj/b7",
+   "key": "C",
+   "nashville": "5/4",
+   "roman": "V/4̂"
+  },
+  {
+   "chord": "C:maj/b7",
+   "key": "C",
+   "nashville": "1/b7",
+   "roman": "I/b7̂"
+  },
+  {
+   "chord": "A:min/b7",
+   "key": "C",
+   "nashville": "6m/5",
+   "roman": "vi/5̂"
+  },
+  {
+   "chord": "G:sus4(b7,9)",
+   "key": "C",
+   "nashville": "4/5",
+   "roman": "IV/5̂"
+  },
+  {
+   "chord": "G:sus4(b7,9,13)",
+   "key": "C",
+   "nashville": "4maj7/5",
+   "roman": "IVmaj7/5̂"
+  },
+  {
+   "chord": "D:min7/4",
+   "key": "C",
+   "nashville": "2m7/5",
+   "roman": "ii7/5̂"
+  },
+  {
+   "chord": "C:maj7/7",
+   "key": "C",
+   "nashville": "1maj7/7",
+   "roman": "Imaj4/2"
+  },
+  {
+   "chord": "A:minmaj7/7",
+   "key": "C",
+   "nashville": "6m(maj7)/#5",
+   "roman": "vi(maj)4/2"
+  },
+  {
+   "chord": "B:dim",
+   "key": "C",
+   "nashville": "7°",
+   "roman": "vii°"
+  },
+  {
+   "chord": "B:dim/b3",
+   "key": "C",
+   "nashville": "7°/2",
+   "roman": "vii°6"
+  },
+  {
+   "chord": "C:aug/#5",
+   "key": "C",
+   "nashville": "1+/#5",
+   "roman": "I+6/4"
+  },
+  {
+   "chord": "E:aug(b7)",
+   "key": "C",
+   "nashville": "3+(7)",
+   "roman": "III+7"
+  },
+  {
+   "chord": "F:maj7(#11)",
+   "key": "C",
+   "nashville": "4maj7#11",
+   "roman": "IVmaj7#11"
+  },
+  {
+   "chord": "G:7(b9)",
+   "key": "C",
+   "nashville": "5(7b9)",
+   "roman": "V7b9"
+  },
+  {
+   "chord": "G:7(#9)",
+   "key": "C",
+   "nashville": "5(7#9)",
+   "roman": "V7#9"
+  },
+  {
+   "chord": "G:7(b13)",
+   "key": "C",
+   "nashville": "5(7b13)",
+   "roman": "V7b13"
+  },
+  {
+   "chord": "G:13",
+   "key": "C",
+   "nashville": "5(13)",
+   "roman": "V13"
+  },
+  {
+   "chord": "D:min11",
+   "key": "C",
+   "nashville": "2m11",
+   "roman": "ii11"
+  },
+  {
+   "chord": "D:min9",
+   "key": "C",
+   "nashville": "2m9",
+   "roman": "ii9"
+  },
+  {
+   "chord": "A:min(9)",
+   "key": "C",
+   "nashville": "6m(add9)",
+   "roman": "viadd9"
+  },
+  {
+   "chord": "C:5",
+   "key": "C",
+   "nashville": "1(5)",
+   "roman": "I5"
+  },
+  {
+   "chord": "C:sus2",
+   "key": "C",
+   "nashville": "1sus2",
+   "roman": "Isus2"
+  },
+  {
+   "chord": "Ab:aug(7)",
+   "key": "C",
+   "nashville": "b6+(maj7)",
+   "roman": "bVI+maj7"
+  },
+  {
+   "chord": "Eb:dim7",
+   "key": "C",
+   "nashville": "#2°7",
+   "roman": "#ii°7"
+  },
+  {
+   "chord": "Eb:dim7",
+   "key": "C",
+   "nashville": "b3°7",
+   "roman": "biii°7",
+   "next": "D:min"
+  },
+  {
+   "chord": "D#:dim7",
+   "key": "C",
+   "nashville": "#2°7",
+   "roman": "#ii°7",
+   "next": "E:min"
+  },
+  {
+   "chord": "Db:7",
+   "key": "C",
+   "nashville": "#1(7)",
+   "roman": "#I7",
+   "next": "F#:min"
+  },
+  {
+   "chord": "C#:7",
+   "key": "C",
+   "nashville": "b2(7)",
+   "roman": "bII7",
+   "next": "C:maj"
+  },
+  {
+   "chord": "A:7",
+   "key": "B",
+   "nashville": "b7(7)",
+   "roman": "bVII7",
+   "next": "D:maj"
+  },
+  {
+   "chord": "C:7",
+   "key": "B",
+   "nashville": "b2(7)",
+   "roman": "bII7",
+   "next": "B:maj"
+  },
+  {
+   "chord": "Bb:7",
+   "key": "C",
+   "nashville": "b7(7)",
+   "roman": "bVII7",
+   "next": "Eb:maj"
+  },
+  {
+   "chord": "E#:hdim7",
+   "key": "F#",
+   "nashville": "7ø7",
+   "roman": "viiø7"
+  },
+  {
+   "chord": "C#:maj/3",
+   "key": "F#",
+   "nashville": "5/7",
+   "roman": "V6"
+  },
+  {
+   "chord": "Gb:maj",
+   "key": "Db",
+   "nashville": "4",
+   "roman": "IV"
+  },
+  {
+   "chord": "Cb:maj",
+   "key": "Db",
+   "nashville": "b7",
+   "roman": "bVII"
+  }
+ ]
+}

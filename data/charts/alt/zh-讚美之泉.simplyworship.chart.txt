@@ -1,0 +1,20 @@
+# title: 讚美之泉
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 72 BPM
+# year: 1995
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E8%AE%9A%E7%BE%8E%E4%B9%8B%E6%B3%89/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: A4 -> Asus4
+[Verse 1]
+| D . A/C# . | Bm . D/A . | G . D/F# . | Em . Asus4 . |
+| D . A/C# . | Bm . D/A . | G . A . | D . A . |
+[Chorus]
+| D | F#m | G . A . | D |
+| G . A . | F#m . Bm . | Em | A |
+| D | D |

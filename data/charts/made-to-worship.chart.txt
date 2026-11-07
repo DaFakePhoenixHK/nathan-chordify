@@ -1,0 +1,28 @@
+# title: Made to Worship
+# artist: Chris Tomlin
+# language: english
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 81 BPM
+# year: 2006
+# source: WorshipTogether https://www.worshiptogether.com/songs/made-to-worship-chris-tomlin/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A | Asus2/G# | F#m7 | D |
+| A | Asus2/G# | F#m7 | D |
+[Pre-Chorus]
+| D | E/B | D | E/B |
+[Chorus]
+| A | A | D | D |
+| Bm7 | E | A | A |
+| D | D | Bm7 . E . | E . A . |
+[Verse 2]
+| A | Asus2/G# | F#m7 | D |
+| A | Asus2/G# | F#m7 | D |
+[Bridge]
+| Bm7 | Bm7 | A/C# | A/C# |
+| D | E | Bm7 | Bm7 |
+| A/C# | A/C# | D | E |

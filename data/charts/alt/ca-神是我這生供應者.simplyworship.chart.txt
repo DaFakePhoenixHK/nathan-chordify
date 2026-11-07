@@ -1,0 +1,29 @@
+# title: 神是我這生供應者
+# artist: HKACM; 曲 何威廉
+# language: cantonese
+# key: E (page says E; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 70 BPM
+# year: 2012
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E7%A5%9E%E6%98%AF%E6%88%91%E9%80%99%E7%94%9F%E4%BE%9B%E6%87%89%E8%80%85/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: B4 -> Bsus4 (x3)
+[Intro]
+| E | E7 | A | C |
+| G#m | G#°7 | F#m | B |
+[Verse 1]
+| E . E/G# . | A | F#m . F#m/E# . | Bsus4 . B . |
+| E | B/D# | E/D | C# |
+| F#m | E/G# | A | B |
+[Verse 2]
+| E . E/G# . | A | F#m | F#m/E# |
+| Bsus4 | B | G#m | G#m |
+| C#m | C#/E# | F#m . Bsus4 . | E . B . |
+[Chorus]
+| E | E/G# | A | B . G#/B# . |
+| C#m . G#m/B . | F#m . B . | E | E/G# |
+| A | B . G#/B# . | C#m | G#m/B . A . |
+| F#m | B | E | E |

@@ -1,0 +1,47 @@
+# title: Above All
+# artist: Michael W. Smith (Paul Baloche, Lenny LeBlanc)
+# language: english
+# key: G (from the chords; page says Bb (the chart is written in another key))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1999
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/michael-w-smith/above-all-chords-153876
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| G | C | D | G |
+| C | D | D | G |
+| Em | D | C | G/B |
+| Am | Am/G | D/F# | G |
+[Verse 2]
+| C . D . | G | C | D |
+| D | G | Em | D |
+| C | G/B | Am | C |
+| B7 | B |
+[Chorus]
+| G | Am | D | G |
+| G | Am | D | G |
+| Em . D . | C . G/B . | Am . G/B . | C . D . |
+| G |
+[Verse 3]
+| G | C | D | G |
+| C | D | D | G |
+| Em | D | C | G/B |
+| Am | Am/G | D/F# | G |
+[Verse 4]
+| C . D . | G | C | D |
+| D | G | Em | D |
+| C | G/B | Am | C |
+| B7 | B |
+[Chorus]
+| G | Am | D | G |
+| G | Am | D | G |
+| Em . D . | C . G/B . | Am . G/B . | C . D . |
+| G . C . | D | G | Am |
+| D | G | G | Am |
+| D | G | Em . D . | C . G . |
+| Am . G/B . | C . D . | G |
+[Outro]
+| Em . D . | C . G/B . | Am . G/B . | C . D . |
+| G |

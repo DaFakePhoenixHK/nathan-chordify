@@ -1,0 +1,41 @@
+# title: Days of Elijah
+# artist: Robin Mark
+# language: english
+# key: G (estimated from the chords (the page gives none))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1996
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/robin-mark/days-of-elijah-chords-90226
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| G | C | G . D . | D . G . |
+| G | C | G . D . | G |
+| Bm | Em | Am7 . C . | D |
+| G | C |
+[Pre-Chorus]
+| G . D . | G |
+[Chorus]
+| G | C | G | D |
+| G | C | G . D . | G |
+[Verse 2]
+| G | C | G . D . | D . G . |
+| G | C | G . D . | G |
+| Bm | Em | Am7 . C . | D |
+| G | C | G . D . | G |
+[Chorus]
+| G | C | G | D |
+| G | C | G . D . | G |
+[Bridge]
+| G | G | C | C |
+| G | G | D | D |
+| G | G | C | C |
+| G | G | D | D |
+| G | G | C | C |
+| G | G | D | D |
+| G | G | C | C |
+| G | D |
+[Chorus]
+| A | D | A | E |
+| A | D | A . E . | A |

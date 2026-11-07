@@ -1,0 +1,51 @@
+# title: Blessings
+# artist: Laura Story
+# language: english
+# key: G (estimated from the chords (the page gives none))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2011
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/laura-story/blessings-chords-1050061
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| Am | G | D/F# | C |
+| D | Bm | Am | G |
+| D/F# | C |
+[Verse 1]
+| C . D . | Em | C . D . | Bm |
+| C . D . | Em | F | C |
+| C . D . | Em | C . D . | Bm |
+| C . D . | Em | Am | D/F# |
+| G | C | D | Em |
+| Am | G/B | D | D |
+[Chorus]
+| G | G | D/F# | D/F# |
+| Em | D | C | C |
+| Am . G/B . | C . D . | Am . G . | D/F# . C . |
+| D . Bm . |
+[Verse 2]
+| C . D . | Em | C . D . | Bm |
+| C . D . | Em | F | C |
+| C . D . | Em | C . D . | Bm |
+| C . D . | Em | Em . Am . | D/F# |
+| G | C | D | Em |
+| Am | Am | G/B | D |
+[Chorus]
+| G | G | D/F# | D/F# |
+| Em | D | C | C |
+| Am . G/B . | G/B . C . | D | G . Gsus4 . |
+[Bridge]
+| Am | G/B | C | D |
+| D | Am | G/B | C |
+| D | Am . G . | D/F# . C . | D . Bm . |
+| C . D . | Em . F . | C |
+[Chorus 2]
+| G | G | D/F# | D/F# |
+| Em | D | C | C |
+| G | G | D/F# | D/F# |
+| Em | D | C | C |
+| Am . G/B . | C | D | Em |
+| Am | D/F# . Am . | G . D/F# . | C . D . |
+| Bm . G . |

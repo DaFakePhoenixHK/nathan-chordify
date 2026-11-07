@@ -1,0 +1,33 @@
+# title: 恩典太美麗
+# artist: Music 2000; 曲 盧永亨
+# language: cantonese
+# key: D (page says D; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 74 BPM
+# year: 2003
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E6%81%A9%E5%85%B8%E5%A4%AA%E7%BE%8E%E9%BA%97/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: A4 -> Asus4 (x2)
+[Verse 1]
+| D | A/C# | Bm | F#m |
+| G . A/G . | F#m . Bm7 . | Em | Asus4 |
+[Verse 2]
+| D | A/C# | Bm | F#m |
+| G . A/G . | F#m . Bm7 . | Em | Asus4 |
+[Chorus 1]
+| D . A/C# . | A/C# . Bm7 . | G | D/F# |
+| Em | A | G | A |
+| F#m | Bm7 | Em7 . A . | D |
+[Verse 3]
+| D | A/C# | Bm | F#m |
+| G . A/G . | F#m . Bm . | Em | A |
+[Chorus 2]
+| D . A/C# . | A/C# . Bm7 . | G | D/F# |
+| Em | A | G | A |
+| F#m | Bm | Em . A . | D |
+[Tag]
+| G | A | F#m | Bm |
+| G | A | D | D |

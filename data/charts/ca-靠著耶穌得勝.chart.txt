@@ -1,0 +1,24 @@
+# title: 靠著耶穌得勝
+# artist: 沙田浸信會; 曲 朱浩權
+# language: cantonese
+# key: D (from the chords; page says G (the chart is written in another key))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1999
+# source: CantonHymn https://cantonhymn.net/song/%e9%9d%a0%e8%91%97%e8%80%b6%e7%a9%8c%e5%be%97%e5%8b%9d
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| G | G | Bm | Bm |
+| C | D | C | Cm |
+| G . B . | Em | C . D7 . | G . D7 . |
+[Chorus]
+| G | Bm | C | G/B |
+| Am | D | G | Bm |
+| C | G/B | B7 | Em |
+| C | D7 | G | G |
+| A | A | C#m | C#m |
+| D | A/C# | Bm | E |
+| A | C#m | D | A/C# |
+| C#7 | F#m | A . D . | E7 . A . |

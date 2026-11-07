@@ -1,0 +1,24 @@
+# title: 我們歡迎君王降臨
+# artist: 讚美之泉
+# language: mandarin
+# key: E (page says E; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2014
+# source: CantonHymn https://cantonhymn.net/song/%e6%88%91%e5%80%91%e6%ad%a1%e8%bf%8e%e5%90%9b%e7%8e%8b%e9%99%8d%e8%87%a8
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| E | C#m | A | B |
+| A | B | G#m | C#m |
+| F#m . A/B . | E . A/B . |
+[Chorus]
+| E | B | G#m | C#m |
+| A . B . | G#m . C#7 . | F#m | B |
+| A/B | E . B . | G#m | C#m |
+| A . B . | G#m . C#7 . | F#m . A/B . | A/B . E . |
+[Bridge]
+| E | C#m | A | B |
+| E | C#m | A | A |
+| B | B |

@@ -1,0 +1,41 @@
+# DRAFT ground truth (eval/build_gt.py) 2026-10-31T18:49:51Z — NOT human-reviewed.
+# 立志擺上 (建道神學院新祢呈敬拜隊, 編曲版 arr. 古丹青) — yt-WLtqi4s29LQ
+# Key Eb major; sheet/chart: 編曲版主領譜 PDF (spcl.abs.edu), read from the page images
+# Meter 4/4; one token = one beat (quarter note, ♩ = 66).
+# Sections are in the order the RECORDING plays them; '@t' = start time (s) found by aligning
+# the chart to the engine's evidence (eval/build_gt.py). (H)/(M)/(L) = confidence of the line.
+# 'N?' = a stretch the published chart does not cover: X (unknown, not scored) in the .lab.
+# Source file with notes: data/sheets/yt-WLtqi4s29LQ/gt_source.txt
+[Intro @0.04]
+| Abmaj7 | Gm7 | Abmaj7 | Ebmaj7 |   (H)
+| Db | Cm7 | Gb . Bmaj7 . | Bb |   (H)
+[Verse 1 @29.18]
+| Abmaj7 | Gm7 | Abmaj7 | Ebmaj7 |   (H)
+| Fm7 . Bb7 . | G/B . Cm7 . | Db | Bbsus4 . Bb7 . |   (H)
+[Verse 2 @58.24]
+| Ebadd9 | Gm7 | C:min7(11) . Cm7 . | Gm7 |   (H)
+| Abmaj7 . Bb . | G . Cm . | Fm . Ab/Eb . | Bb . Bb7 . |   (H)
+[Chorus 1 @87.34]
+| Ebadd9 | Gm7 | C:min7(11) . Cm9 . | Bbm6 . Eb7 . |   (H)
+| Abadd9 . Bb/Ab . | Gm7 . Cm7 . | Fm . F/A . | Bb11 . Bb . |   (H)
+| Ebadd9 | Gm7 | C:min7(11) . Cm7 . | Bbm6 . Eb7 . |   (H)
+| Abmaj7 . Bb . | G7b9/B . Cm . | Fm7 . Ab/Bb . |   (H)
+[Interlude @141.87]
+| Abmaj9 . Bb/Ab . | G7/B . Cm . | Fm . Db . | Bb7sus4 . Bb . |   (H)
+[Verse 3 @156.42]
+| Ebadd9 | Gm7 | C:min7(11) . Cm7 . | Bbm6 . Eb7 . |   (H)
+| Abmaj7 . Bb/Ab . | G . Cm . | Ab . Fm . | Bbsus4 . Bb . |   (H)
+[Chorus 2 @185.50]
+| Ebadd9 | Gm7 | C:min7(11) . Cm7 . | Bbm6 . Eb7 . |   (H)
+| Abmaj9 . Bb/Ab . | Gm7 . Cm7 . | Fm . F/A . | Bb11 . Bb . |   (H)
+| Ebadd9 | Gm7 | C:min7(11) . Cm7 . | Bbm6 . Eb7 . |   (H)
+| Abmaj9 . Bb . | G7b9/B . Cm . | Fm7 . Bb11 . | (Ab . . Gm) (. Fm) Eb . |   (H)
+[Chorus 3 @243.67]
+| Ebadd9 . . (Fm7 Eb) | Gm7 | C:min7(11) . Cm7 . | Bbm6 . Eb7 . |   (H)
+| Abmaj9 . Bb/Ab . | Gm7 . Cm . | Fm7 . F/A . | Bb11 . Bb7 . |   (H)
+| Ebadd9 | Gm7 | C:min7(11) . Cm7 . | Bbm6 . Eb7 . |   (H)
+| Abadd9 . Bb . | G7b9/B . Cm . | Fm7 . Bb11 . | Eb |   (H)
+[Coda @301.85]
+| Abmaj9 . Bb . | G7b9/B . Cm . | . | Fm7 . Ab/Bb . |   (H)
+[Outro @314.61]
+| Ebadd9 | Abadd9 | Eb | Ab | Eb |   (H)

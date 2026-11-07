@@ -1,0 +1,33 @@
+# title: Mighty to Save
+# artist: Hillsong Worship
+# language: english
+# key: A (page says A; the chords agree)
+# meter: 4/4 (from the bar lines and slashes of its chord-only lines)
+# beats_per_bar: 4
+# tempo: 75 BPM
+# year: 2006
+# source: WorshipTogether https://www.worshiptogether.com/songs/mighty-to-save-hillsong-worship/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| D | A | F#m | E |
+[Verse 1]
+| D | A | F#m | E |
+| E | D | A | A |
+| F#m | F#m | E | E |
+[Interlude]
+| D . E . | D . E . |
+[Chorus 1]
+| A | E | D | A |
+| F#m | E | A | E |
+| D | A | F#m | E |
+[Verse 2]
+| D | A | F#m . E . | E . D . |
+| A | F#m | E | E |
+[Interlude]
+| D . E . | D . E . |
+[Bridge]
+| D | A | E | F#m |
+| D | A | E | E |
+| E |

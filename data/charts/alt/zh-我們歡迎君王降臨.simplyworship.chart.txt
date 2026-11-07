@@ -1,0 +1,27 @@
+# title: 我們歡迎君王降臨
+# artist: 讚美之泉
+# language: mandarin
+# key: F (page says F; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 70 BPM
+# year: 2014
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E6%88%91%E5%80%91%E6%AD%A1%E8%BF%8E%E5%90%9B%E7%8E%8B%E9%99%8D%E8%87%A8/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: C4 -> Csus4 (x7); Dm4 -> Dm (x2); F4 -> Fsus4 (x2)
+| F . Dm7 . | Bbmaj7 . Csus4 . |
+[Verse 1]
+| F | Dm7 | Bbmaj7 | Csus4 |
+| Bb | C/Bb | Am7 | Dm7 |
+| Gm7 . Csus4 . | Fsus2 |
+[Chorus]
+| C | Fsus2 . C/E . | Am7 | Dm7 |
+| Bb . C/Bb . | Am7 . D7 . | Gm7 | Csus4 |
+| C | Fsus2 . C/E . | Am7 | Dm7 |
+| Bb . C/Bb . | Am7 . D7 . | Gm7 . Csus4 . | Csus4 . Fsus2 . |
+[Bridge]
+| Fsus4 . Fsus2 . | Dm . Dm7 . | Bbsus2 . Bb . | Csus4 . C . |
+| Fsus4 . Fsus2 . | Dm . Dm7 . | Bbsus2 | Bb |
+| Csus4 | C |

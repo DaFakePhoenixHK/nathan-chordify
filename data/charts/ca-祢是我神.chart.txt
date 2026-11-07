@@ -1,0 +1,29 @@
+# title: 祢是我神
+# artist: 同心圓 / TWS 敬拜者使團; 曲 霍志鵬
+# language: cantonese
+# key: G (page says G; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2009
+# source: CantonHymn https://cantonhymn.net/song/%e7%a5%a2%e6%98%af%e6%88%91%e7%a5%9e-%e5%90%8c%e5%bf%83%e5%9c%93
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| Gsus2 | Em7 | Csus2 | Dsus4 |
+| Gsus2 | Em7 | Csus2 . Dsus4 . | G . D . |
+[Verse 2]
+| G . D/F# . | Em7 . G/D . | C . D . | G . D . |
+| G . D/F# . | Em7 . G/D . | Am7 . D . | G . D . |
+[Chorus 1]
+| G | D/F# | B7 | Em |
+| G/D | C | C#ø7 | Dsus4 . D7 . |
+| G | D/F# | B7/D# | Em |
+| G/D | C | C/D | G |
+[Chorus 2]
+| G . D/F# . | B7 . Em . | G/D | C |
+| C#ø7 | Dsus4 . D7 . | G | D/F# |
+| B7/D# | Em | G/D | C |
+| C/D | G |
+[Outro]
+| C . C/D . | G . C#ø7 . | C | C/D . G . |

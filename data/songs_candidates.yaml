@@ -1,0 +1,4263 @@
+# Candidate worship songs for building a labelled chord dataset (Nathan_chordify, restarted 2026-11-01).
+# Research only: nothing here was bulk-downloaded. See docs/DATA_PLAN.md for the plan and source rules.
+#
+# Counts: 64 English, 42 Cantonese, 22 Mandarin (secondary pool) = 128 songs.
+# Many entries are PARTIAL on purpose (e.g. key/BPM only where a page was actually read).
+#
+# Field guide
+#   priority: user      -> the four songs Nathan asked for first (top of the file)
+#   first20: N          -> recommended processing order (1-20), see DATA_PLAN.md section 6
+#   key / key_note      -> the key a source states; ALWAYS re-check against the recording (charts are often transposed)
+#   youtube             -> recordings are for TESTING only (user rule). 'search:' = a search hint, no URL checked.
+#   sheets              -> notated music (PDF/images); charts -> chord charts (chords over lyrics)
+#   free_without_login  -> true = we could read it with no account; false = needs login/payment; null = unknown
+#   musescore.download_without_login is ALWAYS false: musescore.com needs a login for every download, and a paid
+#                          Pro plan for copyrighted songs (all of these). Pages were not opened (Cloudflare human check).
+#   verified: true      -> we actually opened that page/file on 2026-11-01 (for CantonHymn: read via the site's own
+#                          song-detail data). verified: false -> found via search engine / site index only.
+#   Sites: WorshipTogether = worshiptogether.com, CantonHymn = cantonhymn.net, Simply Worship = simplyworship.hk,
+#          ABS = spcl.abs.edu (建道神學院), Clay Music = claymusic.org (泥土音樂).
+
+songs:
+  - id: "lizhi-baishang"
+    priority: "user"
+    first20: 1
+    title: "立志擺上"
+    title_en: "(rough meaning: 'I resolve to give my all')"
+    artist: "建道神學院新祢呈敬拜隊 (Alliance Bible Seminary worship team, HK); 曲詞 DJS (Derek, Joan & Shirley); 編曲 古丹青"
+    language: "cantonese"
+    year: 2015
+    year_note: "written 2013-14, first sung 2014; HKACM 詩歌創作大賽 2015 敬拜詩歌組亞軍 (runner-up)"
+    key: "Eb"
+    key_note: "Eb major on both official sheets and on CantonHymn; Simply Worship's chart is transposed to D"
+    tempo_bpm: 66
+    meter: "4/4"
+    version_note: "The recording WLtqi4s29LQ is the 編曲版 (arranged by 古丹青). The original DJS版 and its piano score use different chords (e.g. verse starts Eb(add2)-Ebmaj7 in DJS版 vs Abmaj7-Gm7 in 編曲版), so label the recording from the 編曲版主領譜."
+    youtube:
+      - what: "official lyric MV (編曲版), channel @abs.worshipteam"
+        url: "https://www.youtube.com/watch?v=WLtqi4s29LQ"
+        verified: true
+      - what: "DJS original version (ACM 2015 competition)"
+        url: "https://www.youtube.com/watch?v=B3mdetZP0bc"
+        verified: false
+      - what: "DJS + sharing, Worship Nations 2014-08-03"
+        url: "https://www.youtube.com/watch?v=SOiiXS8qr0k"
+        verified: false
+    sheets:
+      - kind: "lead sheet 主領譜 (melody + chord symbols) - 編曲版, MATCHES THE RECORDING"
+        format: "PDF (2.4 MB)"
+        page: "https://spcl.abs.edu/%E6%A8%82%E8%AD%9C%E6%96%B0%E7%A5%A2%E5%91%88/%E3%80%88%E7%AB%8B%E5%BF%97%E6%93%BA%E4%B8%8A%E3%80%89%E7%B7%A8%E6%9B%B2%E7%89%88/"
+        url: "https://spcl.abs.edu/site/assets/files/3921/%E3%80%88%E7%AB%8B%E5%BF%97%E6%93%BA%E4%B8%8A%E3%80%89%E3%80%90%E7%B7%A8%E6%9B%B2%E7%89%88%E4%B8%BB%E9%A0%98%E8%AD%9C%E3%80%91%E5%BB%BA%E9%81%93%E7%A5%9E%E5%AD%B8%E9%99%A2%E6%96%B0%E7%A5%A2%E5%91%88%E6%95%AC%E6%8B%9C%E9%9A%8A.pdf"
+        free_without_login: true
+        verified: true
+        note: "Eb major, quarter=66; preview image read; HTTP 200 checked; suggested donation HK$20"
+      - kind: "lead sheet - DJS版 (original version)"
+        format: "PDF (1.5 MB)"
+        page: "https://spcl.abs.edu/%E6%A8%82%E8%AD%9C%E6%96%B0%E7%A5%A2%E5%91%88/%E3%80%88%E7%AB%8B%E5%BF%97%E6%93%BA%E4%B8%8A%E3%80%89djs%E7%89%88/"
+        url: "https://spcl.abs.edu/site/assets/files/3511/%E3%80%88%E7%AB%8B%E5%BF%97%E6%93%BA%E4%B8%8A%E3%80%89%E6%9B%B2%E8%A9%9E%EF%BC%9ADJS_%40%E5%BB%BA%E9%81%93%E7%A5%9E%E5%AD%B8%E9%99%A2%E6%96%B0%E7%A5%A2%E5%91%88%E6%95%AC%E6%8B%9C%E9%9A%8A-1.pdf"
+        free_without_login: true
+        verified: true
+        note: "HTTP 200 checked"
+      - kind: "PIANO accompaniment score 鋼琴伴奏譜 (vocal line + full piano + chord symbols) - DJS版, piano arr. Shirley Lai"
+        format: "PDF (3.7 MB)"
+        page: "https://spcl.abs.edu/%E6%A8%82%E8%AD%9C%E6%96%B0%E7%A5%A2%E5%91%88/%E3%80%88%E7%AB%8B%E5%BF%97%E6%93%BA%E4%B8%8A%E3%80%89%E3%80%90%E9%8B%BC%E7%90%B4%E4%BC%B4%E5%A5%8F%E8%AD%9C%E3%80%91/"
+        url: "https://spcl.abs.edu/site/assets/files/3512/%E3%80%88%E7%AB%8B%E5%BF%97%E6%93%BA%E4%B8%8A%E3%80%89%E3%80%90%E9%8B%BC%E7%90%B4%E4%BC%B4%E5%A5%8F%E8%AD%9C%E3%80%91%E6%9B%B2%E8%A9%9E%EF%BC%9ADJS_%40%E5%BB%BA%E9%81%93%E7%A5%9E%E5%AD%B8%E9%99%A2%E6%96%B0%E7%A5%A2%E5%91%88%E6%95%AC%E6%8B%9C%E9%9A%8A-1.pdf"
+        free_without_login: true
+        verified: true
+        note: "Eb major, quarter=66-72; preview read; harmony = DJS版, not the recording's arrangement; good for piano-rendered training data; suggested donation HK$40"
+      - kind: "choir + piano score (Cantonese and Mandarin) 詩班及鋼琴伴奏譜（粵語及華語）"
+        format: "PDF (presumed)"
+        page: "https://spcl.abs.edu/%E6%A8%82%E8%AD%9C%E6%96%B0%E7%A5%A2%E5%91%88/%E3%80%88%E7%AB%8B%E5%BF%97%E6%93%BA%E4%B8%8A%E3%80%89%E8%A9%A9%E7%8F%AD%E5%8F%8A%E9%8B%BC%E7%90%B4%E4%BC%B4%E5%A5%8F%E8%AD%9C%E7%B2%B5%E8%AA%9E%E5%8F%8A%E8%8F%AF%E8%AA%9E/"
+        url: null
+        free_without_login: null
+        verified: false
+        note: "listed on the ABS index page (id 3904); not opened"
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics (ChordPro-style [C] in site data)"
+        url: "https://cantonhymn.net/song/%e7%ab%8b%e5%bf%97%e6%93%ba%e4%b8%8a"
+        key_on_page: "Eb"
+        free_without_login: true
+        verified: true
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E7%AB%8B%E5%BF%97%E6%93%BA%E4%B8%8A/"
+        key_on_page: "D (transposed)"
+        tempo: 66
+        free_without_login: true
+        verified: true
+      - site: "Guitarians"
+        format: "chord chart"
+        url: "https://en.guitarians.com/chord/220128/%E8%A9%A9%E6%AD%8C-%E7%AB%8B%E5%BF%97%E6%93%BA%E4%B8%8A"
+        free_without_login: null
+        verified: true
+        note: "page opened but showed 'No score content available' (needs JS/login?)"
+    musescore:
+      - what: "community score by Isso Chan"
+        url: "https://musescore.com/song/li_zhi_bai_shang-3689506"
+        download_without_login: false
+        verified: false
+    terms: "ABS: free to sing in church incl. online; credit 曲詞/編曲/版權; donation welcome."
+
+  - id: "huo-chu-ai"
+    priority: "user"
+    first20: 2
+    title: "活出愛"
+    title_en: "Live Out Love"
+    artist: "盛曉玫 Amy Sand / 泥土音樂 Clay Music"
+    language: "mandarin"
+    year: 2012
+    year_note: "album 6 《幸福 Blessed》 (Clay Music product data: year 2012), track 11"
+    key: "C"
+    key_note: "C major, 12/8, dotted-quarter = 63 on the official sheet; last chorus modulates to D major (bridge bars C - Ab - C# - G#/B# - F#/A# - F#m/A)"
+    tempo_bpm: 63
+    meter: "12/8"
+    youtube:
+      - what: "official, channel 泥土音樂Clay Music"
+        url: "https://www.youtube.com/watch?v=lfP-3JLVvaw"
+        verified: true
+    sheets:
+      - kind: "OFFICIAL lead sheet (staff + chord symbols + lyrics, 2 pages) - site button says 下載簡譜 but the file is staff notation"
+        format: "PDF (75 KB, has a text layer: chord symbols can be read by software)"
+        page: "https://www.claymusic.org/albums/6"
+        url: "https://kjfltzqqmqwmdttmgufs.supabase.co/storage/v1/object/public/assets/sheetmusic/06-11.pdf"
+        free_without_login: true
+        verified: true
+        note: "opened and read; matches the album recording"
+      - kind: "'官方和弦五线谱' (official chord + staff sheet, reposted from Clay Music)"
+        format: "2 JPG images"
+        page: "https://www.zanmei.ai/tab/2047.html"
+        url: "https://file.izanm.org/store/2013/05/08/5189c50700769e60220000cc.jpg"
+        free_without_login: true
+        verified: true
+        note: "key C, 12/8; page 2 = ...cd.jpg"
+      - kind: "piano score 琴譜 (魚蛋村)"
+        format: "unknown"
+        page: "https://yudans.net/2021/%E6%B4%BB%E5%87%BA%E6%84%9B-%E7%90%B4%E8%AD%9C"
+        url: null
+        free_without_login: null
+        verified: false
+        note: "HTTP 403 from our VPN IP"
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%b4%bb%e5%87%ba%e6%84%9b"
+        key_on_page: "C"
+        free_without_login: true
+        verified: true
+      - site: "Chord4 (奕安 arr.)"
+        format: "text chords, transposable"
+        url: "https://chord4.com/zh-hant/tabs/24461"
+        key_on_page: "C"
+        free_without_login: true
+        verified: true
+      - site: "Chord4 (Mr.End arr.)"
+        format: "text chords"
+        url: "https://chord4.com/tabs/26249"
+        key_on_page: "C (per search)"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "piano solo (easy)"
+        url: "https://musescore.com/user/79422433/scores/13668745"
+        download_without_login: false
+        verified: false
+      - what: "'Live Out Love' piano solo"
+        url: "https://musescore.com/user/80345656/scores/17428699"
+        download_without_login: false
+        verified: false
+      - what: "活出愛"
+        url: "https://musescore.com/user/79422514/scores/12332392"
+        download_without_login: false
+        verified: false
+      - what: "活出愛"
+        url: "https://musescore.com/user/66174145/scores/20171755"
+        download_without_login: false
+        verified: false
+      - what: "'Live out love' (jazz version per search)"
+        url: "https://musescore.com/user/33511533/scores/6700525"
+        download_without_login: false
+        verified: false
+      - what: "with chords, synthesizer"
+        url: "https://musescore.com/user/80345716/scores/22895758"
+        download_without_login: false
+        verified: false
+      - what: "MuseScore song page (all versions)"
+        url: "https://musescore.com/song/huo_chu_ai-3827134"
+        download_without_login: false
+        verified: false
+    terms: "Clay Music: free church use; no rearranging / changing lyrics / translating / publishing songbooks; other uses need written permission (contact on claymusic.org/copyright)."
+
+  - id: "here-i-bow"
+    priority: "user"
+    first20: 3
+    title: "Here I Bow"
+    artist: "Brian & Jenn Johnson (Bethel Music)"
+    writers: "Jason Ingram, Matt Redman, Jonas Myrin, Brian Johnson, Jenn Johnson"
+    language: "english"
+    year: 2017
+    year_note: "album 'After All These Years' (2017); song (c) 2016"
+    key: "D"
+    key_note: "WorshipTogether original key D; PraiseCharts arrangement offered in D and E"
+    tempo_bpm: null
+    meter: "4/4"
+    ccli: 7069335
+    youtube:
+      - what: "Official Lyric Video, channel Bethel Music"
+        url: "https://www.youtube.com/watch?v=hvHi7N8kc8s"
+        verified: true
+    sheets:
+      - kind: "piano / lead sheets"
+        format: "PDF"
+        page: "https://www.praisecharts.com/songs/details/37021/here-i-bow-sheet-music"
+        url: null
+        free_without_login: false
+        verified: true
+        note: "PraiseCharts: paid (chords $2.79, lead $5.42); preview image only"
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/here-i-bow/"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "'Free ChordPro download' needs a free member login - not allowed for us"
+      - site: "Ultimate Guitar (pt)"
+        format: "community chords"
+        url: "https://pt.ultimate-guitar.com/tab/brian-johnson/here-i-bow-chords-1963113"
+        free_without_login: true
+        verified: false
+      - site: "Ultimate Guitar (pt) v2"
+        format: "community chords"
+        url: "https://pt.ultimate-guitar.com/tab/brian-johnson/here-i-bow-chords-1977873"
+        free_without_login: true
+        verified: false
+      - site: "Bethel Music resources"
+        format: "lyrics + CCLI only, no chords"
+        url: "https://bethelmusic.com/resources/after-all-these-years/here-i-bow"
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search: no score for this song found (2026-11-01)"
+        url: "https://musescore.com/sheetmusic?text=Here%20I%20Bow%20Bethel"
+        download_without_login: false
+        verified: false
+    note: "chordu.com has an AI-made chord page (~69 BPM, D) - machine guess like Chordify, NOT usable as labels."
+
+  - id: "10000-reasons"
+    priority: "user"
+    first20: 4
+    title: "10,000 Reasons (Bless the Lord)"
+    artist: "Matt Redman"
+    writers: "Jonas Myrin, Matt Redman"
+    language: "english"
+    year: 2011
+    key: "G"
+    key_note: "PraiseCharts original key G; WorshipTogether header says 'C' but its chord text is in G (intro C G D/F# Em C G Dsus D); our clone engine also found G major, 72.6 BPM"
+    tempo_bpm: 72.5
+    meter: "4/4"
+    ccli: 6016351
+    youtube:
+      - what: "official, MattRedmanVEVO (audio already cached: Chordify_clone cache/yt-XtwIT8JjddM)"
+        url: "https://www.youtube.com/watch?v=XtwIT8JjddM"
+        verified: true
+    sheets:
+      - kind: "official Piano/Vocal/Guitar score on MuseScore"
+        format: "view only"
+        page: "https://musescore.com/official_scores/scores/6951392"
+        url: null
+        free_without_login: false
+        verified: false
+        note: "MuseScore 'Official' scores are never downloadable (paid, view/print in app)"
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics; intro written with beat slashes ('C // G // ...')"
+        url: "https://www.worshiptogether.com/songs/10-000-reasons-bless-the-lord/"
+        key_on_page: "G (header says C)"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar"
+        format: "community chords (also ver 2-4)"
+        url: "https://tabs.ultimate-guitar.com/tab/matt-redman/10000-reasons-bless-the-lord-chords-1076668"
+        free_without_login: true
+        verified: false
+      - site: "PraiseCharts"
+        format: "PDF"
+        url: "https://www.praisecharts.com/songs/details/20858/10000-reasons-bless-the-lord-chords"
+        key_on_page: "G"
+        free_without_login: false
+        verified: true
+        note: "chords paid ($2.87); the one 'FREE' stage chart needs an account"
+    musescore:
+      - what: "piano solo (Junskie Bolabon)"
+        url: "https://musescore.com/junxpiano/10-000-reasons-bless-the-lord"
+        download_without_login: false
+        verified: false
+      - what: "piano solo, easy"
+        url: "https://musescore.com/user/94620/scores/124550"
+        download_without_login: false
+        verified: false
+      - what: "piano solo, C major, easy"
+        url: "https://musescore.com/user/2324416/scores/5043463"
+        download_without_login: false
+        verified: false
+      - what: "piano solo, easy"
+        url: "https://musescore.com/moses373/bless-the-lord-10000-reasons-matt-redman"
+        download_without_login: false
+        verified: false
+      - what: "piano"
+        url: "https://musescore.com/user/37099047/scores/7339874"
+        download_without_login: false
+        verified: false
+      - what: "piano (G major per search)"
+        url: "https://musescore.com/user/37411720/scores/7937984"
+        download_without_login: false
+        verified: false
+      - what: "with chords, mixed quartet"
+        url: "https://musescore.com/user/79422430/scores/11809981"
+        download_without_login: false
+        verified: false
+      - what: ""
+        url: "https://musescore.com/user/129316/scores/11926141"
+        download_without_login: false
+        verified: false
+      - what: "MuseScore song page (all versions)"
+        url: "https://musescore.com/song/10000_reasons_bless_the_lord-2329008"
+        download_without_login: false
+        verified: false
+
+  - id: "how-great-is-our-god"
+    first20: 6
+    title: "How Great Is Our God"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2004
+    year_note: "approx (from memory, not checked)"
+    key: "G"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 76
+    ccli: 4348399
+    youtube:
+      - search: "Chris Tomlin How Great Is Our God official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/how-great-is-our-god/"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=How%20Great%20Is%20Our%20God"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "Official score (licensed; never downloadable)"
+        url: "https://musescore.com/user/39593079/scores/15597790"
+        download_without_login: false
+        verified: false
+      - what: "piano, easy"
+        url: "https://musescore.com/user/27816/scores/45362"
+        download_without_login: false
+        verified: false
+      - what: "MuseScore song page"
+        url: "https://musescore.com/song/how_great_is_our_god-1683264"
+        download_without_login: false
+        verified: false
+    note: "MuseScore has an Official score (user/39593079/scores/15597790) and many community ones"
+
+  - id: "here-i-am-to-worship"
+    first20: 7
+    title: "Here I Am to Worship"
+    artist: "Tim Hughes"
+    language: "english"
+    year: 2001
+    year_note: "approx (from memory, not checked)"
+    key: "E"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 70
+    ccli: 3266032
+    youtube:
+      - search: "Tim Hughes Here I Am to Worship official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/here-i-am-to-worship/"
+        key_on_page: "E"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Here%20I%20Am%20to%20Worship"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Here%20I%20Am%20to%20Worship%20Tim%20Hughes"
+        download_without_login: false
+        verified: false
+
+  - id: "blessed-be-your-name"
+    first20: 8
+    title: "Blessed Be Your Name"
+    artist: "Matt Redman"
+    language: "english"
+    year: 2002
+    year_note: "approx (from memory, not checked)"
+    key: "A"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 120
+    ccli: 3798438
+    youtube:
+      - search: "Matt Redman Blessed Be Your Name official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/blessed-be-your-name-matt-redman/"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Blessed%20Be%20Your%20Name"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Blessed%20Be%20Your%20Name%20Matt%20Redman"
+        download_without_login: false
+        verified: false
+
+  - id: "heart-of-worship"
+    first20: 9
+    title: "The Heart of Worship"
+    artist: "Matt Redman"
+    language: "english"
+    year: 1999
+    year_note: "approx (from memory, not checked)"
+    key: "D"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 72
+    ccli: 2296522
+    youtube:
+      - search: "Matt Redman The Heart of Worship official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/the-heart-of-worship-passion/"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=The%20Heart%20of%20Worship"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=The%20Heart%20of%20Worship%20Matt%20Redman"
+        download_without_login: false
+        verified: false
+    note: "page is the Passion version"
+
+  - id: "forever-tomlin"
+    title: "Forever"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2001
+    year_note: "approx (from memory, not checked)"
+    key: "G"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 118
+    ccli: 3148428
+    youtube:
+      - search: "Chris Tomlin Forever official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/forever-chris-tomlin/"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Forever"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Forever%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+
+  - id: "indescribable"
+    title: "Indescribable"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2004
+    year_note: "approx (from memory, not checked)"
+    key: "A"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 90
+    ccli: 4403076
+    youtube:
+      - search: "Chris Tomlin Indescribable official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/indescribable-chris-tomlin/"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Indescribable"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Indescribable%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+
+  - id: "holy-is-the-lord"
+    title: "Holy Is the Lord"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2003
+    year_note: "approx (from memory, not checked)"
+    key: "A"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 84
+    ccli: 4158039
+    youtube:
+      - search: "Chris Tomlin Holy Is the Lord official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/holy-is-the-lord-chris-tomlin/"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Holy%20Is%20the%20Lord"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Holy%20Is%20the%20Lord%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+
+  - id: "everlasting-god"
+    title: "Everlasting God"
+    artist: "Brenton Brown / Chris Tomlin"
+    language: "english"
+    year: 2005
+    year_note: "approx (from memory, not checked)"
+    key: "G"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 100
+    ccli: 4556538
+    youtube:
+      - search: "Brenton Brown Everlasting God official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/everlasting-god/"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Everlasting%20God"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Everlasting%20God%20Brenton%20Brown"
+        download_without_login: false
+        verified: false
+
+  - id: "mighty-to-save"
+    first20: 10
+    title: "Mighty to Save"
+    artist: "Hillsong Worship"
+    language: "english"
+    year: 2006
+    year_note: "approx (from memory, not checked)"
+    key: "A"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 75
+    ccli: 4591782
+    youtube:
+      - search: "Hillsong Worship Mighty to Save official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/mighty-to-save-hillsong-worship/"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Mighty%20to%20Save"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Mighty%20to%20Save%20Hillsong%20Worship"
+        download_without_login: false
+        verified: false
+
+  - id: "desert-song"
+    title: "Desert Song"
+    artist: "Hillsong (Brooke Ligertwood)"
+    language: "english"
+    year: 2008
+    year_note: "approx (from memory, not checked)"
+    key: "D"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 110
+    ccli: 5060793
+    youtube:
+      - search: "Hillsong Desert Song official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/desert-song/"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Desert%20Song"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Desert%20Song%20Hillsong"
+        download_without_login: false
+        verified: false
+
+  - id: "hosanna-hillsong"
+    title: "Hosanna"
+    artist: "Hillsong UNITED (Brooke Ligertwood)"
+    language: "english"
+    year: 2007
+    year_note: "approx (from memory, not checked)"
+    key: "E"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 76.5
+    ccli: 4785835
+    youtube:
+      - search: "Hillsong UNITED Hosanna official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/hosanna-united/"
+        key_on_page: "E"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Hosanna"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Hosanna%20Hillsong%20UNITED"
+        download_without_login: false
+        verified: false
+    note: "not the WT page 'hosanna-hillsong-worship' (different song)"
+
+  - id: "cornerstone"
+    first20: 12
+    title: "Cornerstone"
+    artist: "Hillsong Worship"
+    language: "english"
+    year: 2012
+    year_note: "approx (from memory, not checked)"
+    key: "C"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 71.5
+    ccli: 6158927
+    youtube:
+      - search: "Hillsong Worship Cornerstone official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/cornerstone-hillsong-worship/"
+        key_on_page: "C"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Cornerstone"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Cornerstone%20Hillsong%20Worship"
+        download_without_login: false
+        verified: false
+
+  - id: "oceans"
+    title: "Oceans (Where Feet May Fail)"
+    artist: "Hillsong UNITED"
+    language: "english"
+    year: 2013
+    year_note: "approx (from memory, not checked)"
+    key: "D"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 132
+    ccli: 6428767
+    youtube:
+      - search: "Hillsong UNITED Oceans (Where Feet May Fail) official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/oceans-where-feet-may-fail-united/"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Oceans%20%28Where%20Feet%20May%20Fail%29"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Oceans%20%28Where%20Feet%20May%20Fail%29%20Hillsong%20UNITED"
+        download_without_login: false
+        verified: false
+    note: "long song (~9 min); feels in 6/8"
+
+  - id: "in-christ-alone"
+    title: "In Christ Alone"
+    artist: "Keith Getty & Stuart Townend (Passion version on WT)"
+    language: "english"
+    year: 2001
+    year_note: "approx (from memory, not checked)"
+    key: "F"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 68
+    ccli: 3350395
+    youtube:
+      - search: "Keith Getty & Stuart Townend In Christ Alone official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/in-christ-alone/"
+        key_on_page: "F"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=In%20Christ%20Alone"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=In%20Christ%20Alone%20Keith%20Getty%20%26%20Stuart%20Townend"
+        download_without_login: false
+        verified: false
+    note: "often sung in 3/4 in other versions - check the recording"
+
+  - id: "amazing-grace-chains"
+    first20: 11
+    title: "Amazing Grace (My Chains Are Gone)"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2006
+    year_note: "approx (from memory, not checked)"
+    key: "G"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 63
+    ccli: 4768151
+    youtube:
+      - search: "Chris Tomlin Amazing Grace (My Chains Are Gone) official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/amazing-grace-my-chains-are-gone/"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Amazing%20Grace%20%28My%20Chains%20Are%20Gone%29"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Amazing%20Grace%20%28My%20Chains%20Are%20Gone%29%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+    note: "3/4"
+
+  - id: "came-to-my-rescue"
+    title: "Came to My Rescue"
+    artist: "Hillsong UNITED"
+    language: "english"
+    year: 2005
+    year_note: "approx (from memory, not checked)"
+    key: "C"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 164
+    ccli: 4705190
+    youtube:
+      - search: "Hillsong UNITED Came to My Rescue official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/came-to-my-rescue/"
+        key_on_page: "C"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Came%20to%20My%20Rescue"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Came%20to%20My%20Rescue%20Hillsong%20UNITED"
+        download_without_login: false
+        verified: false
+
+  - id: "our-god"
+    title: "Our God"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2010
+    year_note: "approx (from memory, not checked)"
+    key: "G"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 105
+    ccli: 5677416
+    youtube:
+      - search: "Chris Tomlin Our God official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/our-god-chris-tomlin/"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Our%20God"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Our%20God%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+
+  - id: "jesus-messiah"
+    title: "Jesus Messiah"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2008
+    year_note: "approx (from memory, not checked)"
+    key: "G"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 83
+    ccli: 5183443
+    youtube:
+      - search: "Chris Tomlin Jesus Messiah official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/jesus-messiah-chris-tomlin/"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Jesus%20Messiah"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Jesus%20Messiah%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+
+  - id: "from-the-inside-out"
+    title: "From the Inside Out"
+    artist: "Hillsong UNITED"
+    language: "english"
+    year: 2005
+    year_note: "approx (from memory, not checked)"
+    key: "A"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 140
+    ccli: 4705176
+    youtube:
+      - search: "Hillsong UNITED From the Inside Out official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/from-the-inside-out/"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=From%20the%20Inside%20Out"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=From%20the%20Inside%20Out%20Hillsong%20UNITED"
+        download_without_login: false
+        verified: false
+
+  - id: "shout-to-the-north"
+    title: "Shout to the North"
+    artist: "Delirious? (Martin Smith)"
+    language: "english"
+    year: 1995
+    year_note: "approx (from memory, not checked)"
+    key: "G"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 184
+    ccli: 1562261
+    youtube:
+      - search: "Delirious? Shout to the North official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/shout-to-the-north-delirious/"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Shout%20to%20the%20North"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Shout%20to%20the%20North%20Delirious%3F"
+        download_without_login: false
+        verified: false
+
+  - id: "better-is-one-day"
+    title: "Better Is One Day"
+    artist: "Matt Redman / Passion"
+    language: "english"
+    year: 1995
+    year_note: "approx (from memory, not checked)"
+    key: "E"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 77
+    ccli: 1097451
+    youtube:
+      - search: "Matt Redman Better Is One Day official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/better-is-one-day/"
+        key_on_page: "E"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Better%20Is%20One%20Day"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Better%20Is%20One%20Day%20Matt%20Redman"
+        download_without_login: false
+        verified: false
+
+  - id: "you-never-let-go"
+    title: "You Never Let Go"
+    artist: "Matt Redman"
+    language: "english"
+    year: 2005
+    year_note: "approx (from memory, not checked)"
+    key: "B"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 79
+    ccli: 4674166
+    youtube:
+      - search: "Matt Redman You Never Let Go official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/you-never-let-go-passion/"
+        key_on_page: "B"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=You%20Never%20Let%20Go"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=You%20Never%20Let%20Go%20Matt%20Redman"
+        download_without_login: false
+        verified: false
+
+  - id: "beautiful-one"
+    title: "Beautiful One"
+    artist: "Tim Hughes"
+    language: "english"
+    year: 2002
+    year_note: "approx (from memory, not checked)"
+    key: "C"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 119
+    ccli: 3915912
+    youtube:
+      - search: "Tim Hughes Beautiful One official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/beautiful-one-tim-hughes/"
+        key_on_page: "C"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Beautiful%20One"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Beautiful%20One%20Tim%20Hughes"
+        download_without_login: false
+        verified: false
+
+  - id: "the-stand"
+    title: "The Stand"
+    artist: "Hillsong UNITED"
+    language: "english"
+    year: 2005
+    year_note: "approx (from memory, not checked)"
+    key: "A"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 71
+    ccli: 4705248
+    youtube:
+      - search: "Hillsong UNITED The Stand official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/the-stand-united/"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=The%20Stand"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=The%20Stand%20Hillsong%20UNITED"
+        download_without_login: false
+        verified: false
+
+  - id: "god-of-this-city"
+    title: "God of This City"
+    artist: "Bluetree / Chris Tomlin"
+    language: "english"
+    year: 2008
+    year_note: "approx (from memory, not checked)"
+    key: "D"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 78
+    ccli: 5037070
+    youtube:
+      - search: "Bluetree God of This City official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/god-of-this-city-chris-tomlin/"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=God%20of%20This%20City"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=God%20of%20This%20City%20Bluetree"
+        download_without_login: false
+        verified: false
+
+  - id: "your-grace-is-enough"
+    title: "Your Grace Is Enough"
+    artist: "Matt Maher / Chris Tomlin"
+    language: "english"
+    year: 2004
+    year_note: "approx (from memory, not checked)"
+    key: "G"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 120
+    ccli: 4477026
+    youtube:
+      - search: "Matt Maher Your Grace Is Enough official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/your-grace-is-enough-chris-tomlin/"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Your%20Grace%20Is%20Enough"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Your%20Grace%20Is%20Enough%20Matt%20Maher"
+        download_without_login: false
+        verified: false
+
+  - id: "lead-me-to-the-cross"
+    title: "Lead Me to the Cross"
+    artist: "Hillsong UNITED (Brooke Ligertwood)"
+    language: "english"
+    year: 2006
+    year_note: "approx (from memory, not checked)"
+    key: "A"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 70
+    ccli: 4785828
+    youtube:
+      - search: "Hillsong UNITED Lead Me to the Cross official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/lead-me-to-the-cross-united/"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Lead%20Me%20to%20the%20Cross"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Lead%20Me%20to%20the%20Cross%20Hillsong%20UNITED"
+        download_without_login: false
+        verified: false
+
+  - id: "god-of-wonders"
+    title: "God of Wonders"
+    artist: "City on a Hill / Third Day"
+    language: "english"
+    year: 2000
+    year_note: "approx (from memory, not checked)"
+    key: "A"
+    key_note: "WorshipTogether 'original key' field"
+    tempo_bpm: 80
+    ccli: 3118757
+    youtube:
+      - search: "City on a Hill God of Wonders official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/god-of-wonders/"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=God%20of%20Wonders"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=God%20of%20Wonders%20City%20on%20a%20Hill"
+        download_without_login: false
+        verified: false
+
+  - id: "history-maker"
+    title: "History Maker"
+    artist: "Delirious?"
+    language: "english"
+    year: 1996
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Delirious? History Maker official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/history-maker/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=History%20Maker"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=History%20Maker%20Delirious%3F"
+        download_without_login: false
+        verified: false
+
+  - id: "majesty-here-i-am"
+    title: "Majesty (Here I Am)"
+    artist: "Delirious?"
+    language: "english"
+    year: 2003
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Delirious? Majesty (Here I Am) official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/majesty-here-i-am-delirious/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Majesty%20%28Here%20I%20Am%29"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Majesty%20%28Here%20I%20Am%29%20Delirious%3F"
+        download_without_login: false
+        verified: false
+
+  - id: "i-could-sing"
+    title: "I Could Sing of Your Love Forever"
+    artist: "Delirious? (Martin Smith)"
+    language: "english"
+    year: 1994
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Delirious? I Could Sing of Your Love Forever official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/i-could-sing-of-your-love-forever/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=I%20Could%20Sing%20of%20Your%20Love%20Forever"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=I%20Could%20Sing%20of%20Your%20Love%20Forever%20Delirious%3F"
+        download_without_login: false
+        verified: false
+    note: "year at the edge of the window"
+
+  - id: "jesus-paid-it-all"
+    title: "Jesus Paid It All"
+    artist: "Passion (Kristian Stanfill)"
+    language: "english"
+    year: 2006
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Passion Jesus Paid It All official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/jesus-paid-it-all-passion/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Jesus%20Paid%20It%20All"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Jesus%20Paid%20It%20All%20Passion"
+        download_without_login: false
+        verified: false
+    note: "modern arrangement of an old hymn"
+
+  - id: "glorious-day"
+    title: "Glorious Day (Living He Loved Me)"
+    artist: "Casting Crowns"
+    language: "english"
+    year: 2009
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Casting Crowns Glorious Day (Living He Loved Me) official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/glorious-day-living-he-loved-me/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Glorious%20Day%20%28Living%20He%20Loved%20Me%29"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Glorious%20Day%20%28Living%20He%20Loved%20Me%29%20Casting%20Crowns"
+        download_without_login: false
+        verified: false
+
+  - id: "mighty-is-the-power"
+    title: "Mighty Is the Power of the Cross"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2004
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Chris Tomlin Mighty Is the Power of the Cross official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/mighty-is-the-power-of-the-cross-chris-tomlin/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Mighty%20Is%20the%20Power%20of%20the%20Cross"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Mighty%20Is%20the%20Power%20of%20the%20Cross%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+
+  - id: "lord-i-need-you"
+    title: "Lord, I Need You"
+    artist: "Matt Maher"
+    language: "english"
+    year: 2011
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Matt Maher Lord, I Need You official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/lord-i-need-you-matt-maher/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Lord%2C%20I%20Need%20You"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Lord%2C%20I%20Need%20You%20Matt%20Maher"
+        download_without_login: false
+        verified: false
+
+  - id: "blessings"
+    title: "Blessings"
+    artist: "Laura Story"
+    language: "english"
+    year: 2011
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Laura Story Blessings official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/blessings/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Blessings"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Blessings%20Laura%20Story"
+        download_without_login: false
+        verified: false
+
+  - id: "forever-reign"
+    title: "Forever Reign"
+    artist: "Hillsong Worship"
+    language: "english"
+    year: 2009
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Hillsong Worship Forever Reign official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/forever-reign/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Forever%20Reign"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Forever%20Reign%20Hillsong%20Worship"
+        download_without_login: false
+        verified: false
+
+  - id: "stronger"
+    title: "Stronger"
+    artist: "Hillsong Worship"
+    language: "english"
+    year: 2007
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Hillsong Worship Stronger official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/stronger-hillsong-worship/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Stronger"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Stronger%20Hillsong%20Worship"
+        download_without_login: false
+        verified: false
+
+  - id: "with-everything"
+    title: "With Everything"
+    artist: "Hillsong UNITED"
+    language: "english"
+    year: 2008
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Hillsong UNITED With Everything official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/with-everything-united/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=With%20Everything"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=With%20Everything%20Hillsong%20UNITED"
+        download_without_login: false
+        verified: false
+
+  - id: "power-of-the-cross"
+    title: "The Power of the Cross"
+    artist: "Keith & Kristyn Getty"
+    language: "english"
+    year: 2005
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Keith & Kristyn Getty The Power of the Cross official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/the-power-of-the-cross-keith-and-kristyn-getty/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=The%20Power%20of%20the%20Cross"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=The%20Power%20of%20the%20Cross%20Keith%20%26%20Kristyn%20Getty"
+        download_without_login: false
+        verified: false
+
+  - id: "everyday"
+    title: "Everyday"
+    artist: "Hillsong UNITED"
+    language: "english"
+    year: 1999
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Hillsong UNITED Everyday official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/everyday-united/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Everyday"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Everyday%20Hillsong%20UNITED"
+        download_without_login: false
+        verified: false
+
+  - id: "its-all-about-you"
+    title: "Jesus, Lover of My Soul (It's All About You)"
+    artist: "Paul Oakley"
+    language: "english"
+    year: 1995
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Paul Oakley Jesus, Lover of My Soul (It's All About You) official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/jesus-lover-of-my-soul-its-all-about-you-paul-oakley/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Jesus%2C%20Lover%20of%20My%20Soul%20%28It%27s%20All%20About%20You%29"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Jesus%2C%20Lover%20of%20My%20Soul%20%28It%27s%20All%20About%20You%29%20Paul%20Oakley"
+        download_without_login: false
+        verified: false
+
+  - id: "you-said"
+    title: "You Said"
+    artist: "Hillsong (Reuben Morgan)"
+    language: "english"
+    year: 1998
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Hillsong You Said official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/you-said-hillsong-worship/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=You%20Said"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=You%20Said%20Hillsong"
+        download_without_login: false
+        verified: false
+
+  - id: "god-is-able"
+    title: "God Is Able"
+    artist: "Hillsong Worship"
+    language: "english"
+    year: 2011
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Hillsong Worship God Is Able official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/god-is-able-hillsong-worship/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=God%20Is%20Able"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=God%20Is%20Able%20Hillsong%20Worship"
+        download_without_login: false
+        verified: false
+
+  - id: "famous-one"
+    title: "Famous One"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2002
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Chris Tomlin Famous One official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/famous-one/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Famous%20One"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Famous%20One%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+
+  - id: "facedown"
+    title: "Facedown"
+    artist: "Matt Redman"
+    language: "english"
+    year: 2004
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Matt Redman Facedown official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/facedown/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Facedown"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Facedown%20Matt%20Redman"
+        download_without_login: false
+        verified: false
+
+  - id: "made-to-worship"
+    title: "Made to Worship"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2006
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Chris Tomlin Made to Worship official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/made-to-worship-chris-tomlin/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Made%20to%20Worship"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Made%20to%20Worship%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+
+  - id: "hosanna-praise-is-rising"
+    title: "Hosanna (Praise Is Rising)"
+    artist: "Paul Baloche"
+    language: "english"
+    year: 2006
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Paul Baloche Hosanna (Praise Is Rising) official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/hosanna-praise-is-rising/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Hosanna%20%28Praise%20Is%20Rising%29"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Hosanna%20%28Praise%20Is%20Rising%29%20Paul%20Baloche"
+        download_without_login: false
+        verified: false
+
+  - id: "christ-is-enough"
+    title: "Christ Is Enough"
+    artist: "Hillsong Worship"
+    language: "english"
+    year: 2013
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Hillsong Worship Christ Is Enough official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/christ-is-enough-hillsong-worship/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Christ%20Is%20Enough"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Christ%20Is%20Enough%20Hillsong%20Worship"
+        download_without_login: false
+        verified: false
+
+  - id: "whom-shall-i-fear"
+    title: "Whom Shall I Fear (God of Angel Armies)"
+    artist: "Chris Tomlin"
+    language: "english"
+    year: 2012
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Chris Tomlin Whom Shall I Fear (God of Angel Armies) official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/whom-shall-i-fear-chris-tomlin/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Whom%20Shall%20I%20Fear%20%28God%20of%20Angel%20Armies%29"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Whom%20Shall%20I%20Fear%20%28God%20of%20Angel%20Armies%29%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+
+  - id: "wonderful-cross"
+    title: "The Wonderful Cross"
+    artist: "Chris Tomlin / Passion"
+    language: "english"
+    year: 2000
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Chris Tomlin The Wonderful Cross official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/the-wonderful-cross-chris-tomlin/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=The%20Wonderful%20Cross"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=The%20Wonderful%20Cross%20Chris%20Tomlin"
+        download_without_login: false
+        verified: false
+
+  - id: "here-for-you"
+    title: "Here for You"
+    artist: "Matt Redman / Passion"
+    language: "english"
+    year: 2011
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Matt Redman Here for You official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/here-for-you/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Here%20for%20You"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Here%20for%20You%20Matt%20Redman"
+        download_without_login: false
+        verified: false
+
+  - id: "i-give-you-my-heart"
+    title: "I Give You My Heart"
+    artist: "Hillsong (Reuben Morgan)"
+    language: "english"
+    year: 1995
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Hillsong I Give You My Heart official"
+        verified: false
+    charts:
+      - site: "WorshipTogether"
+        format: "chords over lyrics"
+        url: "https://www.worshiptogether.com/songs/i-give-you-my-heart/"
+        free_without_login: true
+        verified: false
+        note: "URL is in the site's sitemap (page exists); not opened"
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=I%20Give%20You%20My%20Heart"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=I%20Give%20You%20My%20Heart%20Hillsong"
+        download_without_login: false
+        verified: false
+
+  - id: "shout-to-the-lord"
+    title: "Shout to the Lord"
+    artist: "Darlene Zschech / Hillsong"
+    language: "english"
+    year: 1994
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Darlene Zschech Shout to the Lord official"
+        verified: false
+    charts:
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Shout%20to%20the%20Lord"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Shout%20to%20the%20Lord%20Darlene%20Zschech"
+        download_without_login: false
+        verified: false
+    note: "year at the edge"
+
+  - id: "open-the-eyes"
+    title: "Open the Eyes of My Heart"
+    artist: "Paul Baloche"
+    language: "english"
+    year: 1997
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Paul Baloche Open the Eyes of My Heart official"
+        verified: false
+    charts:
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Open%20the%20Eyes%20of%20My%20Heart"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Open%20the%20Eyes%20of%20My%20Heart%20Paul%20Baloche"
+        download_without_login: false
+        verified: false
+
+  - id: "revelation-song"
+    title: "Revelation Song"
+    artist: "Jennie Lee Riddle / Kari Jobe"
+    language: "english"
+    year: 2004
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Jennie Lee Riddle Revelation Song official"
+        verified: false
+    charts:
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Revelation%20Song"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Revelation%20Song%20Jennie%20Lee%20Riddle"
+        download_without_login: false
+        verified: false
+    note: "Kari Jobe recording 2009"
+
+  - id: "how-he-loves"
+    title: "How He Loves"
+    artist: "John Mark McMillan / David Crowder Band"
+    language: "english"
+    year: 2005
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "John Mark McMillan How He Loves official"
+        verified: false
+    charts:
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=How%20He%20Loves"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=How%20He%20Loves%20John%20Mark%20McMillan"
+        download_without_login: false
+        verified: false
+
+  - id: "one-thing-remains"
+    title: "One Thing Remains"
+    artist: "Jesus Culture / Bethel (Brian Johnson)"
+    language: "english"
+    year: 2010
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Jesus Culture One Thing Remains official"
+        verified: false
+    charts:
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=One%20Thing%20Remains"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=One%20Thing%20Remains%20Jesus%20Culture"
+        download_without_login: false
+        verified: false
+
+  - id: "trading-my-sorrows"
+    title: "Trading My Sorrows"
+    artist: "Darrell Evans"
+    language: "english"
+    year: 1998
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Darrell Evans Trading My Sorrows official"
+        verified: false
+    charts:
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Trading%20My%20Sorrows"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Trading%20My%20Sorrows%20Darrell%20Evans"
+        download_without_login: false
+        verified: false
+
+  - id: "above-all"
+    title: "Above All"
+    artist: "Michael W. Smith (Paul Baloche, Lenny LeBlanc)"
+    language: "english"
+    year: 1999
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Michael W. Smith Above All official"
+        verified: false
+    charts:
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Above%20All"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Above%20All%20Michael%20W.%20Smith"
+        download_without_login: false
+        verified: false
+
+  - id: "great-are-you-lord"
+    title: "Great Are You Lord"
+    artist: "All Sons & Daughters"
+    language: "english"
+    year: 2013
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "All Sons & Daughters Great Are You Lord official"
+        verified: false
+    charts:
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Great%20Are%20You%20Lord"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Great%20Are%20You%20Lord%20All%20Sons%20%26%20Daughters"
+        download_without_login: false
+        verified: false
+
+  - id: "days-of-elijah"
+    title: "Days of Elijah"
+    artist: "Robin Mark"
+    language: "english"
+    year: 1996
+    year_note: "approx (from memory, not checked)"
+    key: null
+    key_note: "unknown - detect from the recording"
+    tempo_bpm: null
+    ccli: null
+    youtube:
+      - search: "Robin Mark Days of Elijah official"
+        verified: false
+    charts:
+      - site: "Ultimate Guitar (search)"
+        format: "community chords"
+        url: "https://www.ultimate-guitar.com/search.php?search_type=title&value=Days%20of%20Elijah"
+        free_without_login: true
+        verified: false
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=Days%20of%20Elijah%20Robin%20Mark"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-回家"
+    first20: 5
+    title: "回家"
+    artist: "Eternity Girls (永恆音樂事工)"
+    language: "cantonese"
+    year: 2007
+    year_note: "approx"
+    key: "B"
+    key_note: ""
+    album: null
+    youtube:
+      - what: "lyric video uploaded by 'Kelly:DD' (not official); audio cached in Chordify_clone cache/yt-Y7boUFbM76k"
+        url: "https://www.youtube.com/watch?v=Y7boUFbM76k"
+        verified: true
+    charts:
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E5%9B%9E%E5%AE%B6/"
+        key_on_page: "C"
+        tempo: 65
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%9B%9E%E5%AE%B6"
+        download_without_login: false
+        verified: false
+    note: "THE PROJECT TEST SONG. Recording is in B (Simply Worship chart is in C). A draft ground-truth chart already exists in eval/gt/yt-Y7boUFbM76k.chart.txt (Nathan will correct it). Do not confuse with CantonHymn's 回家 by 李健達 (1999, a different song)."
+
+  - id: "ca-愛是不保留"
+    first20: 13
+    title: "愛是不保留"
+    artist: "Music 2000; 曲 盧永亨"
+    language: "cantonese"
+    year: 2000
+    year_note: "CantonHymn 年份 field"
+    key: "F"
+    key_note: "CantonHymn 原調 field"
+    album: "團契遊樂園3-薪火永傳"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=3vP2nR-_xV4"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%84%9b%e6%98%af%e4%b8%8d%e4%bf%9d%e7%95%99"
+        key_on_page: "F"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E6%84%9B%E6%98%AF%E4%B8%8D%E4%BF%9D%E7%95%99/"
+        key_on_page: "F"
+        tempo: 75
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%84%9B%E6%98%AF%E4%B8%8D%E4%BF%9D%E7%95%99"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-恩典太美麗"
+    first20: 14
+    title: "恩典太美麗"
+    artist: "Music 2000; 曲 盧永亨"
+    language: "cantonese"
+    year: 2003
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "團契遊樂園4-恩典太美麗"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=6vjUgzNvM9Q"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%81%a9%e5%85%b8%e5%a4%aa%e7%be%8e%e9%ba%97"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E6%81%A9%E5%85%B8%E5%A4%AA%E7%BE%8E%E9%BA%97/"
+        key_on_page: "D"
+        tempo: 74
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%81%A9%E5%85%B8%E5%A4%AA%E7%BE%8E%E9%BA%97"
+        download_without_login: false
+        verified: false
+    note: "MuseScore has community piano scores (e.g. user/28588000/scores/5681866) - login+Pro needed"
+
+  - id: "ca-誰曾應許"
+    title: "誰曾應許"
+    artist: "Music 2000; 曲 盧永亨"
+    language: "cantonese"
+    year: 2005
+    year_note: "CantonHymn 年份 field"
+    key: "C"
+    key_note: "CantonHymn 原調 field"
+    album: "團契遊樂園5-應許"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=McixlPUGPzI"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e8%aa%b0%e6%9b%be%e6%87%89%e8%a8%b1"
+        key_on_page: "C"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E8%AA%B0%E6%9B%BE%E6%87%89%E8%A8%B1/"
+        key_on_page: "D"
+        tempo: 68
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E8%AA%B0%E6%9B%BE%E6%87%89%E8%A8%B1"
+        download_without_login: false
+        verified: false
+    note: "chart keys differ between sites (C vs D)"
+
+  - id: "ca-星空的光芒"
+    title: "星空的光芒"
+    artist: "Music 2000; 曲 王慧玲"
+    language: "cantonese"
+    year: 2000
+    year_note: "CantonHymn 年份 field"
+    key: null
+    key_note: ""
+    album: "團契遊樂園1"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=C4_aaRCb898"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "lyrics only (no chords on site)"
+        url: "https://cantonhymn.net/song/%e6%98%9f%e7%a9%ba%e7%9a%84%e5%85%89%e8%8a%92"
+        key_on_page: null
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E6%98%9F%E7%A9%BA%E7%9A%84%E5%85%89%E8%8A%92/"
+        key_on_page: "Ab"
+        tempo: 72
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%98%9F%E7%A9%BA%E7%9A%84%E5%85%89%E8%8A%92"
+        download_without_login: false
+        verified: false
+    note: "CantonHymn has no chords for this one"
+
+  - id: "ca-全地至高是我主"
+    first20: 15
+    title: "全地至高是我主"
+    artist: "角聲使團 The Heralders; 曲 黎雅詩 (詞 甄燕鳴)"
+    language: "cantonese"
+    year: 2002
+    year_note: "CantonHymn 年份 field"
+    key: "Db"
+    key_note: "CantonHymn 原調 field"
+    album: "角聲使團敬拜讚美專輯05：全地至高是我主"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=v2Nyv7Jzt_I"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%85%a8%e5%9c%b0%e8%87%b3%e9%ab%98%e6%98%af%e6%88%91%e4%b8%bb"
+        key_on_page: "Db"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%85%A8%E5%9C%B0%E8%87%B3%E9%AB%98%E6%98%AF%E6%88%91%E4%B8%BB"
+        download_without_login: false
+        verified: false
+    note: "MuseScore community 簡譜 piano scores exist (user/28588000/scores/5785029 in C, .../5788598 in Db)"
+
+  - id: "ca-因著信"
+    first20: 16
+    title: "因著信"
+    artist: "角聲使團 The Heralders; 曲 盧永亨"
+    language: "cantonese"
+    year: 2010
+    year_note: "CantonHymn 年份 field"
+    key: "Db"
+    key_note: "CantonHymn 原調 field"
+    album: "角聲使團敬拜讚美專輯08：振翅翱翔"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=qNndl7K3z3k"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%9b%a0%e8%91%97%e4%bf%a1"
+        key_on_page: "Db"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E5%9B%A0%E8%91%97%E4%BF%A1/"
+        tempo: 78
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%9B%A0%E8%91%97%E4%BF%A1"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-最好的福氣"
+    title: "最好的福氣"
+    artist: "角聲使團 The Heralders; 曲 古丹青"
+    language: "cantonese"
+    year: 2011
+    year_note: "CantonHymn 年份 field"
+    key: "Gb"
+    key_note: "CantonHymn 原調 field"
+    album: "角聲使團敬拜讚美專輯09：讓愛留痕"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=HcpvUZoIv70"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%9c%80%e5%a5%bd%e7%9a%84%e7%a6%8f%e6%b0%a3"
+        key_on_page: "Gb"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%9C%80%E5%A5%BD%E7%9A%84%E7%A6%8F%E6%B0%A3"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-如此認識我"
+    title: "如此認識我"
+    artist: "角聲使團 The Heralders; 曲 盧永亨"
+    language: "cantonese"
+    year: 2012
+    year_note: "CantonHymn 年份 field"
+    key: "Eb"
+    key_note: "CantonHymn 原調 field"
+    album: "角聲使團敬拜讚美專輯10：重投豐盛"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=nqNRef8sAnw"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%a6%82%e6%ad%a4%e8%aa%8d%e8%ad%98%e6%88%91"
+        key_on_page: "Eb"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%A6%82%E6%AD%A4%E8%AA%8D%E8%AD%98%E6%88%91"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-至高尊貴的祢"
+    title: "至高尊貴的祢"
+    artist: "角聲使團 The Heralders; 曲 謝韻婷"
+    language: "cantonese"
+    year: 2015
+    year_note: "CantonHymn 年份 field"
+    key: "Ab"
+    key_note: "CantonHymn 原調 field"
+    album: "角聲使團敬拜讚美專輯11：燃動生命"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=HkAczox3JSY"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e8%87%b3%e9%ab%98%e5%b0%8a%e8%b2%b4%e7%9a%84%e7%a5%a2"
+        key_on_page: "Ab"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E8%87%B3%E9%AB%98%E5%B0%8A%E8%B2%B4%E7%9A%84%E7%A5%A2"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-以愛還愛"
+    first20: 20
+    title: "以愛還愛"
+    artist: "撒種音樂事工; 曲 何維健"
+    language: "cantonese"
+    year: 2007
+    year_note: "CantonHymn 年份 field"
+    key: "A"
+    key_note: "CantonHymn 原調 field"
+    album: "愛在軟弱中盛放"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=2tX58dM4n1s"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e4%bb%a5%e6%84%9b%e9%82%84%e6%84%9b"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E4%BB%A5%E6%84%9B%E9%82%84%E6%84%9B/"
+        key_on_page: "A"
+        tempo: 68
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E4%BB%A5%E6%84%9B%E9%82%84%E6%84%9B"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-天地讚美"
+    first20: 19
+    title: "天地讚美"
+    artist: "HKACM 香港基督徒音樂事工協會; 曲 吉中鳴"
+    language: "cantonese"
+    year: 1998
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: "齊唱敬拜讚美1-祢是王"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=S6CPktZ8KMY"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%a4%a9%e5%9c%b0%e8%ae%9a%e7%be%8e"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E5%A4%A9%E5%9C%B0%E8%AE%9A%E7%BE%8E/"
+        key_on_page: "G"
+        tempo: 68
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%A4%A9%E5%9C%B0%E8%AE%9A%E7%BE%8E"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-恩手緊扣"
+    title: "恩手緊扣"
+    artist: "HKACM; 曲 黃維棣"
+    language: "cantonese"
+    year: 2002
+    year_note: "CantonHymn 年份 field"
+    key: null
+    key_note: ""
+    album: "齊唱敬拜讚美5-和平之君"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=E8GvPQJOnKA"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "lyrics only (no chords on site)"
+        url: "https://cantonhymn.net/song/%e6%81%a9%e6%89%8b%e7%b7%8a%e6%89%a3"
+        key_on_page: null
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E6%81%A9%E6%89%8B%E7%B7%8A%E6%89%A3/"
+        key_on_page: "B"
+        tempo: 66
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%81%A9%E6%89%8B%E7%B7%8A%E6%89%A3"
+        download_without_login: false
+        verified: false
+    note: "CantonHymn has no chords; use Simply Worship"
+
+  - id: "ca-請差遣我"
+    title: "請差遣我"
+    artist: "全心製作 / HKACM; 曲 吳秉堅"
+    language: "cantonese"
+    year: 2002
+    year_note: "CantonHymn 年份 field"
+    key: "Ab"
+    key_note: "CantonHymn 原調 field"
+    album: "沿風草 / 齊唱敬拜讚美5-和平之君"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=ImNaLoWo7BQ"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e8%ab%8b%e5%b7%ae%e9%81%a3%e6%88%91"
+        key_on_page: "Ab"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E8%AB%8B%E5%B7%AE%E9%81%A3%E6%88%91/"
+        tempo: 70
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E8%AB%8B%E5%B7%AE%E9%81%A3%E6%88%91"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-神是我這生供應者"
+    title: "神是我這生供應者"
+    artist: "HKACM; 曲 何威廉"
+    language: "cantonese"
+    year: 2012
+    year_note: "CantonHymn 年份 field"
+    key: "E"
+    key_note: "CantonHymn 原調 field"
+    album: "齊唱敬拜讚美11"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=r6in4nCBcbA"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e7%a5%9e%e6%98%af%e6%88%91%e9%80%99%e7%94%9f%e4%be%9b%e6%87%89%e8%80%85"
+        key_on_page: "E"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E7%A5%9E%E6%98%AF%E6%88%91%E9%80%99%E7%94%9F%E4%BE%9B%E6%87%89%E8%80%85/"
+        key_on_page: "E"
+        tempo: 70
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%A5%9E%E6%98%AF%E6%88%91%E9%80%99%E7%94%9F%E4%BE%9B%E6%87%89%E8%80%85"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-獻給我天上的主"
+    first20: 17
+    title: "獻給我天上的主"
+    artist: "HKACM / 同心圓 / TWS 敬拜者使團; 曲 霍志鵬"
+    language: "cantonese"
+    year: 2005
+    year_note: "CantonHymn 年份 field"
+    key: "A"
+    key_note: "CantonHymn 原調 field"
+    album: "敬拜者的心 / 齊唱敬拜讚美7"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=c4MQx47Gexg"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e7%8d%bb%e7%b5%a6%e6%88%91%e5%a4%a9%e4%b8%8a%e7%9a%84%e4%b8%bb"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E7%8D%BB%E7%B5%A6%E6%88%91%E5%A4%A9%E4%B8%8A%E7%9A%84%E4%B8%BB/"
+        tempo: 65
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%8D%BB%E7%B5%A6%E6%88%91%E5%A4%A9%E4%B8%8A%E7%9A%84%E4%B8%BB"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-耶和華以勒"
+    title: "耶和華以勒"
+    artist: "TWS 敬拜者使團; 曲 霍志鵬"
+    language: "cantonese"
+    year: 2001
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: null
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=_ptl6lbH8pw"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e8%80%b6%e5%92%8c%e8%8f%af%e4%bb%a5%e5%8b%92"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E8%80%B6%E5%92%8C%E8%8F%AF%E4%BB%A5%E5%8B%92"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-求主興起禱告的心"
+    title: "求主興起禱告的心"
+    artist: "同心圓 / TWS 敬拜者使團; 曲 霍志鵬"
+    language: "cantonese"
+    year: 2001
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: "同心圓-Listen / 敬拜者 1"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=jy7l83UOWcg"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%b1%82%e4%b8%bb%e8%88%88%e8%b5%b7%e7%a6%b1%e5%91%8a%e7%9a%84%e5%bf%83"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E6%B1%82%E4%B8%BB%E8%88%88%E8%B5%B7%E7%A6%B1%E5%91%8A%E7%9A%84%E5%BF%83/"
+        key_on_page: "G"
+        tempo: 64
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%B1%82%E4%B8%BB%E8%88%88%E8%B5%B7%E7%A6%B1%E5%91%8A%E7%9A%84%E5%BF%83"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-祢是我神"
+    first20: 18
+    title: "祢是我神"
+    artist: "同心圓 / TWS 敬拜者使團; 曲 霍志鵬"
+    language: "cantonese"
+    year: 2009
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: "敬拜者的心 / 敬拜者 1"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=3ne_YTWSacU"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e7%a5%a2%e6%98%af%e6%88%91%e7%a5%9e-%e5%90%8c%e5%bf%83%e5%9c%93"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%A5%A2%E6%98%AF%E6%88%91%E7%A5%9E"
+        download_without_login: false
+        verified: false
+    note: "Simply Worship has a '你是我神' (G?, 66) - may be a different song"
+
+  - id: "ca-求祢以真理和愛引導我"
+    title: "求祢以真理和愛引導我"
+    artist: "同心圓 / TWS 敬拜者使團; 曲 霍志鵬"
+    language: "cantonese"
+    year: 2009
+    year_note: "CantonHymn 年份 field"
+    key: "Eb"
+    key_note: "CantonHymn 原調 field"
+    album: "同心圓-榮美冠冕"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=C2MKgxSravE"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%b1%82%e7%a5%a2%e4%bb%a5%e7%9c%9f%e7%90%86%e5%92%8c%e6%84%9b%e5%bc%95%e5%b0%8e%e6%88%91"
+        key_on_page: "Eb"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%B1%82%E7%A5%A2%E4%BB%A5%E7%9C%9F%E7%90%86%E5%92%8C%E6%84%9B%E5%BC%95%E5%B0%8E%E6%88%91"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-萬有都歸祢"
+    title: "萬有都歸祢"
+    artist: "同心圓敬拜福音平台; 曲 張樺"
+    language: "cantonese"
+    year: 2015
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: "同心圓-Listen"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=tdpZnGGdCR8"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e8%90%ac%e6%9c%89%e9%83%bd%e6%ad%b8%e7%a5%a2"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E8%90%AC%E6%9C%89%E9%83%BD%E6%AD%B8%E7%A5%A2"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-頌讚全能上帝"
+    title: "頌讚全能上帝"
+    artist: "SingforGod 薪火敬拜使團; 曲 馮鑑邦 / 高思敏"
+    language: "cantonese"
+    year: 2006
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "SingforGod Vol.1"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=_xmbhj8iXpE"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e9%a0%8c%e8%ae%9a%e5%85%a8%e8%83%bd%e4%b8%8a%e5%b8%9d"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E9%A0%8C%E8%AE%9A%E5%85%A8%E8%83%BD%E4%B8%8A%E5%B8%9D"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-十架的冠冕"
+    title: "十架的冠冕"
+    artist: "以琳之泉使團; 曲 伍偉基"
+    language: "cantonese"
+    year: 2001
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: "CD02 精采"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=CyOw1GVreR0"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%8d%81%e6%9e%b6%e7%9a%84%e5%86%a0%e5%86%95"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E5%8D%81%E6%9E%B6%E7%9A%84%E5%86%A0%E5%86%95/"
+        tempo: 80
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%8D%81%E6%9E%B6%E7%9A%84%E5%86%A0%E5%86%95"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-原來日子多麼美"
+    title: "原來日子多麼美"
+    artist: "以琳之泉使團; 曲 伍偉基"
+    language: "cantonese"
+    year: 2000
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "CD01 原來日子多麼美"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=VnftpgdBm9k"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%8e%9f%e4%be%86%e6%97%a5%e5%ad%90%e5%a4%9a%e9%ba%bc%e7%be%8e"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E5%8E%9F%E4%BE%86%E6%97%A5%E5%AD%90%E5%A4%9A%E9%BA%BC%E7%BE%8E/"
+        key_on_page: "D"
+        tempo: 78
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%8E%9F%E4%BE%86%E6%97%A5%E5%AD%90%E5%A4%9A%E9%BA%BC%E7%BE%8E"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-無悔一生"
+    title: "無悔一生"
+    artist: "以琳之泉使團 / 共享詩歌協會; 曲 伍偉基"
+    language: "cantonese"
+    year: 2000
+    year_note: "CantonHymn 年份 field"
+    key: "C"
+    key_note: "CantonHymn 原調 field"
+    album: "CD01 原來日子多麼美"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=44q4RnhipyI"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "lyrics only (no chords on site)"
+        url: "https://cantonhymn.net/song/%e7%84%a1%e6%82%94%e4%b8%80%e7%94%9f"
+        key_on_page: "C"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E7%84%A1%E6%82%94%E4%B8%80%E7%94%9F/"
+        key_on_page: "A"
+        tempo: 92
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%84%A1%E6%82%94%E4%B8%80%E7%94%9F"
+        download_without_login: false
+        verified: false
+    note: "CantonHymn has no chords; keys differ (C vs A)"
+
+  - id: "ca-全因為祢"
+    title: "全因為祢"
+    artist: "共享詩歌協會 / 影音使團; 曲 西伯"
+    language: "cantonese"
+    year: 1997
+    year_note: "CantonHymn 年份 field"
+    key: "F"
+    key_note: "CantonHymn 原調 field"
+    album: "天地情緣1 / 共享歌集1"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=ZkLV6ePjrAc"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%85%a8%e5%9b%a0%e7%82%ba%e7%a5%a2"
+        key_on_page: "F"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E5%85%A8%E5%9B%A0%E7%82%BA%E4%BD%A0/"
+        key_on_page: "F"
+        tempo: 72
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%85%A8%E5%9B%A0%E7%82%BA%E7%A5%A2"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-高唱入雲"
+    title: "高唱入雲"
+    artist: "共享詩歌協會; 曲 西伯"
+    language: "cantonese"
+    year: 1996
+    year_note: "CantonHymn 年份 field"
+    key: "F"
+    key_note: "CantonHymn 原調 field"
+    album: "西伯作品 1 / 共享歌集2"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=eRSU-uk88Bc"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e9%ab%98%e5%94%b1%e5%85%a5%e9%9b%b2"
+        key_on_page: "F"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E9%AB%98%E5%94%B1%E5%85%A5%E9%9B%B2/"
+        key_on_page: "F"
+        tempo: 50
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E9%AB%98%E5%94%B1%E5%85%A5%E9%9B%B2"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-從歲首到年終"
+    title: "從歲首到年終"
+    artist: "共享詩歌協會; 曲 西伯"
+    language: "cantonese"
+    year: 2015
+    year_note: "CantonHymn 年份 field"
+    key: "C"
+    key_note: "CantonHymn 原調 field"
+    album: "西伯作品 7"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=UlzBsnUqnG4"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%be%9e%e6%ad%b2%e9%a6%96%e5%88%b0%e5%b9%b4%e7%b5%82"
+        key_on_page: "C"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E5%BE%9E%E6%AD%B2%E9%A6%96%E5%88%B0%E5%B9%B4%E7%B5%82/"
+        key_on_page: "E"
+        tempo: 64
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%BE%9E%E6%AD%B2%E9%A6%96%E5%88%B0%E5%B9%B4%E7%B5%82"
+        download_without_login: false
+        verified: false
+    note: "keys differ (C vs E)"
+
+  - id: "ca-遇見神"
+    title: "遇見神"
+    artist: "真証傳播; 曲 西伯"
+    language: "cantonese"
+    year: 2006
+    year_note: "CantonHymn 年份 field"
+    key: "Ab"
+    key_note: "CantonHymn 原調 field"
+    album: "向生命致敬"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=k6_48CfAKNI"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e9%81%87%e8%a6%8b%e7%a5%9e"
+        key_on_page: "Ab"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E9%81%87%E8%A6%8B%E7%A5%9E/"
+        key_on_page: "G"
+        tempo: 70
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E9%81%87%E8%A6%8B%E7%A5%9E"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-靠著耶穌得勝"
+    title: "靠著耶穌得勝"
+    artist: "沙田浸信會; 曲 朱浩權"
+    language: "cantonese"
+    year: 1999
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: "沙浸-靠著耶穌得勝"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=HjbWGw8P_OU"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e9%9d%a0%e8%91%97%e8%80%b6%e7%a9%8c%e5%be%97%e5%8b%9d"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E9%9D%A0%E8%91%97%E8%80%B6%E7%A9%8C%E5%BE%97%E5%8B%9D/"
+        key_on_page: "F"
+        tempo: 76
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E9%9D%A0%E8%91%97%E8%80%B6%E7%A9%8C%E5%BE%97%E5%8B%9D"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-站於天地之間"
+    title: "站於天地之間"
+    artist: "沙田浸信會 / 清泉音樂; 曲 朱浩權"
+    language: "cantonese"
+    year: 2003
+    year_note: "CantonHymn 年份 field"
+    key: "A"
+    key_note: "CantonHymn 原調 field"
+    album: "沙浸-站於天地之間"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=kfBiQux-qVM"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e7%ab%99%e6%96%bc%e5%a4%a9%e5%9c%b0%e4%b9%8b%e9%96%93"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E7%AB%99%E6%96%BC%E5%A4%A9%E5%9C%B0%E4%B9%8B%E9%96%93/"
+        key_on_page: "A"
+        tempo: 80
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%AB%99%E6%96%BC%E5%A4%A9%E5%9C%B0%E4%B9%8B%E9%96%93"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-神的殿天的門"
+    title: "神的殿天的門"
+    artist: "?; 曲 朱浩權"
+    language: "cantonese"
+    year: 2012
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: null
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=fGhrcUTWED4"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e7%a5%9e%e7%9a%84%e6%ae%bf%e5%a4%a9%e7%9a%84%e9%96%80"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E7%A5%9E%E7%9A%84%E6%AE%BF%E5%A4%A9%E7%9A%84%E9%96%80/"
+        key_on_page: "G"
+        tempo: 72
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%A5%9E%E7%9A%84%E6%AE%BF%E5%A4%A9%E7%9A%84%E9%96%80"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-一首讚美的詩歌"
+    title: "一首讚美的詩歌"
+    artist: "沙田浸信會 / HKACM; 曲 朱浩權"
+    language: "cantonese"
+    year: 1990
+    year_note: "CantonHymn 年份 field"
+    key: "C"
+    key_note: "CantonHymn 原調 field"
+    album: "沙浸-無言的讚頌"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=zfNWp7IHbbw"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e4%b8%80%e9%a6%96%e8%ae%9a%e7%be%8e%e7%9a%84%e8%a9%a9%e6%ad%8c"
+        key_on_page: "C"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E4%B8%80%E9%A6%96%E8%AE%9A%E7%BE%8E%E7%9A%84%E8%A9%A9%E6%AD%8C/"
+        key_on_page: "C"
+        tempo: 70
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E4%B8%80%E9%A6%96%E8%AE%9A%E7%BE%8E%E7%9A%84%E8%A9%A9%E6%AD%8C"
+        download_without_login: false
+        verified: false
+    note: "1990 = a bit older than the 1995-2015 window, but still very widely sung"
+
+  - id: "ca-無言的讚頌"
+    title: "無言的讚頌（遍地充滿）"
+    artist: "沙田浸信會; 曲 朱浩權"
+    language: "cantonese"
+    year: 1990
+    year_note: "CantonHymn 年份 field"
+    key: "A"
+    key_note: "CantonHymn 原調 field"
+    album: "沙浸-無言的讚頌"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=5gyQFFRFEiA"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e7%84%a1%e8%a8%80%e7%9a%84%e8%ae%9a%e9%a0%8c"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E7%84%A1%E8%A8%80%E7%9A%84%E8%AE%9A%E9%A0%8C_%E9%81%8D%E5%9C%B0%E5%85%85%E6%BB%BF/"
+        tempo: 70
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%84%A1%E8%A8%80%E7%9A%84%E8%AE%9A%E9%A0%8C"
+        download_without_login: false
+        verified: false
+    note: "1990 (edge)"
+
+  - id: "ca-神大愛"
+    title: "神大愛"
+    artist: "基恩敬拜音樂事工; 曲 鄧淑儀 Yvonne"
+    language: "cantonese"
+    year: 2007
+    year_note: "CantonHymn 年份 field"
+    key: "A"
+    key_note: "CantonHymn 原調 field"
+    album: "基恩敬拜-神大愛"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=CcIiTEoL5ew"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e7%a5%9e%e5%a4%a7%e6%84%9b"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E7%A5%9E%E5%A4%A7%E6%84%9B/"
+        key_on_page: "A"
+        tempo: 82
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%A5%9E%E5%A4%A7%E6%84%9B"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-祢是我惟一的倚靠"
+    title: "祢是我惟一的倚靠"
+    artist: "基恩敬拜音樂事工; 曲 鄧淑儀 Yvonne"
+    language: "cantonese"
+    year: 2015
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: "基恩敬拜-再次站起來"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=nXuUEAO8K6A"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e7%a5%a2%e6%98%af%e6%88%91%e6%83%9f%e4%b8%80%e7%9a%84%e5%80%9a%e9%9d%a0"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%A5%A2%E6%98%AF%E6%88%91%E6%83%9F%E4%B8%80%E7%9A%84%E5%80%9A%E9%9D%A0"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-聽命勝於獻祭"
+    title: "聽命勝於獻祭"
+    artist: "Herald Music (角聲美西北); 曲 三吉 Alex"
+    language: "cantonese"
+    year: 2010
+    year_note: "CantonHymn 年份 field"
+    key: "F"
+    key_note: "CantonHymn 原調 field"
+    album: "第一屆現代基督教音樂創作比賽冠軍"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=uO1wRrH-ZiQ"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e8%81%bd%e5%91%bd%e5%8b%9d%e6%96%bc%e7%8d%bb%e7%a5%ad"
+        key_on_page: "F"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E8%81%BD%E5%91%BD%E5%8B%9D%E6%96%BC%E7%8D%BB%E7%A5%AD"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-我要一生一世住在你聖殿"
+    title: "我要一生一世住在你聖殿"
+    artist: "敬拜族 Worship Nations / 玻璃海樂團; 曲 方文聰"
+    language: "cantonese"
+    year: 2015
+    year_note: "CantonHymn 年份 field"
+    key: "A"
+    key_note: "CantonHymn 原調 field"
+    album: "玻璃海1"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=DJS_Rvr4Czk"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%88%91%e8%a6%81%e4%b8%80%e7%94%9f%e4%b8%80%e4%b8%96%e4%bd%8f%e5%9c%a8%e4%bd%a0%e8%81%96%e6%ae%bf"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E6%88%91%E8%A6%81%E4%B8%80%E7%94%9F%E4%B8%80%E4%B8%96%E4%BD%8F%E5%9C%A8%E4%BD%A0%E8%81%96%E6%AE%BF/"
+        tempo: 70
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%88%91%E8%A6%81%E4%B8%80%E7%94%9F%E4%B8%80%E4%B8%96%E4%BD%8F%E5%9C%A8%E4%BD%A0%E8%81%96%E6%AE%BF"
+        download_without_login: false
+        verified: false
+
+  - id: "ca-尋求你的面"
+    title: "尋求你的面"
+    artist: "復興團契; 曲 吳志揚"
+    language: "cantonese"
+    year: null
+    year_note: "unknown"
+    key: "Dm"
+    key_note: "CantonHymn 原調 field"
+    album: "守望香江系列第三輯「高聲歌唱」"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=7Ik-EJ-cw0A"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%b0%8b%e6%b1%82%e4%bd%a0%e7%9a%84%e9%9d%a2"
+        key_on_page: "Dm"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E5%B0%8B%E6%B1%82%E4%BD%A0%E7%9A%84%E9%9D%A2/"
+        key_on_page: "F"
+        tempo: 64
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%B0%8B%E6%B1%82%E4%BD%A0%E7%9A%84%E9%9D%A2"
+        download_without_login: false
+        verified: false
+    note: "year unknown"
+
+  - id: "ca-燃盡每一分"
+    title: "燃盡每一分"
+    artist: "ZiON NOiZ; 曲 Simon Yip"
+    language: "cantonese"
+    year: null
+    year_note: "unknown"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "自畫藍圖"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=x2mq8tnKROc"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e7%87%83%e7%9b%a1%e6%af%8f%e4%b8%80%e5%88%86"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics, transposable"
+        url: "https://simplyworship.hk/lyrics/%E7%87%83%E7%9B%A1%E6%AF%8F%E4%B8%80%E5%88%86/"
+        key_on_page: "D"
+        tempo: 139
+        free_without_login: true
+        verified: true
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%87%83%E7%9B%A1%E6%AF%8F%E4%B8%80%E5%88%86"
+        download_without_login: false
+        verified: false
+    note: "year unknown; fast song"
+
+  - id: "ca-回家-李健達"
+    title: "回家 (李健達)"
+    artist: "?; 曲 李健達"
+    language: "cantonese"
+    year: 1999
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: null
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=1Bf0btWKE0w"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%9b%9e%e5%ae%b6"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%9B%9E%E5%AE%B6"
+        download_without_login: false
+        verified: false
+    note: "DIFFERENT SONG from the Eternity Girls 回家 test song - same title"
+
+  - id: "zh-有一位神"
+    pool: "secondary"
+    title: "有一位神"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 1995
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉01-讓讚美飛揚"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=P8R9_oEFgdg"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%9c%89%e4%b8%80%e4%bd%8d%e7%a5%9e"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E6%9C%89%E4%B8%80%E4%BD%8D%E7%A5%9E/"
+        tempo: 72
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%9C%89%E4%B8%80%E4%BD%8D%E7%A5%9E"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-讚美之泉"
+    pool: "secondary"
+    title: "讚美之泉"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 1995
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉01-讓讚美飛揚"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=x-DysGdCg4k"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e8%ae%9a%e7%be%8e%e4%b9%8b%e6%b3%89"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E8%AE%9A%E7%BE%8E%E4%B9%8B%E6%B3%89/"
+        tempo: 72
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E8%AE%9A%E7%BE%8E%E4%B9%8B%E6%B3%89"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-雲上太陽"
+    pool: "secondary"
+    title: "雲上太陽"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2001
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉06-全能的創造主"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=61e4JlANH2Q"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e9%9b%b2%e4%b8%8a%e5%a4%aa%e9%99%bd"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E9%9B%B2%E4%B8%8A%E5%A4%AA%E9%99%BD/"
+        tempo: 80
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E9%9B%B2%E4%B8%8A%E5%A4%AA%E9%99%BD"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-展開清晨的翅膀"
+    pool: "secondary"
+    title: "展開清晨的翅膀"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2002
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉07-展開清晨的翅膀"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=xugw9VE0pjc"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%b1%95%e9%96%8b%e6%b8%85%e6%99%a8%e7%9a%84%e7%bf%85%e8%86%80"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E5%B1%95%E9%96%8B%E6%B8%85%E6%99%A8%E7%9A%84%E7%BF%85%E8%86%80/"
+        tempo: 69
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%B1%95%E9%96%8B%E6%B8%85%E6%99%A8%E7%9A%84%E7%BF%85%E8%86%80"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-這一生最美的祝福"
+    pool: "secondary"
+    title: "這一生最美的祝福"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2003
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉08-讓愛走動"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=tPf7Ig1ebL4"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e9%80%99%e4%b8%80%e7%94%9f%e6%9c%80%e7%be%8e%e7%9a%84%e7%a5%9d%e7%a6%8f"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E9%80%99%E4%B8%80%E7%94%9F%E6%9C%80%E7%BE%8E%E7%9A%84%E7%A5%9D%E7%A6%8F/"
+        tempo: 70
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E9%80%99%E4%B8%80%E7%94%9F%E6%9C%80%E7%BE%8E%E7%9A%84%E7%A5%9D%E7%A6%8F"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-主的喜樂是我力量"
+    pool: "secondary"
+    title: "主的喜樂是我力量"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2004
+    year_note: "CantonHymn 年份 field"
+    key: "E"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉09-深觸我心"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=MEHMGqHh9ZY"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e4%b8%bb%e7%9a%84%e5%96%9c%e6%a8%82%e6%98%af%e6%88%91%e5%8a%9b%e9%87%8f"
+        key_on_page: "E"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E4%B8%BB%E7%9A%84%E5%96%9C%E6%A8%82%E6%98%AF%E6%88%91%E5%8A%9B%E9%87%8F"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-禱告"
+    pool: "secondary"
+    title: "禱告"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2005
+    year_note: "CantonHymn 年份 field"
+    key: "E"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉10-單單只為祢"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=5SRbnxAX0Aw"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e7%a6%b1%e5%91%8a"
+        key_on_page: "E"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E7%A6%B1%E5%91%8A/"
+        tempo: 74
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E7%A6%B1%E5%91%8A"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-寶貴十架"
+    pool: "secondary"
+    title: "寶貴十架"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2006
+    year_note: "CantonHymn 年份 field"
+    key: "A"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉11-寶貴十架"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=0YJZUyVOQVY"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%af%b6%e8%b2%b4%e5%8d%81%e6%9e%b6"
+        key_on_page: "A"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E5%AF%B6%E8%B2%B4%E5%8D%81%E6%9E%B6/"
+        tempo: 72
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%AF%B6%E8%B2%B4%E5%8D%81%E6%9E%B6"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-我們愛"
+    pool: "secondary"
+    title: "我們愛（讓世界不一樣）"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2008
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉13-沙漠中的讚美"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=fUijjKO3lYU"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%88%91%e5%80%91%e6%84%9b%e8%ae%93%e4%b8%96%e7%95%8c%e4%b8%8d%e4%b8%80%e6%a8%a3"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E6%88%91%E5%80%91%E6%84%9B/"
+        tempo: 67
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%88%91%E5%80%91%E6%84%9B"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-恩典之路"
+    pool: "secondary"
+    title: "恩典之路"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2009
+    year_note: "CantonHymn 年份 field"
+    key: "F"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉14-不要放棄、滿有能力"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=wh6WwSrlkhw"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%81%a9%e5%85%b8%e4%b9%8b%e8%b7%af"
+        key_on_page: "F"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%81%A9%E5%85%B8%E4%B9%8B%E8%B7%AF"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-滿有能力"
+    pool: "secondary"
+    title: "滿有能力"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2009
+    year_note: "CantonHymn 年份 field"
+    key: "Bb"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉14-不要放棄、滿有能力"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=uTGPl8f-reQ"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%bb%bf%e6%9c%89%e8%83%bd%e5%8a%9b"
+        key_on_page: "Bb"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E6%BB%BF%E6%9C%89%E8%83%BD%E5%8A%9B/"
+        tempo: 148
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%BB%BF%E6%9C%89%E8%83%BD%E5%8A%9B"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-讓我"
+    pool: "secondary"
+    title: "讓我"
+    artist: "房角石音樂工作室"
+    language: "mandarin"
+    year: 2009
+    year_note: "CantonHymn 年份 field"
+    key: "F"
+    key_note: "CantonHymn 原調 field"
+    album: "天堂之門"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=RtVYqQpHxNM"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e8%ae%93%e6%88%91-musicstone"
+        key_on_page: "F"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E8%AE%93%E6%88%91/"
+        tempo: 67
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E8%AE%93%E6%88%91"
+        download_without_login: false
+        verified: false
+
+  - id: "zh-我要全心讚美"
+    pool: "secondary"
+    title: "我要全心讚美"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2010
+    year_note: "CantonHymn 年份 field"
+    key: "F"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉15-愛可以再更多一點點"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=Bs-pQZ9b0OU"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%88%91%e8%a6%81%e5%85%a8%e5%bf%83%e8%ae%9a%e7%be%8e"
+        key_on_page: "F"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%88%91%E8%A6%81%E5%85%A8%E5%BF%83%E8%AE%9A%E7%BE%8E"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-叫我抬起頭的神"
+    pool: "secondary"
+    title: "叫我抬起頭的神"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2011
+    year_note: "CantonHymn 年份 field"
+    key: "E"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉16-相信有愛就有奇蹟"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=ouG12IsjTNU"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%8f%ab%e6%88%91%e6%8a%ac%e8%b5%b7%e9%a0%ad%e7%9a%84%e7%a5%9e"
+        key_on_page: "E"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E5%8F%AB%E6%88%91%E6%8A%AC%E8%B5%B7%E9%A0%AD%E7%9A%84%E7%A5%9E/"
+        tempo: 142
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%8F%AB%E6%88%91%E6%8A%AC%E8%B5%B7%E9%A0%AD%E7%9A%84%E7%A5%9E"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-住在祢裡面"
+    pool: "secondary"
+    title: "住在祢裡面"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2011
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉16-相信有愛就有奇蹟"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=IKGazOdWmH4"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e4%bd%8f%e5%9c%a8%e7%a5%a2%e8%a3%a1%e9%9d%a2"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E4%BD%8F%E5%9C%A8%E4%BD%A0%E8%A3%A1%E9%9D%A2/"
+        tempo: 66
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E4%BD%8F%E5%9C%A8%E7%A5%A2%E8%A3%A1%E9%9D%A2"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-將天敞開"
+    pool: "secondary"
+    title: "將天敞開"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2012
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉17-將天敞開"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=OVUPLFLdmpE"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e5%b0%87%e5%a4%a9%e6%95%9e%e9%96%8b"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E5%B0%87%E5%A4%A9%E6%95%9E%E9%96%8B/"
+        tempo: 152
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E5%B0%87%E5%A4%A9%E6%95%9E%E9%96%8B"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-與祢更靠近"
+    pool: "secondary"
+    title: "與祢更靠近"
+    artist: "約書亞樂團"
+    language: "mandarin"
+    year: 2012
+    year_note: "CantonHymn 年份 field"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: "大衛帳幕的榮耀08-為著你的榮耀"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=iz32XOGh27g"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e8%88%87%e7%a5%a2%e6%9b%b4%e9%9d%a0%e8%bf%91"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E8%88%87%E4%BD%A0%E6%9B%B4%E9%9D%A0%E8%BF%91/"
+        tempo: 74
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E8%88%87%E7%A5%A2%E6%9B%B4%E9%9D%A0%E8%BF%91"
+        download_without_login: false
+        verified: false
+
+  - id: "zh-我們歡迎君王降臨"
+    pool: "secondary"
+    title: "我們歡迎君王降臨"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2014
+    year_note: "CantonHymn 年份 field"
+    key: "E"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉19-這裡有榮耀"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=kp0nbIAnhn0"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%88%91%e5%80%91%e6%ad%a1%e8%bf%8e%e5%90%9b%e7%8e%8b%e9%99%8d%e8%87%a8"
+        key_on_page: "E"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E6%88%91%E5%80%91%E6%AD%A1%E8%BF%8E%E5%90%9B%E7%8E%8B%E9%99%8D%E8%87%A8/"
+        tempo: 70
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%88%91%E5%80%91%E6%AD%A1%E8%BF%8E%E5%90%9B%E7%8E%8B%E9%99%8D%E8%87%A8"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-我安然居住"
+    pool: "secondary"
+    title: "我安然居住"
+    artist: "約書亞樂團"
+    language: "mandarin"
+    year: 2014
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: "大衛帳幕的榮耀10-主祢是我們的太陽"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=kNOuWvdPgiA"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%88%91%e5%ae%89%e7%84%b6%e5%b1%85%e4%bd%8f"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%88%91%E5%AE%89%E7%84%B6%E5%B1%85%E4%BD%8F"
+        download_without_login: false
+        verified: false
+
+  - id: "zh-能不能"
+    pool: "secondary"
+    title: "能不能"
+    artist: "讚美之泉"
+    language: "mandarin"
+    year: 2015
+    year_note: "CantonHymn 年份 field"
+    key: "G"
+    key_note: "CantonHymn 原調 field"
+    album: "讚美之泉20-新的事將要成就"
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=AW6aFoCCaIg"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e8%83%bd%e4%b8%8d%e8%83%bd"
+        key_on_page: "G"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+      - site: "Simply Worship"
+        format: "chords over lyrics"
+        url: "https://simplyworship.hk/lyrics/%E8%83%BD%E4%B8%8D%E8%83%BD/"
+        tempo: 65
+        free_without_login: true
+        verified: false
+        note: "in the site's song index; page not opened"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E8%83%BD%E4%B8%8D%E8%83%BD"
+        download_without_login: false
+        verified: false
+    note: "讚美之泉 sells official lead sheets (store.sop.org / membership) - not free."
+
+  - id: "zh-我願意"
+    pool: "secondary"
+    title: "我願意"
+    artist: "黃國倫"
+    language: "mandarin"
+    year: null
+    year_note: "unknown"
+    key: "D"
+    key_note: "CantonHymn 原調 field"
+    album: null
+    youtube:
+      - what: "CantonHymn's featured video (not opened by us)"
+        url: "https://www.youtube.com/watch?v=ZxVaTYNXW24"
+        verified: false
+    charts:
+      - site: "CantonHymn"
+        format: "chords over lyrics"
+        url: "https://cantonhymn.net/song/%e6%88%91%e9%a1%98%e6%84%8f"
+        key_on_page: "D"
+        free_without_login: true
+        verified: true
+        note: "metadata read via the site's own song-detail data"
+    musescore:
+      - what: "search"
+        url: "https://musescore.com/sheetmusic?text=%E6%88%91%E9%A1%98%E6%84%8F"
+        download_without_login: false
+        verified: false

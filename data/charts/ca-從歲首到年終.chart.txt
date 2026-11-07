@@ -1,0 +1,26 @@
+# title: 從歲首到年終
+# artist: 共享詩歌協會; 曲 西伯
+# language: cantonese
+# key: C (page says C; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2015
+# source: CantonHymn https://cantonhymn.net/song/%e5%be%9e%e6%ad%b2%e9%a6%96%e5%88%b0%e5%b9%b4%e7%b5%82
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: C7add11 -> C7
+[Verse]
+| Fmaj7 | Em7 | Dm7 . G . | Cmaj7 |
+| Fmaj7 | G7 | Em7 | Am7 |
+| Dm7 . F . | Gsus4 . G . |
+[Pre-Chorus]
+| Em7 | Am7 | Dm7 | Fmaj7 |
+| Em7 | Am | Dm7 | G |
+| Em | Am7 | Dm | Fm |
+| Em7 . Am7 . | Bb . G . |
+[Chorus]
+| C | G | Am7 . Gm . | C |
+| Fmaj7 | Am | Dm7 | G |
+| C | C7 . Am7 . | Dm . E7/G# . | F |
+| C . Fm . | G . C . |

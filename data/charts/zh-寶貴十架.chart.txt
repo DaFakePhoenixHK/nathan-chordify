@@ -1,0 +1,25 @@
+# title: 寶貴十架
+# artist: 讚美之泉
+# language: mandarin
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2006
+# source: CantonHymn https://cantonhymn.net/song/%e5%af%b6%e8%b2%b4%e5%8d%81%e6%9e%b6
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A . C#/G# . | F#m . A7/E . | D . D/E . | A . A7/C# . |
+| D | D/E | A . E/G# . | F#m |
+| Bm . B . | E . E7 . |
+[Verse 2]
+| A . C#/G# . | F#m . A7/E . | D . D/E . | A . A7/C# . |
+| D | D/E | A . E/G# . | F#m |
+| Bm . B . | E . E7 . |
+[Chorus]
+| A . A/C# . | D | Bm . B . | E . E7 . |
+| A | A/C# | D | B7/D# |
+| A/E . E7 . | A |
+[Outro]
+| A/E . E7 . | A | A/E | E7 . A . |

@@ -1,0 +1,25 @@
+# title: Everlasting God
+# artist: Brenton Brown / Chris Tomlin
+# language: english
+# key: G (page says G; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 100 BPM
+# year: 2005
+# source: WorshipTogether https://www.worshiptogether.com/songs/everlasting-god/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| G | G | Gsus4 | G |
+| Gsus4 | G | Gsus4 | G |
+| G | G | Gsus4 | G |
+| Gsus4 | G | Gsus4 | G |
+[Pre-Chorus]
+| G/B . C . | G/B . C . | D . Em . | D |
+| G/B . C . | G/B . C . | D . Em . | D |
+[Chorus]
+| G | G | C | C |
+| Em | Em . C . | D/C . C . | Am7/C |
+| G | G | C | C |
+| Em | Em . C . | D/C . C . | Am7/C |

@@ -1,0 +1,63 @@
+{
+ "loss": 3.2853,
+ "loss_root": 1.46004,
+ "loss_bass": 1.3718,
+ "loss_notes": 0.22673,
+ "root_acc": 0.87469,
+ "bass_acc": 0.93254,
+ "root_acc_chord": 0.87506,
+ "bass_acc_chord": 0.9349,
+ "n_recall": 0.86599,
+ "notes_exact": 0.53622,
+ "notes_f1": 0.84577,
+ "all_heads_ok": 0.51178,
+ "root_nll": 0.69762,
+ "frames": 603400,
+ "breakdown": {
+  "band:piano only": {
+   "n": 49,
+   "root": 0.8106,
+   "notes": 0.3643
+  },
+  "band:with band": {
+   "n": 651,
+   "root": 0.8795,
+   "notes": 0.5492
+  },
+  "meter:12/8": {
+   "n": 122,
+   "root": 0.8805,
+   "notes": 0.4819
+  },
+  "meter:3/4": {
+   "n": 159,
+   "root": 0.8658,
+   "notes": 0.5445
+  },
+  "meter:4/4": {
+   "n": 419,
+   "root": 0.8764,
+   "notes": 0.5489
+  },
+  "source:chart": {
+   "n": 297,
+   "root": 0.9351,
+   "notes": 0.6959
+  },
+  "source:diatonic": {
+   "n": 207,
+   "root": 0.8818,
+   "notes": 0.4339
+  },
+  "source:idiom": {
+   "n": 119,
+   "root": 0.8941,
+   "notes": 0.5502
+  },
+  "source:random": {
+   "n": 77,
+   "root": 0.5926,
+   "notes": 0.1735
+  }
+ }
+}

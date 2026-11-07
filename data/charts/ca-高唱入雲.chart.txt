@@ -1,0 +1,25 @@
+# title: 高唱入雲
+# artist: 共享詩歌協會; 曲 西伯
+# language: cantonese
+# key: F (page says F; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1996
+# source: CantonHymn https://cantonhymn.net/song/%e9%ab%98%e5%94%b1%e5%85%a5%e9%9b%b2
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| F . Am . | Bb . C . | F | Am |
+| Bb | C7 | Dm | Am |
+| Bb . Bbm . | Fmaj7 | Bb . C . | Dm . Eb . |
+| C |
+[Chorus]
+| F . Am . | Bb . C . | F . Am . | Bb . C . |
+[Verse]
+| Bb | F/A |
+[Verse]
+| Bb | F/A |
+[Verse]
+| Bb | Csus4 | Eb | C |
+| F |

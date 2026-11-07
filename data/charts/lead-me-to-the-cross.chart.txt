@@ -1,0 +1,44 @@
+# title: Lead Me to the Cross
+# artist: Hillsong UNITED (Brooke Ligertwood)
+# language: english
+# key: D (from the chords; page says A (the chart is written in another key))
+# meter: 4/4 (from the bar lines and slashes of its chord-only lines)
+# beats_per_bar: 4
+# tempo: 70 BPM
+# year: 2006
+# source: WorshipTogether https://www.worshiptogether.com/songs/lead-me-to-the-cross-united/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| Bm | Dmaj7/A | Gmaj7 | Gmaj7 . A . |
+| Bm | Dmaj7/A | Gmaj7 | Gmaj7 . A . |
+[Verse 1]
+| Bm | Dmaj7/A | G | D . A . |
+| Bm | Dmaj7/A | G | D . A . |
+| Em7 | A | Bm . A . | G |
+[Chorus 1]
+| Gmaj7 | D | A | Gmaj7 |
+| D | A | Gmaj7 | D |
+| A | Em7 | G | A |
+[Interlude]
+| Bm | Dmaj7/A | Gmaj7 | Gmaj7 . A . |
+[Verse 2]
+| Bm | Dmaj7/A | G | D . A . |
+| Bm | Dmaj7/A | G | D . A . |
+| Em7 | A | Bm . A . | G |
+[Chorus 2]
+| Gmaj7 | D | A | Gmaj7 |
+| D | A | Bm | Gmaj7 |
+| D | A | Em7 | G |
+| A | A | A | Bm |
+| Bm . A . |
+[Bridge]
+| D . Gmaj7 . | A | D . Gmaj7 . | A |
+| D . Gmaj7 . | A | D . Gmaj7 . | A |
+[Outro]
+| Bm | Dmaj7/A | Gmaj7 | Gmaj7 . A . |
+| Bm | Dmaj7/A | Gmaj7 | Gmaj7 . A . |
+| Bm | Dmaj7/A | Gmaj7 | Gmaj7 . A . |
+| Bm | Dmaj7/A | Gmaj7 | Gmaj7 . A . |
+| Bm |

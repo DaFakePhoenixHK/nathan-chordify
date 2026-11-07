@@ -1,0 +1,22 @@
+# title: Facedown
+# artist: Matt Redman
+# language: english
+# key: Am (estimated from the chords (the page gives none))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2004
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/matt-redman/facedown-chords-358152
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+| Am | E | Cmaj7 | Dsus2 |
+| Am | E | Cmaj7 | Dsus2 |
+| Am | E | E | E |
+[Chorus]
+| C . F . | Am . G . | F | C . F . |
+| Am . G . | F | Am | E |
+| Cmaj7 | Dsus2 | Am | E |
+| Cmaj7 | Fmaj7 |
+[Bridge]
+| Fmaj7 | G | Fmaj7 | G |
+| G | G | G |

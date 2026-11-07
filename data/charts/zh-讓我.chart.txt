@@ -1,0 +1,21 @@
+# title: 讓我
+# artist: 房角石音樂工作室
+# language: mandarin
+# key: F (page says F; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2009
+# source: CantonHymn https://cantonhymn.net/song/%e8%ae%93%e6%88%91-musicstone
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| Bbmaj7 | C/Bb | Am7 | Dm7 |
+| Gm7 . C7 . | F . Fmaj7 . | Bbmaj7 | C/Bb |
+| Am7 | D7b9 | Gm7 | Gm7 |
+| Bb/C | C |
+[Chorus]
+| Bbmaj7 | C/Bb | Am7 | Dm7 |
+| Gm7 | Bb/C | Bb/C . Fmaj7 . | Cm7 . Eb/F . |
+| Gm7 | Bb/C | Am7 | Dm7 |
+| Gm7 . Bb/C . | Bb/C . F . |

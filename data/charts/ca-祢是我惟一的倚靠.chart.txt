@@ -1,0 +1,21 @@
+# title: 祢是我惟一的倚靠
+# artist: 基恩敬拜音樂事工; 曲 鄧淑儀 Yvonne
+# language: cantonese
+# key: G (page says G; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2015
+# source: CantonHymn https://cantonhymn.net/song/%e7%a5%a2%e6%98%af%e6%88%91%e6%83%9f%e4%b8%80%e7%9a%84%e5%80%9a%e9%9d%a0
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| G . Bm . | C . G/B . | Am . G . | C . G . |
+| Em | C . G/B . | Am | D7 . G . |
+| C/D . D . |
+[Chorus]
+| G | D | Em | C |
+| C . D7 . | G | Am . D . | Bm . Em . |
+| C . Am . | D | G . D . | Bm . Em . |
+| Am . D7 . | G | C | D |
+| Bm | Em | Am . D7 . | G |

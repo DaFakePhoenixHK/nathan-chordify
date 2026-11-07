@@ -1,0 +1,33 @@
+# title: 從歲首到年終
+# artist: 共享詩歌協會; 曲 西伯
+# language: cantonese
+# key: E (page says E; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 64 BPM
+# year: 2015
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E5%BE%9E%E6%AD%B2%E9%A6%96%E5%88%B0%E5%B9%B4%E7%B5%82/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| C#m . B/D# . | B/D# . E . | A | B |
+| C#m . B/D# . | E | A | B . G#/B# . |
+| C#m . B/D# . | E | A | B |
+| C#m . B/D# . | E . A . | A | B . B . |
+[Chorus 1]
+| E . B/D# . | C#m . E/B . | A | E/G# |
+| F#m | B | A | B/A |
+| G#m | C# | A | B |
+| B | C# | A | B . E . |
+[Chorus 2]
+| E . B/D# . | C#m . E/B . | A | E/G# |
+| F#m | B | A | B/A |
+| G#m | C# | A | B |
+| B | C# | A | B . E . |
+[Chorus 3]
+| E . B/D# . | C#m . E/B . | A | E/G# |
+| F#m | B | A | B/A |
+| G#m | C# | A | B |
+| B | C# | A | B |
+| E | E |

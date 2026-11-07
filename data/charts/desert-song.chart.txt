@@ -1,0 +1,38 @@
+# title: Desert Song
+# artist: Hillsong (Brooke Ligertwood)
+# language: english
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 110 BPM
+# year: 2008
+# source: WorshipTogether https://www.worshiptogether.com/songs/desert-song/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| Bm | A | G | G |
+| Bm . A . | G | Bm | A |
+| G | G | Bm | A |
+| G | G |
+[Verse 2]
+| Bm . A . | G | Bm . A . | G |
+| Bm | A | G | G |
+| Bm . A . | G |
+[Chorus]
+| D | A | G | D |
+| A/C# | A | Bm | G . A . |
+| A | Bm . A . | G |
+[Verse 3]
+| Bm | A | G | G |
+| Bm . A . | G | Bm | A |
+| G | G | Bm | A |
+| G | G |
+[Bridge]
+| D | D | D | D |
+| Bm | Bm | A | G |
+| G | D | D |
+[Verse 4]
+| Bm | A | G | G |
+| Bm . A . | G | Bm | A |
+| G | G | Bm . A . | G |

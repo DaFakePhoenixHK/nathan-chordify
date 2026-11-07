@@ -1,0 +1,27 @@
+# title: You Said
+# artist: Hillsong (Reuben Morgan)
+# language: english
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 155 BPM
+# year: 1998
+# source: WorshipTogether https://www.worshiptogether.com/songs/you-said-hillsong-worship/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A/D . E . | F#m7 . E/G# . | A/D | E |
+| F#m7 . E/G# . | A/D . E . | F#m7 . E/G# . | E/G# . A/D . |
+| A/D | E . F#m7 . | A/D . E . |
+[Chorus]
+| C | A . E . | E . F#m7 . | F#m7 . D . |
+| A . E . | D | E | A . E . |
+| E . F#m7 . | F#m7 . D . | A . E . | D |
+| E |
+[Verse 2]
+| A/D . E . | F#m7 . E/G# . | A/D | E |
+| F#m7 . E/G# . | A/D . E . | F#m7 . E/G# . | A/D |
+| A/D | E | F#m7 | C |
+[Outro]
+| A/D . E . | F#m7 . E/G# . | A/D . E . | F#m7 . E/G# . |

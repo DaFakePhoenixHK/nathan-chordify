@@ -1,0 +1,28 @@
+# title: God of Wonders
+# artist: City on a Hill / Third Day
+# language: english
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 80 BPM
+# year: 2000
+# source: WorshipTogether https://www.worshiptogether.com/songs/god-of-wonders/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| Esus4 . F#m . | Dsus2 | Esus4 | F#m . Dsus2 . |
+| Esus4 | F#m | Dsus2 | Dsus2 |
+| Esus4 | F#m . Dsus2 . |
+[Chorus]
+| A | A | A | E |
+| Bm7 | Dsus2 | A | A |
+| A | E | Bm7 | Dsus2 |
+| Dsus2 | Dsus2 | Dsus2 | Dsus2 |
+[Verse 2]
+| Esus4 . F#m . | Dsus2 | Esus4 | F#m . Dsus2 . |
+| Esus4 | Esus4 | F#m | Dsus2 |
+| Esus4 | F#m | Dsus2 | Dsus2 |
+[Outro]
+| Bm7 | Bm7 | Dsus2 | Dsus2 |
+| Dsus2 | Dsus2 |

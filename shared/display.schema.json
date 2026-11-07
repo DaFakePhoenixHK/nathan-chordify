@@ -1,0 +1,87 @@
+{
+  "$defs": {
+    "DisplayVariant": {
+      "additionalProperties": false,
+      "properties": {
+        "key_names": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Key Names",
+          "type": "array"
+        },
+        "chords": {
+          "additionalProperties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "title": "Chords",
+          "type": "object"
+        },
+        "bass_line": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Bass Line",
+          "type": "array"
+        }
+      },
+      "required": [
+        "key_names",
+        "chords",
+        "bass_line"
+      ],
+      "title": "DisplayVariant",
+      "type": "object"
+    },
+    "Voicing": {
+      "additionalProperties": false,
+      "properties": {
+        "lh": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Lh",
+          "type": "array"
+        },
+        "rh": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Rh",
+          "type": "array"
+        }
+      },
+      "title": "Voicing",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "variants": {
+      "additionalProperties": {
+        "$ref": "#/$defs/DisplayVariant"
+      },
+      "title": "Variants",
+      "type": "object"
+    },
+    "voicings": {
+      "additionalProperties": {
+        "additionalProperties": {
+          "$ref": "#/$defs/Voicing"
+        },
+        "type": "object"
+      },
+      "title": "Voicings",
+      "type": "object"
+    }
+  },
+  "required": [
+    "variants",
+    "voicings"
+  ],
+  "title": "Display",
+  "type": "object"
+}

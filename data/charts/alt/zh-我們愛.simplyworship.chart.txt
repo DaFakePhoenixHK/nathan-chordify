@@ -1,0 +1,22 @@
+# title: 我們愛（讓世界不一樣）
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 67 BPM
+# year: 2008
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E6%88%91%E5%80%91%E6%84%9B/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: A4 -> Asus4 (x5)
+[Verse 1]
+| D . A/C# . | Bm7 | Gmaj7 . D/F# . | Em7 . Asus4 . |
+| Bm7 . F#/A# . | Dmaj7/A . E/G# . | Em7 . Asus4 . | Dsus2 . Asus4 . |
+[Chorus]
+| Dsus2 . A/C# . | Bm7 | D/A | G |
+| G | D/F# | Em7 | Asus4 |
+| Dsus2 . A/C# . | Bm7 | D/A . G . | G . D/F# . |
+| Em7 | D/F# | Gsus2 | Asus4 |
+| Dsus2 | Dsus2 |

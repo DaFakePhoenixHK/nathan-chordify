@@ -1,0 +1,26 @@
+# title: 無言的讚頌（遍地充滿）
+# artist: 沙田浸信會; 曲 朱浩權
+# language: cantonese
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1990
+# source: CantonHymn https://cantonhymn.net/song/%e7%84%a1%e8%a8%80%e7%9a%84%e8%ae%9a%e9%a0%8c
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| A G/A D/A D/A |
+[Verse]
+| A | E/A | D/A | A |
+| D | A/C# | Bm | E |
+| A | C#m | D | A/C# |
+| D . A/C# . | A/C# . Bm7 . | Bm7 . E7 . | A . A7 . |
+[Chorus]
+| D . E . | C#m . F#m . | D . E . | A . A7 . |
+| D . E . | C#m . F#m . | Bm | E |
+| A | A | D . E . | F#m |
+| D . E . | F#m | D | E . A . |
+| A . E/G# . | F#m | Bm7 | E |
+[Tag]
+| F#m . D . | A . E . |

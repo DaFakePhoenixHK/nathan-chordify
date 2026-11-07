@@ -1,0 +1,57 @@
+# 回家 (Eternity Girls) — YouTube Y7boUFbM76k — DRAFT ground truth (DESIGN §13.1)
+#
+# STATUS: draft, NOT reviewed. Transcribed from the consensus chart of docs/RESEARCH.md §5.3
+# (sources S1–S4 + one audio check). Nathan's own chords replace this file when he sends them.
+# Key B major, ~65.4 BPM, 4/4, one bar ≈ 3.67 s.
+#
+# Format: DESIGN §0.1 bar text (parsed by nathan_chordify.theory.chart.parse). One bar between
+# "|" marks; one token per beat with "." = same chord; a bar without dots is split evenly;
+# "(A B)" splits one beat. Upper-structure names of the consensus are written as the piano
+# shape: F#11 → E/F#, Emaj9(B/E) → Emaj9.
+#
+# Timing (eval/checklist.py): each section label carries its start time in this video ("@ s");
+# its bars are laid every 3.67 s from there (NOT on our beat tracker — review E1). Each line
+# ends with its confidence: (H) clear, (M) likely, (L) unsure; "M–H" lines count as M. Only
+# H bars feed the false-positive gate.
+#
+# Beat positions written with dots come from the audio notes of RESEARCH §5.4–5.5 (B+7 on the
+# "and" of beat 4; A7 on beat 3 and Em6/Em7 on beat 4; B/F# then B7 in pre-chorus bar 3);
+# elsewhere the consensus only gives the order of the chords in the bar, so they are split
+# evenly — the draft is a bar-level reference (§13.1 step 5: checklist + coarse metrics only).
+
+[Intro @2.9]
+| Emaj7 D#7sus4 D#7/G | G#m/D# | Emaj7 D#7sus4 D#7/G | G#m/D# F# |   (L)
+| Emaj7 | F#add9 D#m7 | Emaj7 | E/F# |                               (M)
+
+[Verse 1 @32.4]
+| B B7sus4 | G#m7/F# Em/A | B F#/B B7sus4 | G#m7/F# Emaj7 |          (M)
+| C#m7 D#m7 | C#m7/E Em/G? | E/F# F# |                               (M)
+
+[Pre-chorus 1 @58.2]
+| B . . (. B+7) | Emaj7 . A7 Em6 | B . B/F# B7 | Emaj7 . A7 Em7 |   (M)
+| C#m7 D#m7 | C#m7/E | E/F# F# |                                      (M)
+
+[Chorus 1 @83.9]
+| G#m F# | E F# B | E F# | E F#/A# |                                 (M)
+| Emaj7 F# | F#sus4 D#7/A# G#m/D# | C#m7 F# |                         (M)
+
+[Interlude 1 @109.7]
+| Emaj9 B/D# | C#m7 B | Emaj7 B/D# | C#m7 G#m F# F#/C# |             (H)
+
+[Pre-chorus 2 @124.9]
+| B B/F# | Emaj7 . A7 Em | B . . (. B+7) | Emaj7 E/D# |              (M)
+| C#m7 D#m7 | C#m7/E | F# F#/C# |                                     (M)
+
+[Chorus 2 @150.6]
+| G#m F# | E F# B | E F# | G#m7 A#m7 F#/A# |                         (M)
+| Emaj7 F# | B D#7/A# G#m G#m/D# | Emaj7 F#7 |                        (M)
+
+[Interlude 2 @176.3]
+| Emaj9 F#7 | G#m/D# G#m7/B F#/C# F# | Emaj7 F# | G#m7 A#m7 F# |      (M)
+
+[Chorus 3 @191.0]
+| Emaj7 F# | B F#/A# G#m7 B/F# | Emaj7 F#/C# F# | Emaj7 F#sus4 F# |   (H)
+| Emaj7 F# | B D#7/A# G#m7 | G#m7 G#m7/D# | C#m7 B/F# F# | B |         (H)
+
+[Tag @224.0]
+| B B7 | A9 | B/F# | C#m7 | E/F# | B |                                 (H)

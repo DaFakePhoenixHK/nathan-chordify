@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nathan_chordify"
+version = "0.1.0"
+description = "Self-hosted chord recognition for worship/gospel piano, tuned to keep short passing chords and slash chords."
+requires-python = ">=3.12,<3.13"
+# Runtime dependencies are pinned in requirements.txt (installed separately so torch stays on the CUDA build).
+dependencies = []
+
+[project.scripts]
+nchord = "nathan_chordify.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nathan_chordify*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

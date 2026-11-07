@@ -1,0 +1,32 @@
+# title: Blessed Be Your Name
+# artist: Matt Redman
+# language: english
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 120 BPM
+# year: 2002
+# source: WorshipTogether https://www.worshiptogether.com/songs/blessed-be-your-name-matt-redman/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A | E | F#m7 | D |
+| A | E | D | D |
+| A | E | F#m7 | D |
+| A | E | D | D |
+[Pre-Chorus]
+| A | A | E | E |
+| F#m7 | D | A | E |
+| F#m7 | D |
+[Chorus]
+| A | E | F#m7 | D |
+| A | E . F#m7 . | D |
+[Verse 2]
+| A | E | F#m7 | D |
+| A | E | D | D |
+| A | E | F#m7 | D |
+| A | E | D | D |
+[Bridge]
+| A | E | F#m7 | D |
+| A | E | F#m7 | D |

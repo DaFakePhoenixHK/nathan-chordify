@@ -1,0 +1,26 @@
+# title: 誰曾應許
+# artist: Music 2000; 曲 盧永亨
+# language: cantonese
+# key: C (page says C; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2005
+# source: CantonHymn https://cantonhymn.net/song/%e8%aa%b0%e6%9b%be%e6%87%89%e8%a8%b1
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| C | Am | F | G |
+| C | C | Am | Am |
+| F . Dm . | Dm . G . |
+[Verse 2]
+| C | Am | F | G |
+| C | C | Am | Am |
+| F . Dm . | G . G7 . |
+[Chorus]
+| C | Em | Am | C |
+| F | C | Dm | G7 |
+| C | G | F | C |
+| F | C . Dm . | Dm . G . | C |
+[Outro]
+| F . Em . | Am . Dm . | Dm . G . | C |

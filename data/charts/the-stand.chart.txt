@@ -1,0 +1,31 @@
+# title: The Stand
+# artist: Hillsong UNITED
+# language: english
+# key: A (page says A; the chords agree)
+# meter: 4/4 (from the bar lines and slashes of its chord-only lines)
+# beats_per_bar: 4
+# tempo: 71 BPM
+# year: 2005
+# source: WorshipTogether https://www.worshiptogether.com/songs/the-stand-united/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A | A | D | D |
+| A/C# | F#m | D |
+[Verse 2]
+| A | A | D | D |
+| A/C# | F#m | D |
+[Pre-Chorus 1]
+| D . D/B . | F#m | D . E . | F#m |
+[Verse 3]
+| A | A | D | D |
+| A/C# | F#m | D |
+[Pre-Chorus 2]
+| D . D/B . | F#m | D . E . | D |
+[Interlude]
+| D . A . | E . F#m . | D . A . | E . F#m . |
+[Chorus]
+| D . A . | E | F#m | D . A . |
+| E . F#m . | D . A . | E | F#m |
+| D . A . | E |

@@ -1,0 +1,21 @@
+# title: 主的喜樂是我力量
+# artist: 讚美之泉
+# language: mandarin
+# key: E (page says E; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2004
+# source: CantonHymn https://cantonhymn.net/song/%e4%b8%bb%e7%9a%84%e5%96%9c%e6%a8%82%e6%98%af%e6%88%91%e5%8a%9b%e9%87%8f
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: Aadd7 -> A
+[Verse]
+| Emaj7 | Amaj7 | Emaj7 | B7 |
+| Aadd9 | Aadd9 | E/G# | C#m |
+| F#m . F#/A# . | F#/A# . B7 . |
+[Chorus]
+| Emaj7 . E/G# . | Aadd9 . B7 . | Emaj7 . E/G# . | A . B7 . |
+| F#m | B7 | G#m | C#m7 |
+| Aadd9 | E/G# | Aadd9 | E/G# |
+| F#m7 . B7 . | B7 . E . |

@@ -1,0 +1,38 @@
+# title: From the Inside Out
+# artist: Hillsong UNITED
+# language: english
+# key: C (from the chords; page says A (the chart is written in another key))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 140 BPM
+# year: 2005
+# source: WorshipTogether https://www.worshiptogether.com/songs/from-the-inside-out/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| F . . C | C . G . |
+[Verse 1]
+| F | F | C | G |
+| F | F | C | G |
+| Am | F | C | G |
+| G | Am | F | C |
+| G | G |
+[Verse 2]
+| F | F | C | G |
+| F | F | C | G |
+| Am | F | C | G |
+| G | Am | F | C . G . |
+[Pre-Chorus]
+| F | C | Am | G |
+| G | F | Am | G |
+| Dm | Dm |
+[Chorus]
+| Am | F | C | G |
+| G | Am | F | C . G . |
+| C | F | G | Am |
+| F | G | F | G |
+[Interlude]
+| F | F C . . | C . Am . | Am . . G |
+| G | F | F Am . . | Am . G . |
+| G . . Dm |

@@ -1,0 +1,24 @@
+# title: The Power of the Cross
+# artist: Keith & Kristyn Getty
+# language: english
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2005
+# source: WorshipTogether https://www.worshiptogether.com/songs/the-power-of-the-cross-keith-and-kristyn-getty/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| D/F# . E/G# . | A | E7/B | A/C# |
+| D | A/C# | Bm7 . Dmaj7 . | Esus4 . E . |
+| D/F# . E/G# . | A | E7/B | A/C# |
+| D | A/C# . Dmaj7 . | Esus4 . E . |
+[Chorus 1]
+| A/C# . D . | E/G# . A . | A/C# . D . | E/G# . A . |
+| A/C# . D . | B/D# . E . | E/D . A/C# . | D |
+| Esus4 . E . | A |
+[Chorus 2]
+| A/C# . D . | E/G# . A . | A/C# . D . | E/G# . A . |
+| A/C# . D . | B/D# . E . | E/D . A/C# . | D |
+| Esus4 . E . | A |

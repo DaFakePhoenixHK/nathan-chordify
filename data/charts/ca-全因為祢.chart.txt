@@ -1,0 +1,26 @@
+# title: 全因為祢
+# artist: 共享詩歌協會 / 影音使團; 曲 西伯
+# language: cantonese
+# key: F (page says F; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1997
+# source: CantonHymn https://cantonhymn.net/song/%e5%85%a8%e5%9b%a0%e7%82%ba%e7%a5%a2
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| F . Am7 . | Dm . Dm7 . | Bb . C . | F . F7 . |
+| Bb | C | Am | Dm |
+| Bb . Eb . | Eb . C . |
+[Pre-Chorus]
+| F | Dm | Bb | Bb . C7 . |
+| F | Dm | Bb | Bbm |
+| Dm . Bb . | C |
+[Chorus 1]
+| F . Am . | Dm . Dm7 . | Bb . C . | F . F7 . |
+| Gm | C | Am | Dm |
+| Bb | Gm . C . |
+[Chorus 2]
+| F . Am . | Dm . Dm7 . | Bb . C . | F . F7 . |
+| Bb . Bbm . | F . Dm . | Bb . C7 . | F |

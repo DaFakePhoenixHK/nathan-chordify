@@ -1,0 +1,19 @@
+# title: 雲上太陽
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2001
+# source: CantonHymn https://cantonhymn.net/song/%e9%9b%b2%e4%b8%8a%e5%a4%aa%e9%99%bd
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| D | Bm | Bm | Bm |
+| G | Em | Em | A |
+| D | D | Bm | Bm |
+| G . A7 . | D |
+[Chorus]
+| D | Bm | G . A . | D |
+| D | Bm . G . | D . A7 . | D |

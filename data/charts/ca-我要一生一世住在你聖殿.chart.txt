@@ -1,0 +1,20 @@
+# title: 我要一生一世住在你聖殿
+# artist: 敬拜族 Worship Nations / 玻璃海樂團; 曲 方文聰
+# language: cantonese
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2015
+# source: CantonHymn https://cantonhymn.net/song/%e6%88%91%e8%a6%81%e4%b8%80%e7%94%9f%e4%b8%80%e4%b8%96%e4%bd%8f%e5%9c%a8%e4%bd%a0%e8%81%96%e6%ae%bf
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| Aadd9 | E/G# | F#m7 | C#m7 |
+| Dsus2 . Asus2/C# . | Asus2/C# . Bm7 . | Esus4 . E . | Aadd9 |
+| E/G# | F#m7 | C#m7 | Dsus2 . Asus2/C# . |
+| Asus2/C# . Bm7 . | Esus4 | E | F#m7 |
+| C#m7 | Dmaj7 | A . E . | Bm7 |
+| Dadd9 | Esus4 | Esus4 | Aadd9 |
+| Dadd9 | Bm7 | Esus4 . E . | Aadd9 |
+| Dadd9 | Bm7 . E . | Aadd9 |

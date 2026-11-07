@@ -1,0 +1,57 @@
+# title: In Christ Alone
+# artist: Keith Getty & Stuart Townend (Passion version on WT)
+# language: english
+# key: F (page says F; the chords agree)
+# meter: 3/4 (from the bar lines and slashes of its chord-only lines)
+# beats_per_bar: 3
+# tempo: 68 BPM
+# year: 2001
+# source: WorshipTogether https://www.worshiptogether.com/songs/in-christ-alone/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: C4 -> Csus4 (x20)
+[Intro]
+| F | Bb | Dm | Bb |
+| F | Bb | Dm | Bb |
+[Verse 1]
+| F . Dm7 | Csus4 | F/A | Bbsus2 |
+| Csus4 | F | Bbsus2 | F |
+| Dm7 | Csus4 | F/A | Bbsus2 |
+| Csus4 | F | F/A | Bbsus2 |
+| Dm7 | Csus4 | F/A | Bbsus2 |
+| Dm7 | Csus4 | Bbsus2 | F |
+| Dm7 | Csus4 | F/A | Bbsus2 |
+| C | F | F | F |
+[Verse 2]
+| F . Dm7 | Csus4 | F/A | Bbsus2 |
+| Csus4 | F | Bbsus2 | F |
+| Dm7 | Csus4 | F/A | Bbsus2 |
+| C | F | Bbsus2 . Dm7 | Csus4 |
+| F/A | Bbsus2 | Dm7 | Csus4 |
+| Bbsus2 | F | Dm7 | Csus4 |
+| F/A | Bbsus2 | Csus4 | F |
+| F | F |
+[Verse 3]
+| F . Dm7 | C | F/A | Bbsus2 |
+| Csus4 | F | Bbsus2 | F |
+| Dm7 | C | F/A | Bbsus2 |
+| C | F | Bbsus2 . Dm7 | C |
+| F/A | Bbsus2 | Dm7 | C |
+| Bbsus2 | F | Dm7 | Csus4 |
+| F/A | Bbsus2 | Csus4 | F |
+| F | F |
+[Bridge]
+| F | F | Bbsus2 | Bbsus2 |
+| Dm7 | Bbsus2 | Bbsus2 | Bbsus2 |
+| F | F | Bbsus2 | Bbsus2 |
+| Dm7 | Bbsus2 | Bbsus2 | Bbsus2 |
+| F | F | Gm7 | Gm7 |
+| F/A | Bbsus2 | Bbsus2 | Bbsus2 |
+| F/C | F/C | Gm7 | Gm7 |
+| F/A | Bbsus2 | Bbsus2 | F |
+| F | F |
+[Verse 4]
+| F . Dm7 | Csus4 | F/A | Bbsus2 |
+| Csus4 | Dm7 | F/A | Bbsus2 |
+| Csus4 | F |

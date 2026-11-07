@@ -1,0 +1,19 @@
+# title: 住在祢裡面
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2011
+# source: CantonHymn https://cantonhymn.net/song/%e4%bd%8f%e5%9c%a8%e7%a5%a2%e8%a3%a1%e9%9d%a2
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| D . A/C# . | G/B . D/A . | G . Em . | Asus4 . A . |
+| G | A/G | D . A/C# . | Bm |
+| G | G/A | D | G/A |
+[Chorus]
+| D . A/C# . | Bm . D/A . | G . A7sus4 . | D . G/A . |
+| D . F# . | F# . Bm . | D/A . G#° . | Em |
+| A7sus4 | A7sus4 | D |

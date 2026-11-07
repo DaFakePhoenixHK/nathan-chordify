@@ -1,0 +1,30 @@
+# title: 星空的光芒
+# artist: Music 2000; 曲 王慧玲
+# language: cantonese
+# key: Ab (page says Ab; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 72 BPM
+# year: 2000
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E6%98%9F%E7%A9%BA%E7%9A%84%E5%85%89%E8%8A%92/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: Eb4 -> Ebsus4
+[Verse 1]
+| Ab | Bbm | Eb | Abmaj7 |
+| C# | Eb/Db | Cm | C# |
+| Fm . F# . | Eb . Eb/G . |
+[Verse 2]
+| Ab | Bbm | Eb | Abmaj7 |
+| C# | Eb/Db | Cm | C# |
+| C# | Eb . Eb/G . |
+[Chorus]
+| Ab | Ab | Bbm | Bbm |
+| Eb | Eb | Ab | Eb/G |
+| Bbm | Bbm | C | Fm |
+| C# | Ebsus4 | Ab | C |
+| Fm | Ebm . Ab7 . | C# | Ab/C |
+| Bbm . Bb/D . | Eb | Ab | Bb/D |
+| Bbm | Ebm . Ab7 . | C# | Ab/C |
+| Bbm | Ab/C | Eb | Absus2 |

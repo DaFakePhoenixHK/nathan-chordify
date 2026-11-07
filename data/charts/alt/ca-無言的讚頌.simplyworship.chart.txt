@@ -1,0 +1,25 @@
+# title: 無言的讚頌（遍地充滿）
+# artist: 沙田浸信會; 曲 朱浩權
+# language: cantonese
+# key: G (page says G; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 70 BPM
+# year: 1990
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E7%84%A1%E8%A8%80%E7%9A%84%E8%AE%9A%E9%A0%8C_%E9%81%8D%E5%9C%B0%E5%85%85%E6%BB%BF/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| G . Bm . | C . G . | C . G/B . | Am7 . D . |
+| G . Bm . | C . G . | C . G/B . | Am7 . D . |
+| G . G7 . |
+[Chorus]
+| C . D . | Em7 | C . D . | Em7 |
+| C . D . | B/D# . Em7 . | Am7 . D . | G |
+[Bridge]
+| C . D . | Em7 | C . D . | Em7 |
+| C | D . G . | G . D/F# . | Em7 |
+| Am7 | D |
+[Tag]
+| Em . C . | G | D |

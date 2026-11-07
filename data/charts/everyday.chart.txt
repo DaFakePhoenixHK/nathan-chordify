@@ -1,0 +1,33 @@
+# title: Everyday
+# artist: Hillsong UNITED
+# language: english
+# key: B (page says B; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 108 BPM
+# year: 1999
+# source: WorshipTogether https://www.worshiptogether.com/songs/everyday-united/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| E . . B | B . G#m7 . | G#m7 F# . . |
+[Verse 1]
+| E | B | G#m7 | F# |
+| E | B | G#m7 | F# |
+| E | B | G#m7 | F# |
+| F# | E | B | B |
+| G#m7 | F# | F# | F# |
+[Chorus]
+| B | E | G#m7 | F# |
+| B | E | G#m7 | F# |
+| B . E . | G#m7 . F# . | B . E . | G#m7 . F# . |
+[Verse 2]
+| E | B | G#m7 . F# . | E |
+| B | B | G#m7 . F# . | E |
+| B | G#m7 | G#m7 | F# |
+| F# | E | B | G#m7 |
+| G#m7 | F# | B | B |
+| B |
+[Bridge]
+| B | E | G#m7 | F# |

@@ -1,0 +1,24 @@
+# title: Mighty Is the Power of the Cross
+# artist: Chris Tomlin
+# language: english
+# key: G (estimated from the chords (the page gives none))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2004
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/chris-tomlin/mighty-is-the-power-of-the-cross-chords-516626
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+| G | Em | Em | C |
+| C | D/F# | D/F# | G |
+| G | Em | C . D . |
+[Chorus]
+| C | D . G . | C . G/B . | D |
+| C | D . G . | C | G/B |
+| D | D | G | G |
+| Em | Em | C | C |
+| D/F# | D/F# | G | G |
+| Em | C . D . |
+[Bridge]
+| C . G/B . | G/B . C . | G/B | C |
+| G/B | Am7 | D/F# |

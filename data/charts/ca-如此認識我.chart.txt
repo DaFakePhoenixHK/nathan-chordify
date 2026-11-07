@@ -1,0 +1,28 @@
+# title: 如此認識我
+# artist: 角聲使團 The Heralders; 曲 盧永亨
+# language: cantonese
+# key: Eb (page says E♭ / D♯; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2012
+# source: CantonHymn https://cantonhymn.net/song/%e5%a6%82%e6%ad%a4%e8%aa%8d%e8%ad%98%e6%88%91
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| Eb . Bb/D . | Cm . Eb/Bb . | Ab . Bb/Ab . | Eb . C7 . |
+| Ab | Bb | Gm | Cm |
+| F6 . F7 . | Bbsus4 . Bb . |
+[Verse 2]
+| Eb . Bb/D . | Cm . Eb/Bb . | Ab . Bb/Ab . | Eb . C7 . |
+| Ab | Bb | Gm | Cm |
+| Ab . Bb . | Eb . Eb . |
+[Chorus]
+| G7 | G7 | Cm | Cm |
+| Fm | G7 | Cm | C/E |
+| D | D | Gm | E° |
+| Gb . Cb . | Fm . Bb . |
+[Verse 3]
+| Eb . Bb/D . | Cm . Eb/Bb . | Ab . Bb . | Eb . C7 . |
+| Ab | Bb | Gm | Cm |
+| Ab | Bb . Eb . | Abm . Eb . |

@@ -1,0 +1,21 @@
+# title: 一首讚美的詩歌
+# artist: 沙田浸信會 / HKACM; 曲 朱浩權
+# language: cantonese
+# key: C (page says C; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1990
+# source: CantonHymn https://cantonhymn.net/song/%e4%b8%80%e9%a6%96%e8%ae%9a%e7%be%8e%e7%9a%84%e8%a9%a9%e6%ad%8c
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| C | Em | E | F |
+| C . Em . | Dm . G7 . | C | Em |
+| E | Am | Dm . G7 . | C . C7 . |
+[Chorus]
+| F . G7 . | Em | E° . Dm . | G7 . C . |
+| C | C . C7 . | F . G . | E7 . Am . |
+| Dm | G7 | Dm | G7 |
+| C | C | C | C |
+| C | C |

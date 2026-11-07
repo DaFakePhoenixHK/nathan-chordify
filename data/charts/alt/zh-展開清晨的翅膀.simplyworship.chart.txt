@@ -1,0 +1,27 @@
+# title: 展開清晨的翅膀
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 69 BPM
+# year: 2002
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E5%B1%95%E9%96%8B%E6%B8%85%E6%99%A8%E7%9A%84%E7%BF%85%E8%86%80/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: A4 -> Asus4 (x7)
+[Verse 1]
+| Dsus2 . A/C# . | Bm7 . A . | G | D/F# |
+| Em7 | Asus4 | Dsus2 . A/C# . | Bm7 . A . |
+| G . Asus4 . | Dsus2 |
+[Pre-Chorus]
+| Bm7 | F#m | G | Dsus2 . A/C# . |
+| Bm7 | Bm7 . F#m . | F#m . G . | Asus4 . F#/A# . |
+| Bm7 | F#m . G . | Dsus2 . A/C# . | Bm7 |
+| F#m | G | Asus4 . A . |
+[Chorus]
+| Dsus2 . A/C# . | Bm7 . Asus4 . | G | D/F# |
+| Em7 | Asus4 | Dsus2 . A/C# . | Bm7 . Asus4 . |
+| G | D/F# | Em7 | A |
+| Dsus2 | Dsus2 |

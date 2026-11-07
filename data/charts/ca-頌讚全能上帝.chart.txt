@@ -1,0 +1,23 @@
+# title: 頌讚全能上帝
+# artist: SingforGod 薪火敬拜使團; 曲 馮鑑邦 / 高思敏
+# language: cantonese
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2006
+# source: CantonHymn https://cantonhymn.net/song/%e9%a0%8c%e8%ae%9a%e5%85%a8%e8%83%bd%e4%b8%8a%e5%b8%9d
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| D | D | Bm | Bm |
+| G | G | A | A |
+| F#m | F#m | G | Gm |
+| D . G . | A | F#m | F#m |
+| Bm | Bm | Gm | A . A7 . |
+[Chorus]
+| D . A . | Bm | G | A . D . |
+| G | A | D | Bm |
+| G | A . A7 . | D . A . | Bm |
+| G . A . | A . D . | G | A |
+| F#m | Bm | G | A . D . |

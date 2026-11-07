@@ -1,0 +1,38 @@
+# title: With Everything
+# artist: Hillsong UNITED
+# language: english
+# key: G (from the chords; page says B (the chart is written in another key))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 137 BPM
+# year: 2008
+# source: WorshipTogether https://www.worshiptogether.com/songs/with-everything-united/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| G | G | D | D |
+| Em | Em | C | C |
+| G | G | D | Em . C . |
+[Verse 2]
+| G | G | D | D |
+| Em | Em | C | C |
+| G | G | D | Em . C . |
+[Pre-Chorus]
+| Em . C . | G | D | Em |
+| C | G . D . | C . Em . | D |
+| D | Am . C . | D |
+[Verse 3]
+| G | G | D | Em |
+| C | G | G | G |
+| D | Em | C | C |
+[Chorus]
+| C | C | Em | Em |
+| G | D | C | C |
+| Em | Em | G | D |
+[Bridge]
+| C | Em | G | G |
+| D | D | C | Em |
+| Em | Em | G | D |
+[Outro]
+| C | Em | G | D |

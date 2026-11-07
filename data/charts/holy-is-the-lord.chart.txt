@@ -1,0 +1,25 @@
+# title: Holy Is the Lord
+# artist: Chris Tomlin
+# language: english
+# key: A (page says A; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 84 BPM
+# year: 2003
+# source: WorshipTogether https://www.worshiptogether.com/songs/holy-is-the-lord-chris-tomlin/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| A . Dsus2 . | Esus4 | A/C# . Dsus2 . | Esus4 |
+| A | Dsus2 | Esus4 | Esus4 |
+| A/C# . Dsus2 . | Esus4 |
+[Pre-Chorus]
+| B7 . D . | B7 . D . |
+[Chorus]
+| A/C# . Dsus2 . | Esus4 | F#m7 . Dsus2 . | Esus4 |
+| A/C# . Dsus2 . | Esus4 | F#m7 . Dsus2 . | Esus4 |
+| F#m7 . Dsus2 . | Esus4 |
+[Bridge]
+| A | E/G# | Gsus2 | D |
+| D | D |

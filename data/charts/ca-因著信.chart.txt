@@ -1,0 +1,28 @@
+# title: 因著信
+# artist: 角聲使團 The Heralders; 曲 盧永亨
+# language: cantonese
+# key: C (from the chords; page says D♭ / C♯ (the chart is written in another key))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2010
+# source: CantonHymn https://cantonhymn.net/song/%e5%9b%a0%e8%91%97%e4%bf%a1
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| C | G | Am | Em |
+| F | G7 | Em | Am |
+| Dm | Bb |
+[Verse 2]
+| C | G | Am | Em |
+| F | G7 | Em | Am |
+| Dm | Dm | Bb | G7 |
+[Chorus]
+| C | E7 | Am | Am7 |
+| F | C/E | Dm | G7 |
+| C | E7 | Am | F#ø7 |
+| F . D7 . | D7 . G7 . |
+[Verse 3]
+| C | G | Am | Em |
+| F | G7 | Em | F#ø7 |
+| Fm | G7 . C . | Fm . C . |

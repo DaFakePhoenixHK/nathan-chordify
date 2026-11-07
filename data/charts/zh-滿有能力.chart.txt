@@ -1,0 +1,23 @@
+# title: 滿有能力
+# artist: 讚美之泉
+# language: mandarin
+# key: Bb (page says B♭ / A♯; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2009
+# source: CantonHymn https://cantonhymn.net/song/%e6%bb%bf%e6%9c%89%e8%83%bd%e5%8a%9b
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| Bb | Bb | Eb | Eb |
+| Fadd9 | Bb | Bb | Bb |
+| Eb | Eb | Fadd9 . F7 . | Bb |
+[Chorus]
+| Bb | F | Eb | Bb |
+| Eb | Bb/D | C | F |
+| Bb | F | Eb | Bb |
+| Eb . Bb/D . | Cm | F | Bb |
+[Bridge]
+| Eb | Bb/D | Cm . F . | Bb |
+| Eb | Bb/D | C | F |

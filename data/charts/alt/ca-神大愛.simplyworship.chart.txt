@@ -1,0 +1,21 @@
+# title: 神大愛
+# artist: 基恩敬拜音樂事工; 曲 鄧淑儀 Yvonne
+# language: cantonese
+# key: A (page says A; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 82 BPM
+# year: 2007
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E7%A5%9E%E5%A4%A7%E6%84%9B/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A | E/G# | F#m | C#m/E |
+| D | A/C# | Bm7 | E |
+| A | E/G# | F#m | C#m/E |
+| D | A/C# . Bm7 . | Bm7 | E . E . |
+[Chorus]
+| A | F#m | Bm7 | E |
+| A | F#m | Bm7 | E |
+| A | A |

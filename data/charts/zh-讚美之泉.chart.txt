@@ -1,0 +1,17 @@
+# title: 讚美之泉
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1995
+# source: CantonHymn https://cantonhymn.net/song/%e8%ae%9a%e7%be%8e%e4%b9%8b%e6%b3%89
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| D . A . | Bm . D . | G . D . | Em . A . |
+| D . A . | Bm . D . | G . A . | D |
+[Chorus]
+| D | F#m | G | D |
+| G . A . | F#m . Bm . | Em . A . | D |

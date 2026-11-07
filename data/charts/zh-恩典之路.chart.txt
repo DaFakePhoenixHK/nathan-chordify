@@ -1,0 +1,21 @@
+# title: 恩典之路
+# artist: 讚美之泉
+# language: mandarin
+# key: F (page says F; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2009
+# source: CantonHymn https://cantonhymn.net/song/%e6%81%a9%e5%85%b8%e4%b9%8b%e8%b7%af
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| F | C/E | Dm | C |
+| Bb | F/A | Gm | C |
+| F | C/E | Dm | C |
+| Bb | F/A | Gm | C |
+[Chorus]
+| F | C | Dm | C |
+| Bb | F/A | Gm | C |
+| F | C | Dm | C |
+| Bb | F/A . Gm . | Gm . C . | F |

@@ -1,0 +1,20 @@
+# title: 這一生最美的祝福
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2003
+# source: CantonHymn https://cantonhymn.net/song/%e9%80%99%e4%b8%80%e7%94%9f%e6%9c%80%e7%be%8e%e7%9a%84%e7%a5%9d%e7%a6%8f
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| D | D | Bm | Bm |
+| G | D/F# | Em | A |
+| D | D | Bm | Bm |
+| G | A . D . |
+[Chorus]
+| D | Bm | G | A |
+| D | Bm | G | A |
+| D | Bm . G#ø7 . | D/A . G/A . | G/A . D . |

@@ -1,0 +1,25 @@
+# title: Came to My Rescue
+# artist: Hillsong UNITED
+# language: english
+# key: C (page says C; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 164 BPM
+# year: 2005
+# source: WorshipTogether https://www.worshiptogether.com/songs/came-to-my-rescue/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| C | G | G | G |
+| Am | F | F | C |
+| G | Am . F . |
+[Verse 2]
+| C | C | G | G |
+| Am | F | F | C |
+| G | Am . F . |
+[Chorus]
+| C . G . | Am | G | G |
+| C | G | Am | F |
+[Bridge]
+| Am | C | Am | G . F . |

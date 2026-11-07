@@ -1,0 +1,292 @@
+{
+ "single": [
+  {
+   "chord": "B:maj/3",
+   "lh": [
+    39
+   ],
+   "rh": [
+    59,
+    66,
+    71
+   ],
+   "note": "A17: RH keeps B, drops D#"
+  },
+  {
+   "chord": "D#:7/5",
+   "lh": [
+    46
+   ],
+   "rh": [
+    61,
+    63,
+    67
+   ],
+   "note": "RH D#-G-C# (root kept)"
+  },
+  {
+   "chord": "E:min/4",
+   "lh": [
+    45
+   ],
+   "rh": [
+    64,
+    67,
+    71
+   ],
+   "note": "non-chord bass: full Em"
+  },
+  {
+   "chord": "E:maj/2",
+   "lh": [
+    42
+   ],
+   "rh": [
+    64,
+    68,
+    71
+   ]
+  },
+  {
+   "chord": "F#:sus4(b7,9)",
+   "lh": [
+    42
+   ],
+   "rh": [
+    64,
+    68,
+    71
+   ],
+   "note": "upper structure E/F#"
+  },
+  {
+   "chord": "F#:sus4(b7,9,13)",
+   "lh": [
+    42
+   ],
+   "rh_pcs": [
+    3,
+    4,
+    8,
+    11
+   ],
+   "note": "Emaj7 over F#"
+  },
+  {
+   "chord": "B:aug(b7)",
+   "lh": [
+    47
+   ],
+   "rh": [
+    63,
+    67,
+    69,
+    71
+   ]
+  },
+  {
+   "chord": "B:aug(b7)",
+   "rootless": true,
+   "lh": [
+    47
+   ],
+   "rh": [
+    63,
+    67,
+    69
+   ],
+   "note": "the §5.13 example voicing"
+  },
+  {
+   "chord": "C:maj",
+   "lh": [
+    48
+   ],
+   "rh": [
+    64,
+    67,
+    72
+   ]
+  },
+  {
+   "chord": "F#:maj/3",
+   "lh": [
+    46
+   ],
+   "rh": [
+    66,
+    73,
+    78
+   ],
+   "note": "F#-C#-F#, A# only in LH"
+  },
+  {
+   "chord": "G:7",
+   "rootless": true,
+   "lh": [
+    43
+   ],
+   "rh_pcs": [
+    2,
+    5,
+    11
+   ]
+  },
+  {
+   "chord": "C:13",
+   "lh": [
+    48
+   ],
+   "rh_pcs": [
+    2,
+    4,
+    9,
+    10
+   ],
+   "note": "5th, then root dropped"
+  },
+  {
+   "chord": "C:min11",
+   "lh": [
+    48
+   ],
+   "rh_pcs": [
+    2,
+    3,
+    5,
+    10
+   ]
+  },
+  {
+   "chord": "C:13/3",
+   "lh": [
+    40
+   ],
+   "rh_pcs": [
+    0,
+    2,
+    9,
+    10
+   ],
+   "note": "inversion keeps root"
+  },
+  {
+   "chord": "C:5",
+   "lh": [
+    48
+   ],
+   "rh_pcs": [
+    0,
+    0,
+    7
+   ]
+  },
+  {
+   "chord": "C:sus2/2",
+   "lh": [
+    38
+   ],
+   "rh_pcs": [
+    0,
+    0,
+    7
+   ]
+  },
+  {
+   "chord": "C#:min7/4",
+   "lh": [
+    42
+   ],
+   "rh_pcs": [
+    1,
+    4,
+    8,
+    11
+   ],
+   "note": "C#m7/F#: full C#m7"
+  },
+  {
+   "chord": "N",
+   "lh": [],
+   "rh": []
+  }
+ ],
+ "sequences": [
+  {
+   "chords": [
+    "C:maj",
+    "F:maj",
+    "G:maj",
+    "C:maj"
+   ],
+   "voicings": [
+    {
+     "lh": [
+      48
+     ],
+     "rh": [
+      64,
+      67,
+      72
+     ]
+    },
+    {
+     "lh": [
+      41
+     ],
+     "rh": [
+      65,
+      69,
+      72
+     ]
+    },
+    {
+     "lh": [
+      43
+     ],
+     "rh": [
+      67,
+      71,
+      74
+     ]
+    },
+    {
+     "lh": [
+      48
+     ],
+     "rh": [
+      67,
+      72,
+      76
+     ]
+    }
+   ]
+  }
+ ],
+ "transpose": [
+  {
+   "chord": "B:maj/3",
+   "t": 1,
+   "lh": [
+    40
+   ],
+   "rh": [
+    60,
+    67,
+    72
+   ]
+  },
+  {
+   "chord": "C:maj",
+   "t": 11,
+   "lh": [
+    47
+   ],
+   "rh": [
+    63,
+    66,
+    71
+   ]
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+# title: 以愛還愛
+# artist: 撒種音樂事工; 曲 何維健
+# language: cantonese
+# key: A (page says A; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 68 BPM
+# year: 2007
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E4%BB%A5%E6%84%9B%E9%82%84%E6%84%9B/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A | Bm7 . E . | F#m | E |
+| D | E | A | Bm7 . E . |
+| F#m | E | D | E |
+[Pre-Chorus]
+| F#m | C#m/E | D | E |
+| F#m | C#m/E | D | E |
+[Chorus]
+| A . E/G# . | E/G# . F#m . | C#m/E | D |
+| A/C# | Bm7 . E . | A . E/G# . | E/G# . F#m . |
+| F#m . Em7 . | D | A/C# | A/C# |
+| Bm7 | E | A | A |

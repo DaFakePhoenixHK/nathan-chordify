@@ -1,0 +1,21 @@
+Third-party model repos (DESIGN §12 step 3). Never pip-install these: each is put on sys.path by its
+adapter. Record the commit, licence, checked files and every local patch here.
+
+consonance-ACE
+  url:        https://github.com/andreamust/consonance-ACE
+  commit:     d17633aea4e68e616e735d09df97b97ae3428e71  (2026-07-02 18:29:50 +0200, "add beat_this! smoothing")
+  cloned:     2026-10-13 into third_party/consonance-ACE
+  licence:    MIT (c) 2025 Andrea Poltronieri, Xavier Serra, Martín Rocamora (LICENSE in the repo)
+  checkpoint: ACE/checkpoints/conformer_decomposed_smooth.ckpt, 57,624,994 bytes (ordinary git blob,
+              not LFS); loads with torch.load(weights_only=True); hyper_parameters: input_dim 144,
+              conformer_dim 144, 4 heads, ffn 1024, 6 layers, kernel 31, positional_encoding True,
+              vocabularies root 13 / bass 13 / onehot 12.
+  adapter:    engine/nathan_chordify/models/ace.py (adapter_version 1)
+  runtime deps (pinned in engine/requirements.txt, NOT the repo's own pins): lightning 2.6.6,
+              torchmetrics 1.9.0, gin-config 0.5.0, jams 0.3.5, pumpp 0.6.0, harte-library 0.4.5,
+              mir_eval, librosa, torchaudio (the repo pins torch 2.6.0 / lightning 2.5.1 / beat-this 0.1).
+  import order: ACE.mir_evaluation before ACE.preprocess.audio_processor (bare `from transforms
+              import CQTransform`); the adapter appends the repo root to sys.path and checks that
+              `ACE` resolves inside it. audio_processor's module-level logging.basicConfig is undone
+              by the adapter (only the tests import that module).
+  patches:    none (the repo is used unmodified; nothing is monkeypatched).

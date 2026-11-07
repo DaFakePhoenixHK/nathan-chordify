@@ -1,0 +1,28 @@
+# title: 獻給我天上的主
+# artist: HKACM / 同心圓 / TWS 敬拜者使團; 曲 霍志鵬
+# language: cantonese
+# key: A (page says A; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 65 BPM
+# year: 2005
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E7%8D%BB%E7%B5%A6%E6%88%91%E5%A4%A9%E4%B8%8A%E7%9A%84%E4%B8%BB/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| A . D/A . | D/A . A . | F#m | C#m . D . |
+| Bm | E | C#m | F#m |
+[Verse]
+| Bm | E |
+[Verse 2]
+| A . D/A . | D/A . A . | F#m | C#m . D . |
+| Bm | E | C#m | F#m |
+| Bm . E . | A . E . |
+[Chorus]
+| A . C#m . | C# . F#m . | D . A/C# . | B/D# . E . |
+| A | C#m | C# | F#m |
+| D . E . | A |
+[Tag]
+| D . E . | A | D | E |
+| A | A |

@@ -1,0 +1,28 @@
+# title: 聽命勝於獻祭
+# artist: Herald Music (角聲美西北); 曲 三吉 Alex
+# language: cantonese
+# key: F (page says F; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2010
+# source: CantonHymn https://cantonhymn.net/song/%e8%81%bd%e5%91%bd%e5%8b%9d%e6%96%bc%e7%8d%bb%e7%a5%ad
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| F | Am7 | Bb | C . Am7 . |
+| Dm . Gm7 . | C | F . C/E . | Dm |
+| Bb . Gm7 . | C . Csus4 . |
+[Verse 2]
+| F | Am7 | Bb | C . Am7 . |
+| Dm . Gm7 . | C | F . C/E . | Dm |
+| Bb . C6 . | F . A . |
+[Chorus]
+| A+ . A7 . | F . Gm/Bb . | C . Fsus4 . | Am/E |
+| Bb/D . F/C . | F/C | Gm . Gm7 . | Csus4 . C . |
+| F . Bb . | Bb . C . | C . Fsus4 . | Am/E . Dm . |
+| Bb | C | C7 | F |
+| C7 | F |
+[Bridge]
+| Bb | C | Am | Dm |
+| Gm7 | Gm7 | Fsus4 . Csus2 . | Asus4 . A . |

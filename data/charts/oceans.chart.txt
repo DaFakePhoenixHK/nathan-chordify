@@ -1,0 +1,51 @@
+# title: Oceans (Where Feet May Fail)
+# artist: Hillsong UNITED
+# language: english
+# key: D (page says D; the chords agree)
+# meter: 4/4 (from the bar lines and slashes of its chord-only lines)
+# beats_per_bar: 4
+# tempo: 132 BPM
+# year: 2013
+# source: WorshipTogether https://www.worshiptogether.com/songs/oceans-where-feet-may-fail-united/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| Bm . . A/C# | D | A | G |
+[Verse 1]
+| Bm | Bm | A/C# | D |
+| A | G | Bm | Bm |
+| A/C# | D | A | G |
+[Chorus]
+| G . D . | A | G | D |
+| A | A | G | D |
+| A | G . A . | Bm |
+[Interlude]
+| Bm . . A/C# | D | A | G |
+[Verse 2]
+| Bm | A/C# . D . | A | G |
+| Bm | A/C# . D . | A | A |
+| G | G |
+[Interlude]
+| Bm . . A/C# | D | A | G |
+| Bm . . A/C# | D | A | G |
+| Bm | G | D | A |
+| Bm | G | D | A |
+[Bridge 1]
+| Bm | Bm | G | G |
+| D | D | A | A |
+| Bm | Bm | G | G |
+| D | D | A | A |
+[Bridge 2]
+| G | G | D | D |
+| A | A | Em | Em |
+| G | G | D | D |
+| A | A | Em | Em |
+[Bridge 3]
+| Bm | A | D | D |
+| A | A | Em | Em |
+| Bm | A | D | D |
+| A | A | Em | Em |
+[Interlude]
+| Bm . . A | D | A | Em |
+| Bm . . A | D | A | Em |

@@ -1,0 +1,36 @@
+# DRAFT ground truth (eval/build_gt.py) 2026-10-31T18:49:52Z — NOT human-reviewed.
+# 10,000 Reasons (Bless the Lord) — Matt Redman — yt-XtwIT8JjddM
+# Key G major; sheet/chart: WorshipTogether free chord chart (worshiptogether.com/songs/10-000-reasons-bless-the-lord/)
+# Meter 4/4; one token = one beat (quarter note, 72.5 BPM).
+# Sections are in the order the RECORDING plays them; '@t' = start time (s) found by aligning
+# the chart to the engine's evidence (eval/build_gt.py). (H)/(M)/(L) = confidence of the line.
+# 'N?' = a stretch the published chart does not cover: X (unknown, not scored) in the .lab.
+# Source file with notes: data/sheets/yt-XtwIT8JjddM/gt_source.txt
+[Intro @0.03]
+| N? | N? | N? | N? |   (L)
+[Chorus 1 @13.30]
+| C . G . | D . Em . | C . G . | D . . . |   (H)
+| C . Em . | C D Em . | C . D . | Gsus4 . G . |   (M)
+[Verse 1 @39.79]
+| C . G . | D . Em . | C . G . | D . Em . |   (H)
+| C . G . | D . Em . | . . C . | G . D . | G . . . |   (M)
+[Chorus 2 @69.58]
+| C . G . | D . Em . | C . G . | D . . . |   (H)
+| C . Em . | C D Em . | C . D . | Gsus4 . G . |   (M)
+[Verse 2 @96.06]
+| C . G . | D . Em . | C . G . | D . Em . |   (H)
+| C . G . | D . Em . | . . C . | G . D . | G . . . |   (M)
+[Chorus 3 @125.85]
+| C . G . | D . Em . | C . G . | D . . . |   (H)
+| C . Em . | C D Em . | C . D . | Gsus4 . G . |   (M)
+[Verse 3 @152.32]
+| C . G . | D . Em . | C . G . | D . Em . |   (H)
+| C . G . | C . Em . | . . C . | G . D . | G . . . | Gsus4 . G . |   (M)
+[Chorus 4 @185.44]
+| C . G . | D . Em . | C . G . | D . . . |   (H)
+| C . Em . | C D Em . | C . D . | Gsus4 . G . |   (M)
+[Chorus 5 @211.92]
+| C . G . | D . Em . | C . G . | D . . . |   (H)
+| C . Em . | C D Em . | C . D . | N? |   (M)
+[Tag @238.42]
+| N? | N? | N? | N? | N? |   (L)

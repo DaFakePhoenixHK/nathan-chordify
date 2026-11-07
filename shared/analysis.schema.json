@@ -1,0 +1,1010 @@
+{
+  "$defs": {
+    "Alternative": {
+      "additionalProperties": false,
+      "properties": {
+        "harte": {
+          "title": "Harte",
+          "type": "string"
+        },
+        "conf": {
+          "title": "Conf",
+          "type": "number"
+        }
+      },
+      "required": [
+        "harte",
+        "conf"
+      ],
+      "title": "Alternative",
+      "type": "object"
+    },
+    "AudioInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "play": {
+          "title": "Play",
+          "type": "string"
+        },
+        "stems": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Stems",
+          "type": "array"
+        }
+      },
+      "required": [
+        "play"
+      ],
+      "title": "AudioInfo",
+      "type": "object"
+    },
+    "BarOut": {
+      "additionalProperties": false,
+      "properties": {
+        "i": {
+          "title": "I",
+          "type": "integer"
+        },
+        "start": {
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "title": "End",
+          "type": "number"
+        },
+        "beats": {
+          "title": "Beats",
+          "type": "integer"
+        },
+        "section": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Section"
+        },
+        "free": {
+          "default": false,
+          "title": "Free",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "i",
+        "start",
+        "end",
+        "beats"
+      ],
+      "title": "BarOut",
+      "type": "object"
+    },
+    "BassNoteOut": {
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "title": "End",
+          "type": "number"
+        },
+        "note": {
+          "title": "Note",
+          "type": "string"
+        },
+        "midi": {
+          "title": "Midi",
+          "type": "integer"
+        },
+        "conf": {
+          "title": "Conf",
+          "type": "number"
+        },
+        "role": {
+          "enum": [
+            "chord_bass",
+            "passing_tone"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "min_detail": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Min Detail"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "note",
+        "midi",
+        "conf",
+        "role"
+      ],
+      "title": "BassNoteOut",
+      "type": "object"
+    },
+    "BeatOut": {
+      "additionalProperties": false,
+      "properties": {
+        "i": {
+          "title": "I",
+          "type": "integer"
+        },
+        "t": {
+          "title": "T",
+          "type": "number"
+        },
+        "bar": {
+          "title": "Bar",
+          "type": "integer"
+        },
+        "beat": {
+          "title": "Beat",
+          "type": "integer"
+        },
+        "conf": {
+          "title": "Conf",
+          "type": "number"
+        }
+      },
+      "required": [
+        "i",
+        "t",
+        "bar",
+        "beat",
+        "conf"
+      ],
+      "title": "BeatOut",
+      "type": "object"
+    },
+    "ChordOut": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "start": {
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "title": "End",
+          "type": "number"
+        },
+        "start_beat": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Start Beat"
+        },
+        "end_beat": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "End Beat"
+        },
+        "bar": {
+          "title": "Bar",
+          "type": "integer"
+        },
+        "beat_in_bar": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Beat In Bar"
+        },
+        "dur_beats": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Dur Beats"
+        },
+        "harte": {
+          "title": "Harte",
+          "type": "string"
+        },
+        "root": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Root"
+        },
+        "quality": {
+          "title": "Quality",
+          "type": "string"
+        },
+        "bass": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Bass"
+        },
+        "label": {
+          "$ref": "#/$defs/Labels"
+        },
+        "degree": {
+          "$ref": "#/$defs/Degree"
+        },
+        "layer": {
+          "enum": [
+            "main",
+            "passing"
+          ],
+          "title": "Layer",
+          "type": "string"
+        },
+        "role": {
+          "default": "chord",
+          "enum": [
+            "chord",
+            "bass_event"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "min_detail": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Min Detail"
+        },
+        "conf": {
+          "title": "Conf",
+          "type": "number"
+        },
+        "salience": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Salience"
+        },
+        "equivalents": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Equivalents",
+          "type": "array"
+        },
+        "alternatives": {
+          "items": {
+            "$ref": "#/$defs/Alternative"
+          },
+          "title": "Alternatives",
+          "type": "array"
+        },
+        "voicing": {
+          "$ref": "#/$defs/Voicing"
+        },
+        "sources": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "title": "Sources",
+          "type": "object"
+        },
+        "edited": {
+          "default": false,
+          "title": "Edited",
+          "type": "boolean"
+        },
+        "suggestion": {
+          "default": false,
+          "title": "Suggestion",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "start",
+        "end",
+        "start_beat",
+        "end_beat",
+        "bar",
+        "beat_in_bar",
+        "dur_beats",
+        "harte",
+        "root",
+        "quality",
+        "bass",
+        "label",
+        "degree",
+        "layer",
+        "conf"
+      ],
+      "title": "ChordOut",
+      "type": "object"
+    },
+    "Degree": {
+      "additionalProperties": false,
+      "properties": {
+        "root": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Root"
+        },
+        "bass": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Bass"
+        },
+        "nashville": {
+          "title": "Nashville",
+          "type": "string"
+        },
+        "roman": {
+          "title": "Roman",
+          "type": "string"
+        }
+      },
+      "required": [
+        "root",
+        "bass",
+        "nashville",
+        "roman"
+      ],
+      "title": "Degree",
+      "type": "object"
+    },
+    "EditsInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "rev": {
+          "default": 0,
+          "title": "Rev",
+          "type": "integer"
+        },
+        "n_ops": {
+          "default": 0,
+          "title": "N Ops",
+          "type": "integer"
+        }
+      },
+      "title": "EditsInfo",
+      "type": "object"
+    },
+    "GtInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "default": "none",
+          "enum": [
+            "none",
+            "draft",
+            "reviewed"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "tapped_beats": {
+          "default": false,
+          "title": "Tapped Beats",
+          "type": "boolean"
+        },
+        "chart": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Chart"
+        }
+      },
+      "title": "GtInfo",
+      "type": "object"
+    },
+    "KeyChangeOut": {
+      "additionalProperties": false,
+      "properties": {
+        "t": {
+          "title": "T",
+          "type": "number"
+        },
+        "bar": {
+          "title": "Bar",
+          "type": "integer"
+        },
+        "from": {
+          "title": "From",
+          "type": "string"
+        },
+        "to": {
+          "title": "To",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "step_up",
+            "modulation",
+            "relative",
+            "parallel"
+          ],
+          "title": "Kind",
+          "type": "string"
+        }
+      },
+      "required": [
+        "t",
+        "bar",
+        "from",
+        "to",
+        "kind"
+      ],
+      "title": "KeyChangeOut",
+      "type": "object"
+    },
+    "KeyGlobal": {
+      "additionalProperties": false,
+      "properties": {
+        "tonic": {
+          "title": "Tonic",
+          "type": "string"
+        },
+        "mode": {
+          "enum": [
+            "major",
+            "minor"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "conf": {
+          "title": "Conf",
+          "type": "number"
+        }
+      },
+      "required": [
+        "tonic",
+        "mode",
+        "conf"
+      ],
+      "title": "KeyGlobal",
+      "type": "object"
+    },
+    "KeyInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "global": {
+          "$ref": "#/$defs/KeyGlobal"
+        },
+        "segments": {
+          "items": {
+            "$ref": "#/$defs/KeySegment"
+          },
+          "title": "Segments",
+          "type": "array"
+        },
+        "changes": {
+          "items": {
+            "$ref": "#/$defs/KeyChangeOut"
+          },
+          "title": "Changes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "global",
+        "segments"
+      ],
+      "title": "KeyInfo",
+      "type": "object"
+    },
+    "KeySegment": {
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "title": "End",
+          "type": "number"
+        },
+        "tonic": {
+          "title": "Tonic",
+          "type": "string"
+        },
+        "mode": {
+          "enum": [
+            "major",
+            "minor"
+          ],
+          "title": "Mode",
+          "type": "string"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "tonic",
+        "mode"
+      ],
+      "title": "KeySegment",
+      "type": "object"
+    },
+    "Labels": {
+      "additionalProperties": false,
+      "properties": {
+        "simple": {
+          "title": "Simple",
+          "type": "string"
+        },
+        "standard": {
+          "title": "Standard",
+          "type": "string"
+        },
+        "full": {
+          "title": "Full",
+          "type": "string"
+        }
+      },
+      "required": [
+        "simple",
+        "standard",
+        "full"
+      ],
+      "title": "Labels",
+      "type": "object"
+    },
+    "MeterOut": {
+      "additionalProperties": false,
+      "properties": {
+        "from_bar": {
+          "title": "From Bar",
+          "type": "integer"
+        },
+        "num": {
+          "title": "Num",
+          "type": "integer"
+        },
+        "den": {
+          "title": "Den",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "from_bar",
+        "num",
+        "den"
+      ],
+      "title": "MeterOut",
+      "type": "object"
+    },
+    "SectionOut": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "group": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Group"
+        },
+        "start": {
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "title": "End",
+          "type": "number"
+        },
+        "source": {
+          "enum": [
+            "user",
+            "auto"
+          ],
+          "title": "Source",
+          "type": "string"
+        }
+      },
+      "required": [
+        "label",
+        "start",
+        "end",
+        "source"
+      ],
+      "title": "SectionOut",
+      "type": "object"
+    },
+    "SourceInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "title": "Key",
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "youtube",
+            "url",
+            "upload"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "artist": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artist"
+        },
+        "duration": {
+          "title": "Duration",
+          "type": "number"
+        }
+      },
+      "required": [
+        "key",
+        "type",
+        "title",
+        "duration"
+      ],
+      "title": "SourceInfo",
+      "type": "object"
+    },
+    "Stats": {
+      "additionalProperties": false,
+      "properties": {
+        "n_main": {
+          "title": "N Main",
+          "type": "integer"
+        },
+        "n_passing": {
+          "title": "N Passing",
+          "type": "integer"
+        },
+        "runtime_s": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "title": "Runtime S",
+          "type": "object"
+        }
+      },
+      "required": [
+        "n_main",
+        "n_passing"
+      ],
+      "title": "Stats",
+      "type": "object"
+    },
+    "SubdivisionOut": {
+      "additionalProperties": false,
+      "properties": {
+        "from_bar": {
+          "title": "From Bar",
+          "type": "integer"
+        },
+        "cells_per_beat": {
+          "enum": [
+            2,
+            3,
+            4,
+            6
+          ],
+          "title": "Cells Per Beat",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "from_bar",
+        "cells_per_beat"
+      ],
+      "title": "SubdivisionOut",
+      "type": "object"
+    },
+    "TempoInfo": {
+      "additionalProperties": false,
+      "properties": {
+        "bpm": {
+          "title": "Bpm",
+          "type": "number"
+        },
+        "subdivision": {
+          "items": {
+            "$ref": "#/$defs/SubdivisionOut"
+          },
+          "title": "Subdivision",
+          "type": "array"
+        },
+        "free_time": {
+          "items": {
+            "$ref": "#/$defs/TimeRegion"
+          },
+          "title": "Free Time",
+          "type": "array"
+        }
+      },
+      "required": [
+        "bpm",
+        "subdivision"
+      ],
+      "title": "TempoInfo",
+      "type": "object"
+    },
+    "TimeRegion": {
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "title": "Start",
+          "type": "number"
+        },
+        "end": {
+          "title": "End",
+          "type": "number"
+        }
+      },
+      "required": [
+        "start",
+        "end"
+      ],
+      "title": "TimeRegion",
+      "type": "object"
+    },
+    "Voicing": {
+      "additionalProperties": false,
+      "properties": {
+        "lh": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Lh",
+          "type": "array"
+        },
+        "rh": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Rh",
+          "type": "array"
+        }
+      },
+      "title": "Voicing",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "engine_version": {
+      "title": "Engine Version",
+      "type": "string"
+    },
+    "params_hash": {
+      "title": "Params Hash",
+      "type": "string"
+    },
+    "calibration": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Calibration"
+    },
+    "mode": {
+      "enum": [
+        "full",
+        "fast"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    },
+    "source": {
+      "$ref": "#/$defs/SourceInfo"
+    },
+    "audio": {
+      "$ref": "#/$defs/AudioInfo"
+    },
+    "display": {
+      "title": "Display",
+      "type": "string"
+    },
+    "key": {
+      "$ref": "#/$defs/KeyInfo"
+    },
+    "tempo": {
+      "$ref": "#/$defs/TempoInfo"
+    },
+    "meter": {
+      "items": {
+        "$ref": "#/$defs/MeterOut"
+      },
+      "title": "Meter",
+      "type": "array"
+    },
+    "beats": {
+      "items": {
+        "$ref": "#/$defs/BeatOut"
+      },
+      "title": "Beats",
+      "type": "array"
+    },
+    "bars": {
+      "items": {
+        "$ref": "#/$defs/BarOut"
+      },
+      "title": "Bars",
+      "type": "array"
+    },
+    "sections": {
+      "items": {
+        "$ref": "#/$defs/SectionOut"
+      },
+      "title": "Sections",
+      "type": "array"
+    },
+    "chords": {
+      "items": {
+        "$ref": "#/$defs/ChordOut"
+      },
+      "title": "Chords",
+      "type": "array"
+    },
+    "bass_line": {
+      "items": {
+        "$ref": "#/$defs/BassNoteOut"
+      },
+      "title": "Bass Line",
+      "type": "array"
+    },
+    "lyrics": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Lyrics"
+    },
+    "edits": {
+      "$ref": "#/$defs/EditsInfo"
+    },
+    "gt": {
+      "$ref": "#/$defs/GtInfo"
+    },
+    "stats": {
+      "$ref": "#/$defs/Stats"
+    }
+  },
+  "required": [
+    "engine_version",
+    "params_hash",
+    "mode",
+    "created_at",
+    "source",
+    "audio",
+    "display",
+    "key",
+    "tempo",
+    "meter",
+    "beats",
+    "bars",
+    "chords",
+    "stats"
+  ],
+  "title": "Analysis",
+  "type": "object"
+}

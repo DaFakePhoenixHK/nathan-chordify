@@ -1,0 +1,27 @@
+# title: 與祢更靠近
+# artist: 約書亞樂團
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 74 BPM
+# year: 2012
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E8%88%87%E4%BD%A0%E6%9B%B4%E9%9D%A0%E8%BF%91/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| D | A/C# | Bm | G |
+[Verse]
+| D . A/C# . | Bm . G . | D . A/C# . | Bm . A . |
+| G | A |
+[Verse 2]
+| D . A/C# . | Bm . G . | D . A/C# . | Bm |
+| Bm . A . | G | A |
+[Chorus]
+| D | D/C# | Bm7 | F#m/A |
+| Gmaj7 | D/F# | Em | A |
+| Bm . A . | G |
+[Bridge]
+| Gmaj7 | F#m | F#m | Em |
+| A | A |

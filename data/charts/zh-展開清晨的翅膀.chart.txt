@@ -1,0 +1,25 @@
+# title: 展開清晨的翅膀
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2002
+# source: CantonHymn https://cantonhymn.net/song/%e5%b1%95%e9%96%8b%e6%b8%85%e6%99%a8%e7%9a%84%e7%bf%85%e8%86%80
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| D | A/C# . Bm . | G | D/F# |
+| Em | A | D | A/C# |
+| A/C# | Bm | G . A . | D |
+[Chorus]
+| Bm | F#m | G | D |
+| Bm | F#m | G | A7 |
+| Bm | F#m | G | D |
+| Bm | F#m | G | A |
+[Verse 2]
+| D . A/C# . | Bm | G | D/F# |
+| Em | A | D | A/C# |
+| A/C# | Bm | G | D |
+| Em7 . A7 . | D |

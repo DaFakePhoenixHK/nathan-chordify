@@ -1,0 +1,860 @@
+{
+ "qualities": [
+  {
+   "quality": "maj",
+   "harte": "C:maj"
+  },
+  {
+   "quality": "min",
+   "harte": "C:min"
+  },
+  {
+   "quality": "dim",
+   "harte": "C:dim"
+  },
+  {
+   "quality": "aug",
+   "harte": "C:aug"
+  },
+  {
+   "quality": "sus2",
+   "harte": "C:sus2"
+  },
+  {
+   "quality": "sus4",
+   "harte": "C:sus4"
+  },
+  {
+   "quality": "5",
+   "harte": "C:5"
+  },
+  {
+   "quality": "6",
+   "harte": "C:maj6"
+  },
+  {
+   "quality": "m6",
+   "harte": "C:min6"
+  },
+  {
+   "quality": "7",
+   "harte": "C:7"
+  },
+  {
+   "quality": "maj7",
+   "harte": "C:maj7"
+  },
+  {
+   "quality": "m7",
+   "harte": "C:min7"
+  },
+  {
+   "quality": "m7b5",
+   "harte": "C:hdim7"
+  },
+  {
+   "quality": "dim7",
+   "harte": "C:dim7"
+  },
+  {
+   "quality": "mM7",
+   "harte": "C:minmaj7"
+  },
+  {
+   "quality": "+maj7",
+   "harte": "C:aug(7)"
+  },
+  {
+   "quality": "7sus4",
+   "harte": "C:sus4(b7)"
+  },
+  {
+   "quality": "+7",
+   "harte": "C:aug(b7)"
+  },
+  {
+   "quality": "add9",
+   "harte": "C:maj(9)"
+  },
+  {
+   "quality": "madd9",
+   "harte": "C:min(9)"
+  },
+  {
+   "quality": "6/9",
+   "harte": "C:maj6(9)"
+  },
+  {
+   "quality": "9",
+   "harte": "C:9"
+  },
+  {
+   "quality": "maj9",
+   "harte": "C:maj9"
+  },
+  {
+   "quality": "m9",
+   "harte": "C:min9"
+  },
+  {
+   "quality": "m11",
+   "harte": "C:min11"
+  },
+  {
+   "quality": "9sus4",
+   "harte": "C:sus4(b7,9)"
+  },
+  {
+   "quality": "13sus4",
+   "harte": "C:sus4(b7,9,13)"
+  },
+  {
+   "quality": "13",
+   "harte": "C:13"
+  },
+  {
+   "quality": "7b9",
+   "harte": "C:7(b9)"
+  },
+  {
+   "quality": "7#9",
+   "harte": "C:7(#9)"
+  },
+  {
+   "quality": "7b13",
+   "harte": "C:7(b13)"
+  },
+  {
+   "quality": "maj7#11",
+   "harte": "C:maj7(#11)"
+  }
+ ],
+ "labels": [
+  {
+   "label": "C",
+   "triple": [
+    0,
+    "maj",
+    0
+   ]
+  },
+  {
+   "label": "C:min/5",
+   "triple": [
+    0,
+    "min",
+    7
+   ]
+  },
+  {
+   "label": "C:maj7(9)",
+   "triple": [
+    0,
+    "maj9",
+    0
+   ]
+  },
+  {
+   "label": "C:7(9)",
+   "triple": [
+    0,
+    "9",
+    0
+   ]
+  },
+  {
+   "label": "C:(1,3,5)",
+   "triple": [
+    0,
+    "maj",
+    0
+   ]
+  },
+  {
+   "label": "C:7(*5)",
+   "triple": [
+    0,
+    "7",
+    0
+   ]
+  },
+  {
+   "label": "A:min7/b7",
+   "triple": [
+    9,
+    "m7",
+    7
+   ]
+  },
+  {
+   "label": "B:aug(b7)",
+   "triple": [
+    11,
+    "+7",
+    11
+   ]
+  },
+  {
+   "label": "C#:min7/b3",
+   "triple": [
+    1,
+    "m7",
+    4
+   ]
+  },
+  {
+   "label": "E:maj/2",
+   "triple": [
+    4,
+    "maj",
+    6
+   ]
+  },
+  {
+   "label": "X",
+   "triple": [
+    -1,
+    "N",
+    -1
+   ]
+  },
+  {
+   "label": "N",
+   "triple": [
+    -1,
+    "N",
+    -1
+   ]
+  },
+  {
+   "label": "Db:maj6(9)/3",
+   "triple": [
+    1,
+    "6/9",
+    5
+   ]
+  },
+  {
+   "label": "F#:sus4(b7,9)",
+   "triple": [
+    6,
+    "9sus4",
+    6
+   ]
+  },
+  {
+   "label": "G:dim7/bb7",
+   "triple": [
+    7,
+    "dim7",
+    4
+   ]
+  },
+  {
+   "label": "Ab:aug/#5",
+   "triple": [
+    8,
+    "aug",
+    4
+   ]
+  },
+  {
+   "label": "Bb:hdim7/b5",
+   "triple": [
+    10,
+    "m7b5",
+    4
+   ]
+  },
+  {
+   "label": "C:maj/4",
+   "triple": [
+    0,
+    "maj",
+    5
+   ]
+  },
+  {
+   "label": "C:min/2",
+   "triple": [
+    0,
+    "min",
+    2
+   ]
+  },
+  {
+   "label": "Cb:maj",
+   "triple": [
+    11,
+    "maj",
+    11
+   ]
+  },
+  {
+   "label": "B#:min",
+   "triple": [
+    0,
+    "min",
+    0
+   ]
+  },
+  {
+   "label": "E:min9",
+   "triple": [
+    4,
+    "m9",
+    4
+   ]
+  }
+ ],
+ "symbols": [
+  {
+   "text": "F#/A#",
+   "harte": "F#:maj/3",
+   "triple": [
+    6,
+    "maj",
+    10
+   ]
+  },
+  {
+   "text": "C#m7",
+   "harte": "C#:min7",
+   "triple": [
+    1,
+    "m7",
+    1
+   ]
+  },
+  {
+   "text": "Bsus4",
+   "harte": "B:sus4",
+   "triple": [
+    11,
+    "sus4",
+    11
+   ]
+  },
+  {
+   "text": "E/F#",
+   "harte": "E:maj/2",
+   "triple": [
+    4,
+    "maj",
+    6
+   ]
+  },
+  {
+   "text": "Em6",
+   "harte": "E:min6",
+   "triple": [
+    4,
+    "m6",
+    4
+   ]
+  },
+  {
+   "text": "B+7",
+   "harte": "B:aug(b7)",
+   "triple": [
+    11,
+    "+7",
+    11
+   ]
+  },
+  {
+   "text": "Bb",
+   "harte": "Bb:maj",
+   "triple": [
+    10,
+    "maj",
+    10
+   ]
+  },
+  {
+   "text": "Cmaj7",
+   "harte": "C:maj7",
+   "triple": [
+    0,
+    "maj7",
+    0
+   ]
+  },
+  {
+   "text": "C°7",
+   "harte": "C:dim7",
+   "triple": [
+    0,
+    "dim7",
+    0
+   ]
+  },
+  {
+   "text": "Cø",
+   "harte": "C:hdim7",
+   "triple": [
+    0,
+    "m7b5",
+    0
+   ]
+  },
+  {
+   "text": "N",
+   "harte": "N",
+   "triple": [
+    -1,
+    "N",
+    -1
+   ]
+  },
+  {
+   "text": "F#11",
+   "harte": "F#:sus4(b7,9)",
+   "triple": [
+    6,
+    "9sus4",
+    6
+   ]
+  },
+  {
+   "text": "Cm(maj7)",
+   "harte": "C:minmaj7",
+   "triple": [
+    0,
+    "mM7",
+    0
+   ]
+  },
+  {
+   "text": "C6/9",
+   "harte": "C:maj6(9)",
+   "triple": [
+    0,
+    "6/9",
+    0
+   ]
+  },
+  {
+   "text": "C69",
+   "harte": "C:maj6(9)",
+   "triple": [
+    0,
+    "6/9",
+    0
+   ]
+  },
+  {
+   "text": "Cadd9",
+   "harte": "C:maj(9)",
+   "triple": [
+    0,
+    "add9",
+    0
+   ]
+  },
+  {
+   "text": "C2",
+   "harte": "C:sus2",
+   "triple": [
+    0,
+    "sus2",
+    0
+   ]
+  },
+  {
+   "text": "D#7/G",
+   "harte": "D#:7/3",
+   "triple": [
+    3,
+    "7",
+    7
+   ]
+  },
+  {
+   "text": "C/Bb",
+   "harte": "C:maj/b7",
+   "triple": [
+    0,
+    "maj",
+    10
+   ]
+  },
+  {
+   "text": "Em/A",
+   "harte": "E:min/4",
+   "triple": [
+    4,
+    "min",
+    9
+   ]
+  },
+  {
+   "text": "G/F",
+   "harte": "G:maj/b7",
+   "triple": [
+    7,
+    "maj",
+    5
+   ]
+  },
+  {
+   "text": "C#m7/E",
+   "harte": "C#:min7/b3",
+   "triple": [
+    1,
+    "m7",
+    4
+   ]
+  },
+  {
+   "text": "Caug",
+   "harte": "C:aug",
+   "triple": [
+    0,
+    "aug",
+    0
+   ]
+  },
+  {
+   "text": "C+",
+   "harte": "C:aug",
+   "triple": [
+    0,
+    "aug",
+    0
+   ]
+  },
+  {
+   "text": "C7#5",
+   "harte": "C:aug(b7)",
+   "triple": [
+    0,
+    "+7",
+    0
+   ]
+  },
+  {
+   "text": "Cmaj7#11",
+   "harte": "C:maj7(#11)",
+   "triple": [
+    0,
+    "maj7#11",
+    0
+   ]
+  },
+  {
+   "text": "C7b9",
+   "harte": "C:7(b9)",
+   "triple": [
+    0,
+    "7b9",
+    0
+   ]
+  },
+  {
+   "text": "C13sus4",
+   "harte": "C:sus4(b7,9,13)",
+   "triple": [
+    0,
+    "13sus4",
+    0
+   ]
+  },
+  {
+   "text": "Bbm7b5",
+   "harte": "Bb:hdim7",
+   "triple": [
+    10,
+    "m7b5",
+    10
+   ]
+  },
+  {
+   "text": "Ebm",
+   "harte": "Eb:min",
+   "triple": [
+    3,
+    "min",
+    3
+   ]
+  },
+  {
+   "text": "Abmaj7/C",
+   "harte": "Ab:maj7/3",
+   "triple": [
+    8,
+    "maj7",
+    0
+   ]
+  },
+  {
+   "text": "CΔ7",
+   "harte": "C:maj7",
+   "triple": [
+    0,
+    "maj7",
+    0
+   ]
+  },
+  {
+   "text": "C-7",
+   "harte": "C:min7",
+   "triple": [
+    0,
+    "m7",
+    0
+   ]
+  },
+  {
+   "text": "Csus",
+   "harte": "C:sus4",
+   "triple": [
+    0,
+    "sus4",
+    0
+   ]
+  },
+  {
+   "text": "C7sus",
+   "harte": "C:sus4(b7)",
+   "triple": [
+    0,
+    "7sus4",
+    0
+   ]
+  },
+  {
+   "text": "G#°",
+   "harte": "G#:dim",
+   "triple": [
+    8,
+    "dim",
+    8
+   ]
+  },
+  {
+   "text": "F#ø7/E",
+   "harte": "F#:hdim7/b7",
+   "triple": [
+    6,
+    "m7b5",
+    4
+   ]
+  },
+  {
+   "text": "Cm11",
+   "harte": "C:min11",
+   "triple": [
+    0,
+    "m11",
+    0
+   ]
+  },
+  {
+   "text": "C9sus4",
+   "harte": "C:sus4(b7,9)",
+   "triple": [
+    0,
+    "9sus4",
+    0
+   ]
+  },
+  {
+   "text": "Cm(add9)",
+   "harte": "C:min(9)",
+   "triple": [
+    0,
+    "madd9",
+    0
+   ]
+  },
+  {
+   "text": "C+maj7",
+   "harte": "C:aug(7)",
+   "triple": [
+    0,
+    "+maj7",
+    0
+   ]
+  },
+  {
+   "text": "CM7",
+   "harte": "C:maj7",
+   "triple": [
+    0,
+    "maj7",
+    0
+   ]
+  },
+  {
+   "text": "CmM7",
+   "harte": "C:minmaj7",
+   "triple": [
+    0,
+    "mM7",
+    0
+   ]
+  },
+  {
+   "text": "C7b13",
+   "harte": "C:7(b13)",
+   "triple": [
+    0,
+    "7b13",
+    0
+   ]
+  },
+  {
+   "text": "C7#9",
+   "harte": "C:7(#9)",
+   "triple": [
+    0,
+    "7#9",
+    0
+   ]
+  },
+  {
+   "text": "C13",
+   "harte": "C:13",
+   "triple": [
+    0,
+    "13",
+    0
+   ]
+  },
+  {
+   "text": "C5",
+   "harte": "C:5",
+   "triple": [
+    0,
+    "5",
+    0
+   ]
+  },
+  {
+   "text": "Cdim",
+   "harte": "C:dim",
+   "triple": [
+    0,
+    "dim",
+    0
+   ]
+  },
+  {
+   "text": "Cm",
+   "harte": "C:min",
+   "triple": [
+    0,
+    "min",
+    0
+   ]
+  },
+  {
+   "text": "C6",
+   "harte": "C:maj6",
+   "triple": [
+    0,
+    "6",
+    0
+   ]
+  },
+  {
+   "text": "Cm6",
+   "harte": "C:min6",
+   "triple": [
+    0,
+    "m6",
+    0
+   ]
+  },
+  {
+   "text": "C9",
+   "harte": "C:9",
+   "triple": [
+    0,
+    "9",
+    0
+   ]
+  },
+  {
+   "text": "Cmaj9",
+   "harte": "C:maj9",
+   "triple": [
+    0,
+    "maj9",
+    0
+   ]
+  },
+  {
+   "text": "Cm9",
+   "harte": "C:min9",
+   "triple": [
+    0,
+    "m9",
+    0
+   ]
+  },
+  {
+   "text": "C7sus4",
+   "harte": "C:sus4(b7)",
+   "triple": [
+    0,
+    "7sus4",
+    0
+   ]
+  },
+  {
+   "text": "Cdim7",
+   "harte": "C:dim7",
+   "triple": [
+    0,
+    "dim7",
+    0
+   ]
+  },
+  {
+   "text": "C♯m7",
+   "harte": "C#:min7",
+   "triple": [
+    1,
+    "m7",
+    1
+   ]
+  },
+  {
+   "text": "B♭/D",
+   "harte": "Bb:maj/3",
+   "triple": [
+    10,
+    "maj",
+    2
+   ]
+  },
+  {
+   "text": "D#7/F##",
+   "harte": "D#:7/3",
+   "triple": [
+    3,
+    "7",
+    7
+   ]
+  },
+  {
+   "text": "c#m",
+   "harte": "C#:min",
+   "triple": [
+    1,
+    "min",
+    1
+   ]
+  }
+ ],
+ "errors": [
+  "H7",
+  "Cxyz",
+  "C/H",
+  "C:foo",
+  "",
+  "C:maj/z"
+ ]
+}

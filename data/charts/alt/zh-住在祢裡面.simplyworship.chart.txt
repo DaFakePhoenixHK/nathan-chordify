@@ -1,0 +1,21 @@
+# title: 住在祢裡面
+# artist: 讚美之泉
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 66 BPM
+# year: 2011
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E4%BD%8F%E5%9C%A8%E4%BD%A0%E8%A3%A1%E9%9D%A2/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+# simplified: A4 -> Asus4 (x3)
+[Verse 1]
+| D . A/C# . | G/B . D/A . | G . Em . | Em . Asus4 . |
+| G | A/G | D . A/C# . | Bm |
+| Em . A . | D . A . |
+[Chorus]
+| D . A/C# . | Bm . D/F# . | G . A . | D . Asus4 . |
+| D . F#/A# . | Bm . E7/G# . | Em | Asus4 |
+| D | D |

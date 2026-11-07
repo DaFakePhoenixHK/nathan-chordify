@@ -1,0 +1,31 @@
+# title: Hosanna
+# artist: Hillsong UNITED (Brooke Ligertwood)
+# language: english
+# key: E (page says E; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 76.5 BPM
+# year: 2007
+# source: WorshipTogether https://www.worshiptogether.com/songs/hosanna-united/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| C#m | E | F#m | G#m |
+[Verse 1]
+| E | E | C#m | C#m |
+| F#m | G#m . C#m . | E | E |
+| C#m | C#m | F#m | B |
+[Chorus]
+| E/G# . A . | B . C#m . | A | C#m . B . |
+| E/G# . A . | B . C#m . | A | B . C#m . |
+[Verse 2]
+| E | E | C#m | C#m |
+| F#m | G#m | E | E |
+| C#m | C#m | F#m | B |
+| B |
+[Bridge]
+| A | B | E | C#m |
+| A | B . C#m . | A | B |
+| E | E | C#m | C#m |
+| A | A | B | A |

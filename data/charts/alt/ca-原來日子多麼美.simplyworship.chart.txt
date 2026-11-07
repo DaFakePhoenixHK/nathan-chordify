@@ -1,0 +1,23 @@
+# title: 原來日子多麼美
+# artist: 以琳之泉使團; 曲 伍偉基
+# language: cantonese
+# key: D (page says D; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 78 BPM
+# year: 2000
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E5%8E%9F%E4%BE%86%E6%97%A5%E5%AD%90%E5%A4%9A%E9%BA%BC%E7%BE%8E/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| D | Bm | G | A |
+| F#m | Bm | G | A |
+| D | Bm | G | A |
+| F#m | Bm | G | A |
+[Chorus]
+| D . A/C# . | Bm | G . Em . | A |
+| F#m | Bm | G | A |
+| D . A/C# . | Bm | G . Em . | A |
+| F#m | Bm | G | A |
+| D | D |

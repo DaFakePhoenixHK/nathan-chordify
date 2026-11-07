@@ -1,0 +1,33 @@
+# title: Cornerstone
+# artist: Hillsong Worship
+# language: english
+# key: C (page says C; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 71.5 BPM
+# year: 2012
+# source: WorshipTogether https://www.worshiptogether.com/songs/cornerstone-hillsong-worship/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| C | C | F | G |
+| Am | Am/G | F . G . | C |
+[Chorus 1]
+| F . Am . | G | F . Am . | G |
+| C . F . | Am . G . | C |
+[Verse 2]
+| C | C | F | G |
+| Am | Am | Am/G | Am/G |
+| F . G . | C | F . G . | C |
+[Chorus 2]
+| C/E . F . | Am . G . | C/E . F . | Am . G . |
+| C/E . F . | Am . G . | C |
+[Interlude]
+| C | C . . Am | Am | Am . F . |
+| F G . . |
+[Verse 3]
+| C | C | F | G |
+| Am | Am/G | F | G |
+| C | C | C | C |
+| C | C |

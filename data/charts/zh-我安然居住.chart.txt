@@ -1,0 +1,22 @@
+# title: 我安然居住
+# artist: 約書亞樂團
+# language: mandarin
+# key: G (page says G; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2014
+# source: CantonHymn https://cantonhymn.net/song/%e6%88%91%e5%ae%89%e7%84%b6%e5%b1%85%e4%bd%8f
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| G . D/F# . | Em7 . Bm7 . | Csus2 | G/B |
+| Am7 | C/D | Gsus2 . D/F# . | Em7 . Bm7 . |
+| Csus2 | G/B . Am7 . | C/D . D7 . |
+[Pre-Chorus]
+| Em7 . Bm7 . | Csus2 . G . | D/F# . Em7 . | Em7 . Bm7 . |
+| Am7 . Dsus4 . |
+[Chorus]
+| D | G | D/F# | Em7 |
+| E/G# . Am7 . | Amaj7 | C/D . D . | G . B7 . |
+| B/D# . Em7 . | Am7 . C/D . | D . G . |

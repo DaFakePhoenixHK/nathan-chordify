@@ -1,0 +1,44 @@
+# title: Revelation Song
+# artist: Jennie Lee Riddle / Kari Jobe
+# language: english
+# key: G (estimated from the chords (the page gives none))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2004
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/kari-jobe/revelation-song-chords-976879
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Intro]
+| D | Am | C | G |
+[Verse 1]
+| D | Am | C | G |
+| D | Am | C . G . | D |
+| Am | C | G | D |
+| Am | C . G . |
+[Chorus]
+| D | D | Am | Am |
+| C | G | D | Am |
+| C | C | G | D . Am . |
+| C . G . |
+[Verse 2]
+| D | Am | C | G |
+| D | Am | C | G |
+[Chorus]
+| D | D | Am | Am |
+| C | G | D | Am |
+| C | C | G | D . Am . |
+| C . G . |
+[Verse 3]
+| D | Am | C | G |
+| D | D | Am | C |
+| G |
+[Bridge]
+| Am . F . | C . G . |
+[Chorus]
+| D | D | Am | Am |
+| C | G | D | Am |
+| C | C | G . D . | Am . C . |
+| G |
+[Outro]
+| D | Am | C | G |

@@ -1,0 +1,24 @@
+# title: 愛是不保留
+# artist: Music 2000; 曲 盧永亨
+# language: cantonese
+# key: F (page says F; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2000
+# source: CantonHymn https://cantonhymn.net/song/%e6%84%9b%e6%98%af%e4%b8%8d%e4%bf%9d%e7%95%99
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| F | Am | Bb | Csus4 . C . |
+| Bb . C . | A7 . Dm . | Bb | C |
+[Verse 2]
+| F | Am | Bb | C |
+| Bb . C . | A7 . Dm . | Bb . Gm7 . | Csus4 . C . |
+[Chorus]
+| F . C . | C . Dm . | Bb | F |
+| Gm | C7 | Bb | C |
+| Am | Dm | Bb . Bbm . | Csus4 . C . |
+| F . C/E . | C/E . Dm . | Bb | F |
+| Gm | C7 | Bb . C . | Am . Dm . |
+| Bb . C . | F |

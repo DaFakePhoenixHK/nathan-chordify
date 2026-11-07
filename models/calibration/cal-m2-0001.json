@@ -1,0 +1,28 @@
+{
+ "id": "cal-m2-0001",
+ "created": "2026-10-13",
+ "engine": "0.1.0",
+ "what": "Source temperatures T_s of DESIGN §5.9 step 3 (l_s = max(-6, log_softmax(raw_s / T_s))), shipped as DecoderParams.temp defaults",
+ "shipped": {"lv": 0.7069, "bas": 1.0},
+ "fits": {
+  "lv": {
+   "set": "mini-D2 (72 items, 12 idioms x 3 keys x 2 tempos), exact labels",
+   "method": "class-level NLL over the full vocabulary, cells with >= 75% GT coverage, weighted by cell length in beats (decode/calibrate.fit via eval/calibration.py)",
+   "T": 0.7069,
+   "nll_T1": 1.125,
+   "nll_fit": 0.997,
+   "beats": 1637,
+   "note": "after the M2 power-chord fix; before it the fit was 0.657 (NLL 1.356 -> 1.206)"
+  },
+  "bas": {
+   "set": "mini-D2 cells with an active bass track (weighted by activity)",
+   "T_fit_d2": 0.3882,
+   "nll_T1": 0.161,
+   "nll_fit": 0.061,
+   "beats": 1413,
+   "shipped": 1.0,
+   "why_not_the_d2_fit": "The synthetic bass (a clean sawtooth through htdemucs) has none of the real tracker's errors. On real audio the NLL-optimal temperature is far softer: 1.26 on the M bars and 1.24 on the H bars of 回家's draft chart (disjoint sets; tracker agrees with the bar-level bass 72%); 0.99 on 回家 and 0.70 on 10,000 Reasons against cells where lv's own bass head is >= 0.9 (biased to easy cells). At T = 0.39 the real-audio NLL more than doubles (2.90 vs 1.22 nats/cell on 回家's H bars). T = 1.0 is the midpoint (geometric mean ~0.95) of the real-audio estimates. Refit on D2 + reviewed D1 songs (M4/M5)."
+  }
+ },
+ "lv_offset_s": {"median": -0.019, "iqr": [-0.049, 0.003], "n": 600, "note": "crossing of the old/new chord lv scores vs the D2 change times; within the +-20 ms acceptance, no correction applied"}
+}

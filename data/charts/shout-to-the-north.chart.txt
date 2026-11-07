@@ -1,0 +1,31 @@
+# title: Shout to the North
+# artist: Delirious? (Martin Smith)
+# language: english
+# key: G (page says G; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 184 BPM
+# year: 1995
+# source: WorshipTogether https://www.worshiptogether.com/songs/shout-to-the-north-delirious/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| G . D . | C | G . D . | C |
+| G . D . | G | G . D . | C |
+[Chorus]
+| G . C . | D | G . C . | D |
+| Em . C . | D | C . D . | G |
+[Verse 2]
+| G | D . C . | G . D . | C |
+| G . D . | C | G | D |
+| C | C |
+[Verse 3]
+| G . D . | C | G . D . | C |
+| G . D . | C | G | D . C . |
+[Bridge]
+| Em | Em | C | C |
+| Em | Em | C | C |
+| Em | Em | C | C |
+| G/B | D | D | D |
+| D | D | D | D |

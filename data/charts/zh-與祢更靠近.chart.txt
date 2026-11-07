@@ -1,0 +1,24 @@
+# title: 與祢更靠近
+# artist: 約書亞樂團
+# language: mandarin
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2012
+# source: CantonHymn https://cantonhymn.net/song/%e8%88%87%e7%a5%a2%e6%9b%b4%e9%9d%a0%e8%bf%91
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| D . A/C# . | Bm . G . | D . A/C# . | Bm . A . |
+| G | A | D . A/C# . | Bm . G . |
+| D . A/C# . | A/C# . Bm . | Bm . A . | G |
+| A |
+[Chorus]
+| D | A/C# | Bm | A |
+| G | D/F# | Em | Em |
+| A | A |
+[Bridge]
+| G | D/F# | D/F# | Em |
+| A | G | D/F# | D/F# |
+| Em | A |

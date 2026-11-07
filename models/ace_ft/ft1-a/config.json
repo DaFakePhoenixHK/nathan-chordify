@@ -1,0 +1,53 @@
+{
+ "run_id": "ft1-a",
+ "lr": 7e-05,
+ "warmup": 300,
+ "max_steps": 9000,
+ "batch": 8,
+ "freeze_layers": 2,
+ "l2sp": 0.01,
+ "weight_decay": 0.0,
+ "eval_every": 500,
+ "patience": 6,
+ "min_delta": 0.001,
+ "max_shift": 2,
+ "grad_clip": 1.0,
+ "seed": 0,
+ "device": "cuda",
+ "max_minutes": 150.0,
+ "trainable_params": 3029926,
+ "all_params": 4540118,
+ "base_checkpoint": "C:\\Users\\User\\Desktop\\Nathan_chordify\\third_party\\consonance-ACE\\ACE\\checkpoints\\conformer_decomposed_smooth.ckpt",
+ "base_sha256": "6ab1a314366fefb3d09e351ae7cb7f826a9e0718e94e7ff164df844ba7bcd954",
+ "data": {
+  "train_items": 12000,
+  "train_hours": 78.25,
+  "val_items": 700,
+  "val_hours": 4.57
+ },
+ "started": "2026-11-01 07:28:32",
+ "summary": {
+  "best_step": 4000,
+  "best_val_loss": 2.96661,
+  "stopped": "early stop (no val improvement for 6 evaluations)",
+  "steps": 7000,
+  "gpu_minutes": 53.9,
+  "original_val": {
+   "loss": 3.53518,
+   "loss_root": 1.5746,
+   "loss_bass": 1.50753,
+   "loss_notes": 0.22653,
+   "root_acc": 0.82013,
+   "bass_acc": 0.87288,
+   "root_acc_chord": 0.81413,
+   "bass_acc_chord": 0.86853,
+   "n_recall": 0.95938,
+   "notes_exact": 0.53622,
+   "notes_f1": 0.84577,
+   "all_heads_ok": 0.51265,
+   "root_nll": 0.87006,
+   "frames": 603400
+  }
+ },
+ "finished": "2026-11-01 08:22:43"
+}

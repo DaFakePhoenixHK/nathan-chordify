@@ -1,0 +1,200 @@
+{
+ "temp_ace_ft": 0.4807,
+ "d1_original": {
+  "detailed": {
+   "root": 0.8965098052255872,
+   "majmin": 0.8893717079216257,
+   "majmin_inv": 0.8460602379857485,
+   "sevenths_inv": 0.7075830232059638,
+   "tetrads_inv": 0.66982492960916,
+   "seg": 0.8870491281106946,
+   "short_P": 0.21142857142857144,
+   "short_R": 0.5357142857142857,
+   "short_F1": 0.3031958481289265,
+   "short_n_ref": 28,
+   "flicker_per_min": 2.448674493833207,
+   "bass_acc": 0.8814184004910551
+  },
+  "simple": {
+   "root": 0.89811156899849,
+   "majmin": 0.8960438353423628,
+   "majmin_inv": 0.8625367516562723,
+   "sevenths_inv": 0.7247811252760404,
+   "tetrads_inv": 0.6863777774512679,
+   "seg": 0.8932893205150904,
+   "short_P": 0.38636363636363635,
+   "short_R": 0.4642857142857143,
+   "short_F1": 0.4217557251908397,
+   "short_n_ref": 28,
+   "flicker_per_min": 0.04295920164619661,
+   "bass_acc": 0.8954486310566634
+  },
+  "b1": {
+   "root": 0.8905576129984681,
+   "majmin": 0.889189618719219,
+   "majmin_inv": 0.8594401935643232,
+   "sevenths_inv": 0.7430081427085291,
+   "tetrads_inv": 0.7035441720405495,
+   "seg": 0.8712786700409519,
+   "short_P": 0.6206896551724138,
+   "short_R": 0.4642857142857143,
+   "short_F1": 0.5312145289443815,
+   "short_n_ref": 28,
+   "flicker_per_min": 0.0,
+   "bass_acc": 0.8968217304569112
+  }
+ },
+ "d1_ft": {
+  "detailed": {
+   "root": 0.9037842858103978,
+   "majmin": 0.8827677072791966,
+   "majmin_inv": 0.8382042578290122,
+   "sevenths_inv": 0.6895486814652612,
+   "tetrads_inv": 0.6553188099946102,
+   "seg": 0.8823043211837399,
+   "short_P": 0.2107843137254902,
+   "short_R": 0.5,
+   "short_F1": 0.296551724137931,
+   "short_n_ref": 28,
+   "flicker_per_min": 2.448674493833207,
+   "bass_acc": 0.900441341960895
+  },
+  "simple": {
+   "root": 0.9050872413363784,
+   "majmin": 0.8900682067481687,
+   "majmin_inv": 0.8540704785161778,
+   "sevenths_inv": 0.7042666842155266,
+   "tetrads_inv": 0.669531998543078,
+   "seg": 0.8932608423778347,
+   "short_P": 0.3220338983050847,
+   "short_R": 0.4642857142857143,
+   "short_F1": 0.38029253271747504,
+   "short_n_ref": 28,
+   "flicker_per_min": 0.04295920164619661,
+   "bass_acc": 0.913289012647221
+  },
+  "b1": {
+   "root": 0.8905576129984681,
+   "majmin": 0.889189618719219,
+   "majmin_inv": 0.8594401935643232,
+   "sevenths_inv": 0.7430081427085291,
+   "tetrads_inv": 0.7035441720405495,
+   "seg": 0.8712786700409519,
+   "short_P": 0.6206896551724138,
+   "short_R": 0.4642857142857143,
+   "short_F1": 0.5312145289443815,
+   "short_n_ref": 28,
+   "flicker_per_min": 0.0,
+   "bass_acc": 0.8968217304569112
+  }
+ },
+ "gate": {
+  "delta": {
+   "root": 0.0073,
+   "majmin_inv": -0.0079,
+   "sevenths_inv": -0.018,
+   "short_P": -0.0006,
+   "short_R": -0.0357,
+   "short_F1": -0.0066,
+   "flicker_per_min": 0.0,
+   "bass_acc": 0.019
+  },
+  "pass": false
+ },
+ "ace_alone_d1_original": {
+  "overall": {
+   "root": 0.8312,
+   "bass": 0.8184,
+   "notes": 0.5553
+  },
+  "frames": 53886,
+  "songs": {
+   "yt-WLtqi4s29LQ": {
+    "root": 0.8548,
+    "bass": 0.8473,
+    "notes": 0.3642
+   },
+   "yt-XtwIT8JjddM": {
+    "root": 0.9129,
+    "bass": 0.9157,
+    "notes": 0.7716
+   },
+   "yt-Y7boUFbM76k": {
+    "root": 0.6235,
+    "bass": 0.6647,
+    "notes": 0.3904
+   },
+   "yt-hvHi7N8kc8s": {
+    "root": 0.8469,
+    "bass": 0.7941,
+    "notes": 0.549
+   },
+   "yt-lfP-3JLVvaw": {
+    "root": 0.9146,
+    "bass": 0.8613,
+    "notes": 0.7786
+   }
+  }
+ },
+ "ace_alone_d1_ft": {
+  "overall": {
+   "root": 0.8311,
+   "bass": 0.8448,
+   "notes": 0.4761
+  },
+  "frames": 53886,
+  "songs": {
+   "yt-WLtqi4s29LQ": {
+    "root": 0.8659,
+    "bass": 0.8771,
+    "notes": 0.4327
+   },
+   "yt-XtwIT8JjddM": {
+    "root": 0.8671,
+    "bass": 0.9175,
+    "notes": 0.5394
+   },
+   "yt-Y7boUFbM76k": {
+    "root": 0.6663,
+    "bass": 0.7334,
+    "notes": 0.394
+   },
+   "yt-hvHi7N8kc8s": {
+    "root": 0.8323,
+    "bass": 0.8381,
+    "notes": 0.2836
+   },
+   "yt-lfP-3JLVvaw": {
+    "root": 0.9105,
+    "bass": 0.8506,
+    "notes": 0.709
+   }
+  }
+ },
+ "d2_original": {
+  "majmin_inv": 0.9247,
+  "sevenths_inv": 0.8077,
+  "root": 0.924,
+  "short F1 mm_inv": 0.6228,
+  "short P mm_inv": 0.8214,
+  "short R mm_inv": 0.5016,
+  "short F1 sev_inv": 0.4204,
+  "flicker/min": 0.278,
+  "bass acc": 0.9808,
+  "ooc bass acc": 0.6896,
+  "boundary F 1/4 beat": 0.8767
+ },
+ "d2_ft": {
+  "majmin_inv": 0.9252,
+  "sevenths_inv": 0.8594,
+  "root": 0.9234,
+  "short F1 mm_inv": 0.6729,
+  "short P mm_inv": 0.8411,
+  "short R mm_inv": 0.5607,
+  "short F1 sev_inv": 0.4601,
+  "flicker/min": 0.5561,
+  "bass acc": 0.9857,
+  "ooc bass acc": 0.7208,
+  "boundary F 1/4 beat": 0.8841
+ }
+}

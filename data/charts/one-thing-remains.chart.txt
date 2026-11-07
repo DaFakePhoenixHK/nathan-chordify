@@ -1,0 +1,27 @@
+# title: One Thing Remains
+# artist: Jesus Culture / Bethel (Brian Johnson)
+# language: english
+# key: G (estimated from the chords (the page gives none))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2010
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/jesus-culture/one-thing-remains-chords-1007605
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| Cmaj9 | G . Dsus4 . | Cmaj9 . G . | G . Dsus4 . |
+| Cmaj9 . G . | G . Dsus4 . | C . G . | Dsus4 |
+| C . G . | Dsus4 |
+[Chorus]
+| Em7 | Cadd9 | G | Dsus4 |
+| Em7 | Cadd9 | G | Dsus4 |
+| Em7 | Cadd9 | G | Dsus4 |
+[Verse 2]
+| Cmaj9 . G . | G . Dsus4 . | Cmaj9 | G . Dsus4 . |
+| Cmaj9 | G . Dsus4 . | Cmaj9 . G . | Dsus4 |
+[Bridge]
+| Cmaj9 . G . | D | Am7 | Cmaj9 |
+| G | D | Cmaj9 | G |
+| D | D | Am7 | Am7 . Cmaj9 . |
+| G/B . G . | D |

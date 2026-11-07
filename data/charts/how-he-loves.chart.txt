@@ -1,0 +1,35 @@
+# title: How He Loves
+# artist: John Mark McMillan / David Crowder Band
+# language: english
+# key: C (page says C; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 2005
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/david-crowderband/how-he-loves-chords-847349
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| C | Am7 | Am7 | G |
+| Fmaj7 | C | Am7 | Am7 |
+| G | G | Fmaj7 |
+[Pre-Chorus]
+| C . Am7 . | G | Fmaj7 |
+[Interlude]
+| C | Am7 | G/C | Fmaj7 |
+[Verse]
+| C | Am7 | Am7 | G |
+| Fmaj7 | C | Am7 | Am7 |
+| G | G | Fmaj7 | Fmaj7 |
+[Pre-Chorus]
+| C . Am7 . | G | Fmaj7 |
+[Chorus]
+| C | Am7 | G | Fmaj7 |
+[Verse]
+| C | C | Am7 | Am7 |
+| G | Fmaj7 | C | C |
+| Am7 | Am7 | G | G |
+| Fmaj7 |
+[Chorus]
+| C | Am7 | G | Fmaj7 |
+| C | Am7 | G | Fmaj7 . C . |

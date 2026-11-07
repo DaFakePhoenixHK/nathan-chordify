@@ -1,0 +1,23 @@
+# title: 十架的冠冕
+# artist: 以琳之泉使團; 曲 伍偉基
+# language: cantonese
+# key: G (page says G; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 80 BPM
+# year: 2001
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E5%8D%81%E6%9E%B6%E7%9A%84%E5%86%A0%E5%86%95/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| G | D/F# | Em | Bm |
+| C | G/B | Am | D |
+| G | D/F# | Em | Bm |
+| C | G/B | Am | D |
+[Chorus]
+| G | D/F# | Em | Bm |
+| C | G/B | Am | D |
+| G | D/F# | Em | Bm |
+| C | G/B | Am | D |
+| G | G |

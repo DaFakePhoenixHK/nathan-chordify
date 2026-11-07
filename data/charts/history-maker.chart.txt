@@ -1,0 +1,40 @@
+# title: History Maker
+# artist: Delirious?
+# language: english
+# key: C (estimated from the chords (the page gives none))
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# year: 1996
+# source: UltimateGuitar https://tabs.ultimate-guitar.com/tab/delirious/history-maker-chords-14612
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+| A | F |
+[Verse]
+| Am | F | Am | F |
+[Pre-Chorus]
+| G | F | C . G/B . | Am . F . |
+| Asus4 | F | Asus4 | F |
+| G | F | C . G/B . | Am . F . |
+| C | C | Am | F |
+| C | C | Am | F |
+| C | G/B . Am . | F | C . G/B . |
+| Am . F . | Am | F | Am |
+| F | Am | F | Am |
+| F | G | F | C . G/B . |
+| Am . F . | C | C | Am |
+| F | C | C | Am |
+| F | C | G/B . Am . | F |
+| C . G/B . | Am . F . | C | C |
+| Am | F | C | C |
+| Am | F | Am | G/B . C . |
+| F | C . G/B . | Am . F . | C . G/B . |
+| Am . F . | C | C | C |
+| G/B | Am | F | C |
+| G/B | Am | F | C |
+| C | Am | F | C |
+| C | Am | F | Am |
+| G/B . C . | F | C . G/B . | Am |
+| F | F | F | C |
+| G/B | Am | F | C |
+| G/B | Am | F |

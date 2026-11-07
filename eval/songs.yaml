@@ -1,0 +1,129 @@
+# Evaluation songs (DESIGN §13.3). D1 = Nathan's annotated songs; `reviewed: true` once he has
+# checked the GT by ear in Ground-truth mode. Written by the server (GT export); edits are kept.
+songs:
+- key: yt-WLtqi4s29LQ
+  title: 立志擺上 (建道神學院新祢呈敬拜隊, 編曲版 arr. 古丹青)
+  set: D1
+  reviewed: false
+  status: draft
+  lab: eval/gt/yt-WLtqi4s29LQ.lab
+  beats: eval/gt/yt-WLtqi4s29LQ.beats
+  chart: eval/gt/yt-WLtqi4s29LQ.chart.txt
+  tapped_beats: false
+  source_url: https://www.youtube.com/watch?v=WLtqi4s29LQ
+  key_sig: Eb major
+  meter: 4/4
+  sheet_source: 編曲版主領譜 PDF (spcl.abs.edu), read from the page images
+  sheet_files: data/sheets/yt-WLtqi4s29LQ/
+  aligned_by: eval/build_gt.py (DTW of the chart to the engine's main-layer evidence)
+  grid: engine beats (rhythm grid of the current analysis)
+  confidence: 'high: official lead sheet of this exact arrangement; chord positions
+    within bars read from the notation'
+  n_chords: 151
+  unknown_s: 0
+  engine_agreement:
+    samples_0.5s: 694
+    root: 0.931
+    majmin: 0.921
+  updated: '2026-10-31T18:49:51Z'
+- key: yt-XtwIT8JjddM
+  title: 10,000 Reasons (Bless the Lord) — Matt Redman
+  set: D1
+  reviewed: false
+  status: draft
+  lab: eval/gt/yt-XtwIT8JjddM.lab
+  beats: eval/gt/yt-XtwIT8JjddM.beats
+  chart: eval/gt/yt-XtwIT8JjddM.chart.txt
+  tapped_beats: false
+  source_url: https://www.youtube.com/watch?v=XtwIT8JjddM
+  key_sig: G major
+  meter: 4/4
+  sheet_source: WorshipTogether free chord chart (worshiptogether.com/songs/10-000-reasons-bless-the-lord/)
+  sheet_files: data/sheets/yt-XtwIT8JjddM/
+  aligned_by: eval/build_gt.py (DTW of the chart to the engine's main-layer evidence)
+  grid: engine beats (rhythm grid of the current analysis)
+  confidence: 'medium: official publisher chart (chord order per line); bar placement
+    inferred; intro/tag not covered'
+  n_chords: 128
+  unknown_s: 33.3
+  engine_agreement:
+    samples_0.5s: 418
+    root: 0.976
+    majmin: 0.976
+  updated: '2026-10-31T18:49:52Z'
+- key: yt-Y7boUFbM76k
+  title: 回家 (Eternity Girls, 永恆音樂事工)
+  set: D1
+  reviewed: false
+  status: draft
+  lab: eval/gt/yt-Y7boUFbM76k.lab
+  beats: eval/gt/yt-Y7boUFbM76k.beats
+  chart: eval/gt/yt-Y7boUFbM76k.chart.txt
+  tapped_beats: false
+  source_url: https://www.youtube.com/watch?v=Y7boUFbM76k
+  key_sig: B major
+  meter: 4/4
+  sheet_source: consensus of published charts (docs/RESEARCH.md §5.3), eval/gt/yt-Y7boUFbM76k.chart.txt
+  sheet_files: data/sheets/yt-Y7boUFbM76k/
+  aligned_by: eval/build_gt.py (DTW of the chart to the engine's main-layer evidence)
+  grid: engine beats (rhythm grid of the current analysis)
+  confidence: 'medium: several published charts agree on most bars; intro low; positions
+    inside bars partly guessed'
+  n_chords: 144
+  unknown_s: 0
+  engine_agreement:
+    samples_0.5s: 495
+    root: 0.669
+    majmin: 0.659
+  updated: '2026-10-31T18:50:16Z'
+  chart_aligned: eval/gt/yt-Y7boUFbM76k.chart.aligned.txt
+- key: yt-hvHi7N8kc8s
+  title: Here I Bow — Brian & Jenn Johnson (Bethel Music)
+  set: D1
+  reviewed: false
+  status: draft
+  lab: eval/gt/yt-hvHi7N8kc8s.lab
+  beats: eval/gt/yt-hvHi7N8kc8s.beats
+  chart: eval/gt/yt-hvHi7N8kc8s.chart.txt
+  tapped_beats: false
+  source_url: https://www.youtube.com/watch?v=hvHi7N8kc8s
+  key_sig: D major
+  meter: 4/4
+  sheet_source: WorshipTogether free chord chart (worshiptogether.com/songs/here-i-bow/)
+  sheet_files: data/sheets/yt-hvHi7N8kc8s/
+  aligned_by: eval/build_gt.py (DTW of the chart to the engine's main-layer evidence)
+  grid: engine beats (rhythm grid of the current analysis)
+  confidence: 'medium: official publisher chart (chord order per line); bar placement
+    inferred; intro/outro not covered'
+  n_chords: 83
+  unknown_s: 44.1
+  engine_agreement:
+    samples_0.5s: 391
+    root: 0.944
+    majmin: 0.926
+  updated: '2026-10-31T18:49:53Z'
+- key: yt-lfP-3JLVvaw
+  title: 活出愛 Live Out Love — 盛曉玫 Amy Sand (泥土音樂 Clay Music)
+  set: D1
+  reviewed: false
+  status: draft
+  lab: eval/gt/yt-lfP-3JLVvaw.lab
+  beats: eval/gt/yt-lfP-3JLVvaw.beats
+  chart: eval/gt/yt-lfP-3JLVvaw.chart.txt
+  tapped_beats: false
+  source_url: https://www.youtube.com/watch?v=lfP-3JLVvaw
+  key_sig: C major → D major (last verse + choruses)
+  meter: 12/8 (4 dotted-quarter beats per bar)
+  sheet_source: Clay Music official lead sheet PDF 06-11.pdf (text layer + page images)
+  sheet_files: data/sheets/yt-lfP-3JLVvaw/
+  aligned_by: eval/build_gt.py (DTW of the chart to the engine's main-layer evidence)
+  grid: raw beat-tracker downbeats (gaps filled) split into 2
+  confidence: high for the sung sections (official lead sheet, chords on beats 1 and
+    3); intro inferred (= verse); turnaround/tag not covered
+  n_chords: 125
+  unknown_s: 26.2
+  engine_agreement:
+    samples_0.5s: 532
+    root: 0.919
+    majmin: 0.883
+  updated: '2026-10-31T18:49:53Z'

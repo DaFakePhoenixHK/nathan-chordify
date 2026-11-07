@@ -1,0 +1,24 @@
+# title: I Could Sing of Your Love Forever
+# artist: Delirious? (Martin Smith)
+# language: english
+# key: D (page says D; the chords agree)
+# meter: 4/4 (assumed (the page gives none))
+# beats_per_bar: 4
+# tempo: 90 BPM
+# year: 1994
+# source: WorshipTogether https://www.worshiptogether.com/songs/i-could-sing-of-your-love-forever/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse]
+| Dsus2 | Dsus2 | Em7 | Em7 |
+| Gsus2 | Asus4 | Asus4 | Asus4 |
+| Dsus2 | Dsus2 | Em7 | Em7 |
+| Gsus2 | Gsus2 | Asus4 | Asus4 |
+[Chorus]
+| Dsus2 | Em7 | Gsus2 | Em7 |
+| Dsus2 | Em7 | Gsus2 | Asus4 |
+[Bridge]
+| Em7 | D/F# | G | Asus4 . A . |
+| Em7 | D/F# | G | G |
+| Asus4 | Asus4 |

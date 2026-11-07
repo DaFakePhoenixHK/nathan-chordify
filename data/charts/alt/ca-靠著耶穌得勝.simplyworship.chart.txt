@@ -1,0 +1,21 @@
+# title: 靠著耶穌得勝
+# artist: 沙田浸信會; 曲 朱浩權
+# language: cantonese
+# key: F (page says F; the chords agree)
+# meter: 4/4 (from the page)
+# beats_per_bar: 4
+# tempo: 76 BPM
+# year: 1999
+# source: SimplyWorship https://simplyworship.hk/lyrics/%E9%9D%A0%E8%91%97%E8%80%B6%E7%A9%8C%E5%BE%97%E5%8B%9D/
+# retrieved: 2026-11-01
+# bars: inferred (the source has chords over lyrics without bar lines; lengths estimated from the syllables under each chord - see train/harvest_charts.py)
+# content: chords + section labels only (lyrics removed); private research / training use
+[Verse 1]
+| F | F | Am | Am |
+| Bb | C | Bb | Bbm |
+| Am | Dm | Gm . C . | F . C . |
+[Chorus]
+| F | Am | Bb | F/A |
+| Gm | C | F | Am |
+| Bb | F/A | A | Dm |
+| Bb | C | F | F |
