@@ -7,6 +7,7 @@ import { showToast, useApp, type AudioKey, type MixId } from '../app/store';
 import { tNow } from '../i18n';
 import { engine } from './engine';
 import { initChordSynth, unlockSynth } from './chordSynth';
+import { isFromDevice, savedAudioUrl } from '../offline/saved';
 import { audioShift, mixAudioUrl, mixDef, recallAudioKey, recallMix, rememberAudioKey, rememberMix, stemsListed } from './mix';
 
 function songKey(): string | null {
@@ -39,6 +40,31 @@ async function headOk(url: string): Promise<void> {
 
 let seq = 0;
 
+/** A song opened from this device: only the versions saved with it can play. */
+async function applySaved(key: string, id: MixId, remember: boolean, my: number): Promise<void> {
+  const st = useApp.getState();
+  const def = mixDef(id);
+  const shift = audioShift(st.audioKey, st.transpose);
+  let url = await savedAudioUrl(key, def.audio, shift);
+  if (!url && shift !== 0) {
+    // the recording stays in its own key; the chord names still move
+    url = await savedAudioUrl(key, def.audio, 0);
+    useApp.setState({ audioKey: 'original' });
+    if (url) showToast(tNow('savedNoKey'));
+  }
+  if (my !== seq) return;
+  if (!url) {
+    useApp.setState({ mixBusy: false, shiftBusy: false });
+    showToast(tNow('savedNoMix'), 'error');
+    return;
+  }
+  await engine.swapSource(url);
+  if (my !== seq) return;
+  engine.setMuted(def.muted);
+  useApp.setState({ mix: id, mixBusy: false, shiftBusy: false });
+  if (remember) rememberMix(localStorage, key, id);
+}
+
 /**
  * Load the player file for a sound + the current Audio choice and Transpose. Keeps the play position
  * and the play / pause state; the old file keeps playing while the server makes a new one.
@@ -52,6 +78,10 @@ async function applySource(id: MixId, remember: boolean): Promise<void> {
   initChordSynth();
   if (def.synth) unlockSynth();
   const base = st.audioBase;
+  if (isFromDevice(st.analysis)) {
+    await applySaved(key, id, remember, my);
+    return;
+  }
   if (def.needsStems) {
     if (base.startsWith('blob:')) {
       showToast(tNow('mixMockFile'), 'error');

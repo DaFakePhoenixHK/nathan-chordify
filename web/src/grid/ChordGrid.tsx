@@ -282,6 +282,8 @@ export function ChordGrid() {
     if (isNoChord(c)) cls.push('nc');
     if (grow < 0.99) cls.push('split');
     if (grow <= 0.5) cls.push('narrow');
+    const longest = Math.max(...text.split('/').map((s) => s.length)); // a slash chord wraps at the slash
+    if (longest >= 5) cls.push(longest >= 6 ? 'len6' : 'len5');
     if (c.suggestion) cls.push('suggest');
     if (c.edited) cls.push('edited');
     if (gtMode && c.edited && c.conf < 0.5) cls.push('unsure'); // an unsure spot of the imported chart

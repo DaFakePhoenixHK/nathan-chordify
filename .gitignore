@@ -43,3 +43,6 @@ web/dist/
 Thumbs.db
 .vscode/
 .idea/
+
+# The iPhone app's packaged copy of the web app (npm run build:app)
+web/dist-app/

@@ -1,4 +1,5 @@
-import { createReadStream, existsSync, statSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { createReadStream, existsSync, readdirSync, statSync } from 'node:fs';
 import type { IncomingMessage, ServerResponse } from 'node:http';
 import { fileURLToPath } from 'node:url';
 import { defineConfig, type Plugin } from 'vite';
@@ -66,8 +67,58 @@ function mockFixtures(): Plugin {
   };
 }
 
+/** The app's own files, kept on the phone so it opens with no internet. API calls are never touched. */
+function swSource(version: string, files: string[]): string {
+  return `const CACHE = 'nc-shell-${version}';
+const FILES = ${JSON.stringify(files)};
+self.addEventListener('install', (e) => {
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
+});
+self.addEventListener('activate', (e) => {
+  e.waitUntil(
+    caches.keys()
+      .then((ks) => Promise.all(ks.filter((k) => k.startsWith('nc-shell-') && k !== CACHE).map((k) => caches.delete(k))))
+      .then(() => self.clients.claim()),
+  );
+});
+self.addEventListener('fetch', (e) => {
+  const r = e.request;
+  const u = new URL(r.url);
+  if (r.method !== 'GET' || u.origin !== location.origin || u.pathname.includes('/api/') || u.pathname.endsWith('/health')) return;
+  if (r.mode === 'navigate') {
+    e.respondWith(caches.match('./').then((hit) => hit || fetch(r)));
+    return;
+  }
+  e.respondWith(caches.match(r).then((hit) => hit || fetch(r)));
+});
+`;
+}
+
+function listPublic(dir: string, prefix = ''): string[] {
+  return readdirSync(dir, { withFileTypes: true }).flatMap((f) =>
+    f.isDirectory() ? listPublic(`${dir}/${f.name}`, `${prefix}${f.name}/`) : [`${prefix}${f.name}`],
+  );
+}
+
+function serviceWorker(): Plugin {
+  return {
+    name: 'nathan-chordify-sw',
+    apply: 'build',
+    enforce: 'post',
+    generateBundle(_opts, bundle) {
+      const pub = listPublic(fileURLToPath(new URL('public', import.meta.url)));
+      const names = [...Object.keys(bundle).filter((f) => f !== 'index.html'), ...pub].toSorted();
+      const version = createHash('sha256').update(names.join('\n')).digest('hex').slice(0, 12);
+      const files = ['./', ...names.map((f) => `./${f}`)];
+      this.emitFile({ type: 'asset', fileName: 'sw.js', source: swSource(version, files) });
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [react(), mockFixtures()],
+  // relative, so the same files work at the computer's address and under /nathan-chordify/ on a web host
+  base: './',
+  plugins: [react(), mockFixtures(), serviceWorker()],
   server: {
     port: 5173,
     strictPort: false,

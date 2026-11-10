@@ -18,6 +18,7 @@ from contextlib import asynccontextmanager
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Callable
+from urllib.parse import urlsplit
 
 from fastapi import FastAPI, Request
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
@@ -25,8 +26,8 @@ from starlette.datastructures import MutableHeaders
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 
 from .. import ENGINE_VERSION, config
-from . import (edits, gt, routes_export, routes_jobs, routes_later, routes_sheets, routes_system, routes_tracks,
-               storage)
+from . import (edits, gt, remote, tunnel, routes_export, routes_jobs, routes_later, routes_phone, routes_sheets, routes_system,
+               routes_tracks, storage)
 from .common import ApiError, KEY_RE, now_iso
 from .db import Library
 from .jobs import Job, JobManager
@@ -63,6 +64,12 @@ class ServerSettings:
     storage_on_start: bool = True
     sheets_auto_lookup: bool = True               # default of the user setting (data/settings.json overrides)
     sheets_fetcher: object | None = None          # tests pass a fake sheets.fetch.Fetcher (no network)
+    public_url: str | None = None                 # a fixed HTTPS address for phones (else the phone link's)
+    port: int = 8765                              # where the phone link points
+    phone_link: bool | None = None                # start the phone link: None = as last left (data/phone_link.txt)
+    tunnel_factory: Callable | None = None        # tests pass a fake tunnel
+    phone_origins: tuple[str, ...] = ("https://dafakephoenixhk.github.io", "capacitor://localhost", "ionic://localhost",
+                                      "http://localhost:5173", "http://127.0.0.1:5173")
 
     @property
     def is_stub(self) -> bool:
@@ -81,6 +88,7 @@ class ServerContext:
         self.library = Library(config.DATA_DIR / "library.sqlite")
         # user settings (GET/PATCH /api/settings): defaults from ServerSettings, saved in data/settings.json
         self.user_settings: dict = {**routes_sheets.load_settings(self.data_dir)}
+        self.tunnel = None
         if not (self.data_dir / routes_sheets.SETTINGS_FILE).exists():
             self.user_settings["sheets_auto_lookup"] = bool(settings.sheets_auto_lookup)
         self.sheet_threads: dict[str, threading.Thread] = {}   # one sheet search per song at a time
@@ -106,8 +114,28 @@ class ServerContext:
         self.jobs.start()
         if self.settings.storage_on_start:
             self.schedule_storage()
+        link = self.settings.phone_link
+        if link or (link is None and tunnel.wanted(self.data_dir)):
+            self.set_phone_link(True)
+
+    # ---- phone link -----------------------------------------------------------------------------
+    def set_phone_link(self, on: bool) -> None:
+        if on:
+            if self.tunnel is None:
+                make = self.settings.tunnel_factory or tunnel.Tunnel
+                self.tunnel = make(self.settings.port)
+            self.tunnel.start()
+        elif self.tunnel is not None:
+            self.tunnel.stop()
+
+    def public_url(self) -> str | None:
+        if self.settings.public_url:
+            return self.settings.public_url
+        return self.tunnel.status()["url"] if self.tunnel else None
 
     def stop(self) -> None:
+        if self.tunnel is not None:
+            self.tunnel.stop()
         self.jobs.close()
         if self._storage_thread is not None:
             self._storage_thread.join(30)
@@ -295,9 +323,13 @@ def create_app(settings: ServerSettings | None = None) -> FastAPI:
     async def api_error(request: Request, e: ApiError):
         return JSONResponse(e.to_dict(), status_code=e.status)
 
-    for r in (routes_system, routes_jobs, routes_tracks, routes_export, edits, gt, routes_sheets, routes_later):
+    for r in (routes_system, routes_jobs, routes_tracks, routes_export, edits, gt, routes_sheets, routes_phone, routes_later):
         app.include_router(r.router)
     _mount_web(app, settings)
     app.add_middleware(SecurityHeaders)
-    app.add_middleware(TrustedHostMiddleware, allowed_hosts=list(settings.allowed_hosts))
+    hosts = [*settings.allowed_hosts, "*.trycloudflare.com"]       # phone link addresses (the code is still required)
+    if settings.public_url:
+        hosts.append(remote._hostname(urlsplit(settings.public_url).netloc))
+    app.add_middleware(TrustedHostMiddleware, allowed_hosts=hosts)
+    app.add_middleware(remote.RemoteGuard, settings=settings, data_dir=lambda: config.DATA_DIR)
     return app

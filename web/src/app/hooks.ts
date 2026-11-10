@@ -4,7 +4,9 @@ import { useApp } from './store';
 import { shownShift, variantOf, type LabelCtx } from '../grid/labels';
 import { perf } from '../player/sync';
 
-export const PHONE_QUERY = '(max-width: 639px)';
+/** A phone held either way up: narrow, or too short for the tablet layout. */
+export const PHONE_QUERY = '(max-width: 639px), (max-height: 500px)';
+export const SHORT_QUERY = '(max-height: 500px)';
 export const WIDE_QUERY = '(min-width: 1024px)';
 
 export function useMedia(query: string): boolean {

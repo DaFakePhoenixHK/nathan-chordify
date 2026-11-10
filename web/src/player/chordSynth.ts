@@ -42,7 +42,7 @@ function makeCtx(): AudioContext | null {
 /** Create / resume the context (call from a user gesture: the Sound menu, the play button). */
 export function unlockSynth(): void {
   const ac = makeCtx();
-  if (ac && ac.state === 'suspended') void ac.resume();
+  if (ac && ac.state !== 'running') void ac.resume(); // iOS also has 'interrupted' (a phone call)
 }
 
 export function setChordsVolume(v: number): void {

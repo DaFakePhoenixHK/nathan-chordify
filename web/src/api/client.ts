@@ -24,7 +24,10 @@ import type {
 } from './types';
 import { exportSheetUrl, type SheetExportParams } from '../export/logic';
 import { watchJobEvents } from './sse';
+import { pollJob, type JobSnapshot } from './poll';
 import { mockApi } from './mock';
+import { apiUrl, authHeaders, getLink, isDownStatus, mediaUrl, needsPairing, reportLaptop } from '../remote/connection';
+import { isFromDevice, listSaved, savedAnalysis, savedAudioUrl, savedDisplay } from '../offline/saved';
 
 export class ApiError extends Error {
   status: number;
@@ -145,15 +148,43 @@ async function parseError(res: Response): Promise<ApiError> {
   return new ApiError(res.status, code, msg, hint);
 }
 
-async function getJson<T>(url: string, init?: RequestInit): Promise<T> {
-  let res: Response;
+/** How long a phone waits before deciding the computer is away (bad church Wi-Fi shouldn't hang the app). */
+const REMOTE_TIMEOUT_MS = 20000;
+
+/** fetch() to the computer: adds its address and the phone code, and notes whether it answered. */
+async function serverFetch(url: string, init?: RequestInit): Promise<Response> {
+  if (needsPairing()) throw new ApiError(0, 'offline', 'Not connected to a computer');
+  const ctl = new AbortController();
+  const timer = getLink() ? window.setTimeout(() => ctl.abort(), REMOTE_TIMEOUT_MS) : 0;
   try {
-    res = await fetch(url, { ...init, headers: { Accept: 'application/json', ...init?.headers } });
+    const res = await fetch(apiUrl(url), { ...init, signal: ctl.signal, headers: { ...authHeaders(), ...init?.headers } });
+    if (getLink()) reportLaptop(isDownStatus(res.status) ? 'offline' : 'online');
+    return res;
   } catch (e) {
+    if (getLink()) reportLaptop('offline');
     throw new ApiError(0, 'offline', e instanceof Error ? e.message : String(e));
+  } finally {
+    window.clearTimeout(timer);
   }
+}
+
+async function getJson<T>(url: string, init?: RequestInit): Promise<T> {
+  const res = await serverFetch(url, { ...init, headers: { Accept: 'application/json', ...init?.headers } });
   if (!res.ok) throw await parseError(res);
   return (await res.json()) as T;
+}
+
+/** Ask the computer; when it is away, use the copy kept on this device if there is one. */
+async function orSaved<T>(net: () => Promise<T>, local: () => Promise<T | undefined>): Promise<T> {
+  try {
+    return await net();
+  } catch (e) {
+    if (e instanceof ApiError && isDownStatus(e.status)) {
+      const kept = await local();
+      if (kept !== undefined) return kept;
+    }
+    throw e;
+  }
 }
 
 function postJson<T>(url: string, body: unknown, method = 'POST'): Promise<T> {
@@ -189,8 +220,9 @@ export function normalizeTracks(raw: unknown): TrackSummary[] {
 function uploadXhr(file: File, onProgress: (pct: number) => void): Promise<UploadCreated> {
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
-    xhr.open('POST', '/api/uploads');
+    xhr.open('POST', apiUrl('/api/uploads'));
     xhr.responseType = 'json';
+    for (const [k, v] of Object.entries(authHeaders())) xhr.setRequestHeader(k, v);
     xhr.upload.addEventListener('progress', (e) => {
       if (e.lengthComputable) onProgress((100 * e.loaded) / e.total);
     });
@@ -219,16 +251,33 @@ function uploadXhr(file: File, onProgress: (pct: number) => void): Promise<Uploa
 const serverApi: Api = {
   mock: false,
   async listTracks() {
-    return normalizeTracks(await getJson<unknown>('/api/tracks'));
+    const saved = await listSaved().catch(() => []);
+    const mark = new Set(saved.map((s) => s.key));
+    let tracks: TrackSummary[];
+    try {
+      tracks = normalizeTracks(await getJson<unknown>('/api/tracks'));
+    } catch (e) {
+      if (e instanceof ApiError && isDownStatus(e.status) && (getLink() || needsPairing())) return saved.map((s) => ({ ...s, saved: true }));
+      throw e;
+    }
+    const known = new Set(tracks.map((t) => t.key));
+    return [...tracks.map((t) => ({ ...t, saved: mark.has(t.key) })), ...saved.filter((s) => !known.has(s.key)).map((s) => ({ ...s, saved: true }))];
   },
   getAnalysis(key) {
-    return getJson<Analysis>(`/api/tracks/${enc(key)}`);
+    return orSaved(() => getJson<Analysis>(`/api/tracks/${enc(key)}`), () => savedAnalysis(key));
   },
   getDisplay(key, analysis) {
+    if (isFromDevice(analysis)) {
+      return savedDisplay(key).then((d) => {
+        if (!d) throw new ApiError(0, 'offline', 'This song was not saved completely');
+        return d;
+      });
+    }
     return getJson<Display>(analysis.display || `/api/tracks/${enc(key)}/display`);
   },
   async audioUrl(key, analysis) {
-    return analysis.audio?.play || `/api/tracks/${enc(key)}/audio`;
+    if (isFromDevice(analysis)) return savedAudioUrl(key, 'original', 0);
+    return mediaUrl(analysis.audio?.play || `/api/tracks/${enc(key)}/audio`);
   },
   createJob(source) {
     return postJson<JobCreated>('/api/jobs', { source, mode: 'full' });
@@ -239,20 +288,16 @@ const serverApi: Api = {
     return postJson<JobCreated>('/api/jobs', { upload_id: up.upload_id, mode: 'full' });
   },
   watchJob(jobId, h) {
+    if (getLink()) return pollJob(() => getJson<JobSnapshot>(`/api/jobs/${enc(jobId)}`), h);
     return watchJobEvents(`/api/jobs/${enc(jobId)}/events`, h);
   },
   async redecode(key, region) {
-    let res: Response;
-    try {
-      res = await fetch(`/api/tracks/${enc(key)}/redecode`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        // a region makes the server re-decode it with the more sensitive settings (DESIGN §5.11)
-        body: JSON.stringify({ region }),
-      });
-    } catch (e) {
-      throw new ApiError(0, 'offline', e instanceof Error ? e.message : String(e));
-    }
+    const res = await serverFetch(`/api/tracks/${enc(key)}/redecode`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      // a region makes the server re-decode it with the more sensitive settings (DESIGN §5.11)
+      body: JSON.stringify({ region }),
+    });
     if (res.status === 501 || res.status === 404 || res.status === 405) return 'unsupported';
     if (!res.ok) throw await parseError(res);
     return (await res.json()) as { analysis: Analysis; display: Display };
@@ -324,7 +369,7 @@ const serverApi: Api = {
     return getJson<SheetExport>(exportSheetUrl(key, { ...p, format: 'json' }));
   },
   exportSheetUrl(key, p) {
-    return exportSheetUrl(key, p);
+    return mediaUrl(exportSheetUrl(key, p));
   },
 };
 

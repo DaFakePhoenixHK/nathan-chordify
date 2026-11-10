@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { useApp, type Theme } from './store';
 import { analyzeFile, analyzeInput } from './jobs';
 import { stageName, useT } from '../i18n';
+import { HOSTED, useConnection } from '../remote/connection';
 
 function Logo() {
   return (
@@ -30,6 +31,8 @@ export function TopBar() {
   const lang = useApp((s) => s.lang);
   const theme = useApp((s) => s.theme);
   const busy = useApp((s) => s.job?.status === 'running' || s.job?.status === 'uploading');
+  const { link, laptop } = useConnection();
+  const remote = HOSTED || !!link;
 
   return (
     <header className="topbar">
@@ -80,6 +83,15 @@ export function TopBar() {
         <a href="#/" className="navlink">
           {t('library')}
         </a>
+        {remote ? (
+          <a href="#/connect" className={`navlink link-state ${link ? laptop : 'offline'}`} title={t('connectTitle')}>
+            {t('navComputer')}
+          </a>
+        ) : (
+          <a href="#/phone" className="navlink">
+            {t('navPhone')}
+          </a>
+        )}
         <button className="icon-btn" onClick={() => useApp.setState({ lang: lang === 'en' ? 'zh-TW' : 'en' })} title={t('language')}>
           {lang === 'en' ? '中文' : 'EN'}
         </button>

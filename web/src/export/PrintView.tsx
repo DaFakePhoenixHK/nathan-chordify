@@ -4,6 +4,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { api } from '../api/client';
+import { IS_NATIVE } from '../app/platform';
 import type { SheetExport } from '../api/types';
 import { useApp } from '../app/store';
 import { useT, type StringKey } from '../i18n';
@@ -93,7 +94,7 @@ export function PrintView() {
   }, [open]);
 
   useEffect(() => {
-    if (!open || !auto || !data) return;
+    if (!open || !auto || !data || IS_NATIVE) return; // the iPhone app has no print dialog: the sheet is just shown
     const id = window.setTimeout(() => {
       useApp.setState({ printAuto: false });
       window.print();
@@ -108,11 +109,13 @@ export function PrintView() {
     <div className="print-root" role="dialog" aria-label={t('printTitle')}>
       <div className="print-tools no-print">
         <b>{t('printTitle')}</b>
-        <span className="pv-hint">{t('savePdfHint')}</span>
+        {!IS_NATIVE && <span className="pv-hint">{t('savePdfHint')}</span>}
         <span className="sh-spacer" />
-        <button className="pill primary" onClick={() => window.print()} disabled={!data}>
-          {t('print')}
-        </button>
+        {!IS_NATIVE && (
+          <button className="pill primary" onClick={() => window.print()} disabled={!data}>
+            {t('print')}
+          </button>
+        )}
         <button className="pill" onClick={close}>
           {t('close')}
         </button>

@@ -68,6 +68,12 @@ opens the browser. Command line only:
 
 Tests: `.venv\Scripts\python -m pytest engine eval train` and `cd web && npm test`.
 
+## iPhone and iPad
+
+Put the app on your iPhone or iPad Home Screen for free, and connect it to your computer with the
+phone link: see `docs/IPHONE_APP.md`. The analysis still runs on your computer, and songs saved on
+the phone work with no computer or internet. `web/ios` holds an App Store version for later.
+
 ## Credits
 
 - [consonance-ACE](https://github.com/andreamust/consonance-ACE) (MIT) and lv-chordia for chord

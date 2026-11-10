@@ -188,6 +188,24 @@ In flight (started 2026-11-01; resume with SendMessage to these ids if the sessi
   playing while "Preparing…"; ±7 folds to −5..6), `mixAudioUrl(base, mix, transpose)`, synth follows Transpose in
   "Piano + chords" only when the audio does; "Play in" never shifts audio. Verified: play_t-3 chroma = original
   rolled −3 (r .989). Tests engine 1,949 + 2 skipped, web 49; dist rebuilt.
+- **iPhone / iPad app IN PROGRESS (2026-11-09, user: "work on iphone and ipad"; "i want an application, not website")**:
+  phone = remote screen + player; analysis stays on the laptop. Built + tested in Playwright WebKit (scratch only):
+  server `server/remote.py` RemoteGuard (secret code `data/phone_token.txt`, CORS for github.io + capacitor://localhost,
+  /api/phone + /api/system local-only, `?token=` only for audio/events/export) + `routes_phone.py`, flag `--public-url`;
+  web `remote/{connection,ConnectPage,PhonePage}`, `api/poll.ts` (phones poll, no SSE), `offline/{saved,SaveButton}`
+  (songs in IndexedDB as bytes), `app/platform.ts`; sideways phones use the phone layout (`PHONE_QUERY` + max-height 500).
+  Native app = Capacitor 8.6 in `web/ios` (`npm run build:app` → dist-app with VITE_HOSTED=1, `npx cap sync ios`), bundle id
+  io.github.dafakephoenixhk.nathanchordify; `.github/workflows/ios.yml` builds on GitHub's Mac (simulator compile; TestFlight
+  once 4 secrets exist, see docs/IPHONE_APP.md). `pages.yml` = optional free web version, manual only.
+  **2026-11-11 user: allowed the Cloudflare link; can't afford US$99 → FREE route = Home Screen web app on GitHub Pages
+  (pages.yml, manual; user must set Settings → Pages → Source: GitHub Actions, then Run workflow). Phone link DONE:
+  `server/tunnel.py` (cloudflared quick tunnel in tools/cloudflared, `--protocol http2`, restart with back-off, killed
+  with the server via a Windows job, remembered in data/phone_link.txt), `POST /api/phone/link {on}`, Phone page switch;
+  pair link uses the GitHub Pages app when it answers, else the computer serves the app at the tunnel address.
+  Real test with Surfshark on: link up in ~5 s, 401 without code, 8.3 MB song in 2.7 s, WebKit pairing + save OK.
+  ios.yml is manual only (App Store route shelved). NOT verified on a real iPhone yet (camera scan, sound).
+  Still pending: one-click installer for Anson (his PC has an RTX 5090 Ti), waiting for the user's go.
+  Tooling note: Bash commands over ~8,000 characters get cut off on this machine, so split long heredocs.
 - **G generator DONE 2026-11-01**: Salamander Grand Piano V3 (FreePats SFZ+FLAC, 48 kHz/24-bit, CC-BY 3.0, 714 MB
   in models/piano/salamander/, MANIFEST + ATTRIBUTION.txt); sampler `train/piano.py` (own SFZ parser, soxr
   pitch-shift, velocity layers, pedal/release, ~15–20 ms per 2 s chord, ~1.7 GB RAM per process when warm; C8

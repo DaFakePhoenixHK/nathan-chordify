@@ -1,0 +1,1 @@
+VITE_HOSTED=1

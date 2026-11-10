@@ -5,6 +5,8 @@ import { globalKeySegment } from '../grid/model';
 import { keyName, signed } from '../grid/labels';
 import { NotationSwitch } from '../controls/Controls';
 import { ExportButton } from '../export/ExportMenu';
+import { SaveButton } from '../offline/SaveButton';
+import { HOSTED, useConnection } from '../remote/connection';
 
 /** Title, key badge (transpose / play-in hint), key changes, BPM, meter, notation (§8.1, §7.2). */
 export function SongHeader() {
@@ -17,6 +19,8 @@ export function SongHeader() {
   const rate = useApp((s) => s.rate);
   const mobileTab = useApp((s) => s.mobileTab);
   const phone = useMedia(PHONE_QUERY);
+  const { link } = useConnection();
+  const canSave = HOSTED || !!link;
   if (!analysis) return null;
 
   const gi = globalKeySegment(analysis);
@@ -58,6 +62,7 @@ export function SongHeader() {
           </span>
           {badge}
           <span className="sh-bpm">♩{Math.round(bpm * rate)}</span>
+          {canSave && <SaveButton phone />}
           <ExportButton phone />
           <button className="icon-btn" onClick={() => useApp.setState({ sheetOpen: true })} aria-label={t('settings')}>
             ⋯
@@ -107,6 +112,7 @@ export function SongHeader() {
           </span>
         )}
         <span className="sh-spacer" />
+        {canSave && <SaveButton phone={false} />}
         <ExportButton phone={false} />
         <NotationSwitch compact />
       </div>

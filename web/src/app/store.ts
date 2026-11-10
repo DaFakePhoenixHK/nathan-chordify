@@ -8,7 +8,7 @@ export type Acc = 'auto' | 'sharp' | 'flat';
 export type Lang = 'en' | 'zh-TW';
 export type Theme = 'auto' | 'light' | 'dark';
 
-export type Route = { page: 'library' } | { page: 'song'; key: string };
+export type Route = { page: 'library' } | { page: 'connect' } | { page: 'phone' } | { page: 'song'; key: string };
 
 /** Detail stops (§6.2): Simple 0 / Standard 0.5 / Detailed 0.8 / Everything 1.0. */
 export const DETAIL_STOPS = [0, 0.5, 0.8, 1] as const;
@@ -244,6 +244,7 @@ function parseRoute(): Route {
   const h = location.hash.replace(/^#\/?/, '');
   const m = /^song\/(.+)$/.exec(h);
   if (m) return { page: 'song', key: decodeURIComponent(m[1]) };
+  if (h === 'connect' || h === 'phone') return { page: h };
   return { page: 'library' };
 }
 
@@ -307,7 +308,7 @@ window.addEventListener('hashchange', () => {
 });
 
 export function navigate(route: Route): void {
-  const hash = route.page === 'song' ? `#/song/${encodeURIComponent(route.key)}` : '#/';
+  const hash = route.page === 'song' ? `#/song/${encodeURIComponent(route.key)}` : route.page === 'library' ? '#/' : `#/${route.page}`;
   if (location.hash !== hash) location.hash = hash;
   else useApp.setState({ route });
 }

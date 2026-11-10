@@ -6,6 +6,9 @@ import { toggleEditMode } from '../editor/session';
 import { SheetButton } from '../sheets/SheetPanel';
 import { useT } from '../i18n';
 import { engine } from './engine';
+import { IS_IOS } from '../app/platform';
+import { unlockSynth } from './chordSynth';
+import { mixDef } from './mix';
 import { MixSelect } from './MixSelect';
 import { formatTime, setClockEls } from './sync';
 
@@ -45,7 +48,10 @@ export function Transport() {
         <button
           className="play-btn"
           onMouseDown={noFocus}
-          onClick={() => engine.toggle()}
+          onClick={() => {
+            if (mixDef(useApp.getState().mix).synth) unlockSynth(); // iPhones only allow sound to start from a tap
+            engine.toggle();
+          }}
           aria-label={playing ? t('pause') : t('play')}
           title={`${playing ? t('pause') : t('play')} (Space)`}
           disabled={disabled}
@@ -147,7 +153,7 @@ export function Transport() {
       </button>
       <SheetButton phone={phone} />
       <MixSelect phone={phone} />
-      {!phone && (
+      {!phone && !IS_IOS && (
         <label className="tp-vol" title={t('volume')}>
           <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor" /><path d="M16 8.5a5 5 0 0 1 0 7" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" /></svg>
           <input

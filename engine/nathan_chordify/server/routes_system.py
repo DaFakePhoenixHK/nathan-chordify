@@ -94,7 +94,7 @@ def info(c=Depends(ctx)) -> dict:
         "ffmpeg": ffmpeg_version(), "deno": deno_version(), "yt_dlp": pkg_version("yt-dlp"),
         "disk": disk, "worker": {"state": c.jobs.worker_state, "prewarm_s": w.get("prewarm_s"),
                                  "prewarm_errors": w.get("prewarm_errors") or [], "device": w.get("device")},
-        "stub": c.settings.is_stub, "phone_url": None,           # TODO(M6): Tailscale serve URL
+        "stub": c.settings.is_stub, "phone_url": c.public_url(),
     }
 
 

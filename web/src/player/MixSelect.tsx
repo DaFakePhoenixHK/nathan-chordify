@@ -3,6 +3,7 @@
 // when the song has none.
 import { useEffect, useRef, useState, type MouseEvent as RMouseEvent } from 'react';
 import { useApp, type MixId } from '../app/store';
+import { api } from '../api/client';
 import { useT, type StringKey } from '../i18n';
 import { MIXES, mixDef, stemsListed } from './mix';
 import { setMix } from './mixActions';
@@ -47,7 +48,7 @@ export function MixSelect({ phone }: { phone: boolean }) {
     };
   }, [open]);
 
-  const localFile = !!audioBase && audioBase.startsWith('blob:');
+  const localFile = api.mock && !!audioBase && audioBase.startsWith('blob:');
   const stemsOk = stemsListed(analysis) && avail !== false && !localFile;
   const def = mixDef(mix);
   const label = t(`mix_${mix}` as StringKey);

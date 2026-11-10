@@ -242,6 +242,8 @@ export interface TrackSummary {
   bpm?: number | null;
   created_at?: string | null;
   source_type?: SourceType | null;
+  /** Kept on this phone or tablet. */
+  saved?: boolean;
 }
 
 export interface JobCreated {

@@ -711,7 +711,7 @@ button.primary {
   height: 45vh;
 }
 
-@media (max-width: 639px) {
+@media (max-width: 639px), (max-height: 500px) {
   .grid::after {
     height: 40vh;
   }
@@ -1562,7 +1562,7 @@ button.primary {
 
 /* ---------------------------------------------------------------- phone (≤639 px, §8.2) */
 
-@media (max-width: 639px) {
+@media (max-width: 639px), (max-height: 500px) {
   body {
     font-size: 15px;
   }
@@ -2281,7 +2281,7 @@ button.primary {
   background: rgba(0, 0, 0, 0.12);
 }
 
-@media (max-width: 639px) {
+@media (max-width: 639px), (max-height: 500px) {
   .edit-bar {
     padding: 4px 16px 4px;
   }
@@ -2896,7 +2896,7 @@ button.primary {
   background: var(--now-bg);
 }
 
-@media (max-width: 639px) {
+@media (max-width: 639px), (max-height: 500px) {
   .sheet-banner {
     margin: 8px 12px 0;
     font-size: 13px;
@@ -3338,7 +3338,7 @@ button.primary {
   }
 }
 
-@media (max-width: 639px) {
+@media (max-width: 639px), (max-height: 500px) {
   .export-btn {
     min-width: 44px;
     justify-content: center;
@@ -3370,5 +3370,281 @@ button.primary {
   .print-page {
     padding: 16px;
     margin: 8px;
+  }
+}
+
+/* ---------------------------------------------------------------- iPhone and iPad */
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+  box-sizing: border-box;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left);
+}
+
+button,
+a,
+[role='tab'],
+input[type='range'] {
+  touch-action: manipulation;
+}
+
+/* A long press opens the chord menu, so iOS must not select text or show its own callout there. */
+.row,
+.part,
+.bpart {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@media (pointer: coarse) {
+  /* iOS zooms the whole page when a text field smaller than 16px gets focus */
+  input:not([type='range']):not([type='checkbox']):not([type='radio']),
+  select,
+  textarea {
+    font-size: 16px;
+  }
+
+  .icon-btn {
+    min-width: 40px;
+    min-height: 40px;
+  }
+}
+
+.connect {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px 16px max(24px, env(safe-area-inset-bottom));
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  overflow-y: auto;
+}
+
+.connect h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.connect p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.connect-steps {
+  margin: 0;
+  padding-left: 22px;
+  line-height: 1.6;
+}
+
+.connect-scan {
+  padding: 14px;
+  font-size: 17px;
+}
+
+.connect-camera {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.connect-camera video {
+  width: 100%;
+  border-radius: var(--radius);
+  background: #000;
+}
+
+.connect-paste {
+  display: flex;
+  gap: 8px;
+}
+
+.connect-paste input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--fg);
+}
+
+.connect-state.online,
+.saved-chip,
+.save-btn.on {
+  color: var(--good, #15803d);
+}
+
+.saved-chip {
+  font-weight: 600;
+}
+
+.connect-state.offline {
+  color: var(--danger);
+}
+
+.connect-install {
+  padding: 12px;
+  border-radius: var(--radius);
+  background: var(--surface2);
+}
+
+.phone-qr {
+  width: min(320px, 100%);
+  align-self: center;
+  border-radius: var(--radius);
+  background: #fff;
+  image-rendering: pixelated;
+}
+
+.lib-connect {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: var(--radius);
+  background: var(--warn-bg);
+  color: var(--fg);
+}
+
+.lib-connect p {
+  margin: 0;
+}
+
+.lib-connect .pill {
+  text-decoration: none;
+}
+
+.link-state::before {
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background: var(--muted2);
+  vertical-align: 1px;
+}
+
+.link-state.online::before {
+  background: var(--good, #15803d);
+}
+
+.link-state.offline::before {
+  background: var(--danger);
+}
+
+/* phones hide the other nav links, but they must still be able to reach Connect */
+.navlink.link-state {
+  display: inline-block;
+}
+
+/* Long chord names (Abmaj7, Bbsus4) must fit the beat instead of being cut off. */
+@media (max-width: 1023px) {
+  .part.len5 .lbl {
+    font-size: 14px;
+  }
+
+  .part.len6 .lbl {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 639px), (max-height: 500px) {
+  .part.len5 .lbl {
+    font-size: 11.5px;
+  }
+
+  .part.len6 .lbl {
+    font-size: 10px;
+  }
+
+  .song-header.phone .sh-bpm {
+    display: none;
+  }
+
+  .controls-compact .pill {
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 359px) {
+  .controls-compact .rate-pill {
+    display: none;
+  }
+
+  .controls-compact .stepper > button {
+    min-width: 36px;
+  }
+
+  .transport .tp-time {
+    display: none;
+  }
+}
+
+@media (pointer: coarse) {
+  .chip {
+    min-height: 36px;
+  }
+}
+
+/* A phone on its side: the chords get the height, everything else shares one row. */
+@media (max-height: 500px) {
+  .song-header.phone .tabs,
+  .piano-panel.mini {
+    display: none;
+  }
+
+  .song-header.phone .sh-row {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .dock {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 12px max(4px, env(safe-area-inset-bottom));
+  }
+
+  .transport {
+    flex: 1;
+    min-width: 0;
+    flex-wrap: nowrap;
+  }
+
+  .tp-seek {
+    order: 0;
+    flex: 1 1 60px;
+    min-width: 60px;
+  }
+
+  .controls-compact {
+    flex: none;
+    margin-top: 0;
+  }
+
+  .controls-compact .stepper {
+    flex: none;
+  }
+}
+
+@media (max-height: 500px) and (max-width: 700px) {
+  .tp-loopbtns,
+  .controls-compact .rate-pill {
+    display: none;
   }
 }

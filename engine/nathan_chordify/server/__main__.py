@@ -38,6 +38,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--cache-dir", help="song cache (default: <repo>/cache)")
     ap.add_argument("--data-dir", help="library database folder (default: <repo>/data)")
     ap.add_argument("--eval-dir", help="ground-truth export root with gt/ and songs.yaml (default: <repo>/eval)")
+    ap.add_argument("--public-url", help="the HTTPS address phones use to reach this server (shown as a QR code)")
     args = ap.parse_args(argv)
     from pathlib import Path
     for opt, attr in ((args.cache_dir, "CACHE_DIR"), (args.data_dir, "DATA_DIR"), (args.eval_dir, "EVAL_DIR")):
@@ -52,7 +53,8 @@ def main(argv: list[str] | None = None) -> int:
     import uvicorn
 
     from .app import STUB_ANALYZE, ServerSettings, create_app
-    settings = ServerSettings(prewarm=not (args.no_prewarm or args.stub), device=args.device)
+    settings = ServerSettings(prewarm=not (args.no_prewarm or args.stub), device=args.device, public_url=args.public_url,
+                              port=args.port)
     if args.stub:
         settings.analyze = STUB_ANALYZE
     if args.host not in ("127.0.0.1", "localhost", "0.0.0.0", "::"):

@@ -5,6 +5,8 @@ import { analyzeFile } from './jobs';
 import { JobPanel, TopBar } from './TopBar';
 import { SongPage } from './SongPage';
 import { LibraryPage } from '../library/LibraryPage';
+import { ConnectPage } from '../remote/ConnectPage';
+import { PhonePage } from '../remote/PhonePage';
 import { useT } from '../i18n';
 
 function Toast() {
@@ -73,7 +75,12 @@ export function App() {
     <div className={`app${phone ? ' phone' : ''}`}>
       {!(phone && onSong) && <TopBar />}
       <JobPanel />
-      <main className="page">{onSong ? <SongPage key={route.key} songKey={route.key} /> : <LibraryPage />}</main>
+      <main className="page">
+        {route.page === 'song' && <SongPage key={route.key} songKey={route.key} />}
+        {route.page === 'library' && <LibraryPage />}
+        {route.page === 'connect' && <ConnectPage />}
+        {route.page === 'phone' && <PhonePage />}
+      </main>
       <Toast />
       <DropOverlay />
     </div>

@@ -4,6 +4,7 @@ import type { TrackSummary } from '../api/types';
 import { navigate, useApp } from '../app/store';
 import { analyzeFile } from '../app/jobs';
 import { formatTime } from '../player/sync';
+import { needsPairing, useConnection } from '../remote/connection';
 import { useT } from '../i18n';
 
 const open = (key: string) => navigate({ page: 'song', key });
@@ -44,6 +45,9 @@ export function LibraryPage() {
   const [error, setError] = useState<{ offline: boolean; msg: string } | null>(null);
   const [renaming, setRenaming] = useState<string | null>(null);
   const jobDone = useApp((s) => s.job?.status === 'done');
+  const { link, laptop } = useConnection();
+  const notPaired = needsPairing();
+  const away = !!link && laptop === 'offline';
   const file = useRef<HTMLInputElement>(null);
 
   const load = useCallback(() => {
@@ -62,7 +66,7 @@ export function LibraryPage() {
       });
   }, []);
 
-  useEffect(load, [load]);
+  useEffect(load, [load, link]);
   useEffect(() => {
     if (jobDone) load();
   }, [jobDone, load]);
@@ -87,6 +91,14 @@ export function LibraryPage() {
         />
       </div>
       {api.mock && <div className="mock-bar">{t('mockBanner')}</div>}
+      {(notPaired || away) && (
+        <div className="lib-connect">
+          <p>{notPaired ? t('libraryNotPaired') : t('libraryAway')}</p>
+          <a className="pill primary" href="#/connect">
+            {t('connectTitle')}
+          </a>
+        </div>
+      )}
       {tracks === null && <p className="muted">{t('libraryLoading')}</p>}
       {error && (
         <div className="lib-error">
@@ -96,7 +108,7 @@ export function LibraryPage() {
           </button>
         </div>
       )}
-      {tracks && tracks.length === 0 && !error && <p className="muted">{t('libraryEmpty')}</p>}
+      {tracks && tracks.length === 0 && !error && <p className="muted">{notPaired || away ? t('libraryNoneSaved') : t('libraryEmpty')}</p>}
       {tracks && tracks.length > 0 && (
         <ul className="track-list">
           {tracks.map((tr) => (
@@ -114,6 +126,7 @@ export function LibraryPage() {
                   <button className="track-main" onClick={() => open(tr.key)}>
                     <span className="track-title">{tr.title}</span>
                     <span className="track-meta">
+                      {tr.saved && <span className="saved-chip">✓ {t('savedChip')}</span>}
                       {tr.artist && <span>{tr.artist}</span>}
                       {tr.key_name && (
                         <span className="key-chip">

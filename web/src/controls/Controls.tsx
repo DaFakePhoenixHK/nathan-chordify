@@ -20,6 +20,7 @@ import {
   type Notation,
   type Theme,
 } from '../app/store';
+import { api } from '../api/client';
 import { useT, type StringKey } from '../i18n';
 import { globalKeySegment } from '../grid/model';
 import { keyName, signed } from '../grid/labels';
@@ -120,7 +121,7 @@ export function AudioKeyControl({ compact }: { compact?: boolean }) {
   const audioKey = useApp((s) => s.audioKey);
   const busy = useApp((s) => s.shiftBusy);
   const audioBase = useApp((s) => s.audioBase);
-  const localFile = !!audioBase && audioBase.startsWith('blob:');
+  const localFile = api.mock && !!audioBase && audioBase.startsWith('blob:');
   const idle = transpose === 0;
   const help = t(`audioKey_${audioKey}_help` as StringKey);
   const hint = busy ? t('audioKeyPreparing') : localFile ? t('mixMockFile') : idle ? t('audioKeyNoTranspose') : '';
@@ -433,11 +434,15 @@ export function ControlsCompact() {
         </button>
       </div>
       <AudioKeyControl compact />
-      <button className="pill" onClick={() => useApp.setState({ sheetOpen: true })} aria-label={t('tempo')}>
+      <button className="pill rate-pill" onClick={() => useApp.setState({ sheetOpen: true })} aria-label={t('tempo')}>
         {Math.round(rate * 100)}%
       </button>
-      <button className="pill" onClick={() => useApp.setState({ sheetOpen: true })}>
-        {t('settings')} ▾
+      <button className="pill settings-pill" onClick={() => useApp.setState({ sheetOpen: true })} aria-label={t('settings')} title={t('settings')}>
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+          <path d="M4 7h10M18 7h2M4 17h2M10 17h10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <circle cx="16" cy="7" r="2.2" fill="none" stroke="currentColor" strokeWidth="2" />
+          <circle cx="8" cy="17" r="2.2" fill="none" stroke="currentColor" strokeWidth="2" />
+        </svg>
       </button>
     </div>
   );

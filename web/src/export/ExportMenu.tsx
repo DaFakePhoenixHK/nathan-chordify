@@ -6,6 +6,8 @@ import { api } from '../api/client';
 import { showToast, useApp } from '../app/store';
 import { shownShift } from '../grid/labels';
 import { useT } from '../i18n';
+import { copyLater, IS_NATIVE, shareOrDownload } from '../app/platform';
+import { getLink } from '../remote/connection';
 import { downloadText, exportSheetUrl, hasLyrics, pickLyricsSheet, sheetFileName, type SheetExportParams, type SheetFormat } from './logic';
 
 const noFocus = (e: RMouseEvent) => e.preventDefault();
@@ -35,7 +37,7 @@ async function download(format: 'txt' | 'chordpro'): Promise<void> {
   const key = songKey();
   const p = currentExportParams(format);
   if (!key || !p) return;
-  const url = api.exportSheetUrl(key, p);
+  const url = getLink() ? null : api.exportSheetUrl(key, p); // a phone can't save a link: it gets the file itself
   if (url) {
     const a = document.createElement('a');
     a.href = url;
@@ -49,15 +51,14 @@ async function download(format: 'txt' | 'chordpro'): Promise<void> {
   const ex = await api.exportSheet(key, { ...p, format: 'json' });
   const text = format === 'chordpro' ? ex.chordpro : ex.text;
   if (!text) throw new Error('no_lyrics');
-  downloadText(sheetFileName(ex.title, ex.key, format === 'chordpro' ? 'cho' : 'txt'), text);
+  await shareOrDownload(sheetFileName(ex.title, ex.key, format === 'chordpro' ? 'cho' : 'txt'), text, downloadText);
 }
 
 async function copy(): Promise<void> {
   const key = songKey();
   const p = currentExportParams('json');
   if (!key || !p) return;
-  const ex = await api.exportSheet(key, p);
-  await navigator.clipboard.writeText(ex.text);
+  await copyLater(api.exportSheet(key, p).then((ex) => ex.text));
 }
 
 export function ExportButton({ phone }: { phone: boolean }) {
@@ -126,11 +127,13 @@ export function ExportButton({ phone }: { phone: boolean }) {
       {open && (
         <div className="export-menu" role="menu" aria-label={t('export')}>
           <button role="menuitem" onMouseDown={noFocus} onClick={() => openPrint(true, false)}>
-            🖨 {t('print')}
+            {IS_NATIVE ? t('printTitle') : `🖨 ${t('print')}`}
           </button>
-          <button role="menuitem" onMouseDown={noFocus} onClick={() => openPrint(true, true)} title={t('savePdfHint')}>
-            📄 {t('savePdf')}
-          </button>
+          {!IS_NATIVE && (
+            <button role="menuitem" onMouseDown={noFocus} onClick={() => openPrint(true, true)} title={t('savePdfHint')}>
+              📄 {t('savePdf')}
+            </button>
+          )}
           <button role="menuitem" onMouseDown={noFocus} onClick={() => run('txt', () => download('txt'))}>
             ⬇ {t('downloadText')}
           </button>

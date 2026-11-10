@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { api } from '../api/client';
 import { setMockAudioFile } from '../api/mock';
 import { loadSongPrefs, useApp } from './store';
-import { PHONE_QUERY, WIDE_QUERY, useMedia, useRenderCount } from './hooks';
+import { PHONE_QUERY, SHORT_QUERY, WIDE_QUERY, useMedia, useRenderCount } from './hooks';
 import { useShortcuts } from './shortcuts';
 import { SongHeader } from './SongHeader';
 import { useT } from '../i18n';
@@ -19,6 +19,7 @@ import { ChordEditor } from '../editor/ChordEditor';
 import { loadSheets, SheetBanner, SheetPanel } from '../sheets/SheetPanel';
 import { applyRememberedMix } from '../player/mixActions';
 import { PrintView } from '../export/PrintView';
+import { IS_TOUCH } from './platform';
 
 function MockBar() {
   const t = useT();
@@ -58,6 +59,7 @@ export function SongPage({ songKey }: { songKey: string }) {
   const gtMode = useApp((s) => s.gtMode);
   const phone = useMedia(PHONE_QUERY);
   const wide = useMedia(WIDE_QUERY);
+  const short = useMedia(SHORT_QUERY);
   useShortcuts();
 
   // songRev is an intentional trigger: bumping it reloads the same song (re-scan, finished re-analysis).
@@ -90,6 +92,18 @@ export function SongPage({ songKey }: { songKey: string }) {
 
   useEffect(() => () => engine.pause(), []);
 
+  // On a phone or tablet the chords stay on screen, even when playing along with no recording.
+  useEffect(() => {
+    if (!IS_TOUCH) return;
+    engine.setHoldAwake(true);
+    return () => engine.setHoldAwake(false);
+  }, []);
+
+  useEffect(() => {
+    engine.setNowPlaying(analysis?.source.title ?? null, analysis?.source.artist);
+    return () => engine.setNowPlaying(null);
+  }, [analysis]);
+
   useEffect(() => {
     if (analysis) setTimeline(getTimeline(analysis, detail, gtMode));
     else setTimeline([]);
@@ -115,7 +129,7 @@ export function SongPage({ songKey }: { songKey: string }) {
   }
   if (!analysis) return <div className="center-msg muted">{loading ? t('loadingSong') : ''}</div>;
 
-  const diagramsTab = phone && mobileTab === 'diagrams';
+  const diagramsTab = phone && !short && mobileTab === 'diagrams'; // sideways there is only room for the chords
   return (
     <div className={`song${phone ? ' is-phone' : ''}`}>
       <SongHeader />
